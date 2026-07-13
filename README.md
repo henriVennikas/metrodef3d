@@ -1,4 +1,4 @@
-# metrodef3d
+# MetroDef3D
 
 Greenfield dataset generator for metrologically grounded surface defect data.
 
