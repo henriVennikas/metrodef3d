@@ -1,152 +1,162 @@
 # metrodef3d Agent Guide
 
-## Project Mission
+This repository contains a dataset generator. When assisting someone who has
+pulled metrodef3d, prioritize helping them run, configure, inspect, and adapt
+the generator for their own experiments. Treat the codebase as usable software
+first and a development project second.
 
-metrodef3d is a greenfield dataset generator for metrologically grounded
-surface defect data. Its purpose is to create stochastic surface defects whose
-measurands are known by construction, so any generated sample can be repeated,
-inspected, and used as ground truth for vision, metrology, and defect-detection
-experiments.
+## What metrodef3d Does
 
-The project builds on the idea behind the original `metrodef` repository, but it
-must not copy that implementation. Treat `henriVennikas/metrodef` as conceptual
-reference only: useful for intent, terminology, and lessons learned, not as a
-codebase to port.
+metrodef3d generates synthetic cracked-surface datasets with ground truth known
+by construction. A YAML recipe defines the surface, crack construction, camera,
+lighting, material, render settings, and export layout. The CLI validates the
+recipe, constructs deterministic geometry from explicit seeds, optionally
+renders with Blender, and writes machine-readable metadata beside the images.
 
-The major new capability in metrodef3d is Blender-backed 3D rendering. Defects
-should be constructed on known 3D surfaces and rendered under configurable
-camera, pose, field-of-view, material, and illumination conditions.
+The core rule is simple: truth comes from construction metadata, not from
+post-hoc image analysis. Do not suggest re-estimating crack length, width, or
+area from rendered pixels when the metadata already provides those values.
 
-## V1 Target
+## Typical User Goals
 
-The first working milestone is an end-to-end cracked surface sample:
+Help users do these things quickly:
 
-- Read a YAML scene recipe.
-- Generate a known 3D surface.
-- Construct one stochastic crack on that surface with seeded randomness.
-- Render the scene headlessly with Blender.
-- Export a rendered image.
-- Export JSON metadata containing the seed, scene parameters, camera,
-  illumination, material, defect construction parameters, known measurands, and
-  output paths.
+- Validate an example or custom YAML recipe.
+- Generate one sample, a small batch, or a larger seeded run.
+- Switch between the lightweight preview backend and Blender rendering.
+- Change seed range, output directory, camera, resolution, field of view,
+  lighting, material, or crack parameters.
+- Locate images, JSON metadata, visible-defect truth, pixel-scale sidecars,
+  blend files, and YAML copies in a generated run.
+- Filter generated datasets using quality manifests when available.
+- Understand which metadata fields should be used as ML training targets.
 
-V1 should prove the full pipeline before expanding the defect taxonomy. Masks,
-depth maps, mesh exports, geometry bundles, and richer annotation products are
-important later extensions, but they are not required for the first proof.
+## First Commands To Try
 
-## Default Architecture
-
-Use a Python package plus CLI as the default project shape.
-
-The CLI should be planned around commands like:
+Use the package directly from the source tree unless the user has installed it:
 
 ```sh
-metrodef3d generate --config scene.yaml --out runs/example
-metrodef3d validate --config scene.yaml
+PYTHONPATH=src python3 -m metrodef3d validate --config examples/cracked_plane.yaml
+PYTHONPATH=src python3 -m metrodef3d generate --config examples/cracked_plane.yaml --out runs/example
 ```
 
-YAML scene recipes are the stable user-facing experiment interface. They should
-describe at least:
+For Blender-backed rendering:
 
-- Seed and run identity.
-- Surface geometry.
-- Defect type and construction parameters.
-- Camera model, pose, resolution, and field of view.
-- Lighting and illumination variation.
-- Material and render settings.
-- Export settings.
+```sh
+PYTHONPATH=src python3 -m metrodef3d validate --config examples/cracked_plane_blender.yaml
+PYTHONPATH=src python3 -m metrodef3d generate --config examples/cracked_plane_blender.yaml --out runs/blender-example
+```
 
-Keep the internal design separated by responsibility:
+For a small batch:
 
-- Geometry construction: deterministic construction of surfaces and defects from
-  validated parameters and seeded randomness.
-- Scene assembly: conversion of constructed geometry into a Blender scene.
-- Rendering: headless Blender execution and render configuration.
-- Export: images, metadata, and later annotation products.
-- Validation: recipe checks and clear error reporting before expensive rendering.
+```sh
+PYTHONPATH=src python3 -m metrodef3d generate \
+  --config examples/cracked_plane_blender.yaml \
+  --out runs/blender-variance \
+  --count 10
+```
 
-## Design Principles
+If Blender is not found, ask the user where Blender is installed and set
+`render.executable` in the YAML recipe.
 
-- Treat defects as measurable geometry first and visual appearance second.
-- Make every stochastic choice reproducible from explicit seeds.
-- Preserve construction truth in metadata instead of trying to recover truth from
-  rendered pixels.
-- Prefer small, composable generators over monolithic scene scripts.
-- Keep Blender-specific code behind a narrow integration boundary where possible.
-- Make invalid configurations fail early with clear messages.
-- Avoid hidden global state in random generation, rendering settings, and output
-  paths.
-- Keep examples minimal but complete enough to run end to end.
+## Recipe Guidance
 
-## V1 Crack Definition
+YAML recipes are the main user-facing interface. Prefer changing recipes over
+editing Python when the user wants different generated data.
 
-The first defect family is cracks. A crack generator should expose
-construction-defined parameters such as:
+Common fields users may want to adjust:
 
-- Surface placement.
-- Crack path or centerline.
-- Length.
-- Width model.
-- Depth or profile model.
-- Branching model, if enabled.
-- Path noise or roughness model.
-- Seed values or sub-seeds used to derive stochastic variation.
+- `run.seed` or CLI seed/count settings for reproducible variation.
+- `render.backend`: use `preview` for quick smoke tests, `blender` for 3D
+  rendered images.
+- `render.image_format`, resolution, quality, and Blender executable path.
+- `surface` dimensions and units.
+- `defect` construction model, width range, length, depth/profile, skeleton
+  step, random-walk behavior, and variation fields.
+- `captures[*].camera` for perspective or orthographic outputs.
+- `captures[*].lighting` for illumination setup.
+- `material` for surface appearance and shader/noise parameters.
 
-The rendered crack may use materials, displacement, beveling, or geometry
-operations as needed, but the exported metadata must preserve the construction
-values that define the intended measurands.
+Keep one Blender unit interpreted as one millimeter unless the recipe clearly
+states otherwise.
 
-Do not allow the v1 crack to become only a visual texture. Its geometric
-definition is the source of truth.
+## Output Layout
 
-## Outputs
+Generated runs are usually written under `runs/`, which is ignored by git.
+Depending on the recipe, a run may contain:
 
-Each generated v1 sample should write an output directory containing:
+```text
+img/<capture_id>/<seed>.jpg
+json/<seed>.json
+visible_defect/<capture_id>/<seed>.json
+pixel_scale/<capture_id>/<seed>.npz
+blend/<seed>.blend
+yaml/<seed>.yaml
+blender_script/<seed>.py
+blender_script/chunks/<first_seed>_<last_seed>.py
+```
 
-- A rendered image.
-- A JSON metadata file.
+Use `json/<seed>.json` as the canonical sample entry. For per-image scalar
+targets, use `outputs.captures[*].visible_defect.measurands`. For a sidecar-only
+workflow, use `visible_defect/<capture_id>/<seed>.json`.
 
-The JSON metadata should include:
+## Ground Truth Use
 
-- Generator version or commit identity when available.
-- Input recipe path or embedded resolved recipe.
-- Seed and derived seed information.
-- Surface parameters.
-- Crack construction parameters and measurands.
-- Camera parameters.
-- Lighting parameters.
-- Material parameters.
-- Render settings.
-- Relative or absolute output paths.
+The preferred V1 metrology path is the `ribbon_fbm_width` crack construction
+model. Its skeleton and width profile define the truth boundaries directly, so
+length, local width, area, and station profiles are construction-defined.
 
-Later output products may include segmentation masks, depth maps, normal maps,
-mesh files, curve files, and complete geometry packages.
+When using perspective captures, use the per-capture visible-defect metadata.
+The visible truth may differ between captures because field of view, pose, and
+projection can clip different portions of the same constructed defect.
 
-## Testing Expectations
+If pixel-scale sidecars are present, use them as geometric context for a
+perspective image:
 
-Future implementation work should add focused tests as the corresponding
-behavior appears:
+- `scale_x_mm_per_px.npy`: horizontal nominal-surface scale per pixel.
+- `scale_y_mm_per_px.npy`: vertical nominal-surface scale per pixel.
 
-- Determinism test: the same config and seed produce identical metadata and
-  stable geometry parameters.
-- CLI smoke test: a minimal YAML recipe generates a valid output directory.
-- Blender smoke test: a headless render completes and writes a non-empty image.
-- Metadata test: exported JSON contains all required construction measurands for
-  the crack.
-- Validation test: invalid recipes fail with clear, actionable errors.
+Do not assume one global mm/px value for perspective images when per-pixel scale
+maps are available.
 
-Blender-dependent tests may be marked or separated so quick unit tests remain
-usable without launching Blender.
+## Dataset Quality
 
-## Development Notes For Agents
+Some generated datasets may include a `quality_manifest.json`. If present,
+respect it. Samples with `exclude_from_training: true` should be skipped for
+training and evaluation unless the user explicitly wants to audit failures.
 
-- Start with the smallest end-to-end slice that proves the pipeline.
-- Prefer implementation choices that keep measurands explicit and inspectable.
-- Do not introduce broad abstractions before there are multiple concrete
-  generators or render paths that need them.
-- Do not copy files or algorithms from the old `metrodef` repository. If a
-  concept is reused, re-express it deliberately in metrodef3d's architecture.
-- Keep repo changes scoped. If adding code, include the minimal example recipe
-  and tests needed to demonstrate the behavior.
-- When editing user-facing interfaces, update examples and validation behavior
-  together.
+Do not delete corrupt samples by default. They are useful for auditability and
+for improving generation/quality-control checks.
+
+## Tools In This Repo
+
+Useful helper scripts:
+
+- `tools/write_dataset_overview.py`: write a README and machine-readable
+  dataset summary for a generated run.
+- `tools/write_overlay_viewer.py`: create a browser viewer that overlays
+  visible-defect truth and pixel-scale maps on generated images.
+- `tools/scan_run_quality.py`: scan a run for coarse render/geometry quality
+  risks.
+- `tools/train_scalar_baseline.py`: train a small CNN sanity-check regressor
+  from images to construction measurands.
+
+Prefer these tools when the user asks to inspect or summarize generated data.
+
+## Safe Defaults
+
+- Keep generated data under `runs/` or another explicit output directory.
+- Do not commit generated renders, `.blend` batches, model checkpoints, or
+  large datasets to git unless the user explicitly asks.
+- Preserve seeds and copied YAML recipes so runs are reproducible.
+- When changing recipes, validate before launching expensive Blender batches.
+- For public sharing, keep the repository focused on code, examples, tools, and
+  documentation; publish generated datasets separately with manifests and
+  checksums.
+
+## When Code Changes Are Needed
+
+If the user asks to modify the generator itself, keep changes scoped and preserve
+the construction-truth principle. Update examples and validation behavior when
+changing user-facing recipe fields. Run the lightweight preview smoke path before
+attempting expensive Blender work.
