@@ -3,7 +3,13 @@ import subprocess
 from pathlib import Path
 from typing import Any, Dict, List, Mapping, Optional
 
-from . import __version__
+from . import (
+    METADATA_SCHEMA_VERSION,
+    PIXEL_SCALE_SCHEMA_VERSION,
+    RECIPE_SCHEMA_VERSION,
+    VISIBLE_DEFECT_SCHEMA_VERSION,
+    __version__,
+)
 from .geometry import ConstructedScene, visible_defect_for_capture
 
 
@@ -59,11 +65,21 @@ def build_metadata(
             capture_output["blend"] = str(output["blend_path"])
         capture_outputs.append(capture_output)
     first_image = capture_outputs[0]["image"] if capture_outputs else None
+    git_commit = _git_commit()
     return {
+        "schema": {
+            "name": "metrodef3d.metadata",
+            "version": METADATA_SCHEMA_VERSION,
+        },
         "generator": {
             "name": "metrodef3d",
             "version": __version__,
-            "commit": _git_commit(),
+            "git_commit": git_commit,
+            "commit": git_commit,
+            "recipe_schema_version": RECIPE_SCHEMA_VERSION,
+            "metadata_schema_version": METADATA_SCHEMA_VERSION,
+            "visible_defect_schema_version": VISIBLE_DEFECT_SCHEMA_VERSION,
+            "pixel_scale_schema_version": PIXEL_SCALE_SCHEMA_VERSION,
         },
         "recipe": {
             "path": str(recipe_path) if recipe_path is not None else None,

@@ -5,6 +5,13 @@ import tempfile
 import unittest
 from pathlib import Path
 
+from metrodef3d import (
+    METADATA_SCHEMA_VERSION,
+    PIXEL_SCALE_SCHEMA_VERSION,
+    RECIPE_SCHEMA_VERSION,
+    VISIBLE_DEFECT_SCHEMA_VERSION,
+    __version__,
+)
 from metrodef3d.errors import RenderError
 from metrodef3d.export import build_metadata
 from metrodef3d.geometry import (
@@ -33,10 +40,23 @@ class PipelineTests(unittest.TestCase):
             self.assertTrue((Path(tmp) / "yaml" / "12345.yaml").exists())
             metadata = json.loads(metadata_path.read_text(encoding="utf-8"))
             self.assertEqual(metadata["defect"]["type"], "crack")
+            self.assertEqual(metadata["schema"]["name"], "metrodef3d.metadata")
+            self.assertEqual(metadata["schema"]["version"], METADATA_SCHEMA_VERSION)
+            self.assertEqual(metadata["generator"]["name"], "metrodef3d")
+            self.assertEqual(metadata["generator"]["version"], __version__)
+            self.assertEqual(metadata["generator"]["recipe_schema_version"], RECIPE_SCHEMA_VERSION)
+            self.assertEqual(metadata["generator"]["metadata_schema_version"], METADATA_SCHEMA_VERSION)
+            self.assertEqual(metadata["generator"]["visible_defect_schema_version"], VISIBLE_DEFECT_SCHEMA_VERSION)
+            self.assertEqual(metadata["generator"]["pixel_scale_schema_version"], PIXEL_SCALE_SCHEMA_VERSION)
+            self.assertIn("git_commit", metadata["generator"])
             self.assertIn("centerline_length", metadata["defect"]["measurands"])
             self.assertEqual(metadata["outputs"]["captures"][0]["capture_id"], "default")
             self.assertEqual(metadata["outputs"]["recipe_yaml"], str(Path(tmp) / "yaml" / "12345.yaml"))
             self.assertIn("visible_defect", metadata["outputs"]["captures"][0])
+            self.assertEqual(
+                metadata["outputs"]["captures"][0]["visible_defect"]["schema"]["version"],
+                VISIBLE_DEFECT_SCHEMA_VERSION,
+            )
             self.assertLessEqual(
                 metadata["outputs"]["captures"][0]["visible_defect"]["measurands"]["centerline_length"],
                 metadata["defect"]["measurands"]["centerline_length"],

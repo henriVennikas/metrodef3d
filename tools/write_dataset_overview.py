@@ -11,6 +11,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Mapping, Sequence
 
+from metrodef3d import DATASET_SUMMARY_SCHEMA_VERSION, QUALITY_MANIFEST_SCHEMA_VERSION
+
 
 COUNT_PATTERNS = {
     "images": "img/*/*.jpg",
@@ -59,6 +61,10 @@ def build_summary(run_dir: Path) -> Dict[str, Any]:
     material = metadata[0].get("material", {}) if metadata else {}
     defect = metadata[0].get("defect", {}) if metadata else {}
     return {
+        "schema": {
+            "name": "metrodef3d.dataset_summary",
+            "version": DATASET_SUMMARY_SCHEMA_VERSION,
+        },
         "created_at_utc": datetime.now(timezone.utc).isoformat(),
         "run_directory": str(run_dir),
         "run_id": metadata[0]["run"]["id"] if metadata else None,
@@ -96,6 +102,10 @@ def build_summary(run_dir: Path) -> Dict[str, Any]:
             "recipe": "yaml/<seed>.yaml",
             "seed_script": "blender_script/<seed>.py",
             "chunk_script": "blender_script/chunks/<first_seed>_<last_seed>.py",
+        },
+        "quality_manifest_schema": {
+            "name": "metrodef3d.quality_manifest",
+            "version": QUALITY_MANIFEST_SCHEMA_VERSION,
         },
         "notes": [
             "Ground truth is not recovered from rendered pixels.",

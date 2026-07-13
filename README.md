@@ -167,3 +167,26 @@ The baseline trains a small CNN regressor from one rendered capture stream to
 the per-capture visible-defect measurands stored in JSON metadata:
 `centerline_length`, `mean_width`, `max_width`, and `crack_area`. It is meant as
 a fast dataset sanity check, not the final metrology model.
+
+## Versioning
+
+The generator uses semantic versioning. The current public generator version is
+`0.1.0`.
+
+Generated metadata records both code and schema versions:
+
+```json
+"generator": {
+  "name": "metrodef3d",
+  "version": "0.1.0",
+  "git_commit": "<short commit hash>",
+  "recipe_schema_version": 1,
+  "metadata_schema_version": 1,
+  "visible_defect_schema_version": 1,
+  "pixel_scale_schema_version": 1
+}
+```
+
+Datasets published from this generator should additionally carry their own
+dataset release id, for example `metrodef3d-crack-ribbon-1024-20260705-v1`,
+along with the generator version and commit used to create them.

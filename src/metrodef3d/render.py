@@ -6,6 +6,7 @@ import zipfile
 from pathlib import Path
 from typing import Any, Dict, List, Mapping, Optional
 
+from . import PIXEL_SCALE_SCHEMA_VERSION, VISIBLE_DEFECT_SCHEMA_VERSION
 from .errors import RenderError
 
 
@@ -337,6 +338,10 @@ def build_blender_batch_script(
         "scene": scene,
         "render_items": list(render_items),
         "blend_path": str(blend_path),
+        "versioning": {
+            "visible_defect_schema_version": VISIBLE_DEFECT_SCHEMA_VERSION,
+            "pixel_scale_schema_version": PIXEL_SCALE_SCHEMA_VERSION,
+        },
     }
     return BLENDER_SCRIPT_TEMPLATE.replace("__METRODEF3D_PAYLOAD__", json.dumps(payload, sort_keys=True))
 
@@ -454,6 +459,7 @@ SCENE = PAYLOAD["scene"]
 RENDER_ITEMS = PAYLOAD["render_items"]
 BLEND_PATH = PAYLOAD["blend_path"]
 CAPTURE = RENDER_ITEMS[0]["capture"]
+VERSIONING = PAYLOAD["versioning"]
 
 
 def hex_to_rgba(value):
@@ -807,6 +813,10 @@ def visible_defect_from_blender_camera(scene, camera_obj, defect, camera):
         "visible_polygon_point_count": len(visible_polygon),
     }
     return {
+        "schema": {
+            "name": "metrodef3d.visible_defect",
+            "version": int(VERSIONING["visible_defect_schema_version"]),
+        },
         "visible": visible,
         "clip_model": "blender_camera_view",
         "camera_type": camera["type"],
@@ -923,6 +933,10 @@ def write_nominal_surface_pixel_scale(path, scene, camera_obj, camera):
             scale_y.append(distance_or_nan(top, bottom))
             valid.append(1 if center is not None and left is not None and right is not None and top is not None and bottom is not None else 0)
     summary = {
+        "schema": {
+            "name": "metrodef3d.pixel_scale",
+            "version": int(VERSIONING["pixel_scale_schema_version"]),
+        },
         "model": "camera_ray_to_nominal_z0_plane",
         "units": "mm_per_pixel",
         "plane": {"axis": "z", "value": 0.0},

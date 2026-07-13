@@ -4,6 +4,8 @@ import random
 from dataclasses import dataclass
 from typing import Any, Dict, List, Mapping, Optional, Tuple
 
+from . import VISIBLE_DEFECT_SCHEMA_VERSION
+
 
 @dataclass(frozen=True)
 class ConstructedScene:
@@ -59,6 +61,10 @@ def visible_defect_for_capture(defect: Mapping[str, Any], camera: Mapping[str, A
         "point_count": len(clipped_points),
     }
     return {
+        "schema": {
+            "name": "metrodef3d.visible_defect",
+            "version": VISIBLE_DEFECT_SCHEMA_VERSION,
+        },
         "visible": visible,
         "clip_model": "camera_frustum",
         "camera_type": camera["type"],
