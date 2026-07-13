@@ -17,6 +17,11 @@ The core rule is simple: truth comes from construction metadata, not from
 post-hoc image analysis. Do not suggest re-estimating crack length, width, or
 area from rendered pixels when the metadata already provides those values.
 
+Blender is the current author's chosen render backend, not the definition of the
+method. A different renderer or scene package is acceptable if it consumes the
+same construction-defined geometry and preserves the same units, camera,
+illumination, and truth metadata semantics.
+
 ## Typical User Goals
 
 Help users do these things quickly:

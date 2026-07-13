@@ -28,6 +28,12 @@ Example rendered samples with corresponding visible-defect measurands:
 These numbers come from the per-capture `visible_defect` construction metadata,
 not from measuring the rendered pixels.
 
+Blender is currently used as the author's chosen rendering backend. It is not
+part of the metrological definition of the defect. Any suitable rendering engine
+or scene software can be used if it preserves the same construction-defined
+defect geometry, camera model, illumination setup, units, and exported truth
+metadata.
+
 Default scene conventions:
 
 - One Blender unit is treated as one millimeter.
