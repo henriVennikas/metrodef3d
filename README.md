@@ -16,6 +16,18 @@ The current slice provides:
 - Dataset-style outputs grouped by artifact type, with seed-number filenames:
   `img/`, `json/`, `yaml/`, `blender_script/`, and `blend/`.
 
+Example rendered samples with corresponding visible-defect measurands:
+
+| Seed | Render | Visible centerline length (mm) | Mean width (mm) | Max width (mm) | Crack area (mm^2) |
+| ---: | --- | ---: | ---: | ---: | ---: |
+| `12347` | <img src="docs/assets/readme_samples/12347.jpg" width="180" alt="metrodef3d rendered crack seed 12347"> | 71.947761 | 0.555277 | 0.615713 | 39.950925 |
+| `12348` | <img src="docs/assets/readme_samples/12348.jpg" width="180" alt="metrodef3d rendered crack seed 12348"> | 61.241552 | 1.336043 | 1.526400 | 81.821334 |
+| `12363` | <img src="docs/assets/readme_samples/12363.jpg" width="180" alt="metrodef3d rendered crack seed 12363"> | 180.544846 | 0.746926 | 0.866567 | 134.853684 |
+| `12365` | <img src="docs/assets/readme_samples/12365.jpg" width="180" alt="metrodef3d rendered crack seed 12365"> | 199.584764 | 0.855409 | 0.999020 | 170.726505 |
+
+These numbers come from the per-capture `visible_defect` construction metadata,
+not from measuring the rendered pixels.
+
 Default scene conventions:
 
 - One Blender unit is treated as one millimeter.
