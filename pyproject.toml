@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "metrodef3d"
+version = "0.1.0"
+description = "Metrologically grounded 3D surface defect dataset generator."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  { name = "metrodef3d contributors" }
+]
+dependencies = []
+
+[project.scripts]
+metrodef3d = "metrodef3d.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

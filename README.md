@@ -1,0 +1,157 @@
+# metrodef3d
+
+Greenfield dataset generator for metrologically grounded surface defect data.
+
+The current slice provides:
+
+- YAML scene recipe loading and validation.
+- Deterministic planar surface and crack construction from explicit seeds.
+- `metrodef3d validate` and `metrodef3d generate` CLI commands.
+- JSON metadata export preserving construction measurands.
+- A lightweight preview renderer that writes a PPM image without Blender.
+- A Blender render backend that generates a scene script and invokes Blender
+  headlessly when a Blender executable is available.
+- Capture passes so one constructed crack seed can produce multiple camera and
+  illumination outputs.
+- Dataset-style outputs grouped by artifact type, with seed-number filenames:
+  `img/`, `json/`, `yaml/`, `blender_script/`, and `blend/`.
+
+Default scene conventions:
+
+- One Blender unit is treated as one millimeter.
+- The Blender example surface is 250 x 250 mm with 1000 mm block depth.
+- The default camera is orthographic, looking normal to the surface, with the
+  image plane parallel to the surface.
+- The default orthographic field is 150 x 150 mm when using square resolution.
+- V1 crack length must be at least 10 mm.
+- The default crack skeleton step is 0.2 mm. A 240 mm crack therefore has
+  1201 centerline points. Crack morphology is generated on a coarser
+  `path_control_step` and then arc-length resampled onto the dense skeleton.
+- When no crack center is specified, the center is sampled inside the 20-80%
+  range of the first capture's orthographic field.
+- Generated cracks use a directed random walk with random orientation, small
+  heading drift, minor and major kinks at separately sampled distance
+  intervals, forward progress checks, and a self-intersection guard. The default
+  `path_control_step` preserves plausible coarse shape while the 0.2 mm skeleton
+  preserves metrological sampling. If cracks cross outside the field of view,
+  per-capture `visible_defect` metadata stores clipped centerline profiles and
+  measurands for only the rendered portion.
+- Crack width varies per seed via `defect.width_variation`. Metadata records
+  the sampled `width_multiplier`, `effective_nominal_width`, and smooth
+  `fbm_1d` width-field parameters. The field modulates width along crack
+  length instead of applying independent per-point jitter.
+
+Crack construction models:
+
+- `ribbon_fbm_width` is the metrology-first cut/profile model and the default
+  path for the Blender example. The crack skeleton and the width profile define
+  the left and right truth boundaries directly. Length, local width, area,
+  station profile, and arbitrary-point width queries can be read from the
+  construction metadata without re-estimating geometry from the render.
+- `split_displacement` is retained as an optional realism-oriented generator.
+  It splits the surface into two bodies and moves them apart, with optional
+  render-side edge falloff and debris. This can produce plausible split-surface
+  appearances, but it is not the preferred V1 metrological dataset path because
+  richer split geometry can make the final centerline/width definition more
+  method-dependent.
+
+Example:
+
+```sh
+PYTHONPATH=src python3 -m metrodef3d validate --config examples/cracked_plane.yaml
+PYTHONPATH=src python3 -m metrodef3d generate --config examples/cracked_plane.yaml --out runs/example
+```
+
+Blender example:
+
+```sh
+PYTHONPATH=src python3 -m metrodef3d validate --config examples/cracked_plane_blender.yaml
+PYTHONPATH=src python3 -m metrodef3d generate --config examples/cracked_plane_blender.yaml --out runs/blender-example
+```
+
+Optional split-geometry Blender example:
+
+```sh
+PYTHONPATH=src python3 -m metrodef3d validate --config examples/cracked_plane_blender_split.yaml
+PYTHONPATH=src python3 -m metrodef3d generate --config examples/cracked_plane_blender_split.yaml --out runs/blender-split-example
+```
+
+Generate multiple seed variants from one recipe:
+
+```sh
+PYTHONPATH=src python3 -m metrodef3d generate \
+  --config examples/cracked_plane_blender.yaml \
+  --out runs/blender-variance \
+  --count 10
+```
+
+For a multi-capture Blender recipe this writes:
+
+```text
+runs/blender-variance/img/overhead-area/12345.jpg
+runs/blender-variance/img/perspective-area/12345.jpg
+runs/blender-variance/json/12345.json
+runs/blender-variance/yaml/12345.yaml
+runs/blender-variance/blender_script/overhead-area/12345.py
+runs/blender-variance/blender_script/perspective-area/12345.py
+runs/blender-variance/blend/overhead-area/12345.blend
+runs/blender-variance/blend/perspective-area/12345.blend
+```
+
+The Blender backend expects `blender` on `PATH`. You can point at a specific
+binary with:
+
+```yaml
+render:
+  backend: blender
+  image_format: jpg
+  executable: /path/to/blender
+```
+
+Multiple capture passes can be declared with:
+
+```yaml
+captures:
+  -
+    id: overhead-area
+    camera:
+      type: orthographic
+      orthographic_scale: 150.0
+      resolution: [1024, 1024]
+    lighting:
+      type: area
+      position: [0.0, 0.0, 250.0]
+      energy: 500000.0
+      size: 150.0
+  -
+    id: perspective-area
+    camera:
+      type: perspective
+      position: [0.0, 0.0, 500.0]
+      target: [0.0, 0.0, 0.0]
+      fov_degrees: 17.061531
+      resolution: [1024, 1024]
+    lighting:
+      type: area
+      position: [0.0, 0.0, 250.0]
+      energy: 500000.0
+      size: 150.0
+```
+
+Missing capture camera and lighting fields are filled from the defaults.
+
+Initial ML smoke test:
+
+```sh
+python tools/train_scalar_baseline.py \
+  --run-dir runs/prod_001_seeds_0001_1000 \
+  --capture-id perspective-area \
+  --out-dir runs/ml/prod_001_perspective_baseline \
+  --epochs 25 \
+  --batch-size 32
+```
+
+The baseline trains a small CNN regressor from one rendered capture stream to
+the per-capture visible-defect measurands stored in JSON metadata:
+`centerline_length`, `mean_width`, `max_width`, and `crack_area`. It is meant as
+a fast dataset sanity check, not the final metrology model.

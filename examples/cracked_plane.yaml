@@ -1,0 +1,97 @@
+run:
+  id: cracked-plane-preview
+  seed: 12345
+
+surface:
+  type: plane
+  width: 1000.0
+  height: 1000.0
+  subdivisions_x: 100
+  subdivisions_y: 100
+
+defect:
+  type: crack
+  length: 240.0
+  length_distribution:
+    reference: first_capture_chord
+    across_view:
+      probability: 0.93
+      min_chord_multiplier: 1.45
+      max_chord_multiplier: 2.8
+    one_end_visible:
+      probability: 0.06
+      min_chord_multiplier: 0.55
+      max_chord_multiplier: 0.85
+    contained:
+      probability: 0.01
+      min_chord_multiplier: 0.18
+      max_chord_multiplier: 0.35
+  nominal_width: 0.8
+  width_variation:
+    min_multiplier: 0.45
+    max_multiplier: 1.9
+    field_model: fbm_1d
+    field_amplitude: 3.0
+    field_octaves: 5
+    field_base_frequency: 1.4
+    secondary_field_amplitude: 1.0
+    secondary_field_octaves: 2
+    secondary_field_frequency_multiplier: 9.0
+    edge_jitter_field_amplitude: 0.65
+    edge_jitter_field_octaves: 2
+    edge_jitter_field_frequency_multiplier: 34.0
+    end_taper_fraction: 0.1667
+  depth: 0.2
+  roughness: 1.2
+  skeleton_step: 0.2
+  path_control_step: 6.857143
+
+camera:
+  type: orthographic
+  position: [0.0, 0.0, 500.0]
+  target: [0.0, 0.0, 0.0]
+  orthographic_scale: 150.0
+  resolution: [1024, 1024]
+
+lighting:
+  type: area
+  position: [0.0, 0.0, 250.0]
+  energy: 2000000.0
+  size: 150.0
+
+material:
+  surface_color: "#d8d2c8"
+  crack_color: "#181513"
+  roughness: 0.497727
+  texture_model: concrete_noise
+  concrete_texture:
+    noise_dimensions: "3D"
+    noise_scale: 2000.0
+    noise_detail: 15.0
+    noise_roughness: 1.0
+    noise_lacunarity: 2.0
+    noise_ramp_black: 0.2704549
+    noise_ramp_white: 0.4886369
+    cloudy_noise_scale: 2.0
+    cloudy_noise_detail: 15.0
+    cloudy_noise_roughness: 1.0
+    cloudy_noise_lacunarity: 2.0
+    cloudy_ramp_black: 0.3386367
+    cloudy_ramp_white: 0.3795460
+    voronoi_scale: 180.8
+    voronoi_ramp_white: 0.0181826
+    pore_noise_a_scale: 15.7
+    pore_noise_b_scale: 16.2
+    pore_noise_detail: 0.2
+    pore_noise_roughness: 1.0
+    pore_noise_lacunarity: 2.0
+    pore_ramp_a_black: 0.277273
+    pore_ramp_a_white: 0.2931828
+    pore_ramp_b_white: 0.2840919
+    pore_ramp_b_black: 0.3113639
+    final_mix_factor: 0.6625
+    displacement_strength: 3.0
+
+render:
+  backend: preview
+  image_format: ppm

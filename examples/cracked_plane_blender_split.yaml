@@ -1,0 +1,128 @@
+run:
+  id: cracked-plane-blender-split
+  seed: 12345
+
+surface:
+  type: plane
+  width: 250.0
+  height: 250.0
+  subdivisions_x: 100
+  subdivisions_y: 100
+
+defect:
+  type: crack
+  construction_model: split_displacement
+  length: 240.0
+  nominal_width: 0.8
+  width_variation:
+    min_multiplier: 0.45
+    max_multiplier: 1.9
+    field_model: fbm_1d
+    field_amplitude: 3.0
+    field_octaves: 5
+    field_base_frequency: 1.4
+    secondary_field_amplitude: 1.0
+    secondary_field_octaves: 2
+    secondary_field_frequency_multiplier: 9.0
+    edge_jitter_field_amplitude: 0.65
+    edge_jitter_field_octaves: 2
+    edge_jitter_field_frequency_multiplier: 34.0
+  depth: 0.2
+  roughness: 1.2
+  skeleton_step: 0.2
+  path_control_step: 1.9
+  path_jaggedness:
+    heading_drift_degrees: 8.0
+    micro_min_interval: 0.04
+    micro_max_interval: 0.22
+    micro_degrees: 18.0
+    micro_sigma_degrees: 5.0
+    minor_min_interval: 2.0
+    minor_max_interval: 9.0
+    minor_degrees: 12.0
+    minor_sigma_degrees: 4.0
+    major_min_interval: 45.0
+    major_max_interval: 140.0
+    major_degrees: 20.0
+    major_sigma_degrees: 6.0
+    max_turn_degrees: 38.0
+    preferred_nudge_degrees: 0.9
+  opening_model:
+    type: hinged
+    hinge_probability: 0.35
+    min_opening: 0.3
+    max_opening_min: 0.3
+    max_opening_max: 3.0
+    contact_opening_max: 0.35
+    profile_exponent_min: 0.85
+    profile_exponent_max: 1.7
+    edge_jitter_amplitude: 0.08
+    vertical_offset_max: 0.0
+
+captures:
+  -
+    id: overhead-area
+    camera:
+      type: orthographic
+      position: [0.0, 0.0, 500.0]
+      target: [0.0, 0.0, 0.0]
+      orthographic_scale: 150.0
+      resolution: [1024, 1024]
+      variation:
+        enabled: true
+        selection_key: view-fov
+        fov_mm_range: [50.0, 150.0]
+    lighting:
+      type: preset_random
+      selection_key: lighting
+  -
+    id: perspective-area
+    camera:
+      type: perspective
+      position: [0.0, 0.0, 500.0]
+      target: [0.0, 0.0, 0.0]
+      fov_degrees: 17.061531
+      resolution: [1024, 1024]
+      variation:
+        enabled: true
+        selection_key: view-fov
+        fov_mm_range: [50.0, 150.0]
+        target_shift_mm: 12.0
+        tilt_degrees_range: [0.0, 7.0]
+        tilt_azimuth_degrees_range: [0.0, 360.0]
+        roll_degrees_range: [-180.0, 180.0]
+        sensor_width_mm: 36.0
+    lighting:
+      type: preset_random
+      selection_key: lighting
+
+material:
+  surface_color: "#d8d2c8"
+  crack_color: "#181513"
+  roughness: 0.497727
+  texture_model: "none"
+
+render:
+  backend: blender
+  image_format: jpg
+  quality: 95
+  block_depth: 1000.0
+  world_color: [0.0, 0.0, 0.0]
+  render_detail:
+    crack_edge_falloff:
+      enabled: true
+      min_width_fraction: 0.015
+      max_width_fraction: 0.20
+      depth_multiplier: 1.35
+      roughness: 0.45
+      coarse_period_mm: 24.0
+      fine_period_mm: 4.5
+      lateral_jitter_fraction: 0.35
+    crack_debris:
+      enabled: true
+      probability: 0.95
+      count_per_100mm_range: [10.0, 32.0]
+      depth_range: [0.12, 2.6]
+      size_range: [0.10, 1.8]
+      width_fraction_max: 0.95
+      vertex_count_range: [5, 11]
