@@ -268,7 +268,22 @@ def validate_recipe(recipe: Recipe) -> None:
     _string(material, "crack_color")
     _number(material, "roughness", minimum=0.0, maximum=1.0)
     if "texture_model" in material:
-        _literal(material, "texture_model", {"none", "concrete_noise"})
+        _literal(material, "texture_model", {"none", "concrete_noise", "photographic"})
+    if material.get("texture_model") == "photographic":
+        photographic_texture = _mapping(material, "photographic_texture")
+        _string(photographic_texture, "path")
+        _number(photographic_texture, "physical_width_mm", minimum=0.001)
+        _number(photographic_texture, "physical_height_mm", minimum=0.001)
+        if "center_mm" in photographic_texture:
+            _list_of_numbers(photographic_texture, "center_mm", 2)
+        if "rotation_degrees" in photographic_texture:
+            _number(photographic_texture, "rotation_degrees")
+        if "interpolation" in photographic_texture:
+            _literal(photographic_texture, "interpolation", {"Closest", "Linear", "Cubic", "Smart"})
+        if "extension" in photographic_texture:
+            _literal(photographic_texture, "extension", {"CLIP", "EXTEND", "REPEAT", "MIRROR"})
+        if "color_space" in photographic_texture:
+            _string(photographic_texture, "color_space")
     if "concrete_texture" in material:
         concrete_texture = _mapping(material, "concrete_texture")
         if "noise_dimensions" in concrete_texture:

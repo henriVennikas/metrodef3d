@@ -1,12 +1,34 @@
+import copy
 import tempfile
 import unittest
 from pathlib import Path
 
 from metrodef3d.errors import RecipeError
-from metrodef3d.recipe import load_recipe
+from metrodef3d.recipe import Recipe, load_recipe, validate_recipe
 
 
 class RecipeTests(unittest.TestCase):
+    def test_photographic_material_requires_physical_image_dimensions(self):
+        data = copy.deepcopy(load_recipe(Path("examples/cracked_plane_blender_simple.yaml")).data)
+        data["material"] = {
+            "surface_color": "#d8d2c8",
+            "crack_color": "#181513",
+            "roughness": 0.65,
+            "texture_model": "photographic",
+            "photographic_texture": {
+                "path": "/tmp/concrete.jpg",
+                "physical_width_mm": 200.0,
+                "physical_height_mm": 200.0,
+                "center_mm": [0.0, 0.0],
+                "extension": "CLIP",
+            },
+        }
+        validate_recipe(Recipe(path=None, data=data))
+
+        del data["material"]["photographic_texture"]["physical_width_mm"]
+        with self.assertRaisesRegex(RecipeError, "physical_width_mm"):
+            validate_recipe(Recipe(path=None, data=data))
+
     def test_example_recipe_loads(self):
         recipe = load_recipe(Path("examples/cracked_plane.yaml"))
         self.assertEqual(recipe.data["defect"]["type"], "crack")

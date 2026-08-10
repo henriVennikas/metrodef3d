@@ -193,6 +193,32 @@ Generated metadata records both code and schema versions:
 }
 ```
 
-Datasets published from this generator should additionally carry their own
-dataset release id, for example `metrodef3d-crack-ribbon-1024-20260705-v1`,
-along with the generator version and commit used to create them.
+Datasets published from this generator carry a separate human-readable title
+and machine identifier. The first simple concrete crack release uses:
+
+```text
+Title: MetroDef3D Simple Concrete Crack Dataset v1.0 (Seeds 1-10,000)
+ID:    metrodef3d_simple_concrete_crack_v1_0_seeds_00001_10000
+```
+
+Keep the dataset version independent of the generator version. A published
+dataset manifest records the dataset id and version, generator version and
+commit, schema versions, seed range, generation configuration, and checksums.
+Increase the dataset major version when generation or reference semantics
+change incompatibly, the minor version when samples or compatible fields are
+added, and the patch version for metadata-only corrections that do not alter
+sample content or reference values.
+
+## Fixed Geometry Sensitivity Study
+
+The article's complete procedural and photographic background sensitivity
+materials are available in
+[`studies/fixed_geometry_background_sensitivity/`](studies/fixed_geometry_background_sensitivity/).
+The package includes the inputs, all 192 renders, eight fixed references,
+row-level predictions, calibrated bounds, and aggregate summaries. The study
+contains eight geometries evaluated under eight procedural and 16 photographed
+surface conditions per geometry. The photographic observations combine
+concrete surface photographs with synthetic crack geometries. They are
+controlled appearance tests rather than validation images of real cracks. An
+interactive overview and per-seed browser is provided at
+`studies/fixed_geometry_background_sensitivity/results/full_study/report.html`.

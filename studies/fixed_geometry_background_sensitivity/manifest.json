@@ -1,0 +1,192 @@
+{
+  "defect_seed": 10316,
+  "geometry_reference": "reference/scene.json",
+  "id": "metrodef3d_fixed_geometry_background_sensitivity_v1",
+  "photographic_background_count": 16,
+  "photographic_backgrounds": [
+    {
+      "background": "backgrounds/photographic/001.jpg",
+      "background_pixels": [
+        3500,
+        3500
+      ],
+      "background_sha256": "8cfdf72ee24789b8941b839371f95adbe0fd915249da08ba261d0dfa20400f10",
+      "id": "001",
+      "render": "renders/photographic/001.jpg",
+      "render_sha256": "510f0b0785e12f1a04f533356a9c26a0ca292abc804e1e775b0117f7e98890d6"
+    },
+    {
+      "background": "backgrounds/photographic/002.jpg",
+      "background_pixels": [
+        3058,
+        3058
+      ],
+      "background_sha256": "fc672ba58211b9c188039bd5226d405b1d3c538fe828fe6c2f33da63fc37c19b",
+      "id": "002",
+      "render": "renders/photographic/002.jpg",
+      "render_sha256": "894e7f9cc26944bd9bb4ab64c88b5e369159a6b4bcb87f286c747434699529b1"
+    },
+    {
+      "background": "backgrounds/photographic/003.jpg",
+      "background_pixels": [
+        3354,
+        3354
+      ],
+      "background_sha256": "a646f246dc9b09728474217a21fcca12dc3b45108b9d1bad905d90cf37e88aa1",
+      "id": "003",
+      "render": "renders/photographic/003.jpg",
+      "render_sha256": "720f5fcc142d05239d0fd94bcead14d3b32439330ee7ce466f47c1e4458ec8d8"
+    },
+    {
+      "background": "backgrounds/photographic/004.jpg",
+      "background_pixels": [
+        3068,
+        3068
+      ],
+      "background_sha256": "bb50ec9abeeca95f3edf4866bcd0b0352cd6bb64faeec8b44abcf7031b0c4127",
+      "id": "004",
+      "render": "renders/photographic/004.jpg",
+      "render_sha256": "086fc13c519a6dee63db45c5a1fe9574b13702e828ca80bbf0450b82087455ff"
+    },
+    {
+      "background": "backgrounds/photographic/005.jpg",
+      "background_pixels": [
+        3048,
+        3048
+      ],
+      "background_sha256": "dbf17f6c73070d2c10364c3c7e9717d66547603606483d01853605a05cae1131",
+      "id": "005",
+      "render": "renders/photographic/005.jpg",
+      "render_sha256": "3fcbdc626f4d1953bdc2ac677b384eba21cb09edbb704ce015fd9a5864b42dbc"
+    },
+    {
+      "background": "backgrounds/photographic/006.jpg",
+      "background_pixels": [
+        2597,
+        2597
+      ],
+      "background_sha256": "19521cd720eed0af21fa4a9527434622abea9fabf3abece9d7e47ee7d8b82ece",
+      "id": "006",
+      "render": "renders/photographic/006.jpg",
+      "render_sha256": "964972a3a9d766905304db9059ac685ea80da89e58f21744d9b39ee7bfff4047"
+    },
+    {
+      "background": "backgrounds/photographic/007.jpg",
+      "background_pixels": [
+        2701,
+        2701
+      ],
+      "background_sha256": "ce79f2dec0b0bf80f21cd3e7609bb28a695946f9ac34eae420e869eb2327464d",
+      "id": "007",
+      "render": "renders/photographic/007.jpg",
+      "render_sha256": "dcbc856a34d33d8e00e88e25543e68bfe5371b71d539291c63873e4fde1d93c9"
+    },
+    {
+      "background": "backgrounds/photographic/008.jpg",
+      "background_pixels": [
+        2594,
+        2594
+      ],
+      "background_sha256": "4659526cda6b1915bf2ab693dc8db45bbc54a57d60a83642bb1a49c90362b8d1",
+      "id": "008",
+      "render": "renders/photographic/008.jpg",
+      "render_sha256": "e353a88dd994c8e35f6637a9ea4288d32b1d7fbe1593d5d7c0fd19b742bda35b"
+    },
+    {
+      "background": "backgrounds/photographic/009.jpg",
+      "background_pixels": [
+        2903,
+        2903
+      ],
+      "background_sha256": "afba80a31dc7039ed37c9e08fcbbf2f057b23ba2292513033c47ea8d8ca1e947",
+      "id": "009",
+      "render": "renders/photographic/009.jpg",
+      "render_sha256": "5dea6efb3d2f203a20b23b4b86071dedbc9cf3b7762f3ebd968a8d2d1cac37f4"
+    },
+    {
+      "background": "backgrounds/photographic/010.jpg",
+      "background_pixels": [
+        3057,
+        3057
+      ],
+      "background_sha256": "3c18f91b4f3d6975afa78d77d7900782fc579ca8df9899cfcf8f444efde0df0c",
+      "id": "010",
+      "render": "renders/photographic/010.jpg",
+      "render_sha256": "ab669849ba2b1e374f46c5cb705874236df18c94f9c531b175338ec18e1d7ff0"
+    },
+    {
+      "background": "backgrounds/photographic/011.jpg",
+      "background_pixels": [
+        3804,
+        3804
+      ],
+      "background_sha256": "c7b50d9f58c54e92b8d129f840b50113503a44c1907847760a27530305249fef",
+      "id": "011",
+      "render": "renders/photographic/011.jpg",
+      "render_sha256": "e057f771d03b6e12eb63961108401e85b198a684ba6bbb79d52c8f9bbc3c3f83"
+    },
+    {
+      "background": "backgrounds/photographic/012.jpg",
+      "background_pixels": [
+        2308,
+        2445
+      ],
+      "background_sha256": "a6ee033109e38980c7ac94a0abafd1e0541f6b92dfbd6288b5c1e82cc4b9bd66",
+      "id": "012",
+      "render": "renders/photographic/012.jpg",
+      "render_sha256": "342aeee02bc8a02b55184058e1430320992a8ed8739970d43fd8251d2db1105d"
+    },
+    {
+      "background": "backgrounds/photographic/013.jpg",
+      "background_pixels": [
+        2934,
+        2934
+      ],
+      "background_sha256": "5f5fdcddbf39c5eb0f6db40b2d7efaaeae420c7d7124025a54f6a9e5a9dd7532",
+      "id": "013",
+      "render": "renders/photographic/013.jpg",
+      "render_sha256": "b6e2269c4de497d72baa2983b068fba51f7812d5441372cd074d3c4458c3489c"
+    },
+    {
+      "background": "backgrounds/photographic/014.jpg",
+      "background_pixels": [
+        3180,
+        3180
+      ],
+      "background_sha256": "f71df9d6e5417ffdf6fe0632d9ac2f9baca286dae437fbafa35ed500389dd9c7",
+      "id": "014",
+      "render": "renders/photographic/014.jpg",
+      "render_sha256": "a99dae623eb7639af1e757c485a6de7473445b3bb10448960e03540af31b9dcd"
+    },
+    {
+      "background": "backgrounds/photographic/015.jpg",
+      "background_pixels": [
+        3575,
+        3575
+      ],
+      "background_sha256": "b33e0ac6a848aea91c2627de33e2e6957339845733505fefc35e3e198c9f7bae",
+      "id": "015",
+      "render": "renders/photographic/015.jpg",
+      "render_sha256": "bd01068e35f086be5ac10c429902884f1ba96c07b0ac9390bf256b9dbebd8370"
+    },
+    {
+      "background": "backgrounds/photographic/016.jpg",
+      "background_pixels": [
+        3570,
+        3570
+      ],
+      "background_sha256": "9ee5611eb19b2b15f3096c9a11237218ea4d739130fc38bc339b19ecbeb50c90",
+      "id": "016",
+      "render": "renders/photographic/016.jpg",
+      "render_sha256": "21c21198078e463d804ee3e9b27f4d369c878eab906c2de4e19bcd455c6257d2"
+    }
+  ],
+  "photographic_physical_size_mm": [
+    200.0,
+    200.0
+  ],
+  "pixel_scale_reference": "reference/pixel_scale.npz",
+  "procedural_background_count": 8,
+  "reference_output_seed": 10316001,
+  "visible_defect_reference": "reference/visible_defect.json"
+}

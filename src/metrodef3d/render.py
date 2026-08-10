@@ -1095,9 +1095,13 @@ def add_obfuscated_surface_texture(mat, material, seed, render_variant):
 
 
 def add_concrete_texture(mat, material, seed, render_variant=None):
-    if material.get("texture_model", "concrete_noise") == "none":
+    texture_model = material.get("texture_model", "concrete_noise")
+    if texture_model == "none":
         return
     if add_obfuscated_surface_texture(mat, material, seed, render_variant):
+        return
+    if texture_model == "photographic":
+        add_photographic_texture(mat, material)
         return
     texture = material.get("concrete_texture", {})
     nodes = mat.node_tree.nodes
@@ -1456,6 +1460,51 @@ def add_concrete_texture(mat, material, seed, render_variant=None):
         for link in list(output.inputs["Surface"].links):
             links.remove(link)
         links.new(aggregate_mix.outputs["Shader"], output.inputs["Surface"])
+
+
+def add_photographic_texture(mat, material):
+    texture = material["photographic_texture"]
+    nodes = mat.node_tree.nodes
+    links = mat.node_tree.links
+    bsdf = nodes.get("Principled BSDF")
+    if bsdf is None:
+        return
+
+    center = texture.get("center_mm", [0.0, 0.0])
+    coordinate_frame = bpy.data.objects.new("photographic_texture_coordinates", None)
+    coordinate_frame.empty_display_type = "PLAIN_AXES"
+    coordinate_frame.hide_render = True
+    coordinate_frame.location = (float(center[0]), float(center[1]), 0.0)
+    coordinate_frame.rotation_euler[2] = math.radians(float(texture.get("rotation_degrees", 0.0)))
+    coordinate_frame.scale = (
+        float(texture["physical_width_mm"]),
+        float(texture["physical_height_mm"]),
+        1.0,
+    )
+    bpy.context.scene.collection.objects.link(coordinate_frame)
+
+    texcoord = nodes.new("ShaderNodeTexCoord")
+    texcoord.name = "Photographic world coordinates"
+    texcoord.location = (-720, 120)
+    texcoord.object = coordinate_frame
+
+    offset = nodes.new("ShaderNodeVectorMath")
+    offset.name = "Photographic coordinate offset"
+    offset.location = (-480, 120)
+    offset.operation = "ADD"
+    offset.inputs[1].default_value = (0.5, 0.5, 0.0)
+
+    image_texture = nodes.new("ShaderNodeTexImage")
+    image_texture.name = "Photographic concrete texture"
+    image_texture.location = (-220, 120)
+    image_texture.interpolation = str(texture.get("interpolation", "Linear"))
+    image_texture.extension = str(texture.get("extension", "CLIP"))
+    image_texture.image = bpy.data.images.load(str(texture["path"]), check_existing=False)
+    image_texture.image.colorspace_settings.name = str(texture.get("color_space", "sRGB"))
+
+    links.new(texcoord.outputs["Object"], offset.inputs[0])
+    links.new(offset.outputs["Vector"], image_texture.inputs["Vector"])
+    links.new(image_texture.outputs["Color"], bsdf.inputs["Base Color"])
 
 
 def look_at(obj, target):

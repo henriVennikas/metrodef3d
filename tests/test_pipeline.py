@@ -670,6 +670,41 @@ class PipelineTests(unittest.TestCase):
         self.assertNotIn("Obfuscation color ramp", script)
         self.assertIn("Obfuscation SEED", script)
 
+    def test_blender_script_supports_physically_sized_photographic_texture(self):
+        recipe = load_recipe(Path("examples/cracked_plane_blender_simple.yaml"))
+        recipe.data["material"] = {
+            "surface_color": "#d8d2c8",
+            "crack_color": "#181513",
+            "roughness": 0.65,
+            "texture_model": "photographic",
+            "photographic_texture": {
+                "path": "/tmp/concrete.jpg",
+                "physical_width_mm": 200.0,
+                "physical_height_mm": 200.0,
+                "center_mm": [0.0, 0.0],
+                "extension": "CLIP",
+            },
+        }
+        constructed = construct_scene(recipe.data)
+        scene = {
+            "surface": constructed.surface,
+            "defect": constructed.defect,
+            "seeds": constructed.seeds,
+        }
+        script = build_blender_script(
+            recipe.data,
+            recipe.data["captures"][0],
+            scene,
+            Path("render.jpg"),
+            Path("setup.blend"),
+        )
+        self.assertIn("add_photographic_texture", script)
+        self.assertIn("ShaderNodeTexImage", script)
+        self.assertIn("photographic_texture_coordinates", script)
+        self.assertIn('float(texture["physical_width_mm"])', script)
+        self.assertIn('float(texture["physical_height_mm"])', script)
+        self.assertIn("/tmp/concrete.jpg", script)
+
     def test_blender_recipe_has_multiple_capture_passes(self):
         recipe = load_recipe(Path("examples/cracked_plane_blender.yaml"))
         self.assertEqual(recipe.data["render"]["image_format"], "jpg")
