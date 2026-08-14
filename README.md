@@ -222,3 +222,30 @@ concrete surface photographs with synthetic crack geometries. They are
 controlled appearance tests rather than validation images of real cracks. An
 interactive overview and per-seed browser is provided at
 `studies/fixed_geometry_background_sensitivity/results/full_study/report.html`.
+
+## Future Quality Control
+
+The current quality manifest preserves identified construction failures for
+inspection and audit. Future generator development should improve construction
+reliability and add stronger automatic checks for geometry, reference values,
+and rendered outputs. These checks should flag unsuitable observations during
+generation so that large batches do not depend on manual image review. These
+items are development targets rather than capabilities claimed for the current
+generator or MetroDef3D Simple Concrete Crack Dataset v1.0.
+
+## License
+
+MetroDef3D uses separate licences for software and non-software materials.
+
+| Material | Licence |
+| --- | --- |
+| Source code, scripts, tests, example configuration files, and software packaging | [Apache License 2.0](LICENSE) |
+| Documentation, rendered and example images, reference data, study results, and other non-software materials | [Creative Commons Attribution 4.0 International](LICENSE-DATA.md) |
+
+The CC BY 4.0 licence includes the photographed concrete surfaces and all other
+materials in the fixed geometry background sensitivity study. Copyright in
+these photographs is held by Henri Vennikas. Any material identified as third
+party content remains subject to its stated licence.
+
+MetroDef3D Simple Concrete Crack Dataset v1.0 is separately published on Zenodo
+under CC BY 4.0 at <https://doi.org/10.5281/zenodo.21340378>.

@@ -58,3 +58,12 @@ The supplied prediction CSV files record the article baseline outputs. Another i
 ## Article Figure Selection
 
 The procedural panels S1--S4 in the article correspond to renders `002`, `004`, `001`, and `007`. The photographic panels P1--P4 correspond to renders `002`, `005`, `012`, and `015`. P1 and P2 are lower-error examples and P3 and P4 are higher-error examples when ranked by mean absolute relative error across the four scalar measurands. The accompanying article table reports each central prediction with calibrated upper and lower deviations in tolerance notation.
+
+## License
+
+The photographs, rendered observations, reference data, results, and reports in
+this study are licensed under the Creative Commons Attribution 4.0
+International licence (`CC-BY-4.0`). The photographed concrete surfaces were
+acquired by Henri Vennikas, who holds their copyright. See the repository
+[`LICENSE-DATA.md`](../../LICENSE-DATA.md) for the licence scope and suggested
+attribution.

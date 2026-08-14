@@ -7,9 +7,13 @@ name = "metrodef3d"
 version = "0.1.0"
 description = "Metrologically grounded 3D surface defect dataset generator."
 readme = "README.md"
+license = { file = "LICENSE" }
 requires-python = ">=3.9"
 authors = [
   { name = "metrodef3d contributors" }
+]
+classifiers = [
+  "License :: OSI Approved :: Apache Software License",
 ]
 dependencies = []
 

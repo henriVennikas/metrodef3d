@@ -2,6 +2,9 @@
   "defect_seed": 10316,
   "geometry_reference": "reference/scene.json",
   "id": "metrodef3d_fixed_geometry_background_sensitivity_v1",
+  "license": "CC-BY-4.0",
+  "license_file": "../../LICENSE-DATA.md",
+  "licensor": "Henri Vennikas",
   "photographic_background_count": 16,
   "photographic_backgrounds": [
     {
