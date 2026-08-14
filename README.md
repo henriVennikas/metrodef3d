@@ -16,6 +16,13 @@ The current slice provides:
 - Dataset-style outputs grouped by artifact type, with seed-number filenames:
   `img/`, `json/`, `yaml/`, `blender_script/`, and `blend/`.
 
+## Demonstration Dataset
+
+MetroDef3D Simple Concrete Crack Dataset v1.0 demonstrates the generator
+through 10,000 published observations with construction references and
+associated metadata. It is available on Zenodo under CC BY 4.0 at
+[DOI 10.5281/zenodo.21340378](https://doi.org/10.5281/zenodo.21340378).
+
 Example rendered samples with corresponding visible-defect measurands:
 
 | Seed | Render | Visible centerline length (mm) | Mean width (mm) | Max width (mm) | Crack area (mm^2) |
