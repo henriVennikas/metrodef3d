@@ -1,6 +1,6 @@
 # Selected real-image measurement examples
 
-Local release candidate; not yet published. Four exploratory examples accompany
+Four exploratory examples accompany
 the synthetic benchmark: IMG_8184 (painted plastered stone wall), IMG_8162 (rough
 concrete surface), IMG_8169 (exposed-aggregate appearance, partial shadow), and
 IMG_8139 (regular concrete floor).
@@ -46,6 +46,9 @@ measured coordinates are in `calibration/print_target_01_points.npz` (`scanner_m
 Scanner scale factors 0.010066935 and 0.010012375 mm/pixel derive from the Epson
 V600 glass-target comparison at 2540 dpi. The glass target's certified spans
 provide dimensional scale references, not certified coordinates for every dot.
+The [calibration supplement](calibration/README.md) includes the original
+certificate, fourteen scanner records, scale-factor calculations and transfer
+limitations. Certificate tolerances are not stated calibration uncertainties.
 
 The image-to-physical mapping uses the measured paper coordinates. Rings anchor
 indices in cropped grids. Held-out grid-fit RMS residuals for IMG_8184, IMG_8162,
@@ -91,7 +94,7 @@ saved predictions; it does not run or train a model. Keep an original copy if
 editing annotation geometry. The supplied data allow inspection and alternative
 boundary, skeleton and measurement procedures. Model training/inference code is
 maintained in CIAYN. Code follows Apache-2.0; images, annotations and result data
-are prepared for release under CC BY 4.0 with the article. Nothing is published
+are provided under CC BY 4.0. Nothing is published
 by executing these local scripts.
 
 Regenerate the four-row photograph/reference/model overview with

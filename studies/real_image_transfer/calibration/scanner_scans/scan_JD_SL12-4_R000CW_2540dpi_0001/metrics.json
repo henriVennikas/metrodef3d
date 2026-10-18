@@ -1,0 +1,78 @@
+{
+  "source": "imaging/jd/scan_JD_SL12-4_R000CW_2540dpi_0001.tif",
+  "target": "JD Photo Data SL12-4, certificate 008/194821-001",
+  "grid_shape": [
+    50,
+    50
+  ],
+  "detected_solid_dots": 2497,
+  "inferred_hollow_fiducials": 3,
+  "metadata_dpi": {
+    "x": 2540.0,
+    "y": 2540.0
+  },
+  "calibrated_scale": {
+    "x_um_per_px": 10.066852738602053,
+    "y_um_per_px": 10.011239705982096,
+    "x_effective_dpi": 2523.132170455014,
+    "y_effective_dpi": 2537.1483198851524
+  },
+  "spans": {
+    "A1_top": {
+      "certified_mm": 97.9994,
+      "observed_px": 9736.003396948901,
+      "um_per_px": 10.065670276030444,
+      "effective_dpi": 2523.428574894358
+    },
+    "A2_bottom": {
+      "certified_mm": 97.9994,
+      "observed_px": 9733.716464218947,
+      "um_per_px": 10.068035201173663,
+      "effective_dpi": 2522.8358356394147
+    },
+    "A3_left": {
+      "certified_mm": 97.9992,
+      "observed_px": 9789.358939376458,
+      "um_per_px": 10.010788306659245,
+      "effective_dpi": 2537.2627231667407
+    },
+    "A4_right": {
+      "certified_mm": 97.9993,
+      "observed_px": 9788.486177732015,
+      "um_per_px": 10.011691105304944,
+      "effective_dpi": 2537.0339269198166
+    },
+    "A5_diagonal": {
+      "certified_mm": 138.5915,
+      "observed_px": 13806.520759110663,
+      "um_per_px": 10.038119119079735,
+      "effective_dpi": 2530.354511506195
+    }
+  },
+  "affine_pixel_to_mm": [
+    [
+      0.010064825269607823,
+      -6.208353071599759e-06,
+      -21.358437188092566
+    ],
+    [
+      6.993028034501129e-06,
+      0.01001241500299915,
+      -22.550498598871993
+    ]
+  ],
+  "axis_angle_degrees": 89.99571810168615,
+  "affine_residual_um": {
+    "rms_radial": 12.400252657313173,
+    "p95_radial": 23.736832945198667,
+    "maximum_radial": 36.22504211978823,
+    "mean_x": 1.6301449577469647e-11,
+    "mean_y": -2.558932730198521e-12
+  },
+  "interpretation_warning": "Local residuals include scanner error and unreported local target placement error; the certificate supplies only the listed outer spans, diagonal, and dot diameter.",
+  "orientation": {
+    "rotation_cw_applied": 0,
+    "rotation_cw_inferred_from_hollow_dots": 0,
+    "explicit_override": false
+  }
+}

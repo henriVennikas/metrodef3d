@@ -1,0 +1,28 @@
+{
+  "n_scans": 14,
+  "statistics": {
+    "scanner_x_um_per_px": {
+      "mean": 10.066934959386906,
+      "sample_sd": 0.00061446323391429,
+      "minimum": 10.065764010079388,
+      "maximum": 10.067758609829031
+    },
+    "scanner_y_um_per_px": {
+      "mean": 10.012374966678848,
+      "sample_sd": 0.0015526960001710193,
+      "minimum": 10.009960774121485,
+      "maximum": 10.015138525521813
+    },
+    "affine_rms_um": {
+      "mean": 12.48123608940086,
+      "sample_sd": 0.7294116385228694,
+      "minimum": 11.888146458263899,
+      "maximum": 14.936644145211407
+    }
+  },
+  "applied_mm_per_pixel": [
+    0.010066935,
+    0.010012375
+  ],
+  "uncertainty_note": "Sample SD and affine residuals are not expanded measurement uncertainty. Certificate tolerances are not stated calibration uncertainties."
+}

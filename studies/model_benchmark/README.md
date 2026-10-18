@@ -1,6 +1,6 @@
 # Three-model measurement benchmark
 
-Local release candidate for the third manuscript submission; not yet published.
+Benchmark study accompanying the third manuscript submission.
 
 The benchmark compares direct scalar predictions and asymmetric intervals from a
 transformer, an adapted ResNet-50, and an adapted ConvNeXt-Tiny. Length, mean width,
@@ -90,4 +90,4 @@ Full training implementation is CIAYN; the model/config records here describe th
 adapters and inference policy. No model checkpoints or training dataset images
 are duplicated in this supplement. Supplied predictions support reanalysis
 without training. Code follows the repository Apache-2.0 license; result data and
-figures are prepared for release under CC BY 4.0 with the article.
+figures are provided under CC BY 4.0.
