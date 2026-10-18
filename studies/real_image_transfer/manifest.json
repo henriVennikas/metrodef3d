@@ -1,0 +1,36 @@
+{
+  "status": "local release candidate; not published",
+  "examples": [
+    {
+      "image": "IMG_8184",
+      "scale_target": "IMG_8183",
+      "annotation": "IMG_8184_annotation.json",
+      "source_annotation_sha256": "eb297218b82110881c0021bd94d484aafe87dfe86c7b110c70a9cf76f975bc7d",
+      "prediction_sha256": "30f757b9f343eeb9b1da9515d4a9f070e63174e18c1c5be3a99024fd9b581d11"
+    },
+    {
+      "image": "IMG_8162",
+      "scale_target": "IMG_8161",
+      "annotation": "IMG_8162_annotation.json",
+      "source_annotation_sha256": "5a36fd0b32d435e66c81346faae65c4daf879089d9951d912cef52008c3e1d82",
+      "prediction_sha256": "578978f1dbc058fa6d8305c1ca6037961fad29c0c0c19d83c1518159806b1953"
+    },
+    {
+      "image": "IMG_8169",
+      "scale_target": "IMG_8168",
+      "annotation": "IMG_8169_annotation.json",
+      "source_annotation_sha256": "2a4fc04eff194600129c5a2728bc1100c0764b5bf414e640d336640ad636499b",
+      "prediction_sha256": "1e65c543220c8504d7aa72774e32c3bc93cc248e0664cf734971313e994c6dea"
+    },
+    {
+      "image": "IMG_8139",
+      "scale_target": "IMG_8140",
+      "annotation": "IMG_8139_annotation.json",
+      "source_annotation_sha256": "b77d91d502cecd5ed34617e778ccc58327cd0236610514c0cbdc9612a38cdfc0",
+      "prediction_sha256": "4a362b1096d08c46afea8ec990ccb7689a9879a7c12421c13290d7fd81b024fe"
+    }
+  ],
+  "scope": "Selected exploratory transformer transfer examples; image-derived references, unquantified reference uncertainty",
+  "annotation_convention": "Visible surface opening including interpreted recessed crack edges",
+  "training_on_real_images": false
+}

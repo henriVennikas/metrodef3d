@@ -1,0 +1,74 @@
+{
+  "image": "IMG_8139",
+  "rows": [
+    {
+      "target": "centerline_length",
+      "unit": "mm",
+      "reference": 116.7750198341209,
+      "prediction": 56.43101119995117,
+      "signed_difference": -60.344008634169725,
+      "signed_relative_difference_percent": -51.675442847184684,
+      "absolute_relative_difference_percent": 51.675442847184684,
+      "raw_lower": 50.688873291015625,
+      "raw_upper": 62.22657012939453,
+      "synthetic_calibrated_lower": 47.93721544619348,
+      "synthetic_calibrated_upper": 65.00382756316594,
+      "reference_inside_interval": false
+    },
+    {
+      "target": "mean_width",
+      "unit": "mm",
+      "reference": 0.5852813924373776,
+      "prediction": 1.0457005500793457,
+      "signed_difference": 0.46041915764196806,
+      "signed_relative_difference_percent": 78.66629002582391,
+      "absolute_relative_difference_percent": 78.66629002582391,
+      "raw_lower": 0.9842900037765503,
+      "raw_upper": 1.0877351760864258,
+      "synthetic_calibrated_lower": 0.9353615640734034,
+      "synthetic_calibrated_upper": 1.121225981621535,
+      "reference_inside_interval": false
+    },
+    {
+      "target": "max_width",
+      "unit": "mm",
+      "reference": 1.0921479886600685,
+      "prediction": 1.303700566291809,
+      "signed_difference": 0.21155257763174062,
+      "signed_relative_difference_percent": 19.370321589044877,
+      "absolute_relative_difference_percent": 19.370321589044877,
+      "raw_lower": 1.2597697973251343,
+      "raw_upper": 1.354860782623291,
+      "synthetic_calibrated_lower": 1.2038217859807219,
+      "synthetic_calibrated_upper": 1.4200158534545722,
+      "reference_inside_interval": false
+    },
+    {
+      "target": "crack_area",
+      "unit": "mm2",
+      "reference": 68.34624621041667,
+      "prediction": 62.773651123046875,
+      "signed_difference": -5.572595087369791,
+      "signed_relative_difference_percent": -8.153476447285076,
+      "absolute_relative_difference_percent": 8.153476447285076,
+      "raw_lower": 58.56852722167969,
+      "raw_upper": 67.10962677001953,
+      "synthetic_calibrated_lower": 55.99017103913502,
+      "synthetic_calibrated_upper": 69.76821421689601,
+      "reference_inside_interval": true
+    }
+  ],
+  "auxiliary_mask": {
+    "threshold": 0.5,
+    "annotated_mask_pixels": 7364,
+    "model_mask_pixels": 5505,
+    "intersection_over_union": 0.3328845157949249,
+    "precision": 0.5838328792007266,
+    "recall": 0.4364475828354155,
+    "mean_probability_inside_annotation": 0.43441441655158997,
+    "note": "Auxiliary mask vs rasterized outer annotation including debris. Not the source of scalar predictions."
+  },
+  "annotation_sha256": "b77d91d502cecd5ed34617e778ccc58327cd0236610514c0cbdc9612a38cdfc0",
+  "checkpoint_sha256": "c07657297350c1ace1e1eb797e83b1f30069cfb1511c3637a7352c2be1139952",
+  "no_training": true
+}

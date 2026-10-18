@@ -1,0 +1,112 @@
+{
+  "n_visible_positive": 1493,
+  "calibration_metrics": "calibration.json",
+  "interval_scales": {
+    "centerline_length": 1.6178563413634661,
+    "mean_width": 1.1507908812023009,
+    "max_width": 1.3730733906812276,
+    "crack_area": 1.861638126787564
+  },
+  "targets": {
+    "centerline_length": {
+      "median_truth": 104.58533477783205,
+      "median_signed_error": 0.68841552734375,
+      "median_absolute_error": 2.9531402587890625,
+      "raw": {
+        "coverage": 0.8365706630944407,
+        "mean_interval_width": 14.869649576645767,
+        "median_interval_width": 14.776023864746094,
+        "mean_relative_interval_width_percent": 15.5891125222807,
+        "median_relative_interval_width_percent": 13.386316088343781,
+        "median_normalized_residual": -0.1113237650282598,
+        "fraction_abs_normalized_residual_le_1": 0.8365706630944407,
+        "fraction_abs_normalized_residual_gt_3": 0.004688546550569324
+      },
+      "calibrated": {
+        "coverage": 0.9537843268586738,
+        "mean_interval_width": 24.056956861428937,
+        "median_interval_width": 23.905483909717375,
+        "mean_relative_interval_width_percent": 25.220944550400446,
+        "median_relative_interval_width_percent": 21.65713637102277,
+        "median_normalized_residual": -0.06880942527594286,
+        "fraction_abs_normalized_residual_le_1": 0.9537843268586738,
+        "fraction_abs_normalized_residual_gt_3": 0.0006697923643670462
+      }
+    },
+    "mean_width": {
+      "median_truth": 0.8115929961204529,
+      "median_signed_error": 0.002453356981277466,
+      "median_absolute_error": 0.02253258228302013,
+      "raw": {
+        "coverage": 0.9129269926322839,
+        "mean_interval_width": 0.14363338788802882,
+        "median_interval_width": 0.1347220540046692,
+        "mean_relative_interval_width_percent": 17.753076996140603,
+        "median_relative_interval_width_percent": 16.338759565361975,
+        "median_normalized_residual": -0.03959962647367807,
+        "fraction_abs_normalized_residual_le_1": 0.9129269926322839,
+        "fraction_abs_normalized_residual_gt_3": 0.0013395847287340924
+      },
+      "calibrated": {
+        "coverage": 0.9383791024782318,
+        "mean_interval_width": 0.16529199301773656,
+        "median_interval_width": 0.1550369112454173,
+        "mean_relative_interval_width_percent": 20.430079120440936,
+        "median_relative_interval_width_percent": 18.80249551797543,
+        "median_normalized_residual": -0.03441079271701037,
+        "fraction_abs_normalized_residual_le_1": 0.9383791024782318,
+        "fraction_abs_normalized_residual_gt_3": 0.0
+      }
+    },
+    "max_width": {
+      "median_truth": 0.9526140093803406,
+      "median_signed_error": 0.015217483043670654,
+      "median_absolute_error": 0.03860020637512207,
+      "raw": {
+        "coverage": 0.8633623576691226,
+        "mean_interval_width": 0.17562986615912993,
+        "median_interval_width": 0.16512203216552745,
+        "mean_relative_interval_width_percent": 18.263163593904682,
+        "median_relative_interval_width_percent": 17.08701825478468,
+        "median_normalized_residual": -0.19820457816051848,
+        "fraction_abs_normalized_residual_le_1": 0.8633623576691226,
+        "fraction_abs_normalized_residual_gt_3": 0.0013395847287340924
+      },
+      "calibrated": {
+        "coverage": 0.9537843268586738,
+        "mean_interval_width": 0.24115269583200674,
+        "median_interval_width": 0.22672466858169538,
+        "mean_relative_interval_width_percent": 25.07666396044866,
+        "median_relative_interval_width_percent": 23.46173009172923,
+        "median_normalized_residual": -0.14435104452951528,
+        "fraction_abs_normalized_residual_le_1": 0.9537843268586738,
+        "fraction_abs_normalized_residual_gt_3": 0.0
+      }
+    },
+    "crack_area": {
+      "median_truth": 83.12786865234375,
+      "median_signed_error": 0.9027175903320455,
+      "median_absolute_error": 3.5146713256835938,
+      "raw": {
+        "coverage": 0.7762893503014066,
+        "mean_interval_width": 14.544771142079378,
+        "median_interval_width": 13.995376586914062,
+        "mean_relative_interval_width_percent": 19.484178376424428,
+        "median_relative_interval_width_percent": 16.277981820884698,
+        "median_normalized_residual": -0.1408626271380846,
+        "fraction_abs_normalized_residual_le_1": 0.7762893503014066,
+        "fraction_abs_normalized_residual_gt_3": 0.010046885465505693
+      },
+      "calibrated": {
+        "coverage": 0.9490957803081045,
+        "mean_interval_width": 27.077100503494474,
+        "median_interval_width": 26.05432665294923,
+        "mean_relative_interval_width_percent": 36.27248933468153,
+        "median_relative_interval_width_percent": 30.303711584913806,
+        "median_normalized_residual": -0.07566595522039325,
+        "fraction_abs_normalized_residual_le_1": 0.9490957803081045,
+        "fraction_abs_normalized_residual_gt_3": 0.0
+      }
+    }
+  }
+}

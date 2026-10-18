@@ -256,3 +256,23 @@ party content remains subject to its stated licence.
 
 MetroDef3D Simple Concrete Crack Dataset v1.0 is separately published on Zenodo
 under CC BY 4.0 at <https://doi.org/10.5281/zenodo.21340378>.
+
+
+## Manuscript benchmark and real-image supplements
+
+The following directories are local release candidates accompanying the third
+manuscript revision. They have not yet been published; release will follow author
+review and final manuscript preparation.
+
+- [Three-model benchmark](studies/model_benchmark/README.md): paired synthetic
+  test predictions for the transformer, ResNet-50 and ConvNeXt-Tiny; model configs,
+  detailed accuracy/interval statistics, matching diagnostic figures and metric
+  verification. ResNet uses the documented per-image BatchNorm policy.
+- [Selected real-image examples](studies/real_image_transfer/README.md): four
+  crack photographs, paired paper-grid images, physical scale maps, annotations,
+  prediction overlays, scalar comparisons and reference-calculation scripts.
+  These are exploratory transfer examples with unquantified reference uncertainty.
+
+The existing [fixed-geometry background sensitivity study](studies/fixed_geometry_background_sensitivity/README.md)
+remains available in full. Its figure and detailed table are retained here while
+the revised manuscript summarizes its findings inline.

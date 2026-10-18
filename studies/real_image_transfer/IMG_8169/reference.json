@@ -1,0 +1,146 @@
+{
+  "image": "IMG_8169",
+  "annotation_sha256": "2a4fc04eff194600129c5a2728bc1100c0764b5bf414e640d336640ad636499b",
+  "method": "Planar polyline length, polygon area, area/length mean; sampled perpendicular maximum",
+  "reference": {
+    "centerline_length": 92.22290761555304,
+    "mean_width": 0.6421925756143241,
+    "max_width": 1.1356681949221705,
+    "crack_area": 59.22486657227387
+  },
+  "self_intersections": [],
+  "baseline": {
+    "step_mm": 0.05,
+    "tangent_window_mm": 1,
+    "stations": 1844,
+    "valid_stations": 1844,
+    "outside_stations": 0,
+    "multi_intersection_stations": 23,
+    "max_width_mm": 1.1356681949221705,
+    "mean_section_width_mm": 0.6473140399579255,
+    "maximum": {
+      "station_mm": 74.17500000000001,
+      "width_mm": 1.1356681949221705,
+      "inside": true,
+      "intersection_count": 2,
+      "endpoints_mm": [
+        [
+          67.08852251162753,
+          72.08820728558162
+        ],
+        [
+          65.99718616849506,
+          71.7739983819585
+        ]
+      ]
+    }
+  },
+  "sensitivity": [
+    {
+      "step_mm": 0.05,
+      "tangent_window_mm": 0.5,
+      "stations": 1844,
+      "valid_stations": 1844,
+      "outside_stations": 0,
+      "multi_intersection_stations": 29,
+      "max_width_mm": 1.61119100815859,
+      "mean_section_width_mm": 0.6466303779779753,
+      "maximum": {
+        "station_mm": 74.47500000000001,
+        "width_mm": 1.61119100815859,
+        "inside": true,
+        "intersection_count": 2,
+        "endpoints_mm": [
+          [
+            67.09912600996184,
+            72.60424223961917
+          ],
+          [
+            65.87664677455457,
+            71.55472759762073
+          ]
+        ]
+      }
+    },
+    {
+      "step_mm": 0.05,
+      "tangent_window_mm": 2,
+      "stations": 1844,
+      "valid_stations": 1844,
+      "outside_stations": 0,
+      "multi_intersection_stations": 20,
+      "max_width_mm": 1.0085536645225157,
+      "mean_section_width_mm": 0.6501122277318747,
+      "maximum": {
+        "station_mm": 82.17500000000001,
+        "width_mm": 1.0085536645225157,
+        "inside": true,
+        "intersection_count": 2,
+        "endpoints_mm": [
+          [
+            68.07913497249798,
+            79.42389122566502
+          ],
+          [
+            67.07152068329904,
+            79.46741062850909
+          ]
+        ]
+      }
+    },
+    {
+      "step_mm": 0.025,
+      "tangent_window_mm": 1,
+      "stations": 3689,
+      "valid_stations": 3689,
+      "outside_stations": 0,
+      "multi_intersection_stations": 49,
+      "max_width_mm": 1.1341827831414497,
+      "mean_section_width_mm": 0.6470058701830124,
+      "maximum": {
+        "station_mm": 74.18750000000001,
+        "width_mm": 1.1341827831414497,
+        "inside": true,
+        "intersection_count": 2,
+        "endpoints_mm": [
+          [
+            67.08941965786715,
+            72.10167056839845
+          ],
+          [
+            66.00134629564583,
+            71.7815659854902
+          ]
+        ]
+      }
+    },
+    {
+      "step_mm": 0.1,
+      "tangent_window_mm": 1,
+      "stations": 922,
+      "valid_stations": 922,
+      "outside_stations": 0,
+      "multi_intersection_stations": 13,
+      "max_width_mm": 1.1253802775612276,
+      "mean_section_width_mm": 0.64700538122744,
+      "maximum": {
+        "station_mm": 74.25000000000001,
+        "width_mm": 1.1253802775612276,
+        "inside": true,
+        "intersection_count": 2,
+        "endpoints_mm": [
+          [
+            67.09401438043024,
+            72.17062259271702
+          ],
+          [
+            66.02383795517757,
+            71.82248011045269
+          ]
+        ]
+      }
+    }
+  ],
+  "tests": "Rectangle, rotated rectangle, linear taper and crossing detection passed",
+  "reference_uncertainty": "Not quantified; sensitivity is not a confidence interval. Visible surface opening convention. Shared scale/image prevents full independence."
+}

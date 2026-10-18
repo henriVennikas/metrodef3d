@@ -1,0 +1,74 @@
+{
+  "image": "IMG_8169",
+  "rows": [
+    {
+      "target": "centerline_length",
+      "unit": "mm",
+      "reference": 92.22290761555304,
+      "prediction": 69.15264892578125,
+      "signed_difference": -23.07025868977179,
+      "signed_relative_difference_percent": -25.015757241079523,
+      "absolute_relative_difference_percent": 25.015757241079523,
+      "raw_lower": 65.74800109863281,
+      "raw_upper": 73.00585174560547,
+      "synthetic_calibrated_lower": 64.11647882400212,
+      "synthetic_calibrated_upper": 74.85232355366861,
+      "reference_inside_interval": false
+    },
+    {
+      "target": "mean_width",
+      "unit": "mm",
+      "reference": 0.6421925756143241,
+      "prediction": 0.7066373825073242,
+      "signed_difference": 0.06444480689300014,
+      "signed_relative_difference_percent": 10.035121759442948,
+      "absolute_relative_difference_percent": 10.035121759442948,
+      "raw_lower": 0.6795668005943298,
+      "raw_upper": 0.7305077314376831,
+      "synthetic_calibrated_lower": 0.657998496539058,
+      "synthetic_calibrated_upper": 0.7495262713896551,
+      "reference_inside_interval": false
+    },
+    {
+      "target": "max_width",
+      "unit": "mm",
+      "reference": 1.1356681949221705,
+      "prediction": 0.8592909574508667,
+      "signed_difference": -0.2763772374713038,
+      "signed_relative_difference_percent": -24.336090304108982,
+      "absolute_relative_difference_percent": 24.336090304108982,
+      "raw_lower": 0.8362413048744202,
+      "raw_upper": 0.8872560858726501,
+      "synthetic_calibrated_lower": 0.806886430052856,
+      "synthetic_calibrated_upper": 0.9228710627781709,
+      "reference_inside_interval": false
+    },
+    {
+      "target": "crack_area",
+      "unit": "mm2",
+      "reference": 59.22486657227387,
+      "prediction": 51.392513275146484,
+      "signed_difference": -7.8323532971273835,
+      "signed_relative_difference_percent": -13.224771536748554,
+      "absolute_relative_difference_percent": 13.224771536748554,
+      "raw_lower": 48.540191650390625,
+      "raw_upper": 54.50296401977539,
+      "synthetic_calibrated_lower": 46.79130118525973,
+      "synthetic_calibrated_upper": 56.41012540099109,
+      "reference_inside_interval": false
+    }
+  ],
+  "auxiliary_mask": {
+    "threshold": 0.5,
+    "annotated_mask_pixels": 11705,
+    "model_mask_pixels": 12669,
+    "intersection_over_union": 0.6897053726169844,
+    "precision": 0.785302707396006,
+    "recall": 0.8499786416061512,
+    "mean_probability_inside_annotation": 0.846352219581604,
+    "note": "Auxiliary mask vs rasterized outer annotation of the surface opening. Not the source of scalar predictions."
+  },
+  "annotation_sha256": "2a4fc04eff194600129c5a2728bc1100c0764b5bf414e640d336640ad636499b",
+  "checkpoint_sha256": "c07657297350c1ace1e1eb797e83b1f30069cfb1511c3637a7352c2be1139952",
+  "no_training": true
+}

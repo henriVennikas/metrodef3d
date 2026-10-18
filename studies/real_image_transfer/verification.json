@@ -1,0 +1,23 @@
+[
+  {
+    "image": "IMG_8184",
+    "recomputed_rows_identical": true,
+    "annotation_hash_verified": true
+  },
+  {
+    "image": "IMG_8162",
+    "recomputed_rows_identical": true,
+    "annotation_hash_verified": true
+  },
+  {
+    "image": "IMG_8169",
+    "recomputed_rows_identical": true,
+    "annotation_hash_verified": true
+  },
+  {
+    "image": "IMG_8139",
+    "recomputed_rows_identical": true,
+    "annotation_hash_verified": true,
+    "auxiliary_mask_metrics_identical": true
+  }
+]

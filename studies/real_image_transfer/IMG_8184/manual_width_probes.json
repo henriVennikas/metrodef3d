@@ -1,0 +1,8 @@
+{
+  "count": 58,
+  "arithmetic_mean_mm": 0.9329693481528808,
+  "minimum_mm": 0.7089833841504786,
+  "maximum_mm": 1.1176755178311488,
+  "sample_std_mm": 0.0839589722904888,
+  "interpretation": "Selected hand-placed digital probes; spacing and perpendicularity are not enforced. Descriptive check, not whole-crack reference or measurement uncertainty."
+}

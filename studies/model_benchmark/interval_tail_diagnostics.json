@@ -1,0 +1,250 @@
+{
+  "centerline_length": {
+    "all_ris_percent": 67.11033233248155,
+    "positive_only_ris_percent": 40.12462830804293,
+    "zero_reference": [
+      {
+        "seed": 1625,
+        "actual": 0.0,
+        "prediction": 47.272518157958984,
+        "lower": 19.985248517411037,
+        "upper": 80.32294361400682,
+        "ris_percent": 40356.76644081933,
+        "contribution_to_mean_ris_percentage_points": 27.012561205367692
+      }
+    ],
+    "largest_five": [
+      {
+        "seed": 1625,
+        "actual": 0.0,
+        "prediction": 47.272518157958984,
+        "lower": 19.985248517411037,
+        "upper": 80.32294361400682,
+        "ris_percent": 40356.76644081933,
+        "contribution_to_mean_ris_percentage_points": 27.012561205367692
+      },
+      {
+        "seed": 50,
+        "actual": 13.623538970947266,
+        "prediction": 60.07439041137695,
+        "lower": 40.03093736494202,
+        "upper": 83.93235602797859,
+        "ris_percent": 8075.708938544097,
+        "contribution_to_mean_ris_percentage_points": 5.405427669708231
+      },
+      {
+        "seed": 3788,
+        "actual": 98.29157257080078,
+        "prediction": 161.89395141601562,
+        "lower": 144.78870716716847,
+        "upper": 183.81148822869363,
+        "ris_percent": 1931.9135051465605,
+        "contribution_to_mean_ris_percentage_points": 1.2931147959481664
+      },
+      {
+        "seed": 5481,
+        "actual": 41.6061897277832,
+        "prediction": 72.57855224609375,
+        "lower": 59.525650555511675,
+        "upper": 88.44166927040715,
+        "ris_percent": 1792.268065648138,
+        "contribution_to_mean_ris_percentage_points": 1.1996439529104002
+      },
+      {
+        "seed": 1003,
+        "actual": 86.33767700195312,
+        "prediction": 59.47895431518555,
+        "lower": 49.80627983556042,
+        "upper": 68.47556977503018,
+        "ris_percent": 849.1699157018113,
+        "contribution_to_mean_ris_percentage_points": 0.56838682443227
+      }
+    ]
+  },
+  "mean_width": {
+    "all_ris_percent": 84.9090647613615,
+    "positive_only_ris_percent": 34.011386266776704,
+    "zero_reference": [
+      {
+        "seed": 1625,
+        "actual": 0.0,
+        "prediction": 0.5307466983795166,
+        "lower": 0.30506677043592845,
+        "upper": 0.7564266949155751,
+        "ris_percent": 76075.14305717646,
+        "contribution_to_mean_ris_percentage_points": 50.92044381337113
+      }
+    ],
+    "largest_five": [
+      {
+        "seed": 1625,
+        "actual": 0.0,
+        "prediction": 0.5307466983795166,
+        "lower": 0.30506677043592845,
+        "upper": 0.7564266949155751,
+        "ris_percent": 76075.14305717646,
+        "contribution_to_mean_ris_percentage_points": 50.92044381337113
+      },
+      {
+        "seed": 1003,
+        "actual": 0.6139540076255798,
+        "prediction": 0.8947428464889526,
+        "lower": 0.7964271323406535,
+        "upper": 0.9971389209221684,
+        "ris_percent": 1221.5307146847588,
+        "contribution_to_mean_ris_percentage_points": 0.8176243070179108
+      },
+      {
+        "seed": 1324,
+        "actual": 0.5156599879264832,
+        "prediction": 0.7763611674308777,
+        "lower": 0.6591707260258488,
+        "upper": 0.9056678513945826,
+        "ris_percent": 1161.0221443430873,
+        "contribution_to_mean_ris_percentage_points": 0.7771232559190678
+      },
+      {
+        "seed": 4432,
+        "actual": 0.49953800439834595,
+        "prediction": 0.7472267150878906,
+        "lower": 0.614558039781457,
+        "upper": 0.8845089885438995,
+        "ris_percent": 975.0514117446018,
+        "contribution_to_mean_ris_percentage_points": 0.6526448539120494
+      },
+      {
+        "seed": 1967,
+        "actual": 0.654528021812439,
+        "prediction": 0.9555932879447937,
+        "lower": 0.803931837740123,
+        "upper": 1.1184390148132195,
+        "ris_percent": 961.0986244349222,
+        "contribution_to_mean_ris_percentage_points": 0.6433056388453294
+      }
+    ]
+  },
+  "max_width": {
+    "all_ris_percent": 81.98685497494314,
+    "positive_only_ris_percent": 33.44016916397131,
+    "zero_reference": [
+      {
+        "seed": 1625,
+        "actual": 0.0,
+        "prediction": 0.6566822528839111,
+        "lower": 0.341317357442783,
+        "upper": 0.9796723260746987,
+        "ris_percent": 72562.18877075589,
+        "contribution_to_mean_ris_percentage_points": 48.569068788993235
+      }
+    ],
+    "largest_five": [
+      {
+        "seed": 1625,
+        "actual": 0.0,
+        "prediction": 0.6566822528839111,
+        "lower": 0.341317357442783,
+        "upper": 0.9796723260746987,
+        "ris_percent": 72562.18877075589,
+        "contribution_to_mean_ris_percentage_points": 48.569068788993235
+      },
+      {
+        "seed": 1324,
+        "actual": 0.6131029725074768,
+        "prediction": 0.91871178150177,
+        "lower": 0.7488920264589041,
+        "upper": 1.1074194218310254,
+        "ris_percent": 944.3910424620558,
+        "contribution_to_mean_ris_percentage_points": 0.6321225183815634
+      },
+      {
+        "seed": 8039,
+        "actual": 1.6393970251083374,
+        "prediction": 1.079798936843872,
+        "lower": 0.8469034037315737,
+        "upper": 1.3137978578108545,
+        "ris_percent": 822.9160440917034,
+        "contribution_to_mean_ris_percentage_points": 0.55081395186861
+      },
+      {
+        "seed": 3788,
+        "actual": 1.093243956565857,
+        "prediction": 0.7408009171485901,
+        "lower": 0.5891279721047553,
+        "upper": 0.9056302196462056,
+        "ris_percent": 715.3985784559299,
+        "contribution_to_mean_ris_percentage_points": 0.4788477767442636
+      },
+      {
+        "seed": 1967,
+        "actual": 0.7798900008201599,
+        "prediction": 1.1260641813278198,
+        "lower": 0.907049221596175,
+        "upper": 1.3610116459259984,
+        "ris_percent": 710.3990626298603,
+        "contribution_to_mean_ris_percentage_points": 0.47550138060900954
+      }
+    ]
+  },
+  "crack_area": {
+    "all_ris_percent": 51.44953494025855,
+    "positive_only_ris_percent": 48.64526410122787,
+    "zero_reference": [
+      {
+        "seed": 1625,
+        "actual": 0.0,
+        "prediction": 19.405868530273438,
+        "lower": -17.01343462269142,
+        "upper": 58.22412282440564,
+        "ris_percent": 4238.225897613065,
+        "contribution_to_mean_ris_percentage_points": 2.83683125676912
+      }
+    ],
+    "largest_five": [
+      {
+        "seed": 1625,
+        "actual": 0.0,
+        "prediction": 19.405868530273438,
+        "lower": -17.01343462269142,
+        "upper": 58.22412282440564,
+        "ris_percent": 4238.225897613065,
+        "contribution_to_mean_ris_percentage_points": 2.83683125676912
+      },
+      {
+        "seed": 50,
+        "actual": 16.017913818359375,
+        "prediction": 49.129356384277344,
+        "lower": 23.528211124743393,
+        "upper": 78.84523138642544,
+        "ris_percent": 2220.8192436977297,
+        "contribution_to_mean_ris_percentage_points": 1.4864921309891095
+      },
+      {
+        "seed": 1308,
+        "actual": 66.06729125976562,
+        "prediction": 94.8404769897461,
+        "lower": 79.90550148751936,
+        "upper": 110.97442740076804,
+        "ris_percent": 884.8513748276107,
+        "contribution_to_mean_ris_percentage_points": 0.592269996537892
+      },
+      {
+        "seed": 5561,
+        "actual": 192.4252166748047,
+        "prediction": 124.18866729736328,
+        "lower": 101.76969995896798,
+        "upper": 153.15258380116575,
+        "ris_percent": 843.0746379407199,
+        "contribution_to_mean_ris_percentage_points": 0.5643069865734404
+      },
+      {
+        "seed": 7080,
+        "actual": 229.5237274169922,
+        "prediction": 157.51499938964844,
+        "lower": 135.3949519945163,
+        "upper": 184.84352013999887,
+        "ris_percent": 800.2034821822274,
+        "contribution_to_mean_ris_percentage_points": 0.5356114338569126
+      }
+    ]
+  }
+}

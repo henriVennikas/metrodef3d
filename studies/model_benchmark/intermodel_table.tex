@@ -1,0 +1,28 @@
+\begin{table*}[!b]
+\caption{\revisiontext{Comparison of the three trained models on the common test partition. MARE uses 1493 positive references; other metrics use all 1494 observations. RMSE and mean interval width use the units stated for each measurand. Coverage, width, and score use calibrated bounds. The normalized interval score is defined in Eq.~\eqref{eq:relative_interval_score}. Bold values mark the lowest MARE, RMSE, and score within each group.}}
+\label{tab:benchmark_results}
+\centering
+\renewcommand{\arraystretch}{1.08}
+\setlength{\tabcolsep}{5pt}
+\revisiontext{\begin{tabular}{llrrrrr}
+\hline
+Measurand & Model & MARE (\%) & RMSE & \shortstack{Coverage\\(\%)} & \shortstack{Mean interval\\width} & \shortstack{Normalized\\score (\%)} \\
+\hline
+Centreline length (mm) & Transformer & \textbf{2.04} & \textbf{3.58} & 95.2 & 10.48 & \textbf{25.5} \\
+ & ResNet-50 & 4.60 & 6.74 & 95.3 & 24.08 & 67.1 \\
+ & ConvNeXt-Tiny & 6.37 & 8.48 & 95.8 & 32.70 & 54.1 \\
+\hline
+Mean width (mm) & Transformer & \textbf{2.05} & \textbf{0.031} & 93.4 & 0.082 & \textbf{27.4} \\
+ & ResNet-50 & 4.13 & 0.054 & 93.8 & 0.165 & 84.9 \\
+ & ConvNeXt-Tiny & 4.00 & 0.051 & 93.4 & 0.174 & 39.9 \\
+\hline
+Maximum width (mm) & Transformer & \textbf{2.54} & \textbf{0.043} & 94.4 & 0.123 & \textbf{28.6} \\
+ & ResNet-50 & 5.04 & 0.070 & 95.3 & 0.241 & 82.0 \\
+ & ConvNeXt-Tiny & 4.88 & 0.067 & 95.0 & 0.242 & 39.0 \\
+\hline
+Crack area (mm$^2$) & Transformer & \textbf{2.44} & \textbf{3.74} & 94.7 & 10.35 & \textbf{26.3} \\
+ & ResNet-50 & 6.34 & 8.18 & 94.9 & 27.11 & 51.4 \\
+ & ConvNeXt-Tiny & 7.34 & 8.74 & 96.0 & 30.65 & 59.7 \\
+\hline
+\end{tabular}}
+\end{table*}

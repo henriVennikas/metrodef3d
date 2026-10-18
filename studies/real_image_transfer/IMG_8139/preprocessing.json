@@ -1,0 +1,46 @@
+{
+  "grid_coordinates_source": "print_target_01_points.npz",
+  "scale_checks": "uniform-affine and derivative checks passed",
+  "opencv_version": "5.0.0",
+  "numpy_version": "2.0.2",
+  "images": [
+    {
+      "rotation_cw": 180,
+      "max_initial_index_deviation": 0.11466128951603724,
+      "crack_image": "IMG_8139.jpeg",
+      "grid_image": "IMG_8140.jpeg",
+      "source_sha256": {
+        "IMG_8140.jpeg": "bddaacfbe958b0567965611395eafffe67ea7432e95b556ae1b86fb86a6316f3",
+        "IMG_8139.jpeg": "2c6133365cf25a83a50a0b0c5be2ae64c069b1d9a818fb485bb9127baa5c9f59"
+      },
+      "paper_reference_sha256": "d1cf1dc31c48b406de6e18d6c0a968d03cd2e282fdcd85073c4041b9ece12a55",
+      "homography": [
+        [
+          -0.0362603194247922,
+          0.0007103976325157861,
+          111.39070256760257
+        ],
+        [
+          2.5208119375004642e-05,
+          -0.034817073320236556,
+          106.69266906219858
+        ],
+        [
+          -9.833480081868906e-06,
+          2.0063036844011506e-05,
+          1.0
+        ]
+      ],
+      "homography_rms_mm": 0.05958394085698698,
+      "heldout_grid_rms_mm": 0.06172566759421281,
+      "heldout_grid_points": 499,
+      "scale_mean_mm_per_input_pixel": 0.10418601543320319,
+      "scale_min_mm_per_input_pixel": 0.09756558789440392,
+      "scale_max_mm_per_input_pixel": 0.11152172005613177,
+      "inside_grid_fraction": 0.8428821563720703,
+      "scale_file": "IMG_8139_scale.npz",
+      "resize_factor": 2.953125,
+      "output_size": 1024
+    }
+  ]
+}

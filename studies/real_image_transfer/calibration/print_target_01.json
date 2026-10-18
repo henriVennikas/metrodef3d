@@ -1,0 +1,42 @@
+{
+  "target": "print_target_01",
+  "source": "print_target_01.tif",
+  "metadata_dpi": [
+    2540.0,
+    2540.0
+  ],
+  "scanner_mm_per_pixel": [
+    0.010066935,
+    0.010012375
+  ],
+  "detected_solid_dots": 2497,
+  "inferred_hollow_marks": 3,
+  "rotation_cw": 0,
+  "edge_spans_mm": {
+    "top": 98.01834965855707,
+    "bottom": 98.06326402309473,
+    "left": 97.9867431477799,
+    "right": 97.97527384458009
+  },
+  "width_mm": 98.0408068408259,
+  "height_mm": 97.98100849618,
+  "width_error_mm": 0.04080684082589414,
+  "height_error_mm": -0.01899150382000414,
+  "width_error_percent": 0.04163963349581579,
+  "height_error_percent": -0.01937908553061307,
+  "mean_pitch_from_outer_span_mm": [
+    2.0008327926699163,
+    1.9996124182893877
+  ],
+  "fitted_pitch_mm": [
+    2.0005325740854003,
+    1.9979287514648123
+  ],
+  "axis_angle_deg": 90.0088640133043,
+  "affine_residual_rms_um": 26.29779865970286,
+  "median_equivalent_dot_diameter_mm": 1.0296163167573325,
+  "median_diameter_threshold_sensitivity_mm": [
+    1.011096014830228,
+    1.0485745324784277
+  ]
+}
