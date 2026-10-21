@@ -22,6 +22,20 @@ method. A different renderer or scene package is acceptable if it consumes the
 same construction-defined geometry and preserves the same units, camera,
 illumination, and truth metadata semantics.
 
+## Public Naming
+
+Use MetroDef3D and descriptive model names in public-facing text and artifacts.
+Keep internal development project names out of documentation, exported
+configurations, provenance and embedded file metadata. Identify retained models
+by public labels, selected epochs and checkpoint hashes.
+
+## Dataset Supplements
+
+Keep models, inference workflows and supporting studies for the first dataset
+under `supplementary/simple_concrete_crack_v1/`. Reserve `examples/` for generator
+recipes. Preserve `studies/README.md` as the manuscript-review navigation entry.
+Keep model dependencies optional and independent of the generator package.
+
 ## Typical User Goals
 
 Help users do these things quickly:

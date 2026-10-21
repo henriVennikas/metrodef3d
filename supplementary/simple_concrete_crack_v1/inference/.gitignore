@@ -1,0 +1,6 @@
+models/
+outputs/
+*.pt
+*.pth
+*.tar.gz
+.venv*/

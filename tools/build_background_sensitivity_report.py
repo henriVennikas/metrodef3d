@@ -57,12 +57,12 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--results-dir",
         type=Path,
-        default=Path("studies/fixed_geometry_background_sensitivity/results/full_study"),
+        default=Path("supplementary/simple_concrete_crack_v1/studies/fixed_geometry_background_sensitivity/results/full_study"),
     )
     parser.add_argument(
         "--output",
         type=Path,
-        default=Path("studies/fixed_geometry_background_sensitivity/results/full_study/report.html"),
+        default=Path("supplementary/simple_concrete_crack_v1/studies/fixed_geometry_background_sensitivity/results/full_study/report.html"),
     )
     return parser.parse_args()
 

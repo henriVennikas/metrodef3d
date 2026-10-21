@@ -1,0 +1,171 @@
+{
+  "backbone": "convnext_tiny",
+  "batch_size": 1,
+  "depth": 6,
+  "device": "cuda",
+  "dropout": 0.1,
+  "effective_batch_size": 24,
+  "embed_dim": 384,
+  "epochs": 50,
+  "eval_streams": [
+    "perspective-area"
+  ],
+  "exclude_seeds": [
+    7,
+    20,
+    38,
+    40,
+    97,
+    109,
+    140,
+    141,
+    189,
+    200,
+    255,
+    325,
+    331,
+    338,
+    376,
+    379,
+    387,
+    477,
+    479,
+    490,
+    798,
+    884,
+    914,
+    925,
+    2077,
+    2080,
+    2235,
+    3003,
+    3116,
+    3404,
+    4351,
+    4458,
+    5335,
+    5667,
+    6112,
+    6304,
+    6670,
+    9130,
+    9872,
+    9905
+  ],
+  "exclude_seeds_file": [
+    "quality_manifest.json"
+  ],
+  "grad_accum_steps": 24,
+  "image_size": 1024,
+  "in_channels": 4,
+  "input_mode": "rgb-scale-avg",
+  "interval_mode": "asymmetric",
+  "loss_weights": {
+    "boundary": 0.2,
+    "defect": 0.4,
+    "interval_width": 0.002,
+    "miss": 2.0,
+    "scalar": 1.0,
+    "skeleton": 0.2,
+    "width": 0.1
+  },
+  "lr": 0.0002,
+  "max_seeds": null,
+  "mlp_ratio": 4.0,
+  "model": "ScalarSegmentationCNN",
+  "num_heads": 8,
+  "out_dir": "v031-convnext-tiny-benchmark",
+  "parameter_count": 29891239,
+  "posthoc_calibration": {
+    "coverage_target": 0.95,
+    "enabled": true,
+    "mode": "per-target"
+  },
+  "precision": "bfloat16_autocast",
+  "pretraining": "none",
+  "reference_run": "v024-winner-50epoch-confirmation",
+  "relative_floor_fraction": 0.02,
+  "relative_floors": [
+    2.1303679943084717,
+    0.016633594408631325,
+    0.019694898277521133,
+    1.7752134799957275
+  ],
+  "run_dir": [
+    "seeds_0001_1000",
+    "seeds_1001_2000",
+    "seeds_2001_3000",
+    "seeds_3001_4000",
+    "seeds_4001_5000",
+    "seeds_5001_6000",
+    "seeds_6001_7000",
+    "seeds_7001_8000",
+    "seeds_8001_9000",
+    "seeds_9001_10000"
+  ],
+  "sample_counts": {
+    "test": 1494,
+    "train": 6972,
+    "val": 1494
+  },
+  "seed": 20260702,
+  "seed_counts": {
+    "test": 1494,
+    "train": 6972,
+    "val": 1494
+  },
+  "segmentation_head": true,
+  "segmentation_supervision": true,
+  "selection": {
+    "coverage_target": 0.68,
+    "coverage_weight": 1.0,
+    "interval_score_alpha": 0.05,
+    "metric": "mae_coverage"
+  },
+  "source_sha256": {
+    "__init__.py": "99bd33225f92b218baf4d977ef1ce0cb985471fa7ef47a9acff94f6ba11b4e0b",
+    "benchmark_models.py": "8d6fe2beec4a0719ce8f2a19df035d9d9e51072770e8baabbf9439d576bc2230",
+    "calibrate_predictions.py": "6fd4765117c37de9b00b4ba63bd6c01a8ead62baac7396d17c6a4556d55c8deb",
+    "compact_run_metadata.py": "f4fb4935380af5e979556a9411d10aad06ba8c14122f794c9b21b57acc880727",
+    "data.py": "20320fc92fbf000419418270e6f143f66232bc556b867aaae77787d41c4f44ea",
+    "losses.py": "4d128a9f8e8ba92b4c598858c6d1437d36253a62b730d957d0217e1f4fe55a1c",
+    "materialize_masks.py": "b61806eb33bef13b7e80fd779ad4e72ae44b2c418166b85ddbb2a2c2b1c46ffb",
+    "metrics.py": "7a4a0a4522e624fb7e5345bd7b0e762effd7bc16a44d03254525ed4670678c87",
+    "model.py": "fb6b77acf8bd87a940fe533f34982650551e2d4b20e621f595d557608f15ecce",
+    "reclip_visible_defects.py": "faf302fcbfe4f2ebef9090d400dfc6cc894bf8ddf0ec3d855fe5142e3c4bc420",
+    "report_dataset_overlays.py": "0b866aecee38af135d5316a5776544666e40139fcc74a1eeeaa5e59ae10092c7",
+    "report_predictions.py": "7ceda5252c818e80cb86c4b73f02d810a89d51ed4fa70a7c864b6b84808d8242",
+    "train.py": "dc8e6d2e31de7d2f9bdba28ee4f1a60d166d3e06e5ac6fb36fe9f5aa1b90ca82",
+    "train_multitask.py": "f1fccda15d714933eb8f484af4aa2f244f018ecc3f28e31d082c945619f6ee71",
+    "train_scalar_segmentation.py": "ab68a2d4a1331be2862c5ebe826ebf8e5c321061d80ae8788ef44eb95a00a68b",
+    "train_visibility.py": "df42423f10b01cbcf62d24505c65e55b6834b92de36dc1fad4bf8630b6c046f3"
+  },
+  "split_seed": 20260702,
+  "started_at_utc": "2026-09-25T05:14:45.982701+00:00",
+  "target_mean": [
+    106.51840209960938,
+    0.8316797018051147,
+    0.9847449064254761,
+    88.76067352294922
+  ],
+  "target_std": [
+    38.107906341552734,
+    0.18882068991661072,
+    0.2153436690568924,
+    38.43036651611328
+  ],
+  "targets": [
+    "centerline_length",
+    "mean_width",
+    "max_width",
+    "crack_area"
+  ],
+  "test_fraction": 0.15,
+  "token_stride": 16,
+  "train_streams": [
+    "perspective-area"
+  ],
+  "val_fraction": 0.15,
+  "warmup_epochs": 5,
+  "weight_decay": 0.05
+}

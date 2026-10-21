@@ -1,0 +1,10 @@
+{
+  "python": "3.12.14",
+  "torch": "2.8.0",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "device": "mps",
+  "precision": "float32",
+  "threads": 4,
+  "model_id": "resnet50",
+  "weights_sha256": "d95ba9f3628b7de052e6a2e57f98d90deaffcbc36c8f32d7c4455b8ef0a0ac71"
+}

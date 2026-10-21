@@ -1,0 +1,24 @@
+{
+  "status": "local_review_candidate",
+  "release_tag_candidate": "models-v1",
+  "artifacts": [
+    {
+      "name": "metrodef3d-transformer-v1.tar.gz",
+      "bytes": 83382215,
+      "sha256": "54f580cf304f0d789f79989653092916e667036aa29f794b93ca350e9cb9c9a7",
+      "archive_readback_verified": true
+    },
+    {
+      "name": "metrodef3d-convnext_tiny-v1.tar.gz",
+      "bytes": 111134044,
+      "sha256": "6956b74d691975d7269e83313d6c238a97068efd0f901bde8114984b80873f3d",
+      "archive_readback_verified": true
+    },
+    {
+      "name": "metrodef3d-resnet50-v1.tar.gz",
+      "bytes": 97077694,
+      "sha256": "a06233a8e1cf9a32227ba17610f5df1ab44fe855dc5e0f8efde12f6883d2fc83",
+      "archive_readback_verified": true
+    }
+  ]
+}

@@ -12,8 +12,8 @@ This licence applies to:
 - rendered and example images;
 - reference geometry, metadata, manifests, tabular results, and other study
   data;
-- the materials under `studies/`, including the photographed concrete surfaces
-  in `studies/fixed_geometry_background_sensitivity/backgrounds/photographic/`.
+- the materials under `supplementary/simple_concrete_crack_v1/studies/`, including the photographed concrete surfaces
+  in `supplementary/simple_concrete_crack_v1/studies/fixed_geometry_background_sensitivity/backgrounds/photographic/`.
 
 It does not apply to the MetroDef3D software, scripts, tests, or example
 configuration files. Those materials are licensed under the Apache License 2.0

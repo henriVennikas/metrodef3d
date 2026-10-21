@@ -1,0 +1,11 @@
+{
+  "posthoc_calibration": {
+    "interval_scales": {
+      "centerline_length": 2.828725224040972,
+      "mean_width": 1.6184412087383553,
+      "max_width": 1.7126632375355813,
+      "crack_area": 2.8028893507494077
+    }
+  },
+  "source": "Validation only; 0.95 quantile, expansion only"
+}

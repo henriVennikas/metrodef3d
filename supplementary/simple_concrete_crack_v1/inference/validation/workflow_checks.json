@@ -1,0 +1,11 @@
+{
+  "all_three_generated_seed_12345": true,
+  "all_three_IMG_8184_with_dense_heads": true,
+  "generated_seed_membership": "outside_frozen_split",
+  "transformer_archived_real_prediction_difference": {
+    "centerline_length": 7.62939453125e-06,
+    "mean_width": 0.0,
+    "max_width": 0.0,
+    "crack_area": 0.0
+  }
+}

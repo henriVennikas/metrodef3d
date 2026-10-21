@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "metrodef-models"
+version = "0.1.0"
+description = "Frozen MetroDef3D benchmark models and physical-scale inference"
+requires-python = ">=3.10"
+dependencies = ["torch==2.8.0", "torchvision==0.23.0", "numpy>=1.26,<3", "Pillow>=10,<13"]
+license = "Apache-2.0"
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+
+[project.scripts]
+metrodef-predict = "metrodef_models.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

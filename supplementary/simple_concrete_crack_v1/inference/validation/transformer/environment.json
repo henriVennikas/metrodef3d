@@ -1,0 +1,10 @@
+{
+  "python": "3.12.14",
+  "torch": "2.8.0",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "device": "mps",
+  "precision": "float32",
+  "threads": 4,
+  "model_id": "transformer",
+  "weights_sha256": "514aa256c4142fd78b60035c4755982f8872de8c0eedfab811bf4334658e77cb"
+}

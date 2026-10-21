@@ -1,0 +1,9 @@
+MetroDef3D benchmark inference
+
+Model implementations are copied without architectural changes from the original
+training code (model.py and benchmark_models.py). Source hashes and checkpoint provenance
+are supplied in each model asset. The code is distributed under Apache-2.0,
+consistent with MetroDef3D. The CNN implementation uses torchvision's ResNet-50
+and ConvNeXt-Tiny implementations (torchvision is BSD-3-Clause); no torchvision
+pretrained weights are included. Reference predictions and study data retain
+the MetroDef3D studies' CC BY 4.0 license.

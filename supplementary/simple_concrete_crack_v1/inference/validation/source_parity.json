@@ -1,0 +1,104 @@
+{
+  "input_bitwise_equal": true,
+  "models": {
+    "transformer": {
+      "source_release_cpu_raw_bitwise_equal": true,
+      "denormalisation_exact": true,
+      "order_independent": true,
+      "buffers_unchanged": true,
+      "dense_head_scalar_parity": true,
+      "dense_shapes": {
+        "defect_logits": [
+          1,
+          1,
+          1024,
+          1024
+        ],
+        "skeleton_logits": [
+          1,
+          1,
+          1024,
+          1024
+        ],
+        "boundary_logits": [
+          1,
+          1,
+          1024,
+          1024
+        ],
+        "width_mm": [
+          1,
+          1,
+          1024,
+          1024
+        ]
+      }
+    },
+    "convnext_tiny": {
+      "source_release_cpu_raw_bitwise_equal": true,
+      "denormalisation_exact": true,
+      "order_independent": true,
+      "buffers_unchanged": true,
+      "dense_head_scalar_parity": true,
+      "dense_shapes": {
+        "defect_logits": [
+          1,
+          1,
+          1024,
+          1024
+        ],
+        "skeleton_logits": [
+          1,
+          1,
+          1024,
+          1024
+        ],
+        "boundary_logits": [
+          1,
+          1,
+          1024,
+          1024
+        ],
+        "width_mm": [
+          1,
+          1,
+          1024,
+          1024
+        ]
+      }
+    },
+    "resnet50": {
+      "source_release_cpu_raw_bitwise_equal": true,
+      "denormalisation_exact": true,
+      "order_independent": true,
+      "buffers_unchanged": true,
+      "dense_head_scalar_parity": true,
+      "dense_shapes": {
+        "defect_logits": [
+          1,
+          1,
+          1024,
+          1024
+        ],
+        "skeleton_logits": [
+          1,
+          1,
+          1024,
+          1024
+        ],
+        "boundary_logits": [
+          1,
+          1,
+          1024,
+          1024
+        ],
+        "width_mm": [
+          1,
+          1,
+          1024,
+          1024
+        ]
+      }
+    }
+  }
+}

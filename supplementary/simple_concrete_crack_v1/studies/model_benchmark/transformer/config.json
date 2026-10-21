@@ -1,0 +1,144 @@
+{
+  "batch_size": 1,
+  "depth": 6,
+  "device": "cuda",
+  "dropout": 0.1,
+  "effective_batch_size": 24,
+  "embed_dim": 384,
+  "epochs": 50,
+  "eval_streams": [
+    "perspective-area"
+  ],
+  "exclude_seeds": [
+    7,
+    20,
+    38,
+    40,
+    97,
+    109,
+    140,
+    141,
+    189,
+    200,
+    255,
+    325,
+    331,
+    338,
+    376,
+    379,
+    387,
+    477,
+    479,
+    490,
+    798,
+    884,
+    914,
+    925,
+    2077,
+    2080,
+    2235,
+    3003,
+    3116,
+    3404,
+    4351,
+    4458,
+    5335,
+    5667,
+    6112,
+    6304,
+    6670,
+    9130,
+    9872,
+    9905
+  ],
+  "exclude_seeds_file": [
+    "quality_manifest.json"
+  ],
+  "grad_accum_steps": 24,
+  "image_size": 1024,
+  "in_channels": 4,
+  "input_mode": "rgb-scale-avg",
+  "interval_mode": "asymmetric",
+  "loss_weights": {
+    "boundary": 0.2,
+    "defect": 0.4,
+    "interval_width": 0.002,
+    "miss": 2.0,
+    "scalar": 1.0,
+    "skeleton": 0.2,
+    "width": 0.1
+  },
+  "lr": 0.0002,
+  "max_seeds": null,
+  "mlp_ratio": 4.0,
+  "model": "ScalarSegmentationTransformer",
+  "num_heads": 8,
+  "out_dir": "v024-winner-50epoch-confirmation",
+  "parameter_count": 22452199,
+  "posthoc_calibration": {
+    "coverage_target": 0.95,
+    "enabled": true,
+    "mode": "per-target"
+  },
+  "relative_floor_fraction": 0.02,
+  "relative_floors": [
+    2.1303679943084717,
+    0.016633594408631325,
+    0.019694898277521133,
+    1.7752134799957275
+  ],
+  "run_dir": [
+    "seeds_0001_1000",
+    "seeds_1001_2000",
+    "seeds_2001_3000",
+    "seeds_3001_4000",
+    "seeds_4001_5000",
+    "seeds_5001_6000",
+    "seeds_6001_7000",
+    "seeds_7001_8000",
+    "seeds_8001_9000",
+    "seeds_9001_10000"
+  ],
+  "sample_counts": {
+    "test": 1494,
+    "train": 6972,
+    "val": 1494
+  },
+  "seed": 20260702,
+  "seed_counts": {
+    "test": 1494,
+    "train": 6972,
+    "val": 1494
+  },
+  "selection": {
+    "coverage_target": 0.68,
+    "coverage_weight": 1.0,
+    "metric": "mae_coverage"
+  },
+  "target_mean": [
+    106.51840209960938,
+    0.8316797018051147,
+    0.9847449064254761,
+    88.76067352294922
+  ],
+  "target_std": [
+    38.107906341552734,
+    0.18882068991661072,
+    0.2153436690568924,
+    38.43036651611328
+  ],
+  "targets": [
+    "centerline_length",
+    "mean_width",
+    "max_width",
+    "crack_area"
+  ],
+  "test_fraction": 0.15,
+  "token_stride": 16,
+  "train_streams": [
+    "perspective-area"
+  ],
+  "val_fraction": 0.15,
+  "warmup_epochs": 5,
+  "weight_decay": 0.05
+}

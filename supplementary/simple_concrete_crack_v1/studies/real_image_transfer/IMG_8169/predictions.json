@@ -1,0 +1,214 @@
+{
+  "status": "complete",
+  "checkpoint_epoch": 49,
+  "checkpoint_path": "best_model.pt",
+  "checkpoint_sha256": "c07657297350c1ace1e1eb797e83b1f30069cfb1511c3637a7352c2be1139952",
+  "config": {
+    "batch_size": 1,
+    "depth": 6,
+    "device": "cuda",
+    "dropout": 0.1,
+    "effective_batch_size": 24,
+    "embed_dim": 384,
+    "epochs": 50,
+    "eval_streams": [
+      "perspective-area"
+    ],
+    "exclude_seeds": [
+      7,
+      20,
+      38,
+      40,
+      97,
+      109,
+      140,
+      141,
+      189,
+      200,
+      255,
+      325,
+      331,
+      338,
+      376,
+      379,
+      387,
+      477,
+      479,
+      490,
+      798,
+      884,
+      914,
+      925,
+      2077,
+      2080,
+      2235,
+      3003,
+      3116,
+      3404,
+      4351,
+      4458,
+      5335,
+      5667,
+      6112,
+      6304,
+      6670,
+      9130,
+      9872,
+      9905
+    ],
+    "exclude_seeds_file": [
+      "quality_manifest.json"
+    ],
+    "grad_accum_steps": 24,
+    "image_size": 1024,
+    "in_channels": 4,
+    "input_mode": "rgb-scale-avg",
+    "interval_mode": "asymmetric",
+    "loss_weights": {
+      "boundary": 0.2,
+      "defect": 0.4,
+      "interval_width": 0.002,
+      "miss": 2.0,
+      "scalar": 1.0,
+      "skeleton": 0.2,
+      "width": 0.1
+    },
+    "lr": 0.0002,
+    "max_seeds": null,
+    "mlp_ratio": 4.0,
+    "model": "ScalarSegmentationTransformer",
+    "num_heads": 8,
+    "out_dir": "v024-winner-50epoch-confirmation",
+    "parameter_count": 22452199,
+    "posthoc_calibration": {
+      "coverage_target": 0.95,
+      "enabled": true,
+      "mode": "per-target"
+    },
+    "relative_floor_fraction": 0.02,
+    "relative_floors": [
+      2.1303679943084717,
+      0.016633594408631325,
+      0.019694898277521133,
+      1.7752134799957275
+    ],
+    "run_dir": [
+      "seeds_0001_1000",
+      "seeds_1001_2000",
+      "seeds_2001_3000",
+      "seeds_3001_4000",
+      "seeds_4001_5000",
+      "seeds_5001_6000",
+      "seeds_6001_7000",
+      "seeds_7001_8000",
+      "seeds_8001_9000",
+      "seeds_9001_10000"
+    ],
+    "sample_counts": {
+      "test": 1494,
+      "train": 6972,
+      "val": 1494
+    },
+    "seed": 20260702,
+    "seed_counts": {
+      "test": 1494,
+      "train": 6972,
+      "val": 1494
+    },
+    "selection": {
+      "coverage_target": 0.68,
+      "coverage_weight": 1.0,
+      "metric": "mae_coverage"
+    },
+    "target_mean": [
+      106.51840209960938,
+      0.8316797018051147,
+      0.9847449064254761,
+      88.76067352294922
+    ],
+    "target_std": [
+      38.107906341552734,
+      0.18882068991661072,
+      0.2153436690568924,
+      38.43036651611328
+    ],
+    "targets": [
+      "centerline_length",
+      "mean_width",
+      "max_width",
+      "crack_area"
+    ],
+    "test_fraction": 0.15,
+    "token_stride": 16,
+    "train_streams": [
+      "perspective-area"
+    ],
+    "val_fraction": 0.15,
+    "warmup_epochs": 5,
+    "weight_decay": 0.05
+  },
+  "calibration_scales": {
+    "centerline_length": 1.4792044162750244,
+    "crack_area": 1.6131463050842285,
+    "max_width": 2.2735495567321777,
+    "mean_width": 1.7967432737350464
+  },
+  "calibration_source": "retained synthetic validation; not calibrated on real images",
+  "training_performed": false,
+  "images": [
+    {
+      "image": "IMG_8169",
+      "inference_seconds": 1.376430459000403,
+      "scale_mean_mm_per_input_pixel": 0.07317835768878621,
+      "predictions": {
+        "centerline_length": {
+          "unit": "mm",
+          "prediction": 69.15264892578125,
+          "raw_lower": 65.74800109863281,
+          "raw_upper": 73.00585174560547,
+          "synthetic_calibrated_lower": 64.11647882400212,
+          "synthetic_calibrated_upper": 74.85232355366861
+        },
+        "mean_width": {
+          "unit": "mm",
+          "prediction": 0.7066373825073242,
+          "raw_lower": 0.6795668005943298,
+          "raw_upper": 0.7305077314376831,
+          "synthetic_calibrated_lower": 0.657998496539058,
+          "synthetic_calibrated_upper": 0.7495262713896551
+        },
+        "max_width": {
+          "unit": "mm",
+          "prediction": 0.8592909574508667,
+          "raw_lower": 0.8362413048744202,
+          "raw_upper": 0.8872560858726501,
+          "synthetic_calibrated_lower": 0.806886430052856,
+          "synthetic_calibrated_upper": 0.9228710627781709
+        },
+        "crack_area": {
+          "unit": "mm2",
+          "prediction": 51.392513275146484,
+          "raw_lower": 48.540191650390625,
+          "raw_upper": 54.50296401977539,
+          "synthetic_calibrated_lower": 46.79130118525973,
+          "synthetic_calibrated_upper": 56.41012540099109
+        }
+      },
+      "auxiliary_defect": {
+        "threshold": 0.5,
+        "pixels_above_threshold": 12669,
+        "fraction_above_threshold": 0.012082099914550781,
+        "mean_probability": 0.012063607573509216,
+        "max_probability": 1.0
+      }
+    }
+  ],
+  "elapsed_seconds": 2.3893796669999574,
+  "weights_and_buffers_unchanged": true,
+  "source_sha256": {
+    "infer_real_image_pilot.py": "6feccda6cff35febb32c0279898997d8abed8b8d797587258ef421d8d4742a45",
+    "prepare_real_image_pilot.py": "4f18aa3c62a80a1a42936a08077dec1d4d32d46dde5a82414b7ace58657cd3a5",
+    "model.py": "fb6b77acf8bd87a940fe533f34982650551e2d4b20e621f595d557608f15ecce",
+    "data.py": "20320fc92fbf000419418270e6f143f66232bc556b867aaae77787d41c4f44ea"
+  }
+}

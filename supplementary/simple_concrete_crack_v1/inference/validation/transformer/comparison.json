@@ -1,0 +1,315 @@
+{
+  "model": "transformer",
+  "samples": 1494,
+  "paired_references_exact": true,
+  "original_precision": "CUDA bfloat16 autocast; float32 denormalisation",
+  "run_environment": {
+    "python": "3.12.14",
+    "torch": "2.8.0",
+    "platform": "macOS-27.0.1-arm64-arm-64bit",
+    "device": "mps",
+    "precision": "float32",
+    "threads": 4,
+    "model_id": "transformer",
+    "weights_sha256": "514aa256c4142fd78b60035c4755982f8872de8c0eedfab811bf4334658e77cb"
+  },
+  "interpretation": "Numerical comparison, not a new training run. Cross-device and precision differences are reported, not hidden behind a pass threshold.",
+  "targets": {
+    "centerline_length": {
+      "prediction_difference": {
+        "max_abs": 0.5806732177734375,
+        "mean_abs": 0.10755996499833971,
+        "bitwise_equal_count": 0
+      },
+      "metrics": {
+        "n": {
+          "original": 1494,
+          "release": 1494,
+          "difference": 0
+        },
+        "n_positive": {
+          "original": 1493,
+          "release": 1493,
+          "difference": 0
+        },
+        "mae": {
+          "original": 1.862858470983135,
+          "release": 1.8594848742606331,
+          "difference": -0.003373596722501926
+        },
+        "rmse": {
+          "original": 3.5827145323016567,
+          "release": 3.5848082343857115,
+          "difference": 0.0020937020840547937
+        },
+        "r2": {
+          "original": 0.9907451152030451,
+          "release": 0.9907342951205265,
+          "difference": -1.082008251862554e-05
+        },
+        "positive_mare_percent": {
+          "original": 2.0360027267685608,
+          "release": 2.025841829402698,
+          "difference": -0.010160897365862898
+        },
+        "signed_bias": {
+          "original": 0.27333952177320936,
+          "release": 0.2074823788051784,
+          "difference": -0.06585714296803097
+        },
+        "raw_coverage_percent": {
+          "original": 89.69210174029452,
+          "release": 89.4912985274431,
+          "difference": -0.20080321285141167
+        },
+        "raw_mean_interval_width": {
+          "original": 7.083949248634348,
+          "release": 7.069408679742571,
+          "difference": -0.014540568891777461
+        },
+        "calibration_scale": {
+          "original": 1.4792045912919085,
+          "release": 1.4792045912919085,
+          "difference": 0.0
+        },
+        "coverage_percent": {
+          "original": 95.18072289156626,
+          "release": 95.24765729585006,
+          "difference": 0.06693440428379915
+        },
+        "mean_interval_width": {
+          "original": 10.478610253058795,
+          "release": 10.45710177679408,
+          "difference": -0.021508476264715526
+        },
+        "relative_interval_score_percent": {
+          "original": 25.506010199339755,
+          "release": 25.480123339902967,
+          "difference": -0.025886859436788257
+        }
+      }
+    },
+    "mean_width": {
+      "prediction_difference": {
+        "max_abs": 0.003732621669769287,
+        "mean_abs": 0.0007576740968977431,
+        "bitwise_equal_count": 0
+      },
+      "metrics": {
+        "n": {
+          "original": 1494,
+          "release": 1494,
+          "difference": 0
+        },
+        "n_positive": {
+          "original": 1493,
+          "release": 1493,
+          "difference": 0
+        },
+        "mae": {
+          "original": 0.016495133519491837,
+          "release": 0.016465251325284303,
+          "difference": -2.9882194207533908e-05
+        },
+        "rmse": {
+          "original": 0.031340217242191167,
+          "release": 0.03136286710335758,
+          "difference": 2.264986116641554e-05
+        },
+        "r2": {
+          "original": 0.9712393430260267,
+          "release": 0.9711977568252779,
+          "difference": -4.1586200748788826e-05
+        },
+        "positive_mare_percent": {
+          "original": 2.047269335523611,
+          "release": 2.0417251385651913,
+          "difference": -0.005544196958419789
+        },
+        "signed_bias": {
+          "original": -0.0008641154052742035,
+          "release": -0.0013763737207754868,
+          "difference": -0.0005122583155012833
+        },
+        "raw_coverage_percent": {
+          "original": 81.52610441767068,
+          "release": 81.45917001338688,
+          "difference": -0.06693440428379915
+        },
+        "raw_mean_interval_width": {
+          "original": 0.04579971638948244,
+          "release": 0.045783110990262575,
+          "difference": -1.6605399219861428e-05
+        },
+        "calibration_scale": {
+          "original": 1.7967439219457113,
+          "release": 1.7967439219457113,
+          "difference": 0.0
+        },
+        "coverage_percent": {
+          "original": 93.37349397590361,
+          "release": 93.44042838018741,
+          "difference": 0.06693440428379915
+        },
+        "mean_interval_width": {
+          "original": 0.08229036204963994,
+          "release": 0.08226052639952018,
+          "difference": -2.983565011975553e-05
+        },
+        "relative_interval_score_percent": {
+          "original": 27.428349509910234,
+          "release": 27.433027788325614,
+          "difference": 0.004678278415379822
+        }
+      }
+    },
+    "max_width": {
+      "prediction_difference": {
+        "max_abs": 0.004320859909057617,
+        "mean_abs": 0.00100900537996407,
+        "bitwise_equal_count": 0
+      },
+      "metrics": {
+        "n": {
+          "original": 1494,
+          "release": 1494,
+          "difference": 0
+        },
+        "n_positive": {
+          "original": 1493,
+          "release": 1493,
+          "difference": 0
+        },
+        "mae": {
+          "original": 0.024298100027852907,
+          "release": 0.024238746009836873,
+          "difference": -5.9354018016034155e-05
+        },
+        "rmse": {
+          "original": 0.043049200264837224,
+          "release": 0.04303338602751746,
+          "difference": -1.5814237319763946e-05
+        },
+        "r2": {
+          "original": 0.959767781788948,
+          "release": 0.9597973351827492,
+          "difference": 2.9553393801284855e-05
+        },
+        "positive_mare_percent": {
+          "original": 2.542057949848406,
+          "release": 2.533007419642826,
+          "difference": -0.00905053020558011
+        },
+        "signed_bias": {
+          "original": 0.0005290919199206903,
+          "release": -6.148566203902524e-05,
+          "difference": -0.0005905775819597156
+        },
+        "raw_coverage_percent": {
+          "original": 69.67871485943775,
+          "release": 69.61178045515395,
+          "difference": -0.06693440428379915
+        },
+        "raw_mean_interval_width": {
+          "original": 0.054249592055597776,
+          "release": 0.0542375735808887,
+          "difference": -1.201847470907319e-05
+        },
+        "calibration_scale": {
+          "original": 2.273549942953803,
+          "release": 2.273549942953803,
+          "difference": 0.0
+        },
+        "coverage_percent": {
+          "original": 94.44444444444444,
+          "release": 94.71218206157965,
+          "difference": 0.2677376171352108
+        },
+        "mean_interval_width": {
+          "original": 0.12333915692327141,
+          "release": 0.1233118323207822,
+          "difference": -2.732460248920654e-05
+        },
+        "relative_interval_score_percent": {
+          "original": 28.583262751783984,
+          "release": 28.56334978858568,
+          "difference": -0.019912963198304823
+        }
+      }
+    },
+    "crack_area": {
+      "prediction_difference": {
+        "max_abs": 0.9906005859375,
+        "mean_abs": 0.14794748758216458,
+        "bitwise_equal_count": 0
+      },
+      "metrics": {
+        "n": {
+          "original": 1494,
+          "release": 1494,
+          "difference": 0
+        },
+        "n_positive": {
+          "original": 1493,
+          "release": 1493,
+          "difference": 0
+        },
+        "mae": {
+          "original": 2.007898922426155,
+          "release": 1.987015729927155,
+          "difference": -0.02088319249900006
+        },
+        "rmse": {
+          "original": 3.7439561105599695,
+          "release": 3.7359841860856755,
+          "difference": -0.007971924474293957
+        },
+        "r2": {
+          "original": 0.9900719193361806,
+          "release": 0.9901141536172773,
+          "difference": 4.223428109673133e-05
+        },
+        "positive_mare_percent": {
+          "original": 2.441050782330076,
+          "release": 2.409209102210936,
+          "difference": -0.031841680119140126
+        },
+        "signed_bias": {
+          "original": 0.2821437185867085,
+          "release": 0.18178725529866047,
+          "difference": -0.10035646328804804
+        },
+        "raw_coverage_percent": {
+          "original": 84.53815261044177,
+          "release": 84.67202141900937,
+          "difference": 0.1338688085675983
+        },
+        "raw_mean_interval_width": {
+          "original": 6.414238540363439,
+          "release": 6.3997245237051725,
+          "difference": -0.014514016658266904
+        },
+        "calibration_scale": {
+          "original": 1.613146242485277,
+          "release": 1.613146242485277,
+          "difference": 0.0
+        },
+        "coverage_percent": {
+          "original": 94.71218206157965,
+          "release": 95.11378848728246,
+          "difference": 0.40160642570280913
+        },
+        "mean_interval_width": {
+          "original": 10.347104799791529,
+          "release": 10.323691568355878,
+          "difference": -0.023413231435650772
+        },
+        "relative_interval_score_percent": {
+          "original": 26.335089210036333,
+          "release": 26.32650056008649,
+          "difference": -0.008588649949842875
+        }
+      }
+    }
+  }
+}
