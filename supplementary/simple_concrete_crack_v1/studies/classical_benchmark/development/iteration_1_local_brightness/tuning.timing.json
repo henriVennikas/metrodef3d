@@ -1,0 +1,7 @@
+{
+  "wall_seconds": 113.1275015410065,
+  "summed_worker_seconds": 440.3528541669948,
+  "workers": 4,
+  "n": 256,
+  "oracle": false
+}

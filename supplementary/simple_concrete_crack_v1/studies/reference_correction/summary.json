@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-07",
+  "correction_version": "component-aware-2",
+  "corrected_count": 142,
+  "partition_counts": {
+    "train": 92,
+    "val": 24,
+    "test": 26,
+    "excluded": 0
+  },
+  "test_count": 1494,
+  "positive_test_count": 1493,
+  "changed_test_references": 26,
+  "model_weights_unchanged": true,
+  "predictions_unchanged": true,
+  "training_labels_used_by_retained_models": "original v1",
+  "classical_selection": "original tuning labels; settings unchanged",
+  "recalibration": "separate validation-only analysis; known-invalid seed 551 excluded, with same-cohort controls",
+  "same_runtime_replay_max_drift": {
+    "centerline_length": 0.0006570000000039045,
+    "mean_width": 0.0005020000000000024,
+    "max_width": 2.9999999999752447e-06,
+    "crack_area": 0.0060040000000007865
+  },
+  "ranking_by_mare": {
+    "centerline_length": [
+      "transformer",
+      "resnet50",
+      "convnext_tiny",
+      "conventional"
+    ],
+    "mean_width": [
+      "transformer",
+      "convnext_tiny",
+      "resnet50",
+      "conventional"
+    ],
+    "max_width": [
+      "transformer",
+      "convnext_tiny",
+      "resnet50",
+      "conventional"
+    ],
+    "crack_area": [
+      "transformer",
+      "resnet50",
+      "convnext_tiny",
+      "conventional"
+    ]
+  },
+  "regeneration_seconds": 18.144477499998175,
+  "published": false
+}

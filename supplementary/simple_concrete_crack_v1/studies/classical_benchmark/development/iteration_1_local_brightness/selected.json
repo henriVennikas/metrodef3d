@@ -1,0 +1,19 @@
+{
+  "config": {
+    "id": "local_s15_r0.5_c0",
+    "sigma_px": 15.0,
+    "dark_ratio": 0.5,
+    "closing_radius_px": 0,
+    "min_area_px": 32,
+    "min_path_px": 20,
+    "min_elongation": 3.0,
+    "path_smoothing_sigma_px": 2.0
+  },
+  "selection_score": 139.65421220346457,
+  "protocol_sha256": "c8f9da9e598580dfbf94cf377eae0ef5e3b58b72194186d1a8cbdd543176e217",
+  "source_sha256": {
+    "pipeline.py": "a1ed94c95b11ee680b9b8e760b9e37d035f1dd90e0fb09f2859895ba0dfefdf2",
+    "run_benchmark.py": "ce8aeb4d69f8ca524a83c65cb744591415a2532e3deb2974af64915faec3fa8c"
+  },
+  "frozen_before_calibration_and_test_utc": "2026-11-06T05:51:25Z"
+}

@@ -1,0 +1,1276 @@
+[
+  {
+    "image": "IMG_8117",
+    "group": "field",
+    "photo": "inputs/IMG_8117/IMG_8117.jpeg",
+    "target_photo": "inputs/IMG_8117/IMG_8116.jpeg",
+    "annotation": "inputs/IMG_8117/annotation.json",
+    "quantities": {
+      "centerline_length": {
+        "reference": 165.81134567515812,
+        "prediction": 185.03680419921875,
+        "raw_lower": 177.26132202148438,
+        "raw_upper": 193.33436584472656,
+        "calibrated_lower": 175.173913932329,
+        "calibrated_upper": 195.56193153173908,
+        "absolute_relative_error_percent": 11.594778659914699,
+        "covered": false
+      },
+      "mean_width": {
+        "reference": 0.31185940211135244,
+        "prediction": 0.521335244178772,
+        "raw_lower": 0.4721797704696655,
+        "raw_upper": 0.5626634359359741,
+        "calibrated_lower": 0.43767614254665504,
+        "calibrated_upper": 0.59167287158011,
+        "absolute_relative_error_percent": 67.16996205637057,
+        "covered": false
+      },
+      "max_width": {
+        "reference": 1.359802571193121,
+        "prediction": 0.7563235759735107,
+        "raw_lower": 0.7036759257316589,
+        "raw_upper": 0.8088707327842712,
+        "calibrated_lower": 0.63659346881526,
+        "calibrated_upper": 0.8758251432212814,
+        "absolute_relative_error_percent": 44.379898082565354,
+        "covered": false
+      },
+      "crack_area": {
+        "reference": 51.70982712553359,
+        "prediction": 97.74024200439453,
+        "raw_lower": 94.21885681152344,
+        "raw_upper": 101.88056182861328,
+        "calibrated_lower": 92.05949117433951,
+        "calibrated_upper": 104.41946736313673,
+        "absolute_relative_error_percent": 89.01676419670675,
+        "covered": false
+      }
+    }
+  },
+  {
+    "image": "IMG_8139",
+    "group": "field",
+    "photo": "inputs/IMG_8139/IMG_8139.jpeg",
+    "target_photo": "inputs/IMG_8139/IMG_8140.jpeg",
+    "annotation": "inputs/IMG_8139/annotation.json",
+    "quantities": {
+      "centerline_length": {
+        "reference": 116.7750198341209,
+        "prediction": 56.4310302734375,
+        "raw_lower": 50.68889236450195,
+        "raw_upper": 62.226585388183594,
+        "calibrated_lower": 49.14735643834665,
+        "calibrated_upper": 63.78246171213806,
+        "absolute_relative_error_percent": 51.67542651365174,
+        "covered": false
+      },
+      "mean_width": {
+        "reference": 0.5852813924373776,
+        "prediction": 1.0457003116607666,
+        "raw_lower": 0.9842898845672607,
+        "raw_upper": 1.0877349376678467,
+        "calibrated_lower": 0.9411841555986689,
+        "calibrated_upper": 1.1172402396452845,
+        "absolute_relative_error_percent": 78.66624929010564,
+        "covered": false
+      },
+      "max_width": {
+        "reference": 1.0921479886600685,
+        "prediction": 1.303700566291809,
+        "raw_lower": 1.2597696781158447,
+        "raw_upper": 1.354860782623291,
+        "calibrated_lower": 1.203793924215615,
+        "calibrated_upper": 1.4200479845615475,
+        "absolute_relative_error_percent": 19.370321589044877,
+        "covered": false
+      },
+      "crack_area": {
+        "reference": 68.34624621041667,
+        "prediction": 62.773643493652344,
+        "raw_lower": 58.568519592285156,
+        "raw_upper": 67.109619140625,
+        "calibrated_lower": 55.98987523633795,
+        "calibrated_upper": 69.76850372805782,
+        "absolute_relative_error_percent": 8.153487610143248,
+        "covered": true
+      }
+    }
+  },
+  {
+    "image": "IMG_8162",
+    "group": "field",
+    "photo": "inputs/IMG_8162/IMG_8162.jpeg",
+    "target_photo": "inputs/IMG_8162/IMG_8161.jpeg",
+    "annotation": "inputs/IMG_8162/annotation.json",
+    "quantities": {
+      "centerline_length": {
+        "reference": 81.12905433958552,
+        "prediction": 78.20283508300781,
+        "raw_lower": 74.72682189941406,
+        "raw_upper": 82.37516784667969,
+        "calibrated_lower": 73.79365044180054,
+        "calibrated_upper": 83.49527345073811,
+        "absolute_relative_error_percent": 3.6068696725211447,
+        "covered": true
+      },
+      "mean_width": {
+        "reference": 1.08143349974179,
+        "prediction": 1.1798713207244873,
+        "raw_lower": 1.1433861255645752,
+        "raw_upper": 1.2210078239440918,
+        "calibrated_lower": 1.1177761272570457,
+        "calibrated_upper": 1.2498827079405816,
+        "absolute_relative_error_percent": 9.102531131706288,
+        "covered": false
+      },
+      "max_width": {
+        "reference": 1.4603465677658747,
+        "prediction": 1.4332325458526611,
+        "raw_lower": 1.3826632499694824,
+        "raw_upper": 1.49271559715271,
+        "calibrated_lower": 1.3182289856330416,
+        "calibrated_upper": 1.5685075690215597,
+        "absolute_relative_error_percent": 1.8566840578599226,
+        "covered": true
+      },
+      "crack_area": {
+        "reference": 87.73567716519983,
+        "prediction": 90.55193328857422,
+        "raw_lower": 87.5158462524414,
+        "raw_upper": 94.204833984375,
+        "calibrated_lower": 85.65407264397699,
+        "calibrated_upper": 96.44484687888206,
+        "absolute_relative_error_percent": 3.2099326230440828,
+        "covered": true
+      }
+    }
+  },
+  {
+    "image": "IMG_8169",
+    "group": "field",
+    "photo": "inputs/IMG_8169/IMG_8169.jpeg",
+    "target_photo": "inputs/IMG_8169/IMG_8168.jpeg",
+    "annotation": "inputs/IMG_8169/annotation.json",
+    "quantities": {
+      "centerline_length": {
+        "reference": 92.22290761555304,
+        "prediction": 69.15264892578125,
+        "raw_lower": 65.74799346923828,
+        "raw_upper": 73.00585174560547,
+        "calibrated_lower": 64.83397872670233,
+        "calibrated_upper": 74.04028363695359,
+        "absolute_relative_error_percent": 25.015757241079523,
+        "covered": false
+      },
+      "mean_width": {
+        "reference": 0.6421925756143241,
+        "prediction": 0.706637442111969,
+        "raw_lower": 0.6795668601989746,
+        "raw_upper": 0.7305077314376831,
+        "calibrated_lower": 0.6605652472450891,
+        "calibrated_upper": 0.7472629678165051,
+        "absolute_relative_error_percent": 10.035131040871454,
+        "covered": false
+      },
+      "max_width": {
+        "reference": 1.1356681949221705,
+        "prediction": 0.8592910766601562,
+        "raw_lower": 0.8362413644790649,
+        "raw_upper": 0.8872561454772949,
+        "calibrated_lower": 0.8068719374064339,
+        "calibrated_upper": 0.9228886098982532,
+        "absolute_relative_error_percent": 24.336079807267556,
+        "covered": false
+      },
+      "crack_area": {
+        "reference": 59.22486657227387,
+        "prediction": 51.39251708984375,
+        "raw_lower": 48.540191650390625,
+        "raw_upper": 54.502967834472656,
+        "calibrated_lower": 46.79110337896559,
+        "calibrated_upper": 56.410342372112645,
+        "absolute_relative_error_percent": 13.22476509570869,
+        "covered": false
+      }
+    }
+  },
+  {
+    "image": "IMG_8182",
+    "group": "field",
+    "photo": "inputs/IMG_8182/IMG_8182.jpeg",
+    "target_photo": "inputs/IMG_8182/IMG_8181.jpeg",
+    "annotation": "inputs/IMG_8182/annotation.json",
+    "quantities": {
+      "centerline_length": {
+        "reference": 89.4150290506015,
+        "prediction": 87.25019836425781,
+        "raw_lower": 84.72360229492188,
+        "raw_upper": 90.12040710449219,
+        "calibrated_lower": 84.0453116175588,
+        "calibrated_upper": 90.89094413421958,
+        "absolute_relative_error_percent": 2.4211038226231256,
+        "covered": true
+      },
+      "mean_width": {
+        "reference": 0.9325572997015323,
+        "prediction": 1.0488139390945435,
+        "raw_lower": 1.026310682296753,
+        "raw_upper": 1.0739552974700928,
+        "calibrated_lower": 1.0105150050095848,
+        "calibrated_upper": 1.091602733440348,
+        "absolute_relative_error_percent": 12.466433904942829,
+        "covered": false
+      },
+      "max_width": {
+        "reference": 1.2927553491640098,
+        "prediction": 1.2486371994018555,
+        "raw_lower": 1.2207411527633667,
+        "raw_upper": 1.2825229167938232,
+        "calibrated_lower": 1.1851966348567218,
+        "calibrated_upper": 1.3256993390384182,
+        "absolute_relative_error_percent": 3.412722274998464,
+        "covered": true
+      },
+      "crack_area": {
+        "reference": 83.38463804416301,
+        "prediction": 90.33132934570312,
+        "raw_lower": 87.86568450927734,
+        "raw_upper": 93.05428314208984,
+        "calibrated_lower": 86.35371451972422,
+        "calibrated_upper": 94.72403880286235,
+        "absolute_relative_error_percent": 8.33090058850041,
+        "covered": false
+      }
+    }
+  },
+  {
+    "image": "IMG_8184",
+    "group": "field",
+    "photo": "inputs/IMG_8184/IMG_8184.jpeg",
+    "target_photo": "inputs/IMG_8184/IMG_8183.jpeg",
+    "annotation": "inputs/IMG_8184/annotation.json",
+    "quantities": {
+      "centerline_length": {
+        "reference": 88.83856774117265,
+        "prediction": 85.46621704101562,
+        "raw_lower": 82.94862365722656,
+        "raw_upper": 88.38573455810547,
+        "calibrated_lower": 82.27274984330745,
+        "calibrated_upper": 89.16950903566203,
+        "absolute_relative_error_percent": 3.796043526931036,
+        "covered": true
+      },
+      "mean_width": {
+        "reference": 0.9341361688111544,
+        "prediction": 1.0229015350341797,
+        "raw_lower": 1.0012956857681274,
+        "raw_upper": 1.0467793941497803,
+        "calibrated_lower": 0.9861299244035205,
+        "calibrated_upper": 1.0635399439798618,
+        "absolute_relative_error_percent": 9.502401168771167,
+        "covered": false
+      },
+      "max_width": {
+        "reference": 1.1597820827875414,
+        "prediction": 1.1417409181594849,
+        "raw_lower": 1.1181763410568237,
+        "raw_upper": 1.169736623764038,
+        "calibrated_lower": 1.0881508846313097,
+        "calibrated_upper": 1.205408124893422,
+        "absolute_relative_error_percent": 1.5555650406923407,
+        "covered": true
+      },
+      "crack_area": {
+        "reference": 82.98731931240923,
+        "prediction": 88.42733001708984,
+        "raw_lower": 86.01731872558594,
+        "raw_upper": 91.14571380615234,
+        "calibrated_lower": 84.53946405105778,
+        "calibrated_upper": 92.81266707064125,
+        "absolute_relative_error_percent": 6.5552312687694725,
+        "covered": false
+      }
+    }
+  },
+  {
+    "image": "IMG_8485",
+    "group": "controlled_tile",
+    "photo": "inputs/IMG_8485/IMG_8485.jpeg",
+    "target_photo": "inputs/IMG_8485/IMG_8484.jpeg",
+    "annotation": "inputs/IMG_8485/annotation.json",
+    "quantities": {
+      "centerline_length": {
+        "reference": 84.86058480718836,
+        "prediction": 58.08427810668945,
+        "raw_lower": 50.389766693115234,
+        "raw_upper": 65.00714111328125,
+        "calibrated_lower": 48.32409603763014,
+        "calibrated_upper": 66.86565482468235,
+        "absolute_relative_error_percent": 31.553290330649176,
+        "covered": false
+      },
+      "mean_width": {
+        "reference": 0.3030735820720614,
+        "prediction": 0.31615620851516724,
+        "raw_lower": 0.20621901750564575,
+        "raw_upper": 0.3825214207172394,
+        "calibrated_lower": 0.12905096993598644,
+        "calibrated_upper": 0.42910505456446485,
+        "absolute_relative_error_percent": 4.316650218624194,
+        "covered": true
+      },
+      "max_width": {
+        "reference": 1.3807460137270398,
+        "prediction": 0.6980476379394531,
+        "raw_lower": 0.6415956020355225,
+        "raw_upper": 0.749453067779541,
+        "calibrated_lower": 0.5696656821061039,
+        "calibrated_upper": 0.8149527152790107,
+        "absolute_relative_error_percent": 49.44416779048182,
+        "covered": false
+      },
+      "crack_area": {
+        "reference": 25.71900141424453,
+        "prediction": 18.56214141845703,
+        "raw_lower": 12.02923583984375,
+        "raw_upper": 24.190338134765625,
+        "calibrated_lower": 8.023161228641426,
+        "calibrated_upper": 27.64163185097484,
+        "absolute_relative_error_percent": 27.827130145977033,
+        "covered": true
+      }
+    }
+  },
+  {
+    "image": "IMG_8487",
+    "group": "controlled_tile",
+    "photo": "inputs/IMG_8487/IMG_8487.jpeg",
+    "target_photo": "inputs/IMG_8487/IMG_8486.jpeg",
+    "annotation": "inputs/IMG_8487/annotation.json",
+    "quantities": {
+      "centerline_length": {
+        "reference": 82.88638179521564,
+        "prediction": 76.54701232910156,
+        "raw_lower": 73.43684387207031,
+        "raw_upper": 80.14136505126953,
+        "calibrated_lower": 72.60188719061411,
+        "calibrated_upper": 81.10630597403521,
+        "absolute_relative_error_percent": 7.648264200718192,
+        "covered": false
+      },
+      "mean_width": {
+        "reference": 0.7254666365128769,
+        "prediction": 0.7194036245346069,
+        "raw_lower": 0.6955298185348511,
+        "raw_upper": 0.7414754033088684,
+        "calibrated_lower": 0.6787721137022943,
+        "calibrated_upper": 0.7569682138742365,
+        "absolute_relative_error_percent": 0.8357396016739296,
+        "covered": true
+      },
+      "max_width": {
+        "reference": 1.5929625464832404,
+        "prediction": 0.9813270568847656,
+        "raw_lower": 0.9553629755973816,
+        "raw_upper": 1.012599229812622,
+        "calibrated_lower": 0.9222801246755707,
+        "calibrated_upper": 1.0524455322302648,
+        "absolute_relative_error_percent": 38.3960998297652,
+        "covered": false
+      },
+      "crack_area": {
+        "reference": 60.13130461369724,
+        "prediction": 56.08430862426758,
+        "raw_lower": 53.47988510131836,
+        "raw_upper": 58.92066192626953,
+        "calibrated_lower": 51.882813962518945,
+        "calibrated_upper": 60.659955846075704,
+        "absolute_relative_error_percent": 6.730264735529786,
+        "covered": true
+      }
+    }
+  },
+  {
+    "image": "IMG_8490",
+    "group": "controlled_tile",
+    "photo": "inputs/IMG_8490/IMG_8490.jpeg",
+    "target_photo": "inputs/IMG_8490/IMG_8489.jpeg",
+    "annotation": "inputs/IMG_8490/annotation.json",
+    "quantities": {
+      "centerline_length": {
+        "reference": 82.1311814982948,
+        "prediction": 71.6741714477539,
+        "raw_lower": 68.50733947753906,
+        "raw_upper": 75.26300811767578,
+        "calibrated_lower": 67.65717089371131,
+        "calibrated_upper": 76.22646819953468,
+        "absolute_relative_error_percent": 12.73208282138008,
+        "covered": false
+      },
+      "mean_width": {
+        "reference": 1.1834492791800362,
+        "prediction": 1.0986089706420898,
+        "raw_lower": 1.0712711811065674,
+        "raw_upper": 1.129691243171692,
+        "calibrated_lower": 1.052082007507036,
+        "calibrated_upper": 1.151508776102197,
+        "absolute_relative_error_percent": 7.168901112241052,
+        "covered": false
+      },
+      "max_width": {
+        "reference": 2.11353081009666,
+        "prediction": 1.3442178964614868,
+        "raw_lower": 1.309063196182251,
+        "raw_upper": 1.3875857591629028,
+        "calibrated_lower": 1.264269864361032,
+        "calibrated_upper": 1.4428441186121794,
+        "absolute_relative_error_percent": 36.3994179767831,
+        "covered": false
+      },
+      "crack_area": {
+        "reference": 97.19808754236169,
+        "prediction": 81.36968231201172,
+        "raw_lower": 78.7810287475586,
+        "raw_upper": 84.38140869140625,
+        "calibrated_lower": 77.19362798124362,
+        "calibrated_upper": 86.22824398378802,
+        "absolute_relative_error_percent": 16.284687930152437,
+        "covered": false
+      }
+    }
+  },
+  {
+    "image": "IMG_8493",
+    "group": "controlled_tile",
+    "photo": "inputs/IMG_8493/IMG_8493.jpeg",
+    "target_photo": "inputs/IMG_8493/IMG_8492.jpeg",
+    "annotation": "inputs/IMG_8493/annotation.json",
+    "quantities": {
+      "centerline_length": {
+        "reference": 81.28599727929587,
+        "prediction": 63.49631881713867,
+        "raw_lower": 53.82868194580078,
+        "raw_upper": 72.16771697998047,
+        "calibrated_lower": 51.2333054859286,
+        "calibrated_upper": 74.49564292150417,
+        "absolute_relative_error_percent": 21.885292741174695,
+        "covered": false
+      },
+      "mean_width": {
+        "reference": 2.082411548061739,
+        "prediction": 0.821895956993103,
+        "raw_lower": 0.6526565551757812,
+        "raw_upper": 0.9233508706092834,
+        "calibrated_lower": 0.5338625957324417,
+        "calibrated_upper": 0.9945649659324123,
+        "absolute_relative_error_percent": 60.53153096667636,
+        "covered": false
+      },
+      "max_width": {
+        "reference": 3.0486423513919503,
+        "prediction": 1.3824588060379028,
+        "raw_lower": 1.174972414970398,
+        "raw_upper": 1.6040825843811035,
+        "calibrated_lower": 0.9105979020417954,
+        "calibrated_upper": 1.8864706395756135,
+        "absolute_relative_error_percent": 54.65329655980475,
+        "covered": false
+      },
+      "crack_area": {
+        "reference": 169.27089943012083,
+        "prediction": 51.8935546875,
+        "raw_lower": 44.07143020629883,
+        "raw_upper": 59.66321563720703,
+        "calibrated_lower": 39.274787439504735,
+        "calibrated_upper": 64.42768698823465,
+        "absolute_relative_error_percent": 69.34289658635451,
+        "covered": false
+      }
+    }
+  },
+  {
+    "image": "IMG_8495",
+    "group": "controlled_tile",
+    "photo": "inputs/IMG_8495/IMG_8495.jpeg",
+    "target_photo": "inputs/IMG_8495/IMG_8494.jpeg",
+    "annotation": "inputs/IMG_8495/annotation.json",
+    "quantities": {
+      "centerline_length": {
+        "reference": 80.58239327985004,
+        "prediction": 57.18257141113281,
+        "raw_lower": 49.052268981933594,
+        "raw_upper": 65.15007019042969,
+        "calibrated_lower": 46.869605750245086,
+        "calibrated_upper": 67.28902710938002,
+        "absolute_relative_error_percent": 29.03838036610964,
+        "covered": false
+      },
+      "mean_width": {
+        "reference": 3.229685208255128,
+        "prediction": 0.9464555382728577,
+        "raw_lower": 0.7803955674171448,
+        "raw_upper": 1.0497950315475464,
+        "calibrated_lower": 0.6638333411792555,
+        "calibrated_upper": 1.1223319670433334,
+        "absolute_relative_error_percent": 70.69511493399723,
+        "covered": false
+      },
+      "max_width": {
+        "reference": 4.678415300455226,
+        "prediction": 1.2956185340881348,
+        "raw_lower": 1.21040940284729,
+        "raw_upper": 1.3950047492980957,
+        "calibrated_lower": 1.101837836042513,
+        "calibrated_upper": 1.5216404390065459,
+        "absolute_relative_error_percent": 72.3064659530746,
+        "covered": false
+      },
+      "crack_area": {
+        "reference": 260.2557636217291,
+        "prediction": 57.881988525390625,
+        "raw_lower": 50.61803436279297,
+        "raw_upper": 65.34197998046875,
+        "calibrated_lower": 46.16366991537402,
+        "calibrated_upper": 69.91655740369218,
+        "absolute_relative_error_percent": 77.75957476602912,
+        "covered": false
+      }
+    }
+  },
+  {
+    "image": "IMG_8497",
+    "group": "controlled_tile",
+    "photo": "inputs/IMG_8497/IMG_8497.jpeg",
+    "target_photo": "inputs/IMG_8497/IMG_8496.jpeg",
+    "annotation": "inputs/IMG_8497/annotation.json",
+    "quantities": {
+      "centerline_length": {
+        "reference": 82.55814582227933,
+        "prediction": 69.54135131835938,
+        "raw_lower": 65.98590087890625,
+        "raw_upper": 73.40110778808594,
+        "calibrated_lower": 65.03140367368366,
+        "calibrated_upper": 74.4372990740937,
+        "absolute_relative_error_percent": 15.766820311033698,
+        "covered": false
+      },
+      "mean_width": {
+        "reference": 0.8389169020773167,
+        "prediction": 0.7002520561218262,
+        "raw_lower": 0.6714648008346558,
+        "raw_upper": 0.7241588830947876,
+        "calibrated_lower": 0.651258205914399,
+        "calibrated_upper": 0.7409397662895322,
+        "absolute_relative_error_percent": 16.52903232872412,
+        "covered": false
+      },
+      "max_width": {
+        "reference": 2.400398992632988,
+        "prediction": 1.1179256439208984,
+        "raw_lower": 1.0855351686477661,
+        "raw_upper": 1.1574822664260864,
+        "calibrated_lower": 1.044263950425679,
+        "calibrated_upper": 1.207884428968435,
+        "absolute_relative_error_percent": 53.427507370570495,
+        "covered": false
+      },
+      "crack_area": {
+        "reference": 69.25942393447394,
+        "prediction": 49.98819351196289,
+        "raw_lower": 47.137149810791016,
+        "raw_upper": 52.97605895996094,
+        "calibrated_lower": 45.388847520293595,
+        "calibrated_upper": 54.80826237525267,
+        "absolute_relative_error_percent": 27.82470504049165,
+        "covered": false
+      }
+    }
+  },
+  {
+    "image": "IMG_8500",
+    "group": "controlled_tile",
+    "photo": "inputs/IMG_8500/IMG_8500.jpeg",
+    "target_photo": "inputs/IMG_8500/IMG_8499.jpeg",
+    "annotation": "inputs/IMG_8500/annotation.json",
+    "quantities": {
+      "centerline_length": {
+        "reference": 81.75565913659946,
+        "prediction": 65.8968505859375,
+        "raw_lower": 61.93386459350586,
+        "raw_upper": 70.00372314453125,
+        "calibrated_lower": 60.86996028137204,
+        "calibrated_upper": 71.10625528388685,
+        "absolute_relative_error_percent": 19.397811378616193,
+        "covered": false
+      },
+      "mean_width": {
+        "reference": 1.6291231134480408,
+        "prediction": 0.9486111998558044,
+        "raw_lower": 0.9129996299743652,
+        "raw_upper": 0.9796396493911743,
+        "calibrated_lower": 0.8880028541480378,
+        "calibrated_upper": 1.0014194024280771,
+        "absolute_relative_error_percent": 41.77166894108648,
+        "covered": false
+      },
+      "max_width": {
+        "reference": 4.3339905946138355,
+        "prediction": 1.39767587184906,
+        "raw_lower": 1.3535332679748535,
+        "raw_upper": 1.4516761302947998,
+        "calibrated_lower": 1.2972877506732068,
+        "calibrated_upper": 1.5204820502935064,
+        "absolute_relative_error_percent": 67.75083283323104,
+        "covered": false
+      },
+      "crack_area": {
+        "reference": 133.19003395461368,
+        "prediction": 63.75255584716797,
+        "raw_lower": 60.65771484375,
+        "raw_upper": 67.10285949707031,
+        "calibrated_lower": 58.7599124309785,
+        "calibrated_upper": 69.1573153942488,
+        "absolute_relative_error_percent": 52.134139504091934,
+        "covered": false
+      }
+    }
+  },
+  {
+    "image": "IMG_8502",
+    "group": "controlled_tile",
+    "photo": "inputs/IMG_8502/IMG_8502.jpeg",
+    "target_photo": "inputs/IMG_8502/IMG_8501.jpeg",
+    "annotation": "inputs/IMG_8502/annotation.json",
+    "quantities": {
+      "centerline_length": {
+        "reference": 81.06083875684351,
+        "prediction": 58.2656135559082,
+        "raw_lower": 52.649112701416016,
+        "raw_upper": 63.88032531738281,
+        "calibrated_lower": 51.141305333535044,
+        "calibrated_upper": 65.38765238485902,
+        "absolute_relative_error_percent": 28.121131671624646,
+        "covered": false
+      },
+      "mean_width": {
+        "reference": 2.5553431474509054,
+        "prediction": 0.9954708218574524,
+        "raw_lower": 0.9378452301025391,
+        "raw_upper": 1.0416843891143799,
+        "calibrated_lower": 0.8973961849255727,
+        "calibrated_upper": 1.0741230090545362,
+        "absolute_relative_error_percent": 61.04355601514853,
+        "covered": false
+      },
+      "max_width": {
+        "reference": 6.323855130540359,
+        "prediction": 1.3585948944091797,
+        "raw_lower": 1.3045456409454346,
+        "raw_upper": 1.4236533641815186,
+        "calibrated_lower": 1.235677292592008,
+        "calibrated_upper": 1.5065494094086314,
+        "absolute_relative_error_percent": 78.51635013193145,
+        "covered": false
+      },
+      "crack_area": {
+        "reference": 207.1382588439228,
+        "prediction": 61.92752456665039,
+        "raw_lower": 57.48709487915039,
+        "raw_upper": 66.63053894042969,
+        "calibrated_lower": 54.76415752457458,
+        "calibrated_upper": 69.51449711986446,
+        "absolute_relative_error_percent": 70.1032899898457,
+        "covered": false
+      }
+    }
+  },
+  {
+    "image": "IMG_8505",
+    "group": "controlled_tile",
+    "photo": "inputs/IMG_8505/IMG_8505.jpeg",
+    "target_photo": "inputs/IMG_8505/IMG_8504.jpeg",
+    "annotation": "inputs/IMG_8505/annotation.json",
+    "quantities": {
+      "centerline_length": {
+        "reference": 82.05880542249042,
+        "prediction": 67.17375183105469,
+        "raw_lower": 63.69388198852539,
+        "raw_upper": 70.96283721923828,
+        "calibrated_lower": 62.75967517119074,
+        "calibrated_upper": 71.98005612721082,
+        "absolute_relative_error_percent": 18.139495834478826,
+        "covered": false
+      },
+      "mean_width": {
+        "reference": 1.0988008040675088,
+        "prediction": 0.9529327750205994,
+        "raw_lower": 0.9225170612335205,
+        "raw_upper": 0.9812138676643372,
+        "calibrated_lower": 0.9011674048812569,
+        "calibrated_upper": 1.0010651725995787,
+        "absolute_relative_error_percent": 13.275202248391102,
+        "covered": false
+      },
+      "max_width": {
+        "reference": 2.4553359126654506,
+        "prediction": 1.3720567226409912,
+        "raw_lower": 1.324793815612793,
+        "raw_upper": 1.4278236627578735,
+        "calibrated_lower": 1.264572477910194,
+        "calibrated_upper": 1.4988806489778643,
+        "absolute_relative_error_percent": 44.11938848923033,
+        "covered": false
+      },
+      "crack_area": {
+        "reference": 90.16628137905172,
+        "prediction": 66.74839782714844,
+        "raw_lower": 63.97068786621094,
+        "raw_upper": 69.83207702636719,
+        "calibrated_lower": 62.26735491307225,
+        "calibrated_upper": 71.72303485522734,
+        "absolute_relative_error_percent": 25.971885713525666,
+        "covered": false
+      }
+    }
+  },
+  {
+    "image": "IMG_8507",
+    "group": "controlled_tile",
+    "photo": "inputs/IMG_8507/IMG_8507.jpeg",
+    "target_photo": "inputs/IMG_8507/IMG_8506.jpeg",
+    "annotation": "inputs/IMG_8507/annotation.json",
+    "quantities": {
+      "centerline_length": {
+        "reference": 81.18700009736403,
+        "prediction": 62.93980407714844,
+        "raw_lower": 57.83522033691406,
+        "raw_upper": 68.5700912475586,
+        "calibrated_lower": 56.46484237866363,
+        "calibrated_upper": 70.08159969361184,
+        "absolute_relative_error_percent": 22.475514550768633,
+        "covered": false
+      },
+      "mean_width": {
+        "reference": 2.262510039571857,
+        "prediction": 0.9677784442901611,
+        "raw_lower": 0.915774941444397,
+        "raw_upper": 1.0117311477661133,
+        "calibrated_lower": 0.8792722007017917,
+        "calibrated_upper": 1.042582802983988,
+        "absolute_relative_error_percent": 57.225451937738256,
+        "covered": false
+      },
+      "max_width": {
+        "reference": 4.421351790080396,
+        "prediction": 1.2010655403137207,
+        "raw_lower": 1.1592679023742676,
+        "raw_upper": 1.2513344287872314,
+        "calibrated_lower": 1.1060102881521674,
+        "calibrated_upper": 1.3153859207297698,
+        "absolute_relative_error_percent": 72.83487952692674,
+        "covered": false
+      },
+      "crack_area": {
+        "reference": 183.68640280300747,
+        "prediction": 65.32523345947266,
+        "raw_lower": 61.04661560058594,
+        "raw_upper": 70.15412902832031,
+        "calibrated_lower": 58.422903659664044,
+        "calibrated_upper": 73.11527942391723,
+        "absolute_relative_error_percent": 64.43654377099975,
+        "covered": false
+      }
+    }
+  },
+  {
+    "image": "IMG_8509",
+    "group": "controlled_tile",
+    "photo": "inputs/IMG_8509/IMG_8509.jpeg",
+    "target_photo": "inputs/IMG_8509/IMG_8508.jpeg",
+    "annotation": "inputs/IMG_8509/annotation.json",
+    "quantities": {
+      "centerline_length": {
+        "reference": 80.1356862641974,
+        "prediction": 60.47871017456055,
+        "raw_lower": 50.895668029785156,
+        "raw_upper": 68.79660034179688,
+        "calibrated_lower": 48.323001893528925,
+        "calibrated_upper": 71.02962342935726,
+        "absolute_relative_error_percent": 24.529615962643966,
+        "covered": false
+      },
+      "mean_width": {
+        "reference": 2.4949095717092447,
+        "prediction": 0.6017084717750549,
+        "raw_lower": 0.4852786064147949,
+        "raw_upper": 0.6723271608352661,
+        "calibrated_lower": 0.40355316567771604,
+        "calibrated_upper": 0.721896431312928,
+        "absolute_relative_error_percent": 75.88255387697966,
+        "covered": false
+      },
+      "max_width": {
+        "reference": 4.2204836294059955,
+        "prediction": 0.6712607145309448,
+        "raw_lower": 0.580482542514801,
+        "raw_upper": 0.7421958446502686,
+        "calibrated_lower": 0.464815028670441,
+        "calibrated_upper": 0.8325797988861967,
+        "absolute_relative_error_percent": 84.09517075593016,
+        "covered": false
+      },
+      "crack_area": {
+        "reference": 199.93129069603515,
+        "prediction": 40.416664123535156,
+        "raw_lower": 32.20658874511719,
+        "raw_upper": 47.86960220336914,
+        "calibrated_lower": 27.172048733210413,
+        "calibrated_upper": 52.43985439226172,
+        "absolute_relative_error_percent": 79.78472305018903,
+        "covered": false
+      }
+    }
+  },
+  {
+    "image": "IMG_8512",
+    "group": "controlled_tile",
+    "photo": "inputs/IMG_8512/IMG_8512.jpeg",
+    "target_photo": "inputs/IMG_8512/IMG_8510.jpeg",
+    "annotation": "inputs/IMG_8512/annotation.json",
+    "quantities": {
+      "centerline_length": {
+        "reference": 74.59875932463207,
+        "prediction": 45.78717041015625,
+        "raw_lower": 35.658607482910156,
+        "raw_upper": 54.17971420288086,
+        "calibrated_lower": 32.93949068699033,
+        "calibrated_upper": 56.432778823322025,
+        "absolute_relative_error_percent": 38.62207518639308,
+        "covered": false
+      },
+      "mean_width": {
+        "reference": 1.691503897857773,
+        "prediction": 0.44703152775764465,
+        "raw_lower": 0.3305543065071106,
+        "raw_upper": 0.5087589621543884,
+        "calibrated_lower": 0.2487956253210097,
+        "calibrated_upper": 0.5520872075838027,
+        "absolute_relative_error_percent": 73.57194811529588,
+        "covered": false
+      },
+      "max_width": {
+        "reference": 4.6979815174100334,
+        "prediction": 0.7105600833892822,
+        "raw_lower": 0.6357542276382446,
+        "raw_upper": 0.7661083936691284,
+        "calibrated_lower": 0.5404382814856433,
+        "calibrated_upper": 0.8368868066468901,
+        "absolute_relative_error_percent": 84.87520479261039,
+        "covered": false
+      },
+      "crack_area": {
+        "reference": 126.18409217296903,
+        "prediction": 22.367156982421875,
+        "raw_lower": 15.066703796386719,
+        "raw_upper": 28.641754150390625,
+        "calibrated_lower": 10.589957606362256,
+        "calibrated_upper": 32.489430212388335,
+        "absolute_relative_error_percent": 82.27418639129114,
+        "covered": false
+      }
+    }
+  },
+  {
+    "image": "IMG_8518",
+    "group": "controlled_tile",
+    "photo": "inputs/IMG_8518/IMG_8518.jpeg",
+    "target_photo": "inputs/IMG_8518/IMG_8517.jpeg",
+    "annotation": "inputs/IMG_8518/annotation.json",
+    "quantities": {
+      "centerline_length": {
+        "reference": 76.89479804445065,
+        "prediction": 62.3868408203125,
+        "raw_lower": 58.77349090576172,
+        "raw_upper": 66.26244354248047,
+        "calibrated_lower": 57.80344999149138,
+        "calibrated_upper": 67.30288891778751,
+        "absolute_relative_error_percent": 18.867280483331946,
+        "covered": false
+      },
+      "mean_width": {
+        "reference": 0.6938320630223367,
+        "prediction": 0.7368109226226807,
+        "raw_lower": 0.7068060636520386,
+        "raw_upper": 0.7612621784210205,
+        "calibrated_lower": 0.6857447980047574,
+        "calibrated_upper": 0.7784252117244709,
+        "absolute_relative_error_percent": 6.19441820159302,
+        "covered": true
+      },
+      "max_width": {
+        "reference": 1.2385219558555194,
+        "prediction": 1.1520119905471802,
+        "raw_lower": 1.1205395460128784,
+        "raw_upper": 1.1926212310791016,
+        "calibrated_lower": 1.0804380619993006,
+        "calibrated_upper": 1.24436461593818,
+        "absolute_relative_error_percent": 6.9849359471856705,
+        "covered": true
+      },
+      "crack_area": {
+        "reference": 53.35207636286714,
+        "prediction": 45.450904846191406,
+        "raw_lower": 42.49299621582031,
+        "raw_upper": 48.51145935058594,
+        "calibrated_lower": 40.679162765482715,
+        "calibrated_upper": 50.38823677354364,
+        "absolute_relative_error_percent": 14.809492067257048,
+        "covered": false
+      }
+    }
+  },
+  {
+    "image": "IMG_8519",
+    "group": "controlled_tile",
+    "photo": "inputs/IMG_8519/IMG_8519.jpeg",
+    "target_photo": "inputs/IMG_8519/IMG_8517.jpeg",
+    "annotation": "inputs/IMG_8519/annotation.json",
+    "quantities": {
+      "centerline_length": {
+        "reference": 75.75169638922043,
+        "prediction": 42.766632080078125,
+        "raw_lower": 32.60986328125,
+        "raw_upper": 51.87455749511719,
+        "calibrated_lower": 29.883174329268833,
+        "calibrated_upper": 54.31967366311748,
+        "absolute_relative_error_percent": 43.543664210054736,
+        "covered": false
+      },
+      "mean_width": {
+        "reference": 1.717541043148716,
+        "prediction": 1.0361003875732422,
+        "raw_lower": 0.7598080039024353,
+        "raw_upper": 1.2328603267669678,
+        "calibrated_lower": 0.5658705054957605,
+        "calibrated_upper": 1.3709717357276503,
+        "absolute_relative_error_percent": 39.67536370055002,
+        "covered": false
+      },
+      "max_width": {
+        "reference": 2.2201988716093988,
+        "prediction": 1.4458402395248413,
+        "raw_lower": 1.2630228996276855,
+        "raw_upper": 1.6594598293304443,
+        "calibrated_lower": 1.0300811392474174,
+        "calibrated_upper": 1.9316491267407505,
+        "absolute_relative_error_percent": 34.877895038440094,
+        "covered": false
+      },
+      "crack_area": {
+        "reference": 130.10664763662646,
+        "prediction": 44.4848747253418,
+        "raw_lower": 35.73746871948242,
+        "raw_upper": 52.69319534301758,
+        "calibrated_lower": 30.373429595961156,
+        "calibrated_upper": 57.72665930960678,
+        "absolute_relative_error_percent": 65.80891481457338,
+        "covered": false
+      }
+    }
+  },
+  {
+    "image": "IMG_8563",
+    "group": "controlled_tile",
+    "photo": "inputs/IMG_8563/IMG_8563.jpeg",
+    "target_photo": "inputs/IMG_8563/IMG_8562.jpeg",
+    "annotation": "inputs/IMG_8563/annotation.json",
+    "quantities": {
+      "centerline_length": {
+        "reference": 172.35307905827395,
+        "prediction": 154.2780303955078,
+        "raw_lower": 148.83663940429688,
+        "raw_upper": 159.78414916992188,
+        "calibrated_lower": 147.37584207859064,
+        "calibrated_upper": 161.26232333415246,
+        "absolute_relative_error_percent": 10.487221209813615,
+        "covered": false
+      },
+      "mean_width": {
+        "reference": 0.9990664828548109,
+        "prediction": 0.9949840903282166,
+        "raw_lower": 0.9646966457366943,
+        "raw_upper": 1.0247995853424072,
+        "calibrated_lower": 0.9434370251884525,
+        "calibrated_upper": 1.0457279310317995,
+        "absolute_relative_error_percent": 0.4086207070953898,
+        "covered": true
+      },
+      "max_width": {
+        "reference": 5.088398469913743,
+        "prediction": 1.2934868335723877,
+        "raw_lower": 1.253300428390503,
+        "raw_upper": 1.3398669958114624,
+        "calibrated_lower": 1.2020958108652229,
+        "calibrated_upper": 1.3989635598724548,
+        "absolute_relative_error_percent": 74.57968668883916,
+        "covered": false
+      },
+      "crack_area": {
+        "reference": 172.19218450394692,
+        "prediction": 154.21261596679688,
+        "raw_lower": 148.3035888671875,
+        "raw_upper": 160.82748413085938,
+        "calibrated_lower": 144.6800857940455,
+        "calibrated_upper": 164.88381941530815,
+        "absolute_relative_error_percent": 10.441570614221416,
+        "covered": false
+      }
+    }
+  },
+  {
+    "image": "IMG_8569",
+    "group": "controlled_tile",
+    "photo": "inputs/IMG_8569/IMG_8569.jpeg",
+    "target_photo": "inputs/IMG_8569/IMG_8568.jpeg",
+    "annotation": "inputs/IMG_8569/annotation.json",
+    "quantities": {
+      "centerline_length": {
+        "reference": 125.05728318024379,
+        "prediction": 110.96678924560547,
+        "raw_lower": 100.76295471191406,
+        "raw_upper": 120.59127044677734,
+        "calibrated_lower": 98.02363047977535,
+        "calibrated_upper": 123.17506132353863,
+        "absolute_relative_error_percent": 11.267231764766416,
+        "covered": false
+      },
+      "mean_width": {
+        "reference": 4.185320167327077,
+        "prediction": 0.7653677463531494,
+        "raw_lower": 0.6629780530929565,
+        "raw_upper": 0.83660888671875,
+        "calibrated_lower": 0.5911078092965594,
+        "calibrated_upper": 0.8866150735074712,
+        "absolute_relative_error_percent": 81.71304187603057,
+        "covered": false
+      },
+      "max_width": {
+        "reference": 5.089410832491735,
+        "prediction": 0.838787317276001,
+        "raw_lower": 0.7569079399108887,
+        "raw_upper": 0.9187580943107605,
+        "calibrated_lower": 0.652579070926146,
+        "calibrated_upper": 1.0206550674968615,
+        "absolute_relative_error_percent": 83.51897017389462,
+        "covered": false
+      },
+      "crack_area": {
+        "reference": 523.4047693654076,
+        "prediction": 89.54363250732422,
+        "raw_lower": 81.16876220703125,
+        "raw_upper": 97.88345336914062,
+        "calibrated_lower": 76.03316750443068,
+        "calibrated_upper": 102.99755523613715,
+        "absolute_relative_error_percent": 82.8920870140542,
+        "covered": false
+      }
+    }
+  },
+  {
+    "image": "IMG_8579",
+    "group": "controlled_tile",
+    "photo": "inputs/IMG_8579/IMG_8579.jpeg",
+    "target_photo": "inputs/IMG_8579/IMG_8578.jpeg",
+    "annotation": "inputs/IMG_8579/annotation.json",
+    "quantities": {
+      "centerline_length": {
+        "reference": 72.9318813651504,
+        "prediction": 70.96737670898438,
+        "raw_lower": 67.91512298583984,
+        "raw_upper": 74.29597473144531,
+        "calibrated_lower": 67.09571410981012,
+        "calibrated_upper": 75.18957107425837,
+        "absolute_relative_error_percent": 2.693615767746727,
+        "covered": true
+      },
+      "mean_width": {
+        "reference": 1.0494938406317582,
+        "prediction": 1.1156200170516968,
+        "raw_lower": 1.0877444744110107,
+        "raw_upper": 1.1485586166381836,
+        "calibrated_lower": 1.06817783658105,
+        "calibrated_upper": 1.1716791584350705,
+        "absolute_relative_error_percent": 6.300768414241759,
+        "covered": false
+      },
+      "max_width": {
+        "reference": 1.2988029978131477,
+        "prediction": 1.317492961883545,
+        "raw_lower": 1.2837104797363281,
+        "raw_upper": 1.3597177267074585,
+        "calibrated_lower": 1.2406655975286853,
+        "calibrated_upper": 1.4135195764404132,
+        "absolute_relative_error_percent": 1.4390145466145652,
+        "covered": true
+      },
+      "crack_area": {
+        "reference": 76.54156027841145,
+        "prediction": 79.38902282714844,
+        "raw_lower": 76.82772827148438,
+        "raw_upper": 82.25308990478516,
+        "calibrated_lower": 75.25710445520774,
+        "calibrated_upper": 84.00937832292212,
+        "absolute_relative_error_percent": 3.7201522132285456,
+        "covered": true
+      }
+    }
+  },
+  {
+    "image": "IMG_8581",
+    "group": "controlled_tile",
+    "photo": "inputs/IMG_8581/IMG_8581.jpeg",
+    "target_photo": "inputs/IMG_8581/IMG_8580.jpeg",
+    "annotation": "inputs/IMG_8581/annotation.json",
+    "quantities": {
+      "centerline_length": {
+        "reference": 130.81144500845778,
+        "prediction": 101.97527313232422,
+        "raw_lower": 99.03897094726562,
+        "raw_upper": 105.47138214111328,
+        "calibrated_lower": 98.2506904531186,
+        "calibrated_upper": 106.4099485294992,
+        "absolute_relative_error_percent": 22.04407410549522,
+        "covered": false
+      },
+      "mean_width": {
+        "reference": 0.7839422730611733,
+        "prediction": 0.9444941282272339,
+        "raw_lower": 0.9210007786750793,
+        "raw_upper": 0.9690670967102051,
+        "calibrated_lower": 0.9045101270660685,
+        "calibrated_upper": 0.9863155636157988,
+        "absolute_relative_error_percent": 20.480060928355154,
+        "covered": false
+      },
+      "max_width": {
+        "reference": 1.2278423262981184,
+        "prediction": 1.1559324264526367,
+        "raw_lower": 1.1287548542022705,
+        "raw_upper": 1.1887385845184326,
+        "calibrated_lower": 1.0941258002710426,
+        "calibrated_upper": 1.230539456445892,
+        "absolute_relative_error_percent": 5.856607017473191,
+        "covered": true
+      },
+      "crack_area": {
+        "reference": 102.54862154234706,
+        "prediction": 101.0603256225586,
+        "raw_lower": 98.19058227539062,
+        "raw_upper": 104.45973205566406,
+        "calibrated_lower": 96.4308130845742,
+        "calibrated_upper": 106.54429850790297,
+        "absolute_relative_error_percent": 1.4513075821052202,
+        "covered": true
+      }
+    }
+  },
+  {
+    "image": "IMG_8603",
+    "group": "controlled_tile",
+    "photo": "inputs/IMG_8603/IMG_8603.jpeg",
+    "target_photo": "inputs/IMG_8603/IMG_8602.jpeg",
+    "annotation": "inputs/IMG_8603/annotation.json",
+    "quantities": {
+      "centerline_length": {
+        "reference": 98.93239133244154,
+        "prediction": 86.7144775390625,
+        "raw_lower": 82.27349090576172,
+        "raw_upper": 91.92745971679688,
+        "calibrated_lower": 81.08126240979414,
+        "calibrated_upper": 93.32693834946429,
+        "absolute_relative_error_percent": 12.349760911290725,
+        "covered": false
+      },
+      "mean_width": {
+        "reference": 1.363548321713628,
+        "prediction": 1.4354546070098877,
+        "raw_lower": 1.3713650703430176,
+        "raw_upper": 1.5081541538238525,
+        "calibrated_lower": 1.3263787980104988,
+        "calibrated_upper": 1.5591840376631334,
+        "absolute_relative_error_percent": 5.273468064988862,
+        "covered": true
+      },
+      "max_width": {
+        "reference": 1.726908687559796,
+        "prediction": 1.602712869644165,
+        "raw_lower": 1.5309453010559082,
+        "raw_upper": 1.684913992881775,
+        "calibrated_lower": 1.4395006723649715,
+        "calibrated_upper": 1.7896528232518918,
+        "absolute_relative_error_percent": 7.191799937675086,
+        "covered": true
+      },
+      "crack_area": {
+        "reference": 134.89909616446653,
+        "prediction": 123.83971405029297,
+        "raw_lower": 118.7990493774414,
+        "raw_upper": 129.77049255371094,
+        "calibrated_lower": 115.70803902584507,
+        "calibrated_upper": 133.4073339103329,
+        "absolute_relative_error_percent": 8.198262574487647,
+        "covered": false
+      }
+    }
+  },
+  {
+    "image": "IMG_8605",
+    "group": "controlled_tile",
+    "photo": "inputs/IMG_8605/IMG_8605.jpeg",
+    "target_photo": "inputs/IMG_8605/IMG_8602.jpeg",
+    "annotation": "inputs/IMG_8605/annotation.json",
+    "quantities": {
+      "centerline_length": {
+        "reference": 113.49065975775163,
+        "prediction": 98.59740447998047,
+        "raw_lower": 95.10738372802734,
+        "raw_upper": 102.57538604736328,
+        "calibrated_lower": 94.17045179475014,
+        "calibrated_upper": 103.64331607568282,
+        "absolute_relative_error_percent": 13.122890737934867,
+        "covered": false
+      },
+      "mean_width": {
+        "reference": 1.2214325446620906,
+        "prediction": 1.4032868146896362,
+        "raw_lower": 1.3521673679351807,
+        "raw_upper": 1.459891676902771,
+        "calibrated_lower": 1.3162851713585841,
+        "calibrated_upper": 1.4996242429236628,
+        "absolute_relative_error_percent": 14.888605254730265,
+        "covered": false
+      },
+      "max_width": {
+        "reference": 1.669664202672272,
+        "prediction": 1.5549088716506958,
+        "raw_lower": 1.5020298957824707,
+        "raw_upper": 1.6150243282318115,
+        "calibrated_lower": 1.4346526889333862,
+        "calibrated_upper": 1.691622096747349,
+        "absolute_relative_error_percent": 6.872958696599708,
+        "covered": true
+      },
+      "crack_area": {
+        "reference": 138.6211853432901,
+        "prediction": 135.84786987304688,
+        "raw_lower": 131.1968231201172,
+        "raw_upper": 141.0515899658203,
+        "calibrated_lower": 128.34473225668523,
+        "calibrated_upper": 144.24258831970866,
+        "absolute_relative_error_percent": 2.0006433095888068,
+        "covered": true
+      }
+    }
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-07",
+  "scope": "Independent numerical verification of planar visible-reference export, not rendered mesh/fracture realism, physical calibration or all stochastic construction validity.",
+  "expected": "Closed-form straight/tapered/annular-sector quantities; independent double-precision world-plane convex intersection and separate segment clipping.",
+  "groups": [
+    "straight constant and linear-width strips",
+    "rigid transformations",
+    "perspective tilt and field of view",
+    "partial, empty, boundary and re-entry visibility",
+    "arc polygon vs analytic smooth arc with sampling refinement",
+    "resolution invariance",
+    "clip-denominator tolerance sensitivity"
+  ],
+  "length_width_absolute_check_mm": 0.001,
+  "area_absolute_check_mm2": 0.01,
+  "note": "Numerical acceptance criteria for prescribed fixtures, fixed before execution. Not measurement uncertainties or claimed worst-case bounds. Stress failures retained separately, never removed from report. No production modifications or dataset relabelling."
+}

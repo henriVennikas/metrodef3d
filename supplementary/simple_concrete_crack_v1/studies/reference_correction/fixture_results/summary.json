@@ -1,0 +1,1018 @@
+{
+  "blender": "5.1.2",
+  "cases": 72,
+  "unchanged_ordinary": 65,
+  "fixed_exception_cases": 3,
+  "reentry_components": 2,
+  "reentry_length_mm": 115.1751,
+  "rows": [
+    {
+      "id": "perspective_constant",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 79.999992,
+        "crack_area": 159.999824,
+        "max_depth": 1.0,
+        "max_width": 2.0,
+        "mean_width": 1.999998,
+        "point_count": 81,
+        "visible_polygon_point_count": 162
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "perspective_tapered",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 79.999992,
+        "crack_area": 159.999998,
+        "max_depth": 1.0,
+        "max_width": 3.0,
+        "mean_width": 2.0,
+        "point_count": 81,
+        "visible_polygon_point_count": 162
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "perspective_rigid",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 80.000001,
+        "crack_area": 160.000037,
+        "max_depth": 1.0,
+        "max_width": 2.0,
+        "mean_width": 2.0,
+        "point_count": 81,
+        "visible_polygon_point_count": 162
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "perspective_clipped",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 100.0,
+        "crack_area": 199.9998,
+        "max_depth": 1.0,
+        "max_width": 2.0,
+        "mean_width": 1.999998,
+        "point_count": 101,
+        "visible_polygon_point_count": 202
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "perspective_width_clipped",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 80.0,
+        "crack_area": 120.000212,
+        "max_depth": 1.0,
+        "max_width": 2.0,
+        "mean_width": 1.500003,
+        "point_count": 81,
+        "visible_polygon_point_count": 83
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "perspective_excluded",
+      "components": 0,
+      "measurands": {
+        "centerline_length": 0.0,
+        "crack_area": 0.0,
+        "max_depth": 0.0,
+        "max_width": 0.0,
+        "mean_width": 0.0,
+        "point_count": 0,
+        "visible_polygon_point_count": 0
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "orthographic_constant",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 80.0,
+        "crack_area": 160.0,
+        "max_depth": 1.0,
+        "max_width": 2.0,
+        "mean_width": 2.0,
+        "point_count": 81,
+        "visible_polygon_point_count": 162
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "orthographic_tapered",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 80.0,
+        "crack_area": 160.0,
+        "max_depth": 1.0,
+        "max_width": 3.0,
+        "mean_width": 2.0,
+        "point_count": 81,
+        "visible_polygon_point_count": 162
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "orthographic_rigid",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 79.999995,
+        "crack_area": 160.000065,
+        "max_depth": 1.0,
+        "max_width": 2.0,
+        "mean_width": 2.000001,
+        "point_count": 81,
+        "visible_polygon_point_count": 162
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "orthographic_clipped",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 100.0,
+        "crack_area": 200.0,
+        "max_depth": 1.0,
+        "max_width": 2.0,
+        "mean_width": 2.0,
+        "point_count": 101,
+        "visible_polygon_point_count": 202
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "orthographic_width_clipped",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 80.0,
+        "crack_area": 120.0,
+        "max_depth": 1.0,
+        "max_width": 2.0,
+        "mean_width": 1.5,
+        "point_count": 81,
+        "visible_polygon_point_count": 83
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "orthographic_excluded",
+      "components": 0,
+      "measurands": {
+        "centerline_length": 0.0,
+        "crack_area": 0.0,
+        "max_depth": 0.0,
+        "max_width": 0.0,
+        "mean_width": 0.0,
+        "point_count": 0,
+        "visible_polygon_point_count": 0
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "tilt0_fov50_angle0",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 50.0,
+        "crack_area": 99.999997,
+        "max_depth": 1.0,
+        "max_width": 2.277778,
+        "mean_width": 2.0,
+        "point_count": 251,
+        "visible_polygon_point_count": 502
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "tilt0_fov50_angle37",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 62.606786,
+        "crack_area": 125.215759,
+        "max_depth": 1.0,
+        "max_width": 2.347815,
+        "mean_width": 2.000035,
+        "point_count": 315,
+        "visible_polygon_point_count": 630
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "tilt0_fov50_angle90",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 50.0,
+        "crack_area": 99.999997,
+        "max_depth": 1.0,
+        "max_width": 2.277778,
+        "mean_width": 2.0,
+        "point_count": 251,
+        "visible_polygon_point_count": 502
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "tilt0_fov100_angle0",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 100.0,
+        "crack_area": 200.0,
+        "max_depth": 1.0,
+        "max_width": 2.555556,
+        "mean_width": 2.0,
+        "point_count": 501,
+        "visible_polygon_point_count": 1002
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "tilt0_fov100_angle37",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 125.213579,
+        "crack_area": 250.431529,
+        "max_depth": 1.0,
+        "max_width": 2.695631,
+        "mean_width": 2.000035,
+        "point_count": 629,
+        "visible_polygon_point_count": 1256
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "tilt0_fov100_angle90",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 100.0,
+        "crack_area": 200.0,
+        "max_depth": 1.0,
+        "max_width": 2.555556,
+        "mean_width": 2.0,
+        "point_count": 501,
+        "visible_polygon_point_count": 1002
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "tilt0_fov150_angle0",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 149.999542,
+        "crack_area": 299.998172,
+        "max_depth": 1.0,
+        "max_width": 2.833333,
+        "mean_width": 1.999994,
+        "point_count": 751,
+        "visible_polygon_point_count": 1502
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "tilt0_fov150_angle37",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 179.999443,
+        "crack_area": 359.997831,
+        "max_depth": 1.0,
+        "max_width": 2.999997,
+        "mean_width": 1.999994,
+        "point_count": 901,
+        "visible_polygon_point_count": 1802
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "tilt0_fov150_angle90",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 149.999542,
+        "crack_area": 299.998172,
+        "max_depth": 1.0,
+        "max_width": 2.833333,
+        "mean_width": 1.999994,
+        "point_count": 751,
+        "visible_polygon_point_count": 1502
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "tilt5_fov50_angle0",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 50.191006,
+        "crack_area": 100.381865,
+        "max_depth": 1.0,
+        "max_width": 2.278839,
+        "mean_width": 1.999997,
+        "point_count": 253,
+        "visible_polygon_point_count": 506
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "tilt5_fov50_angle37",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 62.846618,
+        "crack_area": 125.767466,
+        "max_depth": 1.0,
+        "max_width": 2.350294,
+        "mean_width": 2.001181,
+        "point_count": 316,
+        "visible_polygon_point_count": 633
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "tilt5_fov50_angle90",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 50.383607,
+        "crack_area": 100.828863,
+        "max_depth": 1.0,
+        "max_width": 2.281132,
+        "mean_width": 2.001224,
+        "point_count": 254,
+        "visible_polygon_point_count": 508
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "tilt5_fov100_angle0",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 100.381698,
+        "crack_area": 200.764098,
+        "max_depth": 1.0,
+        "max_width": 2.557676,
+        "mean_width": 2.000007,
+        "point_count": 503,
+        "visible_polygon_point_count": 1007
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "tilt5_fov100_angle37",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 125.697171,
+        "crack_area": 251.974805,
+        "max_depth": 1.0,
+        "max_width": 2.702901,
+        "mean_width": 2.004618,
+        "point_count": 631,
+        "visible_polygon_point_count": 1261
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "tilt5_fov100_angle90",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 100.773071,
+        "crack_area": 202.039495,
+        "max_depth": 1.0,
+        "max_width": 2.564746,
+        "mean_width": 2.004896,
+        "point_count": 506,
+        "visible_polygon_point_count": 1012
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "tilt5_fov150_angle0",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 150.573014,
+        "crack_area": 301.145959,
+        "max_depth": 1.0,
+        "max_width": 2.836517,
+        "mean_width": 2.0,
+        "point_count": 755,
+        "visible_polygon_point_count": 1510
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "tilt5_fov150_angle37",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 180.000312,
+        "crack_area": 360.002302,
+        "max_depth": 1.0,
+        "max_width": 3.0,
+        "mean_width": 2.000009,
+        "point_count": 901,
+        "visible_polygon_point_count": 1802
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "tilt5_fov150_angle90",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 151.174545,
+        "crack_area": 304.014969,
+        "max_depth": 1.0,
+        "max_width": 2.850878,
+        "mean_width": 2.01102,
+        "point_count": 757,
+        "visible_polygon_point_count": 1514
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "tilt15_fov50_angle0",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 51.763741,
+        "crack_area": 103.527608,
+        "max_depth": 1.0,
+        "max_width": 2.287576,
+        "mean_width": 2.000002,
+        "point_count": 261,
+        "visible_polygon_point_count": 522
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "tilt15_fov50_angle37",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 64.821637,
+        "crack_area": 129.871043,
+        "max_depth": 1.0,
+        "max_width": 2.363631,
+        "mean_width": 2.003514,
+        "point_count": 326,
+        "visible_polygon_point_count": 653
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "tilt15_fov50_angle90",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 53.599542,
+        "crack_area": 107.412881,
+        "max_depth": 1.0,
+        "max_width": 2.301764,
+        "mean_width": 2.003989,
+        "point_count": 270,
+        "visible_polygon_point_count": 540
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "tilt15_fov100_angle0",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 103.527811,
+        "crack_area": 207.055261,
+        "max_depth": 1.0,
+        "max_width": 2.575154,
+        "mean_width": 1.999997,
+        "point_count": 519,
+        "visible_polygon_point_count": 1038
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "tilt15_fov100_angle37",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 129.680507,
+        "crack_area": 261.192035,
+        "max_depth": 1.0,
+        "max_width": 2.73449,
+        "mean_width": 2.014119,
+        "point_count": 650,
+        "visible_polygon_point_count": 1301
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "tilt15_fov100_angle90",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 107.256662,
+        "crack_area": 216.224913,
+        "max_depth": 1.0,
+        "max_width": 2.611829,
+        "mean_width": 2.015958,
+        "point_count": 538,
+        "visible_polygon_point_count": 1076
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "tilt15_fov150_angle0",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 155.291232,
+        "crack_area": 310.582158,
+        "max_depth": 1.0,
+        "max_width": 2.862729,
+        "mean_width": 1.999998,
+        "point_count": 779,
+        "visible_polygon_point_count": 1557
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "tilt15_fov150_angle37",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 180.001761,
+        "crack_area": 359.99355,
+        "max_depth": 1.0,
+        "max_width": 2.999993,
+        "mean_width": 1.999945,
+        "point_count": 901,
+        "visible_polygon_point_count": 1802
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "tilt15_fov150_angle90",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 161.030366,
+        "crack_area": 327.850142,
+        "max_depth": 1.0,
+        "max_width": 2.930565,
+        "mean_width": 2.035952,
+        "point_count": 807,
+        "visible_polygon_point_count": 1614
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "tilt30_fov50_angle0",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 57.735067,
+        "crack_area": 115.471381,
+        "max_depth": 1.0,
+        "max_width": 2.32075,
+        "mean_width": 2.000022,
+        "point_count": 291,
+        "visible_polygon_point_count": 582
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "tilt30_fov50_angle37",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 72.318816,
+        "crack_area": 145.181116,
+        "max_depth": 1.0,
+        "max_width": 2.409339,
+        "mean_width": 2.007515,
+        "point_count": 364,
+        "visible_polygon_point_count": 728
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "tilt30_fov50_angle90",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 66.722474,
+        "crack_area": 134.159038,
+        "max_depth": 1.0,
+        "max_width": 2.381383,
+        "mean_width": 2.010702,
+        "point_count": 335,
+        "visible_polygon_point_count": 670
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "tilt30_fov100_angle0",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 115.469744,
+        "crack_area": 230.936965,
+        "max_depth": 1.0,
+        "max_width": 2.641499,
+        "mean_width": 1.999978,
+        "point_count": 579,
+        "visible_polygon_point_count": 1159
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "tilt30_fov100_angle37",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 144.793577,
+        "crack_area": 293.981269,
+        "max_depth": 1.0,
+        "max_width": 2.834693,
+        "mean_width": 2.030347,
+        "point_count": 726,
+        "visible_polygon_point_count": 1452
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "tilt30_fov100_angle90",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 133.779069,
+        "crack_area": 273.297414,
+        "max_depth": 1.0,
+        "max_width": 2.786118,
+        "mean_width": 2.042901,
+        "point_count": 671,
+        "visible_polygon_point_count": 1342
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "tilt30_fov150_angle0",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 173.205203,
+        "crack_area": 346.419581,
+        "max_depth": 1.0,
+        "max_width": 2.962251,
+        "mean_width": 2.000053,
+        "point_count": 869,
+        "visible_polygon_point_count": 1736
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "tilt30_fov150_angle37",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 180.007722,
+        "crack_area": 360.0211,
+        "max_depth": 1.0,
+        "max_width": 2.999986,
+        "mean_width": 2.000031,
+        "point_count": 901,
+        "visible_polygon_point_count": 1802
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "tilt30_fov150_angle90",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 180.000246,
+        "crack_area": 360.00291,
+        "max_depth": 1.0,
+        "max_width": 3.0,
+        "mean_width": 2.000013,
+        "point_count": 901,
+        "visible_polygon_point_count": 1802
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "straight_step_5",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 129.679926,
+        "crack_area": 261.204785,
+        "max_depth": 1.0,
+        "max_width": 2.73449,
+        "mean_width": 2.014227,
+        "point_count": 28,
+        "visible_polygon_point_count": 56
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "straight_step_1",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 129.679949,
+        "crack_area": 261.186998,
+        "max_depth": 1.0,
+        "max_width": 2.73449,
+        "mean_width": 2.014089,
+        "point_count": 132,
+        "visible_polygon_point_count": 265
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "straight_step_0.2",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 129.680507,
+        "crack_area": 261.192035,
+        "max_depth": 1.0,
+        "max_width": 2.73449,
+        "mean_width": 2.014119,
+        "point_count": 650,
+        "visible_polygon_point_count": 1301
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "straight_step_0.1",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 129.682403,
+        "crack_area": 261.188662,
+        "max_depth": 1.0,
+        "max_width": 2.73449,
+        "mean_width": 2.014064,
+        "point_count": 1299,
+        "visible_polygon_point_count": 2598
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "straight_step_0.05",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 129.689985,
+        "crack_area": 261.189366,
+        "max_depth": 1.0,
+        "max_width": 2.73449,
+        "mean_width": 2.013952,
+        "point_count": 2596,
+        "visible_polygon_point_count": 5191
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "arc_n8",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 47.048231,
+        "crack_area": 93.643328,
+        "max_depth": 1.0,
+        "max_width": 2.0,
+        "mean_width": 1.990369,
+        "point_count": 9,
+        "visible_polygon_point_count": 18
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "arc_n16",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 47.104971,
+        "crack_area": 94.096445,
+        "max_depth": 1.0,
+        "max_width": 2.0,
+        "mean_width": 1.997591,
+        "point_count": 17,
+        "visible_polygon_point_count": 34
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "arc_n32",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 47.119163,
+        "crack_area": 94.209891,
+        "max_depth": 1.0,
+        "max_width": 2.0,
+        "mean_width": 1.999397,
+        "point_count": 33,
+        "visible_polygon_point_count": 66
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "arc_n64",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 47.12271,
+        "crack_area": 94.238296,
+        "max_depth": 1.0,
+        "max_width": 2.0,
+        "mean_width": 1.999849,
+        "point_count": 65,
+        "visible_polygon_point_count": 130
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "arc_n128",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 47.123598,
+        "crack_area": 94.24539,
+        "max_depth": 1.0,
+        "max_width": 2.0,
+        "mean_width": 1.999962,
+        "point_count": 129,
+        "visible_polygon_point_count": 258
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "arc_n256",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 47.12382,
+        "crack_area": 94.247188,
+        "max_depth": 1.0,
+        "max_width": 2.0,
+        "mean_width": 1.99999,
+        "point_count": 257,
+        "visible_polygon_point_count": 514
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "arc_n512",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 47.123875,
+        "crack_area": 94.247633,
+        "max_depth": 1.0,
+        "max_width": 2.0,
+        "mean_width": 1.999998,
+        "point_count": 513,
+        "visible_polygon_point_count": 1026
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "resolution_256",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 129.680507,
+        "crack_area": 261.717837,
+        "max_depth": 1.0,
+        "max_width": 2.944345,
+        "mean_width": 2.018174,
+        "point_count": 650,
+        "visible_polygon_point_count": 1300
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "resolution_512",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 129.680507,
+        "crack_area": 261.717837,
+        "max_depth": 1.0,
+        "max_width": 2.944345,
+        "mean_width": 2.018174,
+        "point_count": 650,
+        "visible_polygon_point_count": 1300
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "resolution_1024",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 129.680507,
+        "crack_area": 261.717837,
+        "max_depth": 1.0,
+        "max_width": 2.944345,
+        "mean_width": 2.018174,
+        "point_count": 650,
+        "visible_polygon_point_count": 1300
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "resolution_2048",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 129.680507,
+        "crack_area": 261.717837,
+        "max_depth": 1.0,
+        "max_width": 2.944345,
+        "mean_width": 2.018174,
+        "point_count": 650,
+        "visible_polygon_point_count": 1300
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "resolution_4096",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 129.680507,
+        "crack_area": 261.717837,
+        "max_depth": 1.0,
+        "max_width": 2.944345,
+        "mean_width": 2.018174,
+        "point_count": 650,
+        "visible_polygon_point_count": 1300
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "boundary_only_-0.01",
+      "components": 0,
+      "measurands": {
+        "centerline_length": 0.0,
+        "crack_area": 0.800016,
+        "max_depth": null,
+        "max_width": null,
+        "mean_width": null,
+        "point_count": 0,
+        "visible_polygon_point_count": 83
+      },
+      "previous_exception": true
+    },
+    {
+      "id": "boundary_only_-0.0001",
+      "components": 0,
+      "measurands": {
+        "centerline_length": 0.0,
+        "crack_area": 0.008388,
+        "max_depth": null,
+        "max_width": null,
+        "mean_width": null,
+        "point_count": 0,
+        "visible_polygon_point_count": 83
+      },
+      "previous_exception": true
+    },
+    {
+      "id": "boundary_only_0",
+      "components": 0,
+      "measurands": {
+        "centerline_length": 0.0,
+        "crack_area": 0.000292,
+        "max_depth": null,
+        "max_width": null,
+        "mean_width": null,
+        "point_count": 0,
+        "visible_polygon_point_count": 81
+      },
+      "previous_exception": true
+    },
+    {
+      "id": "boundary_only_0.0001",
+      "components": 0,
+      "measurands": {
+        "centerline_length": 0.0,
+        "crack_area": 0.0,
+        "max_depth": 0.0,
+        "max_width": 0.0,
+        "mean_width": 0.0,
+        "point_count": 0,
+        "visible_polygon_point_count": 0
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "boundary_only_0.01",
+      "components": 0,
+      "measurands": {
+        "centerline_length": 0.0,
+        "crack_area": 0.0,
+        "max_depth": 0.0,
+        "max_width": 0.0,
+        "mean_width": 0.0,
+        "point_count": 0,
+        "visible_polygon_point_count": 0
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "exit_reentry",
+      "components": 2,
+      "measurands": {
+        "centerline_length": 115.1751,
+        "crack_area": 114.285591,
+        "max_depth": 1.0,
+        "max_width": 2.0,
+        "mean_width": 0.992277,
+        "point_count": 4,
+        "visible_polygon_point_count": 8
+      },
+      "previous_exception": false
+    },
+    {
+      "id": "centreline_on_edge",
+      "components": 1,
+      "measurands": {
+        "centerline_length": 80.0,
+        "crack_area": 80.000216,
+        "max_depth": 1.0,
+        "max_width": 2.0,
+        "mean_width": 1.000003,
+        "point_count": 81,
+        "visible_polygon_point_count": 83
+      },
+      "previous_exception": false
+    }
+  ]
+}

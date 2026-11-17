@@ -1,0 +1,19 @@
+{
+  "original_sidecars_verified": 10000,
+  "original_metadata_files_verified": 150,
+  "corrected_sidecars_verified": 142,
+  "original_dataset_preserved": true,
+  "original_prediction_csvs_preserved": true,
+  "central_predictions_bitwise_equal_after_csv_read": true,
+  "source_hash_verified": true,
+  "overlay_wrong_source_rejected": true,
+  "component_length_and_area_width_verified": true,
+  "unchanged_zero_reference_verified": true,
+  "python_syntax_checked": true,
+  "generator_unit_tests": 43,
+  "blender_fixtures": 72,
+  "ordinary_fixture_values_unchanged": 65,
+  "preview_smoke": "passed",
+  "publication": false,
+  "manuscript_tables": "corrected references and corrected_recalibrated_valid_cohort calibration adopted in local fourth-submission manuscript"
+}

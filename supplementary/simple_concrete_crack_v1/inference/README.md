@@ -10,6 +10,12 @@ prediction intervals. The released models provide a reproducible baseline for
 this dataset and measurement task. Applications to other synthetic scenes or
 real photographs are exploratory extensions of that baseline.
 
+The current dataset reference release is **v2**, [DOI 10.5281/zenodo.24326086](https://doi.org/10.5281/zenodo.24326086).
+It supplies replacement references for 142 observations while preserving the
+original images and scale maps. It does not retrain these models. See the
+[v2 loading instructions](../../../docs/dataset-v2.md) for the reference loader
+and the distinction between current references and historical model training.
+
 This optional package runs the three retained measurement-prediction models:
 the proposed transformer (v024, epoch 49), adapted ConvNeXt-Tiny (v031, epoch 50),
 and adapted ResNet-50 (v034/v035, epoch 47). It supplies the original scalar and
@@ -45,9 +51,16 @@ The loader verifies the weight SHA-256 and strictly loads tensors with
 Use the supplied `SHA256SUMS` to verify the downloaded archives before extraction.
 The exact release URL and tag will be added when publication is approved.
 
-## Reproduce the held-out benchmark
+## Reproduce the original v1.0 held-out benchmark
+
+This workflow reproduces the original references and calibration. The CLI reads
+reference values from the base visible-defect sidecars, and interval factors
+from each model's frozen `config.json`. It does not automatically apply the v2
+overlay or the updated calibration factors.
 
 Download and extract the [MetroDef3D Simple Concrete Crack Dataset v1.0](https://doi.org/10.5281/zenodo.21340378).
+The identical base archives retained in the v2 record can also be used for this
+historical reproduction, provided their original sidecars remain intact.
 Point `--dataset` at the directory containing all ten `seeds_...` runs, not at
 the compressed archives. Its expected layout includes `seeds_0001_1000/json/3.json`,
 `img/3.jpg`, `pixel_scale/3.npz` and `visible_defect/3.json` within that run.
@@ -82,7 +95,31 @@ predictions. It does not silently accept a partial dataset or drop bad cases.
 
 `python supplementary/simple_concrete_crack_v1/inference/reference/verify_metrics.py` independently checks 84 published
 table values using the supplied CSVs. This is a saved-data audit, not model
-execution. See `VALIDATION.md` for the actual release inference validation.
+execution. See [VALIDATION.md](VALIDATION.md) for the inference checks against
+v1.0 references.
+
+## Evaluate predictions against v2 references
+
+Keep the original dataset and model assets unchanged. Load v2 reference values
+using the update package's `ReferenceDataset` loader or `reference_values.csv`,
+as described in the [dataset guide](../../../docs/dataset-v2.md). Join references
+to predictions by seed and capture stream, retaining the same test identities.
+Do not read current targets from the old embedded metadata or overwrite the
+model's training normalization with statistics calculated from v2.
+
+The [reference correction study](../studies/reference_correction/README.md)
+provides the saved-prediction comparison for all four methods. It separates
+updated-reference scoring with the original interval factors from scoring with
+factors recalculated on the validation partition. The latter excludes the
+known-invalid seed 551 from learned-model calibration and leaves all 1,494 test
+identities unchanged. Neither mode uses test data to select calibration.
+
+The package's `benchmark` and `compare_benchmark.py` commands above remain v1.0
+reproduction tools. The comparison script intentionally requires the original
+paired references. For the archived v2 results, follow the correction study and
+the verification commands supplied with the v2 update package. That verification
+replays saved arithmetic; it does not run the models. Record both the reference
+version and calibration choice when reporting a new evaluation.
 
 ## Run a newly generated sample
 
@@ -160,7 +197,8 @@ Physical scale must describe the surface being measured, not an unrelated plane.
 ## Outputs and interpretation
 
 Each target has a mean prediction, raw lower/upper bounds and bounds expanded
-by the frozen synthetic-validation factors. Units are mm (length and widths)
+by the frozen v1.0 synthetic-validation factors in the model configuration.
+The v2 reference loader does not replace those factors. Units are mm (length and widths)
 and mm² (area). Predictions are not clipped to positive values; no postprocessing
 is added to make them resemble references. Scalar predictions are direct model
 outputs, not measurements obtained from a segmentation mask.

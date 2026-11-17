@@ -1,0 +1,16 @@
+{
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "python": "3.12.14",
+  "torch": "2.8.0",
+  "numpy": "2.5.0",
+  "torchvision": "0.23.0",
+  "device": "cpu",
+  "precision": "float32",
+  "threads": 4,
+  "weights_sha256": "c983ade88cb8e62988c641cc2cc477effc495e8fa84526559390a3da9c73be82",
+  "model_state_sha256": "fcc76a8fae3393b171c9a2b70210f883091c6989d7355e9923a0ead098882584",
+  "weights_and_buffers_unchanged": true,
+  "wall_seconds": 92.0446478750091,
+  "protocol_sha256": "63552b71ca995eeb1d47a9d36dbf07178dbdf75509d1dd494e38a698fade4e07",
+  "calibration_sha256": "05bb8bfe41569a143f39890c07f166ea4c3b12e9076fad3daa73a2cb15666b87"
+}

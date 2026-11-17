@@ -1,0 +1,11 @@
+{
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-image": "0.26.0",
+    "opencv-python-headless": "5.0.0.93",
+    "pillow": "13.0.0"
+  }
+}

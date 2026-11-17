@@ -1,0 +1,68 @@
+{
+  "images": [
+    {
+      "image": "IMG_8605",
+      "target_image": "IMG_8602.jpeg",
+      "paper_target": "01",
+      "homography": [
+        [
+          -0.03088007938854155,
+          -0.001148345726468257,
+          101.14958733371421
+        ],
+        [
+          0.001088794848769201,
+          -0.03163507643623282,
+          101.11675878961029
+        ],
+        [
+          4.211160689661998e-06,
+          -7.1049689695621336e-06,
+          0.9999999999999999
+        ]
+      ],
+      "rotation_cw": 180,
+      "ring_lattice_residual": 0.032033401210484244,
+      "ring_residual_over_previous_006_check": false,
+      "detected_dots": 2149,
+      "rejected_candidates": 0,
+      "candidate_count": 2201,
+      "grid_col_range": [
+        0,
+        46
+      ],
+      "grid_row_range": [
+        1,
+        48
+      ],
+      "max_lattice_residual": 0.21056435240763044,
+      "homography_rms_mm": 0.10822619399753292,
+      "heldout_grid_rms_mm": 0.1106437146470131,
+      "heldout_grid_max_mm": 0.2927744056673222,
+      "heldout_grid_points": 433,
+      "flattening_centroid_difference_rms_mm": 0.006400389961834634,
+      "scale_mean_mm_per_input_pixel": 0.09250408684064335,
+      "scale_min_mm_per_input_pixel": 0.09016628901776326,
+      "scale_max_mm_per_input_pixel": 0.09493729019296519,
+      "inside_grid_fraction": 0.9405183792114258,
+      "image_edge_spans_mm": [
+        93.50006210865743,
+        94.33295214012074,
+        95.54350331501774,
+        95.5535030718001
+      ],
+      "scale_file": "IMG_8605_scale.npz",
+      "resize_factor": 2.953125,
+      "output_size": 1024,
+      "source_sha256": {
+        "IMG_8602.jpeg": "bd42a07c9dadc90143f75881f48aa1e5ed814df0bef7221a73cbf406fc9d7848"
+      },
+      "paper_reference_sha256": "d1cf1dc31c48b406de6e18d6c0a968d03cd2e282fdcd85073c4041b9ece12a55"
+    }
+  ],
+  "calibration": "Existing scanner-transferred coordinates for paper target 01; independent Metrosert update not yet supplied",
+  "illumination_preprocessing": "Target detection only: divide by Gaussian background sigma=80 pixels, scale 180; surface RGB unchanged",
+  "source_sha256": "11badd1554475bb87b466273afbe0889630a14e643888a5aa77cd54dd1159011",
+  "opencv": "5.0.0",
+  "numpy": "2.5.4"
+}

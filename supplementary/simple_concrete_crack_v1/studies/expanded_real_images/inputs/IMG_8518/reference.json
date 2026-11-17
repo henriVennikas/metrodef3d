@@ -1,0 +1,156 @@
+{
+  "image": "IMG_8518",
+  "reference": {
+    "centerline_length": 76.89479804445065,
+    "mean_width": 0.6938320630223367,
+    "max_width": 1.2385219558555194,
+    "crack_area": 53.35207636286714
+  },
+  "annotation_sha256": "070c834d66db2fea47ec274fa197f4948a59e3c9397c273ce3a8b72b43a4074a",
+  "self_intersections": [],
+  "reference_valid": true,
+  "baseline": {
+    "step_mm": 0.05,
+    "tangent_window_mm": 1,
+    "stations": 1538,
+    "valid_stations": 1538,
+    "outside_stations": 0,
+    "multi_intersection_stations": 0,
+    "max_width_mm": 1.2385219558555194,
+    "mean_section_width_mm": 0.6966919793500465,
+    "maximum": {
+      "station_mm": 2.1750000000000003,
+      "width_mm": 1.2385219558555194,
+      "inside": true,
+      "intersection_count": 2,
+      "endpoints_mm": [
+        [
+          67.24643895972032,
+          20.65459095559044
+        ],
+        [
+          66.00815119650646,
+          20.630506715702023
+        ]
+      ]
+    }
+  },
+  "sensitivity": [
+    {
+      "step_mm": 0.05,
+      "tangent_window_mm": 0.5,
+      "stations": 1538,
+      "valid_stations": 1538,
+      "outside_stations": 0,
+      "multi_intersection_stations": 0,
+      "max_width_mm": 1.2382079301000044,
+      "mean_section_width_mm": 0.6955338474146865,
+      "maximum": {
+        "station_mm": 2.2250000000000005,
+        "width_mm": 1.2382079301000044,
+        "inside": true,
+        "intersection_count": 2,
+        "endpoints_mm": [
+          [
+            67.24152038388284,
+            20.744554468894425
+          ],
+          [
+            66.00881364737965,
+            20.62796553313197
+          ]
+        ]
+      }
+    },
+    {
+      "step_mm": 0.05,
+      "tangent_window_mm": 2,
+      "stations": 1538,
+      "valid_stations": 1538,
+      "outside_stations": 0,
+      "multi_intersection_stations": 0,
+      "max_width_mm": 1.2469447532658573,
+      "mean_section_width_mm": 0.7000654399051883,
+      "maximum": {
+        "station_mm": 2.1750000000000003,
+        "width_mm": 1.2469447532658573,
+        "inside": true,
+        "intersection_count": 2,
+        "endpoints_mm": [
+          [
+            67.24760401165233,
+            20.63328150170601
+          ],
+          [
+            66.00090995332883,
+            20.658284354305696
+          ]
+        ]
+      }
+    },
+    {
+      "step_mm": 0.025,
+      "tangent_window_mm": 1,
+      "stations": 3076,
+      "valid_stations": 3076,
+      "outside_stations": 0,
+      "multi_intersection_stations": 0,
+      "max_width_mm": 1.2511170433106695,
+      "mean_section_width_mm": 0.6966412617670446,
+      "maximum": {
+        "station_mm": 2.2125000000000004,
+        "width_mm": 1.2511170433106695,
+        "inside": true,
+        "intersection_count": 2,
+        "endpoints_mm": [
+          [
+            67.24515824504493,
+            20.6780159459828
+          ],
+          [
+            65.99405835464174,
+            20.68456730427972
+          ]
+        ]
+      }
+    },
+    {
+      "step_mm": 0.1,
+      "tangent_window_mm": 1,
+      "stations": 769,
+      "valid_stations": 769,
+      "outside_stations": 0,
+      "multi_intersection_stations": 0,
+      "max_width_mm": 1.2306092075563226,
+      "mean_section_width_mm": 0.6966108270642665,
+      "maximum": {
+        "station_mm": 2.1500000000000004,
+        "width_mm": 1.2306092075563226,
+        "inside": true,
+        "intersection_count": 2,
+        "endpoints_mm": [
+          [
+            67.24730441291666,
+            20.638761330772848
+          ],
+          [
+            66.01748405532781,
+            20.59470557311925
+          ]
+        ]
+      }
+    }
+  ],
+  "manual_probes": {
+    "n": 44,
+    "mean_mm": 0.6959126428739842,
+    "median_mm": 0.6779833751806008,
+    "max_mm": 1.1759654122910395
+  },
+  "annotation_native_size": [
+    3024,
+    3024
+  ],
+  "convention": "Visible surface opening",
+  "reference_uncertainty": "Not quantified. Width sensitivity is not a confidence interval."
+}

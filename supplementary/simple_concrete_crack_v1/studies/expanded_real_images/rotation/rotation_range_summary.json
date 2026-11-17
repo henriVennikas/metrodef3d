@@ -1,0 +1,218 @@
+[
+  {
+    "domain": "real",
+    "model": "transformer",
+    "target": "centerline_length",
+    "mean_range_percent": 6.9849411479410435,
+    "median_range_percent": 4.83111139279502,
+    "max_range_percent": 16.162703783846027,
+    "max_range_image": "IMG_8139"
+  },
+  {
+    "domain": "real",
+    "model": "transformer",
+    "target": "mean_width",
+    "mean_range_percent": 7.731446826056464,
+    "median_range_percent": 5.437260422411797,
+    "max_range_percent": 17.29304564793018,
+    "max_range_image": "IMG_8139"
+  },
+  {
+    "domain": "real",
+    "model": "transformer",
+    "target": "max_width",
+    "mean_range_percent": 3.930195277376904,
+    "median_range_percent": 3.3165027787720733,
+    "max_range_percent": 8.13208271286507,
+    "max_range_image": "IMG_8139"
+  },
+  {
+    "domain": "real",
+    "model": "transformer",
+    "target": "crack_area",
+    "mean_range_percent": 9.087986587361456,
+    "median_range_percent": 5.648258911912087,
+    "max_range_percent": 21.045146745552195,
+    "max_range_image": "IMG_8139"
+  },
+  {
+    "domain": "real",
+    "model": "resnet50",
+    "target": "centerline_length",
+    "mean_range_percent": 8.120563756200283,
+    "median_range_percent": 8.096873368628145,
+    "max_range_percent": 13.466165263618802,
+    "max_range_image": "IMG_8162"
+  },
+  {
+    "domain": "real",
+    "model": "resnet50",
+    "target": "mean_width",
+    "mean_range_percent": 7.311488069087485,
+    "median_range_percent": 7.327571906225021,
+    "max_range_percent": 10.301737264371264,
+    "max_range_image": "IMG_8139"
+  },
+  {
+    "domain": "real",
+    "model": "resnet50",
+    "target": "max_width",
+    "mean_range_percent": 5.190317841748204,
+    "median_range_percent": 5.276248137045243,
+    "max_range_percent": 6.280954362796918,
+    "max_range_image": "IMG_8139"
+  },
+  {
+    "domain": "real",
+    "model": "resnet50",
+    "target": "crack_area",
+    "mean_range_percent": 11.729606237472778,
+    "median_range_percent": 11.469376975341781,
+    "max_range_percent": 15.291724270660056,
+    "max_range_image": "IMG_8169"
+  },
+  {
+    "domain": "real",
+    "model": "convnext_tiny",
+    "target": "centerline_length",
+    "mean_range_percent": 8.153675029918109,
+    "median_range_percent": 8.41914365895485,
+    "max_range_percent": 8.799148597129077,
+    "max_range_image": "IMG_8139"
+  },
+  {
+    "domain": "real",
+    "model": "convnext_tiny",
+    "target": "mean_width",
+    "mean_range_percent": 9.705212886160535,
+    "median_range_percent": 5.479800853099851,
+    "max_range_percent": 24.904809940367024,
+    "max_range_image": "IMG_8139"
+  },
+  {
+    "domain": "real",
+    "model": "convnext_tiny",
+    "target": "max_width",
+    "mean_range_percent": 5.043550262166713,
+    "median_range_percent": 2.8597660840436157,
+    "max_range_percent": 13.645693057110863,
+    "max_range_image": "IMG_8139"
+  },
+  {
+    "domain": "real",
+    "model": "convnext_tiny",
+    "target": "crack_area",
+    "mean_range_percent": 15.024624903732152,
+    "median_range_percent": 11.094804788629794,
+    "max_range_percent": 34.97701886590065,
+    "max_range_image": "IMG_8139"
+  },
+  {
+    "domain": "synthetic",
+    "model": "transformer",
+    "target": "centerline_length",
+    "mean_range_percent": 4.452006841225765,
+    "median_range_percent": 2.589362373558974,
+    "max_range_percent": 12.320728900243639,
+    "max_range_image": "seed_8036"
+  },
+  {
+    "domain": "synthetic",
+    "model": "transformer",
+    "target": "mean_width",
+    "mean_range_percent": 2.9564625380874476,
+    "median_range_percent": 1.9232499362688364,
+    "max_range_percent": 7.720884310510833,
+    "max_range_image": "seed_6861"
+  },
+  {
+    "domain": "synthetic",
+    "model": "transformer",
+    "target": "max_width",
+    "mean_range_percent": 2.8961079654502306,
+    "median_range_percent": 2.928856479476896,
+    "max_range_percent": 5.6655868174728905,
+    "max_range_image": "seed_1804"
+  },
+  {
+    "domain": "synthetic",
+    "model": "transformer",
+    "target": "crack_area",
+    "mean_range_percent": 2.6492927862932625,
+    "median_range_percent": 2.4149131806899735,
+    "max_range_percent": 4.59112487954438,
+    "max_range_image": "seed_7949"
+  },
+  {
+    "domain": "synthetic",
+    "model": "resnet50",
+    "target": "centerline_length",
+    "mean_range_percent": 6.504483827077863,
+    "median_range_percent": 6.5102921043993796,
+    "max_range_percent": 10.287544212159675,
+    "max_range_image": "seed_2517"
+  },
+  {
+    "domain": "synthetic",
+    "model": "resnet50",
+    "target": "mean_width",
+    "mean_range_percent": 3.840997417267365,
+    "median_range_percent": 3.565780900984727,
+    "max_range_percent": 8.832519498520004,
+    "max_range_image": "seed_7949"
+  },
+  {
+    "domain": "synthetic",
+    "model": "resnet50",
+    "target": "max_width",
+    "mean_range_percent": 3.835221558868784,
+    "median_range_percent": 3.577996189190719,
+    "max_range_percent": 8.577955690512747,
+    "max_range_image": "seed_7949"
+  },
+  {
+    "domain": "synthetic",
+    "model": "resnet50",
+    "target": "crack_area",
+    "mean_range_percent": 7.81832056793323,
+    "median_range_percent": 6.694596384215057,
+    "max_range_percent": 14.25400867474483,
+    "max_range_image": "seed_8036"
+  },
+  {
+    "domain": "synthetic",
+    "model": "convnext_tiny",
+    "target": "centerline_length",
+    "mean_range_percent": 9.229844750925155,
+    "median_range_percent": 7.675873166578407,
+    "max_range_percent": 27.586832336827218,
+    "max_range_image": "seed_8036"
+  },
+  {
+    "domain": "synthetic",
+    "model": "convnext_tiny",
+    "target": "mean_width",
+    "mean_range_percent": 3.954918599260214,
+    "median_range_percent": 3.33004413503385,
+    "max_range_percent": 7.64218894674673,
+    "max_range_image": "seed_8036"
+  },
+  {
+    "domain": "synthetic",
+    "model": "convnext_tiny",
+    "target": "max_width",
+    "mean_range_percent": 3.706118336153817,
+    "median_range_percent": 3.5364970732562235,
+    "max_range_percent": 9.569533363875266,
+    "max_range_image": "seed_8036"
+  },
+  {
+    "domain": "synthetic",
+    "model": "convnext_tiny",
+    "target": "crack_area",
+    "mean_range_percent": 12.150759708548513,
+    "median_range_percent": 10.228714110622313,
+    "max_range_percent": 33.533643100628915,
+    "max_range_image": "seed_8036"
+  }
+]

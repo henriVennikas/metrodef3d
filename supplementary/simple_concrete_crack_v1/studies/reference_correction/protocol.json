@@ -1,0 +1,12 @@
+{
+  "date":"2026-11-07",
+  "scope":"Local versioned export fix, additive reference overlay, frozen-prediction benchmark impact.",
+  "originals":"Never write to released dataset, saved predictions, weights, original calibration or earlier verification study.",
+  "fix":"Track disconnected visible centreline components and never sum bridges. Retain area when no centreline is visible; emit null for undefined mean width and absent profile extrema, with explicit validity flags.",
+  "numerics":"Keep existing camera projection, clipping, rounding and polygon-area arithmetic to isolate topology repair. Small numerical discrepancies from v046 remain characterized.",
+  "screen":"Scan all 10000 stored sidecars for source gaps and consecutive boundary intersections. Re-export candidate geometries with both original and corrected functions using the same actual Blender camera.",
+  "benchmark_modes":["original references and original calibration", "corrected references with original calibrated intervals", "corrected references with validation-only recalibration"],
+  "frozen":"Same predictions, weights, selected checkpoints, test identities, metric floors and classical tuning settings. No retraining or parameter selection on corrected test data.",
+  "known_invalid_validation_551":"Retain original calibration for historical comparison; corrected learned-model recalibration excludes this previously documented invalid seed and separately reports its impact. Classical calibration already excludes it.",
+  "publication":"None. All changes local for review."
+}

@@ -1,0 +1,127 @@
+{
+  "images": [
+    {
+      "image": "IMG_8518",
+      "target_image": "IMG_8517.jpeg",
+      "paper_target": "01",
+      "homography": [
+        [
+          0.0002467939224405262,
+          -0.02449578072636128,
+          92.04174973798284
+        ],
+        [
+          0.02523212996820391,
+          -0.0005755759442507991,
+          19.050962257917007
+        ],
+        [
+          1.1608521159305076e-05,
+          -2.311914468885916e-06,
+          1.0
+        ]
+      ],
+      "rotation_cw": 270,
+      "ring_lattice_residual": 0.05117217725289976,
+      "ring_residual_over_previous_006_check": false,
+      "detected_dots": 1267,
+      "rejected_candidates": 0,
+      "candidate_count": 1289,
+      "grid_col_range": [
+        7,
+        42
+      ],
+      "grid_row_range": [
+        7,
+        42
+      ],
+      "max_lattice_residual": 0.21483440124354763,
+      "homography_rms_mm": 0.11055755529832412,
+      "heldout_grid_rms_mm": 0.11398051637827906,
+      "heldout_grid_max_mm": 0.4004676483207322,
+      "heldout_grid_points": 251,
+      "flattening_centroid_difference_rms_mm": 0.0061728930094018045,
+      "scale_mean_mm_per_input_pixel": 0.07131165731462585,
+      "scale_min_mm_per_input_pixel": 0.06913991953587487,
+      "scale_max_mm_per_input_pixel": 0.07358229861827498,
+      "inside_grid_fraction": 0.9052267074584961,
+      "image_edge_spans_mm": [
+        73.10837210498265,
+        71.44834830974976,
+        73.62116376818979,
+        73.96672181200215
+      ],
+      "scale_file": "IMG_8518_scale.npz",
+      "resize_factor": 2.953125,
+      "output_size": 1024,
+      "source_sha256": {
+        "IMG_8517.jpeg": "a4ed8b207cb1c1fc220b9f2ce8fa1e62be49c9e387602ae8b51dd4998361ab6f"
+      },
+      "paper_reference_sha256": "d1cf1dc31c48b406de6e18d6c0a968d03cd2e282fdcd85073c4041b9ece12a55"
+    },
+    {
+      "image": "IMG_8519",
+      "target_image": "IMG_8517.jpeg",
+      "paper_target": "01",
+      "homography": [
+        [
+          0.0002467939224405262,
+          -0.02449578072636128,
+          92.04174973798284
+        ],
+        [
+          0.02523212996820391,
+          -0.0005755759442507991,
+          19.050962257917007
+        ],
+        [
+          1.1608521159305076e-05,
+          -2.311914468885916e-06,
+          1.0
+        ]
+      ],
+      "rotation_cw": 270,
+      "ring_lattice_residual": 0.05117217725289976,
+      "ring_residual_over_previous_006_check": false,
+      "detected_dots": 1267,
+      "rejected_candidates": 0,
+      "candidate_count": 1289,
+      "grid_col_range": [
+        7,
+        42
+      ],
+      "grid_row_range": [
+        7,
+        42
+      ],
+      "max_lattice_residual": 0.21483440124354763,
+      "homography_rms_mm": 0.11055755529832412,
+      "heldout_grid_rms_mm": 0.11398051637827906,
+      "heldout_grid_max_mm": 0.4004676483207322,
+      "heldout_grid_points": 251,
+      "flattening_centroid_difference_rms_mm": 0.0061728930094018045,
+      "scale_mean_mm_per_input_pixel": 0.07131165731462585,
+      "scale_min_mm_per_input_pixel": 0.06913991953587487,
+      "scale_max_mm_per_input_pixel": 0.07358229861827498,
+      "inside_grid_fraction": 0.9052267074584961,
+      "image_edge_spans_mm": [
+        73.10837210498265,
+        71.44834830974976,
+        73.62116376818979,
+        73.96672181200215
+      ],
+      "scale_file": "IMG_8519_scale.npz",
+      "resize_factor": 2.953125,
+      "output_size": 1024,
+      "source_sha256": {
+        "IMG_8517.jpeg": "a4ed8b207cb1c1fc220b9f2ce8fa1e62be49c9e387602ae8b51dd4998361ab6f"
+      },
+      "paper_reference_sha256": "d1cf1dc31c48b406de6e18d6c0a968d03cd2e282fdcd85073c4041b9ece12a55"
+    }
+  ],
+  "calibration": "Existing scanner-transferred coordinates for paper target 01; Metrosert report received but not yet propagated into paper-target coordinates",
+  "illumination_preprocessing": "Target detection only: divide by Gaussian background sigma=80 pixels, scale 180; surface RGB unchanged",
+  "source_sha256": "f221b541f37d27864f2c397287f3b1b8914c4dc5befd59e3b65433dc01152a3d",
+  "opencv": "5.0.0",
+  "numpy": "2.5.4"
+}

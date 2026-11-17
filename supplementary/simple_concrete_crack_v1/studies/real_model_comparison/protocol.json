@@ -1,0 +1,53 @@
+{
+  "frozen_before_inference_utc": "2026-11-07T16:18:27.070076+00:00",
+  "images": [
+    "IMG_8184",
+    "IMG_8162",
+    "IMG_8169",
+    "IMG_8139",
+    "IMG_8117"
+  ],
+  "inclusion": "Existing complete centreline and closed-boundary annotation, saved paired target mapping and finite positive 1024-grid directional scale maps. No selection by new model predictions.",
+  "excluded": "Images without complete four-measurand annotation references. Older annotation versions are not additional cases.",
+  "physical_crack_identity": "pending author confirmation; report five image observations",
+  "selection": "Purposive existing set. Previously selected/annotated with differing exposure to transformer predictions. Not a blind or representative field sample.",
+  "annotation_note": "IMG_8162 uses the previously adopted boundary interpretation. Its annotation was refined after original transformer inference. Other historical prediction/annotation order is not assumed blind.",
+  "reference_uncertainty": "Annotation uncertainty unquantified. Existing scale chain provisional pending independent glass calibration. Predictions and annotations share scale.",
+  "preprocessing": "Full-frame RGB bilinear resize to 1024 square, no crop/contrast change. Existing directional scales already in mm per model-grid pixel. All methods receive identical RGB and scale.",
+  "models": [
+    "transformer",
+    "resnet50",
+    "convnext_tiny",
+    "conventional"
+  ],
+  "precision": "CPU float32, batch one. ResNet per-image BatchNorm, dropout disabled.",
+  "calibration": "Frozen component-aware-2 synthetic corrected_recalibrated_valid_cohort factors/radii. No calibration or tuning on field cases.",
+  "training": "No new training or checkpoint selection",
+  "source_sha256": {
+    "inputs/IMG_8169/IMG_8169_annotation.json": "2a4fc04eff194600129c5a2728bc1100c0764b5bf414e640d336640ad636499b",
+    "inputs/IMG_8169/IMG_8169_scale.npz": "dc121a6909460f5f2622f10563371a8c4ca18773ba89e132ca882c1839d1f26b",
+    "inputs/IMG_8169/reference.json": "15f50b2b09966f45f31a3af3e379377d5663e4cf31ce3e52c1f43b8098bdef37",
+    "inputs/IMG_8169/IMG_8169.jpeg": "2096ee91d0598b237a0d6771a4cd0f1e47e94b9804dc599d510fdce4f0fbdbbf",
+    "inputs/IMG_8169/preprocessing.json": "95d91f2f8ec68e16c51b94ace72c84051e50b1a22e239de492d828487d7b7a7f",
+    "inputs/IMG_8117/IMG_8117.jpeg": "1dedb928dd1df193e690c579ec036041655e619fb8a99bab90c515c0031d4c76",
+    "inputs/IMG_8117/reference.json": "e5e9b68e9acabbe6ff75246a84a1c10e0eb273b4f75bb5a5c9dc7afa9e7f3b61",
+    "inputs/IMG_8117/IMG_8117_annotation.json": "72dfe46ae130a398f63a7c04c5245fbcf6ce8f8e9904dfe0f018ea9e9aaa4c59",
+    "inputs/IMG_8117/IMG_8117_scale.npz": "020f462c226d47a75eb0cc3ed09e05c8f8811ce92a51afbaf196cb67259782f5",
+    "inputs/IMG_8117/preprocessing.json": "5a791f71d6a1edaa98c8052b8f5db98f8cbcda36e369bec560ed41066a430b03",
+    "inputs/IMG_8162/IMG_8162_scale.npz": "50c8d2612474df9b157ea92f73a7e327682945fdd33338f7359daf13683f7fe0",
+    "inputs/IMG_8162/reference.json": "200a38fab3459f712c5bf8a6d5580efe7ce16427232b56f397d2e71e76b86419",
+    "inputs/IMG_8162/IMG_8162_annotation.json": "5a36fd0b32d435e66c81346faae65c4daf879089d9951d912cef52008c3e1d82",
+    "inputs/IMG_8162/IMG_8162.jpeg": "d4d4b45dc3a4030a5b93f536cd6ca37e4ef03ba68da2bde7d1c4e96c98eeb165",
+    "inputs/IMG_8162/preprocessing.json": "421b6ad4dba80ed02f5c081cb36a673b7df5aa547ab1962fd718eab16ff34f0a",
+    "inputs/IMG_8139/IMG_8139_scale.npz": "92213059883bac0e392aae0e4db1f6fceff340d79f4158e544b8cc25e78fb695",
+    "inputs/IMG_8139/IMG_8139_annotation.json": "b77d91d502cecd5ed34617e778ccc58327cd0236610514c0cbdc9612a38cdfc0",
+    "inputs/IMG_8139/reference.json": "0b76a6b84e2d6ee6f9f34ebcc064f80f599ba4b2fdc606bb536af05a1da5f90d",
+    "inputs/IMG_8139/IMG_8139.jpeg": "2c6133365cf25a83a50a0b0c5be2ae64c069b1d9a818fb485bb9127baa5c9f59",
+    "inputs/IMG_8139/preprocessing.json": "bc019991159ad47b800b605cbeb6777af806988b2a3959980b6aa017f7ab18a1",
+    "inputs/IMG_8184/IMG_8184.jpeg": "46be0a6cb456d35c13c2fad0718239009058d9caa6810169210c1c1d4093bc48",
+    "inputs/IMG_8184/reference.json": "4b0bac5974ad69c02dd96296e5993e90dea306d3c67d01409901c8b78cf71cfc",
+    "inputs/IMG_8184/IMG_8184_annotation.json": "eb297218b82110881c0021bd94d484aafe87dfe86c7b110c70a9cf76f975bc7d",
+    "inputs/IMG_8184/preprocessing.json": "5fa90407227747277aa6735883d3272da641c34c7f4341e842903cc747f73123",
+    "inputs/IMG_8184/IMG_8184_scale.npz": "35b7b52b7bf5acbbf442dc5b3e055d26361a503b41c3d0d65fea7cf60544cf5b"
+  }
+}

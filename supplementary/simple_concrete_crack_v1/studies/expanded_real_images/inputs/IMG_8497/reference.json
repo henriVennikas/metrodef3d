@@ -1,0 +1,156 @@
+{
+  "image": "IMG_8497",
+  "reference": {
+    "centerline_length": 82.55814582227933,
+    "mean_width": 0.8389169020773167,
+    "max_width": 2.400398992632988,
+    "crack_area": 69.25942393447394
+  },
+  "annotation_sha256": "1bc7f246808eff372d1c91d80c3b5d3ba63056a8aba10f943de1635e575ffbb9",
+  "self_intersections": [],
+  "reference_valid": true,
+  "baseline": {
+    "step_mm": 0.05,
+    "tangent_window_mm": 1,
+    "stations": 1651,
+    "valid_stations": 1651,
+    "outside_stations": 0,
+    "multi_intersection_stations": 0,
+    "max_width_mm": 2.400398992632988,
+    "mean_section_width_mm": 0.8401837027445518,
+    "maximum": {
+      "station_mm": 1.5250000000000004,
+      "width_mm": 2.400398992632988,
+      "inside": true,
+      "intersection_count": 2,
+      "endpoints_mm": [
+        [
+          54.029148723652824,
+          17.396338067023052
+        ],
+        [
+          51.648464740560584,
+          17.703354510363663
+        ]
+      ]
+    }
+  },
+  "sensitivity": [
+    {
+      "step_mm": 0.05,
+      "tangent_window_mm": 0.5,
+      "stations": 1651,
+      "valid_stations": 1651,
+      "outside_stations": 0,
+      "multi_intersection_stations": 0,
+      "max_width_mm": 2.4003772088990676,
+      "mean_section_width_mm": 0.838972811883688,
+      "maximum": {
+        "station_mm": 1.5250000000000004,
+        "width_mm": 2.4003772088990676,
+        "inside": true,
+        "intersection_count": 2,
+        "endpoints_mm": [
+          [
+            54.02804022071161,
+            17.38329348947995
+          ],
+          [
+            51.650994406117675,
+            17.71715564714917
+          ]
+        ]
+      }
+    },
+    {
+      "step_mm": 0.05,
+      "tangent_window_mm": 2,
+      "stations": 1651,
+      "valid_stations": 1651,
+      "outside_stations": 0,
+      "multi_intersection_stations": 0,
+      "max_width_mm": 2.3958179585071786,
+      "mean_section_width_mm": 0.846468051256935,
+      "maximum": {
+        "station_mm": 1.5750000000000004,
+        "width_mm": 2.3958179585071786,
+        "inside": true,
+        "intersection_count": 2,
+        "endpoints_mm": [
+          [
+            54.03424163151969,
+            17.456270097078125
+          ],
+          [
+            51.65547526321463,
+            17.741601930784558
+          ]
+        ]
+      }
+    },
+    {
+      "step_mm": 0.025,
+      "tangent_window_mm": 1,
+      "stations": 3302,
+      "valid_stations": 3302,
+      "outside_stations": 0,
+      "multi_intersection_stations": 0,
+      "max_width_mm": 2.399167335472634,
+      "mean_section_width_mm": 0.8401529325784532,
+      "maximum": {
+        "station_mm": 1.5375000000000003,
+        "width_mm": 2.399167335472634,
+        "inside": true,
+        "intersection_count": 2,
+        "endpoints_mm": [
+          [
+            54.02999876108078,
+            17.406341088874655
+          ],
+          [
+            51.65118807314192,
+            17.718212239426705
+          ]
+        ]
+      }
+    },
+    {
+      "step_mm": 0.1,
+      "tangent_window_mm": 1,
+      "stations": 826,
+      "valid_stations": 826,
+      "outside_stations": 0,
+      "multi_intersection_stations": 0,
+      "max_width_mm": 2.3979460452718113,
+      "mean_section_width_mm": 0.8397574304962476,
+      "maximum": {
+        "station_mm": 1.5500000000000003,
+        "width_mm": 2.3979460452718113,
+        "inside": true,
+        "intersection_count": 2,
+        "endpoints_mm": [
+          [
+            54.03084928889522,
+            17.416349881468147
+          ],
+          [
+            51.65391146577412,
+            17.73307029611025
+          ]
+        ]
+      }
+    }
+  ],
+  "manual_probes": {
+    "n": 68,
+    "mean_mm": 0.7621006788273726,
+    "median_mm": 0.6828179225435713,
+    "max_mm": 2.353971181300736
+  },
+  "annotation_native_size": [
+    3024,
+    3024
+  ],
+  "convention": "Visible surface opening",
+  "reference_uncertainty": "Not quantified. Width sensitivity is not a confidence interval."
+}

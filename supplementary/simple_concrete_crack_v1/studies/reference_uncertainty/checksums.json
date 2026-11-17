@@ -1,0 +1,9 @@
+{
+  "README.md": "46e8dbaecf3560aa3e60ca32203a3d6dac225f9d8145b034fb8ac412fcf35d82",
+  "components.csv": "30eab7745977459dd86dd5f50f86a5bce398b18ea3a8d646efa875ffdf8238ba",
+  "evaluate.py": "ef76b031ce778de9d5c2c522955321ea5c710dd89e38e62e2a230d1375686710",
+  "input_checksums.json": "02414df3e890edceeee3abcdb3f6fa6e7a75b7d8cbd7cd1dfb5e89ec6c89d908",
+  "requirements.txt": "61b1806021d454d95966e623e6ac4ba241efd005b293ba1348617063b46f5391",
+  "results.json": "0835f2c61532a11f44e63a866a6d75e7bf05cd3db442145dafdab0524d41fb87",
+  "verification.json": "715d519cc8fa472b4a523f783a3d8583b55e4a4528b2f460378b2ecc86f5eb25"
+}

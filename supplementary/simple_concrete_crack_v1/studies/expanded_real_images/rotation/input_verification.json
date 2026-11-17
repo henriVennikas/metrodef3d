@@ -1,0 +1,394 @@
+[
+  {
+    "id": "IMG_8184",
+    "angle": 0,
+    "input_sha256": "ed54d101759106461b506bbae34e7498caa4799ad1751f35b72e381bd8e1940c",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "IMG_8184",
+    "angle": 90,
+    "input_sha256": "bd2d66fa76b035593dee4d750e76edb2fc4f4293ee0324b864b10292212922e6",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "IMG_8184",
+    "angle": 180,
+    "input_sha256": "9c3923afa264f7d12593f1e5912f4a78ffc1639264e850a1fd32232ed7bc237a",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "IMG_8184",
+    "angle": -90,
+    "input_sha256": "4af74afba9d3795ade10e6a0c717414335ad85cad8a643f8f34421eb1ed3931b",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "IMG_8162",
+    "angle": 0,
+    "input_sha256": "02baa80c7ef1581f1da74431aca5c10ae827fff347056ceb28f57a031d387315",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "IMG_8162",
+    "angle": 90,
+    "input_sha256": "6785b00c798398719513fa9d835d7600f0672fea5b9bf4b4b49ba3ba07ec5060",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "IMG_8162",
+    "angle": 180,
+    "input_sha256": "a7d92e24bc55e962f0caba8ee48386c4a2c28bca7a9596645fb9070bcd54e149",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "IMG_8162",
+    "angle": -90,
+    "input_sha256": "af4d09e945f4884c6f79a26ae2b1ba178271633f51aafe3c36fbe865c66556fb",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "IMG_8169",
+    "angle": 0,
+    "input_sha256": "490a4abee35095f03ae727983f6e0521bbc0d3b8484844402c43d87f6cfdd855",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "IMG_8169",
+    "angle": 90,
+    "input_sha256": "3987feb0749d92eab4d8510bc8ff97c46a7a754a00212ba22f5bfac00630aa3c",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "IMG_8169",
+    "angle": 180,
+    "input_sha256": "7e75de7673b2697125a3b498883832a7c90aeb227c315e87b6a427e7e9939005",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "IMG_8169",
+    "angle": -90,
+    "input_sha256": "03d44a5dbe00dbbaaded349dac42c514a60f7dde5ced10fbbd221610f467e3a9",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "IMG_8139",
+    "angle": 0,
+    "input_sha256": "c2cc303127301deb2f919a182525b5efe6da266efe099e7f1eef1af5f535ced6",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "IMG_8139",
+    "angle": 90,
+    "input_sha256": "f09ac4a8dbc30b33ce7a6c201b3af5a4e66ee96925fcacdad372ab59ff62ba82",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "IMG_8139",
+    "angle": 180,
+    "input_sha256": "14d6aab8b9c20b648a6d8051e9dddd575365f69bc2deb8b4ec14d91cbfd30f12",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "IMG_8139",
+    "angle": -90,
+    "input_sha256": "5562e41524cd55eba681c29b1bde4b865c21e86fe9b7aa469f04338b85a96c19",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "seed_1804",
+    "angle": 0,
+    "input_sha256": "b3664b5604111f17f78bf7f6e8dcd6936594da8e014e1dc3252c47649bf2a35b",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "seed_1804",
+    "angle": 90,
+    "input_sha256": "fd28015f7291c6e290d27c8c3c576292bceb7f35f6f19941bd57e2bdb913c1fc",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "seed_1804",
+    "angle": 180,
+    "input_sha256": "d37f32a45b70e65f918d6b485aaae8b6e9fee33169d35ebf7f1d4765ed60fe11",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "seed_1804",
+    "angle": -90,
+    "input_sha256": "d4114722bcab26a4f92b455ce246228871f6f9bd4239c8dceb3ce0982c22075d",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "seed_2517",
+    "angle": 0,
+    "input_sha256": "af07bac734188fec9689d3ff98f7c27e0307776d81a0acdea7274b6b2f60f222",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "seed_2517",
+    "angle": 90,
+    "input_sha256": "caf0a65b475141e95ed78e27e681c17f844cb9e51544dc4d6193abbb708cc327",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "seed_2517",
+    "angle": 180,
+    "input_sha256": "858598b444f9208f1f3e650e3f6dfd8b7644f622e49a5db8647bf297fd47f139",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "seed_2517",
+    "angle": -90,
+    "input_sha256": "1f8389a378013200916a3f99ced7dd5c9f1ae4fb33398134ce32c448cbdb27f2",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "seed_2736",
+    "angle": 0,
+    "input_sha256": "6d3f08315ed96a73a6980c931214dc161b71277b67796d73aa13858a351f1f6f",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "seed_2736",
+    "angle": 90,
+    "input_sha256": "40ae16ceeb6832fa316de4d1156846490a703ba89ba900d94b3799b542841737",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "seed_2736",
+    "angle": 180,
+    "input_sha256": "5e240f88ed5dbb53b3162302d988e536b91d312b34085de7b22e2aa0172350aa",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "seed_2736",
+    "angle": -90,
+    "input_sha256": "4ad0412fa8d6c6ffb55b7a8dcd6cd4399f3716538ce503a53a72c3c26203ce76",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "seed_6861",
+    "angle": 0,
+    "input_sha256": "37f0a3f215c54092d488e6edb33a2c65fe8aa533db1cd4c3f63abbe964967ff3",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "seed_6861",
+    "angle": 90,
+    "input_sha256": "ab7b0af90029f7108ca1dd3dd87f763024d0139fbac2cb54c962f61a6d08ec4e",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "seed_6861",
+    "angle": 180,
+    "input_sha256": "a022aacb45aa188bfb9f1a66237971b3cd2f60366af0ea992fd8dd1dafa57a62",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "seed_6861",
+    "angle": -90,
+    "input_sha256": "b5d389c3da6ad01a7e5ee6e407407d9787816559284db714e1e61b2ae7ad1b9d",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "seed_7080",
+    "angle": 0,
+    "input_sha256": "3715fb15f8081789530c50ba2fab2e733d7cb001abb8f512d8f8acbdfc3ed37d",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "seed_7080",
+    "angle": 90,
+    "input_sha256": "cb321d5619cc360a70d6de63ce801a71df578eea8020a96c0b9892624a8a190e",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "seed_7080",
+    "angle": 180,
+    "input_sha256": "fc6c126e5c5687161c162bdeec300f9387cea7426922e44e27a3a700e443b009",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "seed_7080",
+    "angle": -90,
+    "input_sha256": "9b7b62f6c4f22a918ed01996f6c2ef9184ae6b96f74e766d85002e0c3d80cc3f",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "seed_7217",
+    "angle": 0,
+    "input_sha256": "e0cbbfc73e2ff8b594783ffe0f715536ce3d648324bd612ee0afd5e50699871d",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "seed_7217",
+    "angle": 90,
+    "input_sha256": "dc7bf16f4826c3033a4cb64eff903209450d345b74f2bad6b2bf43d5f2ad5b5f",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "seed_7217",
+    "angle": 180,
+    "input_sha256": "93f817b4821e76b4e63f109d302961cf7939713e6fc2d578a71ce6851c1e6cd5",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "seed_7217",
+    "angle": -90,
+    "input_sha256": "e3fdbf82f78b735927dcc5e591a5c60f85611b4d52fb52e4c5323a5f32eadbcf",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "seed_7949",
+    "angle": 0,
+    "input_sha256": "bb8b68dedf36bd5591e705771f7a1816856124438b49fc24a44403b07bf81012",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "seed_7949",
+    "angle": 90,
+    "input_sha256": "794ac79afd00e81be97ebce35f660664cf74ff39152c37d1b152aaa77b492220",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "seed_7949",
+    "angle": 180,
+    "input_sha256": "06af1eed45c100e16f691c1daa5a4d129bb7c866640678d96012ddd31a3e439d",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "seed_7949",
+    "angle": -90,
+    "input_sha256": "d06dc14bca3d08d755078aa61f001af7d6b0c38eea786a0e419b4db27ad3ee8e",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "seed_8036",
+    "angle": 0,
+    "input_sha256": "9cf66ce0c2a1bd70291ed1e61c1cb71de9490398fb877b699c8f86e40388eae2",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "seed_8036",
+    "angle": 90,
+    "input_sha256": "27c70c9f6aa083fcc46d6b06eac6d4195986868b8effa6b9982afef662331276",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "seed_8036",
+    "angle": 180,
+    "input_sha256": "d477309ddac4209897c53e6416a59ba9fff06c3c72fdbb15549a0241ee1fc606",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "seed_8036",
+    "angle": -90,
+    "input_sha256": "ae013e2eadb9f7d53758db875387f12b4f40ae7abc11c90abe43b0f018c1099e",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "seed_8421",
+    "angle": 0,
+    "input_sha256": "78ba78547bc5a1039de9fc5840a409413da67b924ccfa39cb395947e587c7fdf",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "seed_8421",
+    "angle": 90,
+    "input_sha256": "2c74ba2f48118ad65dfdc160751a003d9761274fad472417c2e8ca1b57c07acf",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "seed_8421",
+    "angle": 180,
+    "input_sha256": "13ae9a4c7011bbe6321fbd3d7f7f984686016a8cab8b408f99ebebadb3fc5ce8",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "seed_8421",
+    "angle": -90,
+    "input_sha256": "0d5f98443d6d2b1834adceb9045171f1f7a3933be3fac128546f77d1791b32d2",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "seed_9701",
+    "angle": 0,
+    "input_sha256": "7842bb400d326b0c4bdee0b602e7fd22b11defb0fb5bb20d57ed2b75ae187be9",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "seed_9701",
+    "angle": 90,
+    "input_sha256": "c66b189b678f95f38b35dbb065e20d2c5b884ea3c366005452e0c99acf085c15",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "seed_9701",
+    "angle": 180,
+    "input_sha256": "82d963dd306f0936d052abfc4603e0311d4aca6254aa210ecbdb2a8b44b94ab2",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  },
+  {
+    "id": "seed_9701",
+    "angle": -90,
+    "input_sha256": "faf91e9522e643ad4cbd334479991c623caa3bcb61814ae6e1aa937fceb053ee",
+    "inverse_exact": true,
+    "directional_scale_verified": true
+  }
+]

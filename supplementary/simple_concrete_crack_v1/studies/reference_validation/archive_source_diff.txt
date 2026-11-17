@@ -1,0 +1,26 @@
+--- archived/visible_defect_from_blender_camera
++++ current/visible_defect_from_blender_camera
+@@ -79,6 +79,10 @@
+         "visible_polygon_point_count": len(visible_polygon),
+     }
+     return {
++        "schema": {
++            "name": "metrodef3d.visible_defect",
++            "version": int(VERSIONING["visible_defect_schema_version"]),
++        },
+         "visible": visible,
+         "clip_model": "blender_camera_view",
+         "camera_type": camera["type"],
+--- archived/write_nominal_surface_pixel_scale
++++ current/write_nominal_surface_pixel_scale
+@@ -21,6 +21,10 @@
+             scale_y.append(distance_or_nan(top, bottom))
+             valid.append(1 if center is not None and left is not None and right is not None and top is not None and bottom is not None else 0)
+     summary = {
++        "schema": {
++            "name": "metrodef3d.pixel_scale",
++            "version": int(VERSIONING["pixel_scale_schema_version"]),
++        },
+         "model": "camera_ray_to_nominal_z0_plane",
+         "units": "mm_per_pixel",
+         "plane": {"axis": "z", "value": 0.0},

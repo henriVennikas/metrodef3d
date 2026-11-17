@@ -1,0 +1,29 @@
+{
+  "report": "BTLL-26/084",
+  "date": "2026-11-16",
+  "target_serial": "194821",
+  "span_names": [
+    "A1_top",
+    "A2_bottom",
+    "A3_left",
+    "A4_right"
+  ],
+  "span_mm": [
+    98.01,
+    98.01,
+    98.003,
+    98.001
+  ],
+  "diagonal_mm": 138.596,
+  "expanded_uncertainty_mm": 0.005,
+  "coverage_factor": 2,
+  "standard_uncertainty_mm": 0.0025,
+  "reference_old_mm": [
+    97.9994,
+    97.9994,
+    97.9992,
+    97.9993
+  ],
+  "correlation_assumption": "Fully positively correlated additive span-error scenario for the four measured outer spans; certificate supplies no covariance. This prevents averaging down their common component but is not a universal worst case for differences between model and reference.",
+  "scope": "Uncertainty applies to listed distances and diameters, not every dot coordinate. Diagonal and diameters not used to set the two scanner-axis scale factors."
+}

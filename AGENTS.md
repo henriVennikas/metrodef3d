@@ -33,7 +33,7 @@ by public labels, selected epochs and checkpoint hashes.
 
 Keep models, inference workflows and supporting studies for the first dataset
 under `supplementary/simple_concrete_crack_v1/`. Reserve `examples/` for generator
-recipes. Preserve `studies/README.md` as the manuscript-review navigation entry.
+recipes. Preserve `studies/README.md` as the stable dataset-study navigation entry. Documentation must stand on its own, describing methods and results without depending on a manuscript, reviewer comments or submission history.
 Keep model dependencies optional and independent of the generator package.
 
 ## Typical User Goals
@@ -118,6 +118,13 @@ blender_script/chunks/<first_seed>_<last_seed>.py
 Use `json/<seed>.json` as the canonical sample entry. For per-image scalar
 targets, use `outputs.captures[*].visible_defect.measurands`. For a sidecar-only
 workflow, use `visible_defect/<capture_id>/<seed>.json`.
+
+For the archived Simple Concrete Crack Dataset v2, this metadata still holds
+historical v1.0 references. Use the v2 release's `reference_loader.py` or complete
+`reference_values.csv` for current targets, preserving original files. Follow
+[the v2 loading guide](docs/dataset-v2.md). Retain v1.0 when describing the
+retained models' training, normalization and checkpoint selection. Do not assume
+the original benchmark CLI or baseline-training helper applies the v2 overlay.
 
 ## Ground Truth Use
 

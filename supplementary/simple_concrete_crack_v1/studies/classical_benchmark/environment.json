@@ -1,0 +1,14 @@
+{
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "python": "3.12.14",
+  "machine": "arm64",
+  "cpu_model": "not queried: sandbox restricts sysctl",
+  "libraries": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "skimage": "0.26.0",
+    "cv2": "5.0.0"
+  },
+  "workers": 4,
+  "gpu_used": false
+}

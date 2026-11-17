@@ -1,0 +1,47 @@
+{
+  "input_sha256": {
+    "transformer/test_predictions.csv|transformer": "d0c49c5cf3c39f2f07bf9ed5ebdf51860862ec13d07b13f94fa1625a26a33d6e",
+    "transformer/val_predictions.csv|transformer": "5fbfa6314e6fb4160d26a5953302d317a5542d65c87efc77366edd09d2a08354",
+    "resnet50/test_predictions.csv|resnet50": "b634b02daab267d3df70bea12fc3ee50a1f8757318ab8ea11192a70bcb120e7c",
+    "resnet50/val_predictions.csv|resnet50": "e3ea7a300f0277117d36df23f79ac13b448de447a5e3521a822f28c19763b5d0",
+    "convnext_tiny/test_predictions.csv|convnext_tiny": "4d2692052f70f7252c13ea5c674bd1b14d7d99324e26689fed3bc0c211821b78",
+    "convnext_tiny/val_predictions.csv|convnext_tiny": "ffccb1ad432d0f5d7916002a36e4495dcb0309896c37013f49282f9f768fcac3",
+    "results/test_predictions.csv|conventional": "13a8d285f9e24aafc8b5b634657d973952aaa0098fc4d0cde15ff8d0e882b14a",
+    "results/calibration_predictions.csv|conventional": "73c959419e865f499af7562b712e310e81ebd03a38bea700fb718a9143840728"
+  },
+  "methods": {
+    "transformer": {
+      "test_n": 1494,
+      "test_corrected": 26,
+      "unchanged_central_predictions": true,
+      "original_metrics_reproduced": true
+    },
+    "resnet50": {
+      "test_n": 1494,
+      "test_corrected": 26,
+      "unchanged_central_predictions": true,
+      "original_metrics_reproduced": true
+    },
+    "convnext_tiny": {
+      "test_n": 1494,
+      "test_corrected": 26,
+      "unchanged_central_predictions": true,
+      "original_metrics_reproduced": true
+    },
+    "conventional": {
+      "test_n": 1494,
+      "test_corrected": 26,
+      "unchanged_central_predictions": true,
+      "original_metrics_reproduced": true
+    }
+  },
+  "relative_floors": {
+    "centerline_length": 2.1303679943084717,
+    "mean_width": 0.016633594408631325,
+    "max_width": 0.019694898277521133,
+    "crack_area": 1.7752134799957275
+  },
+  "test_identity_exact": true,
+  "point_estimates_not_retrained": true,
+  "note": "Corrected entries use six-decimal overlay quantities; unmodified neural reference entries retain original float32 CSV representation. The baseline metrics and factors reproduce original records. No test exclusion or new inference."
+}

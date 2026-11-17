@@ -1,6 +1,6 @@
 # Detailed benchmark statistics
 
-All physical lengths/widths in mm, area in mm². Distribution summaries match the article Table I format: mean | median [Q1,Q3]. Error distributions and MARE use 1493 positive-reference observations; RMSE, R² and interval statistics include all 1494.
+All physical lengths/widths in mm, area in mm². Distribution summaries use the format: mean | median [Q1,Q3]. Error distributions and MARE use 1493 positive-reference observations; RMSE, R² and interval statistics include all 1494.
 
 | Statistic | Length | Mean width | Maximum width | Area |
 |---|---:|---:|---:|---:|

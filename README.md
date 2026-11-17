@@ -16,12 +16,22 @@ The current slice provides:
 - Dataset-style outputs grouped by artifact type, with seed-number filenames:
   `img/`, `json/`, `yaml/`, `blender_script/`, and `blend/`.
 
+## Reference export revision
+
+The local version 0.1.1 export uses component-aware visible references (schema 2). Disconnected portions are measured separately, and undefined quantities are explicitly marked. Dataset v2 applies this reference correction as a separate overlay, preserving the original images and metadata. See the [v2 loading instructions](docs/dataset-v2.md), [schema and migration notes](docs/reference-export-v2.md), and [reference correction and benchmark comparison](supplementary/simple_concrete_crack_v1/studies/reference_correction/README.md). Generator, schema and dataset version numbers are separate identifiers.
+
 ## Demonstration Dataset
 
-MetroDef3D Simple Concrete Crack Dataset v1.0 demonstrates the generator
-through 10,000 published observations with construction references and
-associated metadata. It is available on Zenodo under CC BY 4.0 at
-[DOI 10.5281/zenodo.21340378](https://doi.org/10.5281/zenodo.21340378).
+MetroDef3D Simple Concrete Crack Dataset **v2** contains 10,000 rendered
+observations with construction references and associated metadata. Its version
+DOI is [10.5281/zenodo.24326086](https://doi.org/10.5281/zenodo.24326086),
+under CC BY 4.0. The release combines the unchanged image archives with a
+reference-update package. Use the [v2 loading instructions](docs/dataset-v2.md)
+to resolve the current reference values without overwriting the originals.
+
+The retained models were trained and selected using **v1.0** references
+([DOI 10.5281/zenodo.21340378](https://doi.org/10.5281/zenodo.21340378)).
+The v2 reference update does not retrain these models.
 
 Example rendered samples with corresponding visible-defect measurands:
 
@@ -179,7 +189,9 @@ python tools/train_scalar_baseline.py \
 The baseline trains a small CNN regressor from one rendered capture stream to
 the per-capture visible-defect measurands stored in JSON metadata:
 `centerline_length`, `mean_width`, `max_width`, and `crack_area`. It is meant as
-a fast dataset sanity check, not the final metrology model.
+a fast dataset sanity check, not the final metrology model. This helper reads
+embedded metadata and does not apply the archived dataset v2 overlay. For v2
+reference loading, use the [dataset loading guide](docs/dataset-v2.md).
 
 ## Versioning
 
@@ -201,12 +213,22 @@ Generated metadata records both code and schema versions:
 ```
 
 Datasets published from this generator carry a separate human-readable title
-and machine identifier. The first simple concrete crack release uses:
+and machine identifier. The original release used for model training is:
 
 ```text
 Title: MetroDef3D Simple Concrete Crack Dataset v1.0 (Seeds 1-10,000)
 ID:    metrodef3d_simple_concrete_crack_v1_0_seeds_00001_10000
 ```
+
+The reference-update release is:
+
+```text
+Title: MetroDef3D Simple Concrete Crack Dataset v2 (Seeds 1–10,000)
+ID:    metrodef3d_simple_concrete_crack_v2_seeds_00001_10000
+```
+
+The original archive and run names are retained in v2. They identify the
+unchanged source files, not which reference values a loader resolves.
 
 Keep the dataset version independent of the generator version. A published
 dataset manifest records the dataset id and version, generator version and
@@ -220,7 +242,7 @@ sample content or reference values.
 
 The initial models and inference workflows for the synthetic-data training and
 benchmarking feasibility study are documented in the
-[Simple Concrete Crack Dataset v1.0 supplementary material](supplementary/simple_concrete_crack_v1/README.md).
+[Simple Concrete Crack Dataset supplementary material](supplementary/simple_concrete_crack_v1/README.md).
 The accompanying [studies](supplementary/simple_concrete_crack_v1/studies/)
 provide the model benchmark results, real-image comparisons and background
 sensitivity analysis.
@@ -233,7 +255,7 @@ reliability and add stronger automatic checks for geometry, reference values,
 and rendered outputs. These checks should flag unsuitable observations during
 generation so that large batches do not depend on manual image review. These
 items are development targets rather than capabilities claimed for the current
-generator or MetroDef3D Simple Concrete Crack Dataset v1.0.
+generator or the Simple Concrete Crack Dataset.
 
 ## License
 
@@ -249,5 +271,8 @@ materials in the fixed geometry background sensitivity study. Copyright in
 these photographs is held by Henri Vennikas. Any material identified as third
 party content remains subject to its stated licence.
 
-MetroDef3D Simple Concrete Crack Dataset v1.0 is separately published on Zenodo
-under CC BY 4.0 at <https://doi.org/10.5281/zenodo.21340378>.
+MetroDef3D Simple Concrete Crack Dataset v2 has version DOI
+[10.5281/zenodo.24326086](https://doi.org/10.5281/zenodo.24326086) and uses
+CC BY 4.0 for its data and documentation. The original v1.0 release used for
+model training remains separately identified by
+[10.5281/zenodo.21340378](https://doi.org/10.5281/zenodo.21340378).

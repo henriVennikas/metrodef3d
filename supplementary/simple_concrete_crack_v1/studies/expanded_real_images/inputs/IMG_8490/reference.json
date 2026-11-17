@@ -1,0 +1,156 @@
+{
+  "image": "IMG_8490",
+  "reference": {
+    "centerline_length": 82.1311814982948,
+    "mean_width": 1.1834492791800362,
+    "max_width": 2.11353081009666,
+    "crack_area": 97.19808754236169
+  },
+  "annotation_sha256": "406a6b23aa04469615c06d3f018bbedbfad28510147380c4006af0b8f97a892a",
+  "self_intersections": [],
+  "reference_valid": true,
+  "baseline": {
+    "step_mm": 0.05,
+    "tangent_window_mm": 1,
+    "stations": 1643,
+    "valid_stations": 1643,
+    "outside_stations": 0,
+    "multi_intersection_stations": 0,
+    "max_width_mm": 2.11353081009666,
+    "mean_section_width_mm": 1.1850720633839846,
+    "maximum": {
+      "station_mm": 65.67500000000001,
+      "width_mm": 2.11353081009666,
+      "inside": true,
+      "intersection_count": 2,
+      "endpoints_mm": [
+        [
+          58.20628936393407,
+          75.70563782920189
+        ],
+        [
+          56.09306407513698,
+          75.74157338285437
+        ]
+      ]
+    }
+  },
+  "sensitivity": [
+    {
+      "step_mm": 0.05,
+      "tangent_window_mm": 0.5,
+      "stations": 1643,
+      "valid_stations": 1643,
+      "outside_stations": 0,
+      "multi_intersection_stations": 0,
+      "max_width_mm": 2.112245175354587,
+      "mean_section_width_mm": 1.1855671429925445,
+      "maximum": {
+        "station_mm": 65.72500000000001,
+        "width_mm": 2.112245175354587,
+        "inside": true,
+        "intersection_count": 2,
+        "endpoints_mm": [
+          [
+            58.20711809923036,
+            75.79403521569344
+          ],
+          [
+            56.095425481291,
+            75.74572405601813
+          ]
+        ]
+      }
+    },
+    {
+      "step_mm": 0.05,
+      "tangent_window_mm": 2,
+      "stations": 1643,
+      "valid_stations": 1643,
+      "outside_stations": 0,
+      "multi_intersection_stations": 0,
+      "max_width_mm": 2.113390455586205,
+      "mean_section_width_mm": 1.1906467934191387,
+      "maximum": {
+        "station_mm": 65.62500000000001,
+        "width_mm": 2.113390455586205,
+        "inside": true,
+        "intersection_count": 2,
+        "endpoints_mm": [
+          [
+            58.20580249708099,
+            75.6537059788578
+          ],
+          [
+            56.09280393913334,
+            75.69440379051898
+          ]
+        ]
+      }
+    },
+    {
+      "step_mm": 0.025,
+      "tangent_window_mm": 1,
+      "stations": 3285,
+      "valid_stations": 3285,
+      "outside_stations": 0,
+      "multi_intersection_stations": 0,
+      "max_width_mm": 2.118679422802395,
+      "mean_section_width_mm": 1.1851290320746093,
+      "maximum": {
+        "station_mm": 65.66250000000001,
+        "width_mm": 2.118679422802395,
+        "inside": true,
+        "intersection_count": 2,
+        "endpoints_mm": [
+          [
+            58.20621142475456,
+            75.69732441500913
+          ],
+          [
+            56.08770328943507,
+            75.7242646672615
+          ]
+        ]
+      }
+    },
+    {
+      "step_mm": 0.1,
+      "tangent_window_mm": 1,
+      "stations": 821,
+      "valid_stations": 821,
+      "outside_stations": 0,
+      "multi_intersection_stations": 0,
+      "max_width_mm": 2.115528063278786,
+      "mean_section_width_mm": 1.185131850154499,
+      "maximum": {
+        "station_mm": 65.65,
+        "width_mm": 2.115528063278786,
+        "inside": true,
+        "intersection_count": 2,
+        "endpoints_mm": [
+          [
+            58.20613336936171,
+            75.68899860487362
+          ],
+          [
+            56.09068049921706,
+            75.70683510444192
+          ]
+        ]
+      }
+    }
+  ],
+  "manual_probes": {
+    "n": 49,
+    "mean_mm": 1.1457307035789968,
+    "median_mm": 1.1596903357195165,
+    "max_mm": 2.0456143867573635
+  },
+  "annotation_native_size": [
+    3024,
+    3024
+  ],
+  "convention": "Visible surface opening",
+  "reference_uncertainty": "Not quantified. Width sensitivity is not a confidence interval."
+}

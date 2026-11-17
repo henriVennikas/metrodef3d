@@ -1,6 +1,14 @@
 # Three-model measurement benchmark
 
-Benchmark study accompanying the third manuscript submission.
+Benchmark of three retained measurement-prediction models on the Simple Concrete Crack Dataset v1.0.
+
+This directory preserves the original v1.0 training, reference values and
+calibration results, identified by [DOI 10.5281/zenodo.21340378](https://doi.org/10.5281/zenodo.21340378).
+For **dataset v2**, [DOI 10.5281/zenodo.24326086](https://doi.org/10.5281/zenodo.24326086),
+use the [loading guide](../../../../docs/dataset-v2.md) and the
+[updated-reference comparison](../reference_correction/README.md). The latter
+scores the same predictions against v2 references and records validation-only
+recalibration separately. The models have not been retrained on v2.
 
 The benchmark compares direct scalar predictions and asymmetric intervals from a
 transformer, an adapted ResNet-50, and an adapted ConvNeXt-Tiny. Length, mean width,
@@ -9,6 +17,10 @@ trained systems under a shared recipe, not architecture-wide rankings.
 
 Archived run identifiers in the configurations use public labels. Checkpoint
 hashes and numerical results are unchanged.
+
+The additional [conventional image-processing study](../classical_benchmark/README.md) compares a frozen segmentation and geometric-measurement pipeline on the same test identities. Its selection protocol, residual bounds and reference-mask diagnostic are documented separately. The three-model results retained here are unchanged.
+
+The subsequent [reference-export verification](../reference_validation/README.md) identified false connecting lengths in 141 released observations, including 25 test cases. The archived benchmark values here still use the original v1.0 labels. A separate [correction overlay and impact study](../reference_correction/README.md) resolves 142 cases and reports v2-reference comparisons and validation-only recalibration. The historical results here remain unchanged.
 
 ## Results and files
 
@@ -33,8 +45,7 @@ figure: signed relative errors, calibrated coverage with Wilson intervals, and
 calibrated interval widths. Edge markers and counts indicate off-scale values;
 all observations remain in the statistics. `intermodel_comparison.json` records
 the display limits and tail counts. `intermodel_table.tex` contains the compact
-comparative manuscript table; `comparison.csv` supplies its full-precision metrics.
-The paper itself uses a compact two-by-two absolute-relative-error figure.
+comparative table; `comparison.csv` supplies its full-precision metrics.
 Regenerate the full supplementary view with `python tools/make_intermodel_comparison.py`.
 
 | Model | Length MARE | Mean width MARE | Maximum width MARE | Area MARE |

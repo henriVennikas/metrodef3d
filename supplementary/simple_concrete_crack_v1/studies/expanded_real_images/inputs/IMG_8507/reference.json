@@ -1,0 +1,156 @@
+{
+  "image": "IMG_8507",
+  "reference": {
+    "centerline_length": 81.18700009736403,
+    "mean_width": 2.262510039571857,
+    "max_width": 4.421351790080396,
+    "crack_area": 183.68640280300747
+  },
+  "annotation_sha256": "c6144405618b14d7e97b1d828af8e5649f9c99e61bf35e80fb12de2aff94a555",
+  "self_intersections": [],
+  "reference_valid": true,
+  "baseline": {
+    "step_mm": 0.05,
+    "tangent_window_mm": 1,
+    "stations": 1624,
+    "valid_stations": 1624,
+    "outside_stations": 0,
+    "multi_intersection_stations": 0,
+    "max_width_mm": 4.421351790080396,
+    "mean_section_width_mm": 2.2718750372941847,
+    "maximum": {
+      "station_mm": 79.42500000000001,
+      "width_mm": 4.421351790080396,
+      "inside": true,
+      "intersection_count": 2,
+      "endpoints_mm": [
+        [
+          64.61319230176615,
+          90.58006907286916
+        ],
+        [
+          60.310841796905294,
+          91.59895659608785
+        ]
+      ]
+    }
+  },
+  "sensitivity": [
+    {
+      "step_mm": 0.05,
+      "tangent_window_mm": 0.5,
+      "stations": 1624,
+      "valid_stations": 1624,
+      "outside_stations": 0,
+      "multi_intersection_stations": 0,
+      "max_width_mm": 4.553384519837931,
+      "mean_section_width_mm": 2.27719744576658,
+      "maximum": {
+        "station_mm": 79.62500000000001,
+        "width_mm": 4.553384519837931,
+        "inside": true,
+        "intersection_count": 2,
+        "endpoints_mm": [
+          [
+            64.61773677949985,
+            90.73864635961768
+          ],
+          [
+            60.20696560935054,
+            91.8693135387997
+          ]
+        ]
+      }
+    },
+    {
+      "step_mm": 0.05,
+      "tangent_window_mm": 2,
+      "stations": 1624,
+      "valid_stations": 1624,
+      "outside_stations": 0,
+      "multi_intersection_stations": 0,
+      "max_width_mm": 4.3714844408935125,
+      "mean_section_width_mm": 2.2715248112810715,
+      "maximum": {
+        "station_mm": 80.82500000000002,
+        "width_mm": 4.3714844408935125,
+        "inside": true,
+        "intersection_count": 2,
+        "endpoints_mm": [
+          [
+            64.45512298282645,
+            92.83441325521932
+          ],
+          [
+            60.12464893651738,
+            92.23702665408271
+          ]
+        ]
+      }
+    },
+    {
+      "step_mm": 0.025,
+      "tangent_window_mm": 1,
+      "stations": 3247,
+      "valid_stations": 3247,
+      "outside_stations": 0,
+      "multi_intersection_stations": 0,
+      "max_width_mm": 4.429135866187219,
+      "mean_section_width_mm": 2.271870168126643,
+      "maximum": {
+        "station_mm": 79.43750000000001,
+        "width_mm": 4.429135866187219,
+        "inside": true,
+        "intersection_count": 2,
+        "endpoints_mm": [
+          [
+            64.62455459900721,
+            90.60275532735687
+          ],
+          [
+            60.309632933611425,
+            91.60210288583895
+          ]
+        ]
+      }
+    },
+    {
+      "step_mm": 0.1,
+      "tangent_window_mm": 1,
+      "stations": 812,
+      "valid_stations": 812,
+      "outside_stations": 0,
+      "multi_intersection_stations": 0,
+      "max_width_mm": 4.429392639103409,
+      "mean_section_width_mm": 2.2719163317116693,
+      "maximum": {
+        "station_mm": 79.45000000000002,
+        "width_mm": 4.429392639103409,
+        "inside": true,
+        "intersection_count": 2,
+        "endpoints_mm": [
+          [
+            64.62851261307907,
+            90.62719761623512
+          ],
+          [
+            60.30844087287585,
+            91.6052054438321
+          ]
+        ]
+      }
+    }
+  ],
+  "manual_probes": {
+    "n": 46,
+    "mean_mm": 2.2078307017088283,
+    "median_mm": 2.027991956374247,
+    "max_mm": 4.337501015726346
+  },
+  "annotation_native_size": [
+    3024,
+    3024
+  ],
+  "convention": "Visible surface opening",
+  "reference_uncertainty": "Not quantified. Width sensitivity is not a confidence interval."
+}

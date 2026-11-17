@@ -1,0 +1,20 @@
+{
+  "status": "prepared before propagation",
+  "date": "2026-11-17",
+  "image": "IMG_8579",
+  "target_image": "IMG_8578",
+  "paper_target": "01",
+  "primary_quantity": "mean_width",
+  "annotations": "Four fresh traces plus original per author instruction; retain separate four-new sensitivity.",
+  "central_chain": "Recalculate each of 14 glass-scan axis scales from measured pixel spans and new Metrosert dimensions, map rotations back to scanner axes, mean axis scales; transfer to measured paper dot pixels, refit photograph homography. Original datasets remain unchanged.",
+  "components": [
+    "Metrosert standard uncertainty 0.0025 mm, common additive shift across 4 measured outer spans (correlation assumption).",
+    "Observed joint scatter of 14 scan-axis scales, used as transfer reproducibility component without division by sqrt(14).",
+    "Annotation sample covariance; divide by 5 only for the five-annotation mean, conditional independence assumption."
+  ],
+  "mapping": "Spatial block deletion of target correspondences used as mapping sensitivity, not automatically promoted to calibrated uncertainty. Unmodelled correlated distortion and target-to-surface pose/plane differences remain limitations.",
+  "model": "Retained transformer, RGB unchanged, update physical-scale channel only; local sensitivity with scanner-X/Y relative steps \u00b11% and \u00b10.5%, corrected synthetic calibration retained. Shared-scale derivative of prediction minus reference used.",
+  "scope": "Conditional reference-uncertainty and model-scale sensitivity example. No total field-model uncertainty or real-domain coverage guarantee. No training, rotation, manuscript real-image table replacements or publication.",
+  "metrology_guidance": "JCGM 100:2008 sections 4.2 and 5; sample covariance and correlated propagation; no quadrature addition of asymmetric model bounds.",
+  "frozen_utc": "2026-11-17T15:14:07.452290+00:00"
+}

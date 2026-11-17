@@ -1,0 +1,136 @@
+{
+  "transformer": {
+    "kind": "asymmetric_expansion_factor",
+    "old": {
+      "centerline_length": 1.4792045912919085,
+      "mean_width": 1.7967439219457113,
+      "max_width": 2.273549942953803,
+      "crack_area": 1.613146242485277
+    },
+    "original_refs_valid_cohort": {
+      "centerline_length": 1.4795762846802456,
+      "mean_width": 1.7981051714761986,
+      "max_width": 2.2741776054246823,
+      "crack_area": 1.6132148341952128
+    },
+    "corrected_refs_original_cohort": {
+      "centerline_length": 1.2668374417809742,
+      "mean_width": 1.7016771910056174,
+      "max_width": 2.273549942953803,
+      "crack_area": 1.613146242485277
+    },
+    "corrected_refs_valid_cohort": {
+      "centerline_length": 1.2684602757026202,
+      "mean_width": 1.7019284999102433,
+      "max_width": 2.2741776054246823,
+      "crack_area": 1.6132148341952128
+    },
+    "original_n": 1494,
+    "valid_n": 1493,
+    "corrected_validation_rows": 24,
+    "excluded_invalid_seeds": [
+      551
+    ],
+    "calibration_reproduction_max_error": 0.0
+  },
+  "resnet50": {
+    "kind": "asymmetric_expansion_factor",
+    "old": {
+      "centerline_length": 1.6178563413634661,
+      "mean_width": 1.1507908812023009,
+      "max_width": 1.3730733906812276,
+      "crack_area": 1.861638126787564
+    },
+    "original_refs_valid_cohort": {
+      "centerline_length": 1.6180695958442013,
+      "mean_width": 1.1511440776647253,
+      "max_width": 1.3730929880100335,
+      "crack_area": 1.861808223693134
+    },
+    "corrected_refs_original_cohort": {
+      "centerline_length": 1.5504523586337406,
+      "mean_width": 1.116427321109255,
+      "max_width": 1.3730733906812276,
+      "crack_area": 1.861638126787564
+    },
+    "corrected_refs_valid_cohort": {
+      "centerline_length": 1.5505022181231818,
+      "mean_width": 1.116467197510808,
+      "max_width": 1.3730929880100335,
+      "crack_area": 1.861808223693134
+    },
+    "original_n": 1494,
+    "valid_n": 1493,
+    "corrected_validation_rows": 24,
+    "excluded_invalid_seeds": [
+      551
+    ],
+    "calibration_reproduction_max_error": 0.0
+  },
+  "convnext_tiny": {
+    "kind": "asymmetric_expansion_factor",
+    "old": {
+      "centerline_length": 2.828725224040972,
+      "mean_width": 1.6184412087383553,
+      "max_width": 1.7126632375355813,
+      "crack_area": 2.8028893507494077
+    },
+    "original_refs_valid_cohort": {
+      "centerline_length": 2.8293353762977165,
+      "mean_width": 1.6109789842450601,
+      "max_width": 1.7127789075068465,
+      "crack_area": 2.8031999658843083
+    },
+    "corrected_refs_original_cohort": {
+      "centerline_length": 2.7070898813988054,
+      "mean_width": 1.5434991776865306,
+      "max_width": 1.7126632375355813,
+      "crack_area": 2.8028893507494077
+    },
+    "corrected_refs_valid_cohort": {
+      "centerline_length": 2.707222649675069,
+      "mean_width": 1.5375823964124542,
+      "max_width": 1.7127789075068465,
+      "crack_area": 2.8031999658843083
+    },
+    "original_n": 1494,
+    "valid_n": 1493,
+    "corrected_validation_rows": 24,
+    "excluded_invalid_seeds": [
+      551
+    ],
+    "calibration_reproduction_max_error": 0.0
+  },
+  "conventional": {
+    "kind": "absolute_residual_radius",
+    "old": {
+      "centerline_length": 53.15901194838949,
+      "mean_width": 0.2963709786101595,
+      "max_width": 1.534131330788657,
+      "crack_area": 41.343654889396674
+    },
+    "original_refs_valid_cohort": {
+      "centerline_length": 53.15901194838949,
+      "mean_width": 0.2963709786101595,
+      "max_width": 1.534131330788657,
+      "crack_area": 41.343654889396674
+    },
+    "corrected_refs_original_cohort": {
+      "centerline_length": 53.15901194838949,
+      "mean_width": 0.2962686434807382,
+      "max_width": 1.534131330788657,
+      "crack_area": 41.343654889396674
+    },
+    "corrected_refs_valid_cohort": {
+      "centerline_length": 53.15901194838949,
+      "mean_width": 0.2962686434807382,
+      "max_width": 1.534131330788657,
+      "crack_area": 41.343654889396674
+    },
+    "original_n": 1237,
+    "valid_n": 1237,
+    "corrected_validation_rows": 22,
+    "excluded_invalid_seeds": [],
+    "calibration_reproduction_max_error": 0.0
+  }
+}

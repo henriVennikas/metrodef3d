@@ -1,0 +1,62 @@
+[
+  {
+    "seed": 3,
+    "role": "first six test IDs",
+    "mean_absolute_error_normalized_by_reference_or_training_floor_percent": 12.032943711853129
+  },
+  {
+    "seed": 8,
+    "role": "first six test IDs",
+    "mean_absolute_error_normalized_by_reference_or_training_floor_percent": 17.657161150525063
+  },
+  {
+    "seed": 9,
+    "role": "first six test IDs",
+    "mean_absolute_error_normalized_by_reference_or_training_floor_percent": 3.653706404363101
+  },
+  {
+    "seed": 10,
+    "role": "first six test IDs",
+    "mean_absolute_error_normalized_by_reference_or_training_floor_percent": 10.32887519341035
+  },
+  {
+    "seed": 12,
+    "role": "first six test IDs",
+    "mean_absolute_error_normalized_by_reference_or_training_floor_percent": 10.706594692233312
+  },
+  {
+    "seed": 16,
+    "role": "first six test IDs",
+    "mean_absolute_error_normalized_by_reference_or_training_floor_percent": 9.62790624636959
+  },
+  {
+    "seed": 9173,
+    "role": "largest floored normalized absolute errors",
+    "mean_absolute_error_normalized_by_reference_or_training_floor_percent": 827.0164881080536
+  },
+  {
+    "seed": 3870,
+    "role": "largest floored normalized absolute errors",
+    "mean_absolute_error_normalized_by_reference_or_training_floor_percent": 239.7797859880158
+  },
+  {
+    "seed": 5516,
+    "role": "largest floored normalized absolute errors",
+    "mean_absolute_error_normalized_by_reference_or_training_floor_percent": 220.74226174711282
+  },
+  {
+    "seed": 6503,
+    "role": "largest floored normalized absolute errors",
+    "mean_absolute_error_normalized_by_reference_or_training_floor_percent": 207.32560678058692
+  },
+  {
+    "seed": 8662,
+    "role": "largest floored normalized absolute errors",
+    "mean_absolute_error_normalized_by_reference_or_training_floor_percent": 202.55015224762315
+  },
+  {
+    "seed": 1308,
+    "role": "largest floored normalized absolute errors",
+    "mean_absolute_error_normalized_by_reference_or_training_floor_percent": 179.70150309589314
+  }
+]

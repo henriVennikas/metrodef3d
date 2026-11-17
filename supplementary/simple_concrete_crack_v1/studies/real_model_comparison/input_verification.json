@@ -1,0 +1,49 @@
+{
+  "checks": [
+    {
+      "image": "IMG_8184",
+      "reference_recomputed": true,
+      "scale_homography_matches_annotation": true,
+      "positive_finite_scale": true,
+      "self_intersections": 0,
+      "centreline_stations_outside_boundary": 0
+    },
+    {
+      "image": "IMG_8162",
+      "reference_recomputed": true,
+      "scale_homography_matches_annotation": true,
+      "positive_finite_scale": true,
+      "self_intersections": 0,
+      "centreline_stations_outside_boundary": 1
+    },
+    {
+      "image": "IMG_8169",
+      "reference_recomputed": true,
+      "scale_homography_matches_annotation": true,
+      "positive_finite_scale": true,
+      "self_intersections": 0,
+      "centreline_stations_outside_boundary": 0
+    },
+    {
+      "image": "IMG_8139",
+      "reference_recomputed": true,
+      "scale_homography_matches_annotation": true,
+      "positive_finite_scale": true,
+      "self_intersections": 0,
+      "centreline_stations_outside_boundary": 1
+    },
+    {
+      "image": "IMG_8117",
+      "reference_recomputed": true,
+      "scale_homography_matches_annotation": true,
+      "positive_finite_scale": true,
+      "self_intersections": 0,
+      "centreline_stations_outside_boundary": 0
+    }
+  ],
+  "frozen_source_files_unchanged": false,
+  "model_inputs_unchanged": true,
+  "documented_path_redactions": [
+    "inputs/IMG_8117/preprocessing.json"
+  ]
+}

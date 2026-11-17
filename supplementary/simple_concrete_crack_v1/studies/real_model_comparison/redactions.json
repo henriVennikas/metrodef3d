@@ -1,0 +1,7 @@
+{
+  "inputs/IMG_8117/preprocessing.json": {
+    "original_sha256": "5a791f71d6a1edaa98c8052b8f5db98f8cbcda36e369bec560ed41066a430b03",
+    "redacted_sha256": "dedbed5331bf1be50d97137198746d0b168ece3b83c6891b5aee301b7ba93a26",
+    "changes": "Machine-specific path strings replaced with local-source basenames. Numerical and geometric content unchanged."
+  }
+}

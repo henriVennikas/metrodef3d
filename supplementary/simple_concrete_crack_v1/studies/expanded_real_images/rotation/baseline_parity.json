@@ -1,0 +1,506 @@
+[
+  {
+    "id": "IMG_8184",
+    "model": "transformer",
+    "domain": "real",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.0,
+      "mean_width": 0.0,
+      "max_width": 0.0,
+      "crack_area": 0.0
+    },
+    "baseline_precision": "CPU float32"
+  },
+  {
+    "id": "IMG_8162",
+    "model": "transformer",
+    "domain": "real",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.0,
+      "mean_width": 0.0,
+      "max_width": 0.0,
+      "crack_area": 0.0
+    },
+    "baseline_precision": "CPU float32"
+  },
+  {
+    "id": "IMG_8169",
+    "model": "transformer",
+    "domain": "real",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.0,
+      "mean_width": 0.0,
+      "max_width": 0.0,
+      "crack_area": 0.0
+    },
+    "baseline_precision": "CPU float32"
+  },
+  {
+    "id": "IMG_8139",
+    "model": "transformer",
+    "domain": "real",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.0,
+      "mean_width": 0.0,
+      "max_width": 0.0,
+      "crack_area": 0.0
+    },
+    "baseline_precision": "CPU float32"
+  },
+  {
+    "id": "seed_1804",
+    "model": "transformer",
+    "domain": "synthetic",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.0689849853515625,
+      "mean_width": 0.0004063844680786133,
+      "max_width": 0.000812530517578125,
+      "crack_area": 0.06247711181640625
+    },
+    "baseline_precision": "Archived benchmark; see source run precision"
+  },
+  {
+    "id": "seed_2517",
+    "model": "transformer",
+    "domain": "synthetic",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.0676727294921875,
+      "mean_width": 0.0004935860633850098,
+      "max_width": 0.001972794532775879,
+      "crack_area": 0.19614791870117188
+    },
+    "baseline_precision": "Archived benchmark; see source run precision"
+  },
+  {
+    "id": "seed_2736",
+    "model": "transformer",
+    "domain": "synthetic",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.1436004638671875,
+      "mean_width": 0.002527594566345215,
+      "max_width": 0.0017061233520507812,
+      "crack_area": 0.39443206787109375
+    },
+    "baseline_precision": "Archived benchmark; see source run precision"
+  },
+  {
+    "id": "seed_6861",
+    "model": "transformer",
+    "domain": "synthetic",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.1362457275390625,
+      "mean_width": 0.0011458396911621094,
+      "max_width": 0.0016269683837890625,
+      "crack_area": 0.2210540771484375
+    },
+    "baseline_precision": "Archived benchmark; see source run precision"
+  },
+  {
+    "id": "seed_7080",
+    "model": "transformer",
+    "domain": "synthetic",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.06201171875,
+      "mean_width": 0.001200556755065918,
+      "max_width": 0.0021936893463134766,
+      "crack_area": 0.033660888671875
+    },
+    "baseline_precision": "Archived benchmark; see source run precision"
+  },
+  {
+    "id": "seed_7217",
+    "model": "transformer",
+    "domain": "synthetic",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.0644073486328125,
+      "mean_width": 0.0015581846237182617,
+      "max_width": 0.002435445785522461,
+      "crack_area": 0.0149688720703125
+    },
+    "baseline_precision": "Archived benchmark; see source run precision"
+  },
+  {
+    "id": "seed_7949",
+    "model": "transformer",
+    "domain": "synthetic",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.10323333740234375,
+      "mean_width": 0.00026094913482666016,
+      "max_width": 0.0003490447998046875,
+      "crack_area": 0.040012359619140625
+    },
+    "baseline_precision": "Archived benchmark; see source run precision"
+  },
+  {
+    "id": "seed_8036",
+    "model": "transformer",
+    "domain": "synthetic",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.12322998046875,
+      "mean_width": 0.00011640787124633789,
+      "max_width": 0.0036280155181884766,
+      "crack_area": 0.2910804748535156
+    },
+    "baseline_precision": "Archived benchmark; see source run precision"
+  },
+  {
+    "id": "seed_8421",
+    "model": "transformer",
+    "domain": "synthetic",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.03741455078125,
+      "mean_width": 0.0011985301971435547,
+      "max_width": 0.0013937950134277344,
+      "crack_area": 0.06969451904296875
+    },
+    "baseline_precision": "Archived benchmark; see source run precision"
+  },
+  {
+    "id": "seed_9701",
+    "model": "transformer",
+    "domain": "synthetic",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.18925094604492188,
+      "mean_width": 0.00018322467803955078,
+      "max_width": 0.001102447509765625,
+      "crack_area": 0.07468795776367188
+    },
+    "baseline_precision": "Archived benchmark; see source run precision"
+  },
+  {
+    "id": "IMG_8184",
+    "model": "resnet50",
+    "domain": "real",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.0,
+      "mean_width": 0.0,
+      "max_width": 0.0,
+      "crack_area": 0.0
+    },
+    "baseline_precision": "CPU float32"
+  },
+  {
+    "id": "IMG_8162",
+    "model": "resnet50",
+    "domain": "real",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.0,
+      "mean_width": 0.0,
+      "max_width": 0.0,
+      "crack_area": 0.0
+    },
+    "baseline_precision": "CPU float32"
+  },
+  {
+    "id": "IMG_8169",
+    "model": "resnet50",
+    "domain": "real",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.0,
+      "mean_width": 0.0,
+      "max_width": 0.0,
+      "crack_area": 0.0
+    },
+    "baseline_precision": "CPU float32"
+  },
+  {
+    "id": "IMG_8139",
+    "model": "resnet50",
+    "domain": "real",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.0,
+      "mean_width": 0.0,
+      "max_width": 0.0,
+      "crack_area": 0.0
+    },
+    "baseline_precision": "CPU float32"
+  },
+  {
+    "id": "seed_1804",
+    "model": "resnet50",
+    "domain": "synthetic",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.303131103515625,
+      "mean_width": 6.109476089477539e-05,
+      "max_width": 2.6881694793701172e-05,
+      "crack_area": 0.18315887451171875
+    },
+    "baseline_precision": "Archived benchmark; see source run precision"
+  },
+  {
+    "id": "seed_2517",
+    "model": "resnet50",
+    "domain": "synthetic",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.388427734375,
+      "mean_width": 0.0006274580955505371,
+      "max_width": 0.0013651251792907715,
+      "crack_area": 0.029613494873046875
+    },
+    "baseline_precision": "Archived benchmark; see source run precision"
+  },
+  {
+    "id": "seed_2736",
+    "model": "resnet50",
+    "domain": "synthetic",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.12819671630859375,
+      "mean_width": 0.00034737586975097656,
+      "max_width": 0.0005688667297363281,
+      "crack_area": 0.00742340087890625
+    },
+    "baseline_precision": "Archived benchmark; see source run precision"
+  },
+  {
+    "id": "seed_6861",
+    "model": "resnet50",
+    "domain": "synthetic",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.24843597412109375,
+      "mean_width": 0.0012610554695129395,
+      "max_width": 0.001532912254333496,
+      "crack_area": 0.37010955810546875
+    },
+    "baseline_precision": "Archived benchmark; see source run precision"
+  },
+  {
+    "id": "seed_7080",
+    "model": "resnet50",
+    "domain": "synthetic",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.0589141845703125,
+      "mean_width": 0.0009152889251708984,
+      "max_width": 0.001750946044921875,
+      "crack_area": 0.0923614501953125
+    },
+    "baseline_precision": "Archived benchmark; see source run precision"
+  },
+  {
+    "id": "seed_7217",
+    "model": "resnet50",
+    "domain": "synthetic",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.007843017578125,
+      "mean_width": 0.0003826618194580078,
+      "max_width": 8.618831634521484e-05,
+      "crack_area": 0.2351837158203125
+    },
+    "baseline_precision": "Archived benchmark; see source run precision"
+  },
+  {
+    "id": "seed_7949",
+    "model": "resnet50",
+    "domain": "synthetic",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.025821685791015625,
+      "mean_width": 0.0047872066497802734,
+      "max_width": 0.005327343940734863,
+      "crack_area": 0.214874267578125
+    },
+    "baseline_precision": "Archived benchmark; see source run precision"
+  },
+  {
+    "id": "seed_8036",
+    "model": "resnet50",
+    "domain": "synthetic",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.2663726806640625,
+      "mean_width": 0.0005559921264648438,
+      "max_width": 0.0007237792015075684,
+      "crack_area": 0.0136260986328125
+    },
+    "baseline_precision": "Archived benchmark; see source run precision"
+  },
+  {
+    "id": "seed_8421",
+    "model": "resnet50",
+    "domain": "synthetic",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.1022491455078125,
+      "mean_width": 0.0006173849105834961,
+      "max_width": 0.00041747093200683594,
+      "crack_area": 0.30635833740234375
+    },
+    "baseline_precision": "Archived benchmark; see source run precision"
+  },
+  {
+    "id": "seed_9701",
+    "model": "resnet50",
+    "domain": "synthetic",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.0363006591796875,
+      "mean_width": 0.0015484094619750977,
+      "max_width": 0.0018352270126342773,
+      "crack_area": 0.2430267333984375
+    },
+    "baseline_precision": "Archived benchmark; see source run precision"
+  },
+  {
+    "id": "IMG_8184",
+    "model": "convnext_tiny",
+    "domain": "real",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.0,
+      "mean_width": 0.0,
+      "max_width": 0.0,
+      "crack_area": 0.0
+    },
+    "baseline_precision": "CPU float32"
+  },
+  {
+    "id": "IMG_8162",
+    "model": "convnext_tiny",
+    "domain": "real",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.0,
+      "mean_width": 0.0,
+      "max_width": 0.0,
+      "crack_area": 0.0
+    },
+    "baseline_precision": "CPU float32"
+  },
+  {
+    "id": "IMG_8169",
+    "model": "convnext_tiny",
+    "domain": "real",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.0,
+      "mean_width": 0.0,
+      "max_width": 0.0,
+      "crack_area": 0.0
+    },
+    "baseline_precision": "CPU float32"
+  },
+  {
+    "id": "IMG_8139",
+    "model": "convnext_tiny",
+    "domain": "real",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.0,
+      "mean_width": 0.0,
+      "max_width": 0.0,
+      "crack_area": 0.0
+    },
+    "baseline_precision": "CPU float32"
+  },
+  {
+    "id": "seed_1804",
+    "model": "convnext_tiny",
+    "domain": "synthetic",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.130218505859375,
+      "mean_width": 0.0008736848831176758,
+      "max_width": 0.0007582306861877441,
+      "crack_area": 0.13220977783203125
+    },
+    "baseline_precision": "Archived benchmark; see source run precision"
+  },
+  {
+    "id": "seed_2517",
+    "model": "convnext_tiny",
+    "domain": "synthetic",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.22344970703125,
+      "mean_width": 0.0014639496803283691,
+      "max_width": 0.0017088651657104492,
+      "crack_area": 0.18547821044921875
+    },
+    "baseline_precision": "Archived benchmark; see source run precision"
+  },
+  {
+    "id": "seed_2736",
+    "model": "convnext_tiny",
+    "domain": "synthetic",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.204498291015625,
+      "mean_width": 0.0035630464553833008,
+      "max_width": 0.00480496883392334,
+      "crack_area": 0.5122756958007812
+    },
+    "baseline_precision": "Archived benchmark; see source run precision"
+  },
+  {
+    "id": "seed_6861",
+    "model": "convnext_tiny",
+    "domain": "synthetic",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.1536712646484375,
+      "mean_width": 0.0011612176895141602,
+      "max_width": 0.0009677410125732422,
+      "crack_area": 0.2283172607421875
+    },
+    "baseline_precision": "Archived benchmark; see source run precision"
+  },
+  {
+    "id": "seed_7080",
+    "model": "convnext_tiny",
+    "domain": "synthetic",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.1486358642578125,
+      "mean_width": 0.0006594657897949219,
+      "max_width": 0.0002589225769042969,
+      "crack_area": 0.27423095703125
+    },
+    "baseline_precision": "Archived benchmark; see source run precision"
+  },
+  {
+    "id": "seed_7217",
+    "model": "convnext_tiny",
+    "domain": "synthetic",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.0361785888671875,
+      "mean_width": 0.0019068717956542969,
+      "max_width": 0.0021505355834960938,
+      "crack_area": 0.03863525390625
+    },
+    "baseline_precision": "Archived benchmark; see source run precision"
+  },
+  {
+    "id": "seed_7949",
+    "model": "convnext_tiny",
+    "domain": "synthetic",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.098419189453125,
+      "mean_width": 4.678964614868164e-05,
+      "max_width": 0.0001367330551147461,
+      "crack_area": 0.227325439453125
+    },
+    "baseline_precision": "Archived benchmark; see source run precision"
+  },
+  {
+    "id": "seed_8036",
+    "model": "convnext_tiny",
+    "domain": "synthetic",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.27002716064453125,
+      "mean_width": 0.0012178421020507812,
+      "max_width": 0.0004507899284362793,
+      "crack_area": 0.3082733154296875
+    },
+    "baseline_precision": "Archived benchmark; see source run precision"
+  },
+  {
+    "id": "seed_8421",
+    "model": "convnext_tiny",
+    "domain": "synthetic",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.102325439453125,
+      "mean_width": 0.00054931640625,
+      "max_width": 0.0002880096435546875,
+      "crack_area": 0.08974456787109375
+    },
+    "baseline_precision": "Archived benchmark; see source run precision"
+  },
+  {
+    "id": "seed_9701",
+    "model": "convnext_tiny",
+    "domain": "synthetic",
+    "absolute_prediction_differences": {
+      "centerline_length": 0.011783599853515625,
+      "mean_width": 0.0004023909568786621,
+      "max_width": 0.0014719963073730469,
+      "crack_area": 0.16851043701171875
+    },
+    "baseline_precision": "Archived benchmark; see source run precision"
+  }
+]

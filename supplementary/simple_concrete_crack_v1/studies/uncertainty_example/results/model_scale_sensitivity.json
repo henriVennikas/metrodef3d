@@ -1,0 +1,435 @@
+{
+  "model": "Transformer",
+  "selected_epoch": 49,
+  "weights_sha256": "514aa256c4142fd78b60035c4755982f8872de8c0eedfab811bf4334658e77cb",
+  "state_sha256": "544979a4b263d42ef8e5ed987386877fc7e84c6abd6324bab2d2e9d3abde76bd",
+  "state_unchanged": true,
+  "rgb_sha256": "1a714ac593ae93a8a1436d908850c180da9f3c1f42ce15e4c6f2117967d1d2b2",
+  "device": "cpu",
+  "precision": "float32",
+  "threads": 4,
+  "python": "3.12.14",
+  "torch": "2.8.0",
+  "numpy": "2.5.0",
+  "calibration": {
+    "centerline_length": 1.2684602757026202,
+    "mean_width": 1.7019284999102433,
+    "max_width": 2.2741776054246823,
+    "crack_area": 1.6132148341952128
+  },
+  "wall_seconds": 13.241459542070515,
+  "results": [
+    {
+      "case": "previous",
+      "physical_axis": null,
+      "relative_change": 0,
+      "predictions": {
+        "centerline_length": {
+          "mu": 70.96737670898438,
+          "lower": 67.91512298583984,
+          "upper": 74.29597473144531,
+          "calibrated_lower": 67.09571410981012,
+          "calibrated_upper": 75.18957107425837,
+          "unit": "mm"
+        },
+        "mean_width": {
+          "mu": 1.1156200170516968,
+          "lower": 1.0877444744110107,
+          "upper": 1.1485586166381836,
+          "calibrated_lower": 1.06817783658105,
+          "calibrated_upper": 1.1716791584350705,
+          "unit": "mm"
+        },
+        "max_width": {
+          "mu": 1.317492961883545,
+          "lower": 1.2837104797363281,
+          "upper": 1.3597177267074585,
+          "calibrated_lower": 1.2406655975286853,
+          "calibrated_upper": 1.4135195764404132,
+          "unit": "mm"
+        },
+        "crack_area": {
+          "mu": 79.38902282714844,
+          "lower": 76.82772827148438,
+          "upper": 82.25308990478516,
+          "calibrated_lower": 75.25710445520774,
+          "calibrated_upper": 84.00937832292212,
+          "unit": "mm2"
+        }
+      },
+      "inference_seconds": 1.3984299580333754,
+      "input_sha256": "17441dbddb5c4068458ac2eca2e118f0b6661f376c4215639555e923292ece1d"
+    },
+    {
+      "case": "metrosert",
+      "physical_axis": null,
+      "relative_change": 0,
+      "predictions": {
+        "centerline_length": {
+          "mu": 70.97178649902344,
+          "lower": 67.91941833496094,
+          "upper": 74.30052185058594,
+          "calibrated_lower": 67.09997873609082,
+          "calibrated_upper": 75.19415506080746,
+          "unit": "mm"
+        },
+        "mean_width": {
+          "mu": 1.1156765222549438,
+          "lower": 1.0877971649169922,
+          "upper": 1.1486196517944336,
+          "calibrated_lower": 1.068227849442302,
+          "calibrated_upper": 1.1717433732944365,
+          "unit": "mm"
+        },
+        "max_width": {
+          "mu": 1.317566990852356,
+          "lower": 1.283778190612793,
+          "upper": 1.359798789024353,
+          "calibrated_lower": 1.2407252580333736,
+          "calibrated_upper": 1.4136096004919267,
+          "unit": "mm"
+        },
+        "crack_area": {
+          "mu": 79.39777374267578,
+          "lower": 76.8363037109375,
+          "upper": 82.26210021972656,
+          "calibrated_lower": 75.2655722901291,
+          "calibrated_upper": 84.01854770543221,
+          "unit": "mm2"
+        }
+      },
+      "inference_seconds": 1.1442772909067571,
+      "input_sha256": "4eda98d0471133aeefcc01dc78149d2aef7d82640418192490fb14be490e1217"
+    },
+    {
+      "case": "axis0_-0.010",
+      "physical_axis": 0,
+      "relative_change": -0.01,
+      "predictions": {
+        "centerline_length": {
+          "mu": 70.64945983886719,
+          "lower": 67.60474395751953,
+          "upper": 73.96724700927734,
+          "calibrated_lower": 66.78735869257679,
+          "calibrated_upper": 74.85794106776827,
+          "unit": "mm"
+        },
+        "mean_width": {
+          "mu": 1.1114996671676636,
+          "lower": 1.0839056968688965,
+          "upper": 1.1441079378128052,
+          "calibrated_lower": 1.064536702690515,
+          "calibrated_upper": 1.1669966123114166,
+          "unit": "mm"
+        },
+        "max_width": {
+          "mu": 1.3121235370635986,
+          "lower": 1.2787954807281494,
+          "upper": 1.3538401126861572,
+          "calibrated_lower": 1.2363296177131877,
+          "calibrated_upper": 1.4069944391194267,
+          "unit": "mm"
+        },
+        "crack_area": {
+          "mu": 78.75658416748047,
+          "lower": 76.2081298828125,
+          "upper": 81.60191345214844,
+          "calibrated_lower": 74.64537991118576,
+          "calibrated_upper": 83.34671157767688,
+          "unit": "mm2"
+        }
+      },
+      "inference_seconds": 1.1533717080019414,
+      "input_sha256": "c2acf12e730cbfc7486a3b0114c139d90ce7ed4765b673e0d682596fee902050"
+    },
+    {
+      "case": "axis0_-0.005",
+      "physical_axis": 0,
+      "relative_change": -0.005,
+      "predictions": {
+        "centerline_length": {
+          "mu": 70.80891418457031,
+          "lower": 67.76026916503906,
+          "upper": 74.13243103027344,
+          "calibrated_lower": 66.94182908257628,
+          "calibrated_upper": 75.02466327897321,
+          "unit": "mm"
+        },
+        "mean_width": {
+          "mu": 1.1135900020599365,
+          "lower": 1.0858519077301025,
+          "upper": 1.1463665962219238,
+          "calibrated_lower": 1.0663817487867933,
+          "calibrated_upper": 1.1693734217942144,
+          "unit": "mm"
+        },
+        "max_width": {
+          "mu": 1.3148409128189087,
+          "lower": 1.2812820672988892,
+          "upper": 1.356814980506897,
+          "calibrated_lower": 1.2385221378733737,
+          "calibrated_upper": 1.4102973975635114,
+          "unit": "mm"
+        },
+        "crack_area": {
+          "mu": 79.07537841796875,
+          "lower": 76.52033996582031,
+          "upper": 81.93033599853516,
+          "calibrated_lower": 74.95355248502372,
+          "calibrated_upper": 83.68103833793656,
+          "unit": "mm2"
+        }
+      },
+      "inference_seconds": 1.1748641249723732,
+      "input_sha256": "e9cf06eb87d7777fdf937fcad67a89ab143a580f277c16898ea422dec20663dc"
+    },
+    {
+      "case": "axis0_+0.005",
+      "physical_axis": 0,
+      "relative_change": 0.005,
+      "predictions": {
+        "centerline_length": {
+          "mu": 71.13185119628906,
+          "lower": 68.07573699951172,
+          "upper": 74.46585083007812,
+          "calibrated_lower": 67.25529173966618,
+          "calibrated_upper": 75.36089729095757,
+          "unit": "mm"
+        },
+        "mean_width": {
+          "mu": 1.1177482604980469,
+          "lower": 1.0897259712219238,
+          "upper": 1.1508584022521973,
+          "calibrated_lower": 1.0700563277462838,
+          "calibrated_upper": 1.1740993543855036,
+          "unit": "mm"
+        },
+        "max_width": {
+          "mu": 1.3202900886535645,
+          "lower": 1.286267638206482,
+          "upper": 1.3627829551696777,
+          "calibrated_lower": 1.2429169937651383,
+          "calibrated_upper": 1.4169264140748097,
+          "unit": "mm"
+        },
+        "crack_area": {
+          "mu": 79.71725463867188,
+          "lower": 77.14925384521484,
+          "upper": 82.59103393554688,
+          "calibrated_lower": 75.57451766444191,
+          "calibrated_upper": 84.35327803059371,
+          "unit": "mm2"
+        }
+      },
+      "inference_seconds": 1.159330707974732,
+      "input_sha256": "765ee09fe0d6c51d823961f366a95d6b00b4c6cf4fb62376ba0dc76c2ad2bb71"
+    },
+    {
+      "case": "axis0_+0.010",
+      "physical_axis": 0,
+      "relative_change": 0.01,
+      "predictions": {
+        "centerline_length": {
+          "mu": 71.28900146484375,
+          "lower": 68.22904968261719,
+          "upper": 74.62834167480469,
+          "calibrated_lower": 67.40757418352392,
+          "calibrated_upper": 75.52482186823565,
+          "unit": "mm"
+        },
+        "mean_width": {
+          "mu": 1.1198163032531738,
+          "lower": 1.0916483402252197,
+          "upper": 1.1530953645706177,
+          "calibrated_lower": 1.0718764441914808,
+          "calibrated_upper": 1.176454886159592,
+          "unit": "mm"
+        },
+        "max_width": {
+          "mu": 1.3230221271514893,
+          "lower": 1.288760781288147,
+          "upper": 1.3657807111740112,
+          "calibrated_lower": 1.2451057416573668,
+          "calibrated_upper": 1.4202627413751783,
+          "unit": "mm"
+        },
+        "crack_area": {
+          "mu": 80.03501892089844,
+          "lower": 77.46025085449219,
+          "upper": 82.91848754882812,
+          "calibrated_lower": 75.88136488155975,
+          "calibrated_upper": 84.68667328541113,
+          "unit": "mm2"
+        }
+      },
+      "inference_seconds": 1.168799874954857,
+      "input_sha256": "0a7c4d972940f0b330d98036cfa80f87db1cacadfc9aeb43824d51da680427cd"
+    },
+    {
+      "case": "axis1_-0.010",
+      "physical_axis": 1,
+      "relative_change": -0.01,
+      "predictions": {
+        "centerline_length": {
+          "mu": 70.64885711669922,
+          "lower": 67.60417175292969,
+          "upper": 73.96660614013672,
+          "calibrated_lower": 66.78679468074439,
+          "calibrated_upper": 74.85728995768085,
+          "unit": "mm"
+        },
+        "mean_width": {
+          "mu": 1.1114925146102905,
+          "lower": 1.0838991403579712,
+          "upper": 1.1441000699996948,
+          "calibrated_lower": 1.0645305645615788,
+          "calibrated_upper": 1.1669882424399196,
+          "unit": "mm"
+        },
+        "max_width": {
+          "mu": 1.3121063709259033,
+          "lower": 1.2787798643112183,
+          "upper": 1.353821039199829,
+          "calibrated_lower": 1.236315975915749,
+          "calibrated_upper": 1.4069729353321847,
+          "unit": "mm"
+        },
+        "crack_area": {
+          "mu": 78.75534057617188,
+          "lower": 76.20692443847656,
+          "upper": 81.60062408447266,
+          "calibrated_lower": 74.64419785913933,
+          "calibrated_upper": 83.3453941392537,
+          "unit": "mm2"
+        }
+      },
+      "inference_seconds": 1.154288624995388,
+      "input_sha256": "4bf49b7d04a187184419f4af0a6219a70ca6eb2f9b5b04f9b8177104bcd1d936"
+    },
+    {
+      "case": "axis1_-0.005",
+      "physical_axis": 1,
+      "relative_change": -0.005,
+      "predictions": {
+        "centerline_length": {
+          "mu": 70.80862426757812,
+          "lower": 67.75999450683594,
+          "upper": 74.13212585449219,
+          "calibrated_lower": 66.94155852075188,
+          "calibrated_upper": 75.02435400681323,
+          "unit": "mm"
+        },
+        "mean_width": {
+          "mu": 1.1135865449905396,
+          "lower": 1.0858488082885742,
+          "upper": 1.1463629007339478,
+          "calibrated_lower": 1.0663789003744584,
+          "calibrated_upper": 1.1693695589534427,
+          "unit": "mm"
+        },
+        "max_width": {
+          "mu": 1.314832329750061,
+          "lower": 1.2812743186950684,
+          "upper": 1.356805443763733,
+          "calibrated_lower": 1.2385154525262028,
+          "calibrated_upper": 1.4102866456698906,
+          "unit": "mm"
+        },
+        "crack_area": {
+          "mu": 79.07476043701172,
+          "lower": 76.51972961425781,
+          "upper": 81.92969512939453,
+          "calibrated_lower": 74.95294681191912,
+          "calibrated_upper": 83.68038343342222,
+          "unit": "mm2"
+        }
+      },
+      "inference_seconds": 1.1606728750048205,
+      "input_sha256": "dcb0718d19a56dd394f039c7a308aed3bb5104f4acc32026c6dd4e132150f122"
+    },
+    {
+      "case": "axis1_+0.005",
+      "physical_axis": 1,
+      "relative_change": 0.005,
+      "predictions": {
+        "centerline_length": {
+          "mu": 71.13212585449219,
+          "lower": 68.07599639892578,
+          "upper": 74.46614074707031,
+          "calibrated_lower": 67.25554704270152,
+          "calibrated_upper": 75.36119130432847,
+          "unit": "mm"
+        },
+        "mean_width": {
+          "mu": 1.1177515983581543,
+          "lower": 1.0897290706634521,
+          "upper": 1.150862216949463,
+          "calibrated_lower": 1.0700592598350167,
+          "calibrated_upper": 1.1741035037883603,
+          "unit": "mm"
+        },
+        "max_width": {
+          "mu": 1.320298433303833,
+          "lower": 1.2862752676010132,
+          "upper": 1.3627923727035522,
+          "calibrated_lower": 1.242923711796827,
+          "calibrated_upper": 1.416937198652948,
+          "unit": "mm"
+        },
+        "crack_area": {
+          "mu": 79.71785736083984,
+          "lower": 77.14984130859375,
+          "upper": 82.59166717529297,
+          "calibrated_lower": 75.57509577090502,
+          "calibrated_upper": 84.35392998417142,
+          "unit": "mm2"
+        }
+      },
+      "inference_seconds": 1.1443925829371437,
+      "input_sha256": "ec91a10a4e9df32b6537227e9c8fa28688f2c96461fbba515d19f2e5c023f539"
+    },
+    {
+      "case": "axis1_+0.010",
+      "physical_axis": 1,
+      "relative_change": 0.01,
+      "predictions": {
+        "centerline_length": {
+          "mu": 71.28953552246094,
+          "lower": 68.22953796386719,
+          "upper": 74.62892150878906,
+          "calibrated_lower": 67.40805017563777,
+          "calibrated_upper": 75.52541399135617,
+          "unit": "mm"
+        },
+        "mean_width": {
+          "mu": 1.1198232173919678,
+          "lower": 1.091654658317566,
+          "upper": 1.1531031131744385,
+          "calibrated_lower": 1.071882343901838,
+          "calibrated_upper": 1.1764632204981973,
+          "unit": "mm"
+        },
+        "max_width": {
+          "mu": 1.3230395317077637,
+          "lower": 1.2887765169143677,
+          "upper": 1.365800142288208,
+          "calibrated_lower": 1.2451193507702878,
+          "calibrated_upper": 1.420284754684096,
+          "unit": "mm"
+        },
+        "crack_area": {
+          "mu": 80.03623962402344,
+          "lower": 77.46143341064453,
+          "upper": 82.91976165771484,
+          "calibrated_lower": 75.88252404542258,
+          "calibrated_upper": 84.68798014350317,
+          "unit": "mm2"
+        }
+      },
+      "inference_seconds": 1.151320792036131,
+      "input_sha256": "6594f5f8f170177851f5ffe23de56ea508a156ef45d4b04413a7383549cb5dfe"
+    }
+  ],
+  "training": false,
+  "field_fitting": false
+}

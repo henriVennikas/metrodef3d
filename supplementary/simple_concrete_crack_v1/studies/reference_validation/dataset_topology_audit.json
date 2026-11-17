@@ -1,0 +1,4089 @@
+{
+  "sidecars_scanned": 10000,
+  "candidate_count": 142,
+  "confirmed_count": 141,
+  "partition_counts": {
+    "train": 92,
+    "val": 24,
+    "test": 25,
+    "excluded": 0
+  },
+  "candidates": [
+    {
+      "seed": 83,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 192,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 236,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 240,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 381,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 392,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 529,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 590,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 660,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 703,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 710,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 771,
+      "candidate_gaps": 2,
+      "confirmed_gaps": 2
+    },
+    {
+      "seed": 780,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 889,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 1003,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 1039,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 1051,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 1174,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 1455,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 1493,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 1504,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 1748,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 1851,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 1898,
+      "candidate_gaps": 2,
+      "confirmed_gaps": 2
+    },
+    {
+      "seed": 1968,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 2079,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 2272,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 2282,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 2399,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 2503,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 2653,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 2730,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 2747,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 2797,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 2803,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 2936,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 2939,
+      "candidate_gaps": 2,
+      "confirmed_gaps": 2
+    },
+    {
+      "seed": 2980,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 3063,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 3247,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 3343,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 3412,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 3435,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 3489,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 3491,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 3555,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 3563,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 3679,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 3779,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 3914,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 3963,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 3981,
+      "candidate_gaps": 3,
+      "confirmed_gaps": 2
+    },
+    {
+      "seed": 4025,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 4030,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 4073,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 4084,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 4095,
+      "candidate_gaps": 2,
+      "confirmed_gaps": 2
+    },
+    {
+      "seed": 4196,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 4260,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 4332,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 4432,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 4451,
+      "candidate_gaps": 2,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 4468,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 4486,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 4584,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 4827,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 5056,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 5166,
+      "candidate_gaps": 3,
+      "confirmed_gaps": 3
+    },
+    {
+      "seed": 5354,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 5435,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 5440,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 5464,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 5480,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 5581,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 5589,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 5647,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 5657,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 5778,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 5806,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 5824,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 5840,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 5994,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 6119,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 6220,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 6221,
+      "candidate_gaps": 2,
+      "confirmed_gaps": 2
+    },
+    {
+      "seed": 6228,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 6237,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 6291,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 6309,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 6328,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 6486,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 6553,
+      "candidate_gaps": 2,
+      "confirmed_gaps": 2
+    },
+    {
+      "seed": 6635,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 6687,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 6740,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 6741,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 6861,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 0
+    },
+    {
+      "seed": 6965,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 7134,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 7207,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 7265,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 7371,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 7390,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 7402,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 7435,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 7488,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 7601,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 7639,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 7663,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 7726,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 7729,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 7796,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 7832,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 7898,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 8077,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 8217,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 8227,
+      "candidate_gaps": 2,
+      "confirmed_gaps": 2
+    },
+    {
+      "seed": 8396,
+      "candidate_gaps": 2,
+      "confirmed_gaps": 2
+    },
+    {
+      "seed": 8443,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 8478,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 8580,
+      "candidate_gaps": 2,
+      "confirmed_gaps": 2
+    },
+    {
+      "seed": 8585,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 8593,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 8607,
+      "candidate_gaps": 2,
+      "confirmed_gaps": 2
+    },
+    {
+      "seed": 8639,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 8683,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 8899,
+      "candidate_gaps": 2,
+      "confirmed_gaps": 2
+    },
+    {
+      "seed": 8902,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 8938,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 9088,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 9282,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 9312,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 9373,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 9452,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 9585,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 9587,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 9605,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 9681,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 9692,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 9802,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    },
+    {
+      "seed": 9840,
+      "candidate_gaps": 2,
+      "confirmed_gaps": 2
+    },
+    {
+      "seed": 9988,
+      "candidate_gaps": 1,
+      "confirmed_gaps": 1
+    }
+  ],
+  "findings": [
+    {
+      "seed": 83,
+      "partition": "train",
+      "recorded_length_mm": 112.3081,
+      "bridge_sum_mm": 1.3483765863856438,
+      "bridge_fraction_percent": 1.2006049308871256,
+      "length_without_bridges_mm": 110.95972341361436,
+      "recorded_mean_width_mm": 0.808247,
+      "area_over_unbridged_length_mm": 0.8180684234551951,
+      "independent_visible_length_mm": 110.95895580854213,
+      "unbridged_vs_independent_mm": 0.0007676050722267291,
+      "projection_discrepancy_px": 0.0040034602338892,
+      "gaps": [
+        {
+          "sample_index": 59,
+          "from_segment": 88,
+          "to_segment": 95,
+          "bridge_mm": 1.3483765863856438,
+          "intermediate_vertices": 7,
+          "outside_vertices": 7
+        }
+      ]
+    },
+    {
+      "seed": 192,
+      "partition": "train",
+      "recorded_length_mm": 60.865884,
+      "bridge_sum_mm": 25.68280060348754,
+      "bridge_fraction_percent": 42.195724296861506,
+      "length_without_bridges_mm": 35.18308339651246,
+      "recorded_mean_width_mm": 0.68205,
+      "area_over_unbridged_length_mm": 1.179929158912634,
+      "independent_visible_length_mm": 35.18295325082714,
+      "unbridged_vs_independent_mm": 0.00013014568531843906,
+      "projection_discrepancy_px": 0.004209740909139725,
+      "gaps": [
+        {
+          "sample_index": 63,
+          "from_segment": 273,
+          "to_segment": 409,
+          "bridge_mm": 25.68280060348754,
+          "intermediate_vertices": 136,
+          "outside_vertices": 136
+        }
+      ]
+    },
+    {
+      "seed": 236,
+      "partition": "test",
+      "recorded_length_mm": 62.189733,
+      "bridge_sum_mm": 19.403530739305594,
+      "bridge_fraction_percent": 31.20053713577705,
+      "length_without_bridges_mm": 42.7862022606944,
+      "recorded_mean_width_mm": 0.642568,
+      "area_over_unbridged_length_mm": 0.9339719790160093,
+      "independent_visible_length_mm": 42.78694308130545,
+      "unbridged_vs_independent_mm": -0.0007408206110497417,
+      "projection_discrepancy_px": 0.004346372231935902,
+      "gaps": [
+        {
+          "sample_index": 18,
+          "from_segment": 104,
+          "to_segment": 203,
+          "bridge_mm": 19.403530739305594,
+          "intermediate_vertices": 99,
+          "outside_vertices": 99
+        }
+      ]
+    },
+    {
+      "seed": 240,
+      "partition": "train",
+      "recorded_length_mm": 186.687952,
+      "bridge_sum_mm": 19.969076535960617,
+      "bridge_fraction_percent": 10.696499866237012,
+      "length_without_bridges_mm": 166.71887546403937,
+      "recorded_mean_width_mm": 0.442276,
+      "area_over_unbridged_length_mm": 0.4952499875625031,
+      "independent_visible_length_mm": 166.71841653027957,
+      "unbridged_vs_independent_mm": 0.0004589337598019938,
+      "projection_discrepancy_px": 0.004630289498095408,
+      "gaps": [
+        {
+          "sample_index": 3,
+          "from_segment": 838,
+          "to_segment": 941,
+          "bridge_mm": 19.969076535960617,
+          "intermediate_vertices": 103,
+          "outside_vertices": 103
+        }
+      ]
+    },
+    {
+      "seed": 381,
+      "partition": "train",
+      "recorded_length_mm": 157.79524,
+      "bridge_sum_mm": 13.41269209493359,
+      "bridge_fraction_percent": 8.500061278739201,
+      "length_without_bridges_mm": 144.38254790506642,
+      "recorded_mean_width_mm": 0.683692,
+      "area_over_unbridged_length_mm": 0.7472043648304003,
+      "independent_visible_length_mm": 144.38277563089707,
+      "unbridged_vs_independent_mm": -0.00022772583065489016,
+      "projection_discrepancy_px": 0.0048028374733348755,
+      "gaps": [
+        {
+          "sample_index": 563,
+          "from_segment": 1357,
+          "to_segment": 1435,
+          "bridge_mm": 13.41269209493359,
+          "intermediate_vertices": 78,
+          "outside_vertices": 78
+        }
+      ]
+    },
+    {
+      "seed": 392,
+      "partition": "train",
+      "recorded_length_mm": 100.138452,
+      "bridge_sum_mm": 27.69013917619718,
+      "bridge_fraction_percent": 27.651854630424264,
+      "length_without_bridges_mm": 72.44831282380282,
+      "recorded_mean_width_mm": 0.427197,
+      "area_over_unbridged_length_mm": 0.590474012887503,
+      "independent_visible_length_mm": 72.45197025152423,
+      "unbridged_vs_independent_mm": -0.0036574277214072026,
+      "projection_discrepancy_px": 0.006082103462517807,
+      "gaps": [
+        {
+          "sample_index": 3,
+          "from_segment": 159,
+          "to_segment": 303,
+          "bridge_mm": 27.69013917619718,
+          "intermediate_vertices": 144,
+          "outside_vertices": 144
+        }
+      ]
+    },
+    {
+      "seed": 529,
+      "partition": "train",
+      "recorded_length_mm": 105.470304,
+      "bridge_sum_mm": 16.696854671704042,
+      "bridge_fraction_percent": 15.830858581486634,
+      "length_without_bridges_mm": 88.77344932829595,
+      "recorded_mean_width_mm": 0.819331,
+      "area_over_unbridged_length_mm": 0.9734334381941805,
+      "independent_visible_length_mm": 88.7737989390447,
+      "unbridged_vs_independent_mm": -0.00034961074874217957,
+      "projection_discrepancy_px": 0.0025822601235958587,
+      "gaps": [
+        {
+          "sample_index": 423,
+          "from_segment": 780,
+          "to_segment": 870,
+          "bridge_mm": 16.696854671704042,
+          "intermediate_vertices": 90,
+          "outside_vertices": 90
+        }
+      ]
+    },
+    {
+      "seed": 590,
+      "partition": "train",
+      "recorded_length_mm": 81.348502,
+      "bridge_sum_mm": 5.582047374370178,
+      "bridge_fraction_percent": 6.861893258182159,
+      "length_without_bridges_mm": 75.76645462562982,
+      "recorded_mean_width_mm": 0.588313,
+      "area_over_unbridged_length_mm": 0.6316565059890074,
+      "independent_visible_length_mm": 75.7835722457474,
+      "unbridged_vs_independent_mm": -0.017117620117574006,
+      "projection_discrepancy_px": 0.16854673527389252,
+      "gaps": [
+        {
+          "sample_index": 354,
+          "from_segment": 552,
+          "to_segment": 581,
+          "bridge_mm": 5.582047374370178,
+          "intermediate_vertices": 29,
+          "outside_vertices": 29
+        }
+      ]
+    },
+    {
+      "seed": 660,
+      "partition": "val",
+      "recorded_length_mm": 59.413765,
+      "bridge_sum_mm": 3.145065990228664,
+      "bridge_fraction_percent": 5.293497205956673,
+      "length_without_bridges_mm": 56.26869900977133,
+      "recorded_mean_width_mm": 0.870578,
+      "area_over_unbridged_length_mm": 0.9192379228639678,
+      "independent_visible_length_mm": 56.26912711707896,
+      "unbridged_vs_independent_mm": -0.00042810730762710136,
+      "projection_discrepancy_px": 0.004410579929526648,
+      "gaps": [
+        {
+          "sample_index": 5,
+          "from_segment": 172,
+          "to_segment": 187,
+          "bridge_mm": 3.145065990228664,
+          "intermediate_vertices": 15,
+          "outside_vertices": 15
+        }
+      ]
+    },
+    {
+      "seed": 703,
+      "partition": "train",
+      "recorded_length_mm": 105.203746,
+      "bridge_sum_mm": 21.793348524124053,
+      "bridge_fraction_percent": 20.71537312380878,
+      "length_without_bridges_mm": 83.41039747587594,
+      "recorded_mean_width_mm": 0.798881,
+      "area_over_unbridged_length_mm": 1.0076110118562578,
+      "independent_visible_length_mm": 83.41228079593226,
+      "unbridged_vs_independent_mm": -0.0018833200563221908,
+      "projection_discrepancy_px": 0.0037644022984579806,
+      "gaps": [
+        {
+          "sample_index": 396,
+          "from_segment": 897,
+          "to_segment": 1016,
+          "bridge_mm": 21.793348524124053,
+          "intermediate_vertices": 119,
+          "outside_vertices": 119
+        }
+      ]
+    },
+    {
+      "seed": 710,
+      "partition": "val",
+      "recorded_length_mm": 66.134812,
+      "bridge_sum_mm": 2.6010217093319317,
+      "bridge_fraction_percent": 3.9329086008922682,
+      "length_without_bridges_mm": 63.533790290668065,
+      "recorded_mean_width_mm": 0.758309,
+      "area_over_unbridged_length_mm": 0.7893538504559549,
+      "independent_visible_length_mm": 63.5353909181387,
+      "unbridged_vs_independent_mm": -0.0016006274706370505,
+      "projection_discrepancy_px": 0.0038187604898496375,
+      "gaps": [
+        {
+          "sample_index": 235,
+          "from_segment": 521,
+          "to_segment": 534,
+          "bridge_mm": 2.6010217093319317,
+          "intermediate_vertices": 13,
+          "outside_vertices": 13
+        }
+      ]
+    },
+    {
+      "seed": 771,
+      "partition": "train",
+      "recorded_length_mm": 69.751273,
+      "bridge_sum_mm": 15.051047362727942,
+      "bridge_fraction_percent": 21.578168706294356,
+      "length_without_bridges_mm": 54.700225637272055,
+      "recorded_mean_width_mm": 0.600509,
+      "area_over_unbridged_length_mm": 0.7657418687402859,
+      "independent_visible_length_mm": 54.72229701954096,
+      "unbridged_vs_independent_mm": -0.022071382268904927,
+      "projection_discrepancy_px": 0.006782004926876084,
+      "gaps": [
+        {
+          "sample_index": 9,
+          "from_segment": 19,
+          "to_segment": 71,
+          "bridge_mm": 10.34672723058504,
+          "intermediate_vertices": 52,
+          "outside_vertices": 52
+        },
+        {
+          "sample_index": 25,
+          "from_segment": 85,
+          "to_segment": 109,
+          "bridge_mm": 4.704320132142902,
+          "intermediate_vertices": 24,
+          "outside_vertices": 24
+        }
+      ]
+    },
+    {
+      "seed": 780,
+      "partition": "test",
+      "recorded_length_mm": 96.695766,
+      "bridge_sum_mm": 10.678178692370768,
+      "bridge_fraction_percent": 11.043067482779719,
+      "length_without_bridges_mm": 86.01758730762924,
+      "recorded_mean_width_mm": 0.638286,
+      "area_over_unbridged_length_mm": 0.7175227291515284,
+      "independent_visible_length_mm": 86.01745005855597,
+      "unbridged_vs_independent_mm": 0.0001372490732762799,
+      "projection_discrepancy_px": 0.008450685035384708,
+      "gaps": [
+        {
+          "sample_index": 43,
+          "from_segment": 224,
+          "to_segment": 282,
+          "bridge_mm": 10.678178692370768,
+          "intermediate_vertices": 58,
+          "outside_vertices": 58
+        }
+      ]
+    },
+    {
+      "seed": 889,
+      "partition": "train",
+      "recorded_length_mm": 118.233711,
+      "bridge_sum_mm": 24.515284273085822,
+      "bridge_fraction_percent": 20.734597658941638,
+      "length_without_bridges_mm": 93.71842672691417,
+      "recorded_mean_width_mm": 0.931944,
+      "area_over_unbridged_length_mm": 1.1757263203006405,
+      "independent_visible_length_mm": 93.71556671199522,
+      "unbridged_vs_independent_mm": 0.0028600149189514923,
+      "projection_discrepancy_px": 0.006156201072684553,
+      "gaps": [
+        {
+          "sample_index": 27,
+          "from_segment": 281,
+          "to_segment": 409,
+          "bridge_mm": 24.515284273085822,
+          "intermediate_vertices": 128,
+          "outside_vertices": 128
+        }
+      ]
+    },
+    {
+      "seed": 1003,
+      "partition": "test",
+      "recorded_length_mm": 86.337677,
+      "bridge_sum_mm": 27.654226531465113,
+      "bridge_fraction_percent": 32.0303110905626,
+      "length_without_bridges_mm": 58.683450468534886,
+      "recorded_mean_width_mm": 0.613954,
+      "area_over_unbridged_length_mm": 0.9032760271726299,
+      "independent_visible_length_mm": 58.6834542045128,
+      "unbridged_vs_independent_mm": -3.735977912810995e-06,
+      "projection_discrepancy_px": 0.004543516944245596,
+      "gaps": [
+        {
+          "sample_index": 55,
+          "from_segment": 248,
+          "to_segment": 397,
+          "bridge_mm": 27.654226531465113,
+          "intermediate_vertices": 149,
+          "outside_vertices": 149
+        }
+      ]
+    },
+    {
+      "seed": 1039,
+      "partition": "train",
+      "recorded_length_mm": 104.814519,
+      "bridge_sum_mm": 8.659463009659719,
+      "bridge_fraction_percent": 8.261701806464158,
+      "length_without_bridges_mm": 96.15505599034029,
+      "recorded_mean_width_mm": 0.847525,
+      "area_over_unbridged_length_mm": 0.9238509102311181,
+      "independent_visible_length_mm": 96.15691666132814,
+      "unbridged_vs_independent_mm": -0.0018606709878525862,
+      "projection_discrepancy_px": 0.005952583567808034,
+      "gaps": [
+        {
+          "sample_index": 408,
+          "from_segment": 1086,
+          "to_segment": 1131,
+          "bridge_mm": 8.659463009659719,
+          "intermediate_vertices": 45,
+          "outside_vertices": 45
+        }
+      ]
+    },
+    {
+      "seed": 1051,
+      "partition": "val",
+      "recorded_length_mm": 85.414597,
+      "bridge_sum_mm": 11.560813106810304,
+      "bridge_fraction_percent": 13.534938421368778,
+      "length_without_bridges_mm": 73.8537838931897,
+      "recorded_mean_width_mm": 0.691552,
+      "area_over_unbridged_length_mm": 0.7998053977224437,
+      "independent_visible_length_mm": 73.85385347220328,
+      "unbridged_vs_independent_mm": -6.957901358362051e-05,
+      "projection_discrepancy_px": 0.0023046661447096994,
+      "gaps": [
+        {
+          "sample_index": 325,
+          "from_segment": 757,
+          "to_segment": 819,
+          "bridge_mm": 11.560813106810304,
+          "intermediate_vertices": 62,
+          "outside_vertices": 62
+        }
+      ]
+    },
+    {
+      "seed": 1174,
+      "partition": "train",
+      "recorded_length_mm": 88.842551,
+      "bridge_sum_mm": 3.7839108524864846,
+      "bridge_fraction_percent": 4.259119993623871,
+      "length_without_bridges_mm": 85.05864014751351,
+      "recorded_mean_width_mm": 0.846116,
+      "area_over_unbridged_length_mm": 0.883756040181621,
+      "independent_visible_length_mm": 85.05430757604114,
+      "unbridged_vs_independent_mm": 0.00433257147237498,
+      "projection_discrepancy_px": 0.005591797855089453,
+      "gaps": [
+        {
+          "sample_index": 426,
+          "from_segment": 996,
+          "to_segment": 1015,
+          "bridge_mm": 3.7839108524864846,
+          "intermediate_vertices": 19,
+          "outside_vertices": 19
+        }
+      ]
+    },
+    {
+      "seed": 1455,
+      "partition": "val",
+      "recorded_length_mm": 74.602943,
+      "bridge_sum_mm": 15.867908995103354,
+      "bridge_fraction_percent": 21.26981638660469,
+      "length_without_bridges_mm": 58.73503400489664,
+      "recorded_mean_width_mm": 0.883411,
+      "area_over_unbridged_length_mm": 1.1220741439343613,
+      "independent_visible_length_mm": 58.73145418684625,
+      "unbridged_vs_independent_mm": 0.0035798180503903154,
+      "projection_discrepancy_px": 0.007717453251007811,
+      "gaps": [
+        {
+          "sample_index": 81,
+          "from_segment": 599,
+          "to_segment": 680,
+          "bridge_mm": 15.867908995103354,
+          "intermediate_vertices": 81,
+          "outside_vertices": 81
+        }
+      ]
+    },
+    {
+      "seed": 1493,
+      "partition": "val",
+      "recorded_length_mm": 80.346861,
+      "bridge_sum_mm": 16.21114657136237,
+      "bridge_fraction_percent": 20.17645290630877,
+      "length_without_bridges_mm": 64.13571442863764,
+      "recorded_mean_width_mm": 0.76113,
+      "area_over_unbridged_length_mm": 0.9535157056376933,
+      "independent_visible_length_mm": 64.13567491636283,
+      "unbridged_vs_independent_mm": 3.951227481024944e-05,
+      "projection_discrepancy_px": 0.0027341092584265425,
+      "gaps": [
+        {
+          "sample_index": 303,
+          "from_segment": 559,
+          "to_segment": 644,
+          "bridge_mm": 16.21114657136237,
+          "intermediate_vertices": 85,
+          "outside_vertices": 85
+        }
+      ]
+    },
+    {
+      "seed": 1504,
+      "partition": "train",
+      "recorded_length_mm": 102.98253,
+      "bridge_sum_mm": 31.147020864204098,
+      "bridge_fraction_percent": 30.244955978653948,
+      "length_without_bridges_mm": 71.8355091357959,
+      "recorded_mean_width_mm": 0.77262,
+      "area_over_unbridged_length_mm": 1.1076194761784148,
+      "independent_visible_length_mm": 71.83897998699277,
+      "unbridged_vs_independent_mm": -0.003470851196865965,
+      "projection_discrepancy_px": 0.00535001132789148,
+      "gaps": [
+        {
+          "sample_index": 109,
+          "from_segment": 1188,
+          "to_segment": 1357,
+          "bridge_mm": 31.147020864204098,
+          "intermediate_vertices": 169,
+          "outside_vertices": 169
+        }
+      ]
+    },
+    {
+      "seed": 1748,
+      "partition": "train",
+      "recorded_length_mm": 100.94872,
+      "bridge_sum_mm": 15.90522677163847,
+      "bridge_fraction_percent": 15.755748831325915,
+      "length_without_bridges_mm": 85.04349322836153,
+      "recorded_mean_width_mm": 0.667446,
+      "area_over_unbridged_length_mm": 0.792274499109238,
+      "independent_visible_length_mm": 85.04379356680784,
+      "unbridged_vs_independent_mm": -0.00030033844630850126,
+      "projection_discrepancy_px": 0.005589642637531256,
+      "gaps": [
+        {
+          "sample_index": 190,
+          "from_segment": 562,
+          "to_segment": 644,
+          "bridge_mm": 15.90522677163847,
+          "intermediate_vertices": 82,
+          "outside_vertices": 82
+        }
+      ]
+    },
+    {
+      "seed": 1851,
+      "partition": "train",
+      "recorded_length_mm": 137.796838,
+      "bridge_sum_mm": 1.5076689549277706,
+      "bridge_fraction_percent": 1.0941244928477754,
+      "length_without_bridges_mm": 136.28916904507224,
+      "recorded_mean_width_mm": 0.588303,
+      "area_over_unbridged_length_mm": 0.5948110445459576,
+      "independent_visible_length_mm": 136.30881266574198,
+      "unbridged_vs_independent_mm": -0.019643620669739903,
+      "projection_discrepancy_px": 0.011116299338937097,
+      "gaps": [
+        {
+          "sample_index": 651,
+          "from_segment": 1143,
+          "to_segment": 1150,
+          "bridge_mm": 1.5076689549277706,
+          "intermediate_vertices": 7,
+          "outside_vertices": 7
+        }
+      ]
+    },
+    {
+      "seed": 1898,
+      "partition": "train",
+      "recorded_length_mm": 162.851836,
+      "bridge_sum_mm": 10.897212006433396,
+      "bridge_fraction_percent": 6.691488578878164,
+      "length_without_bridges_mm": 151.9546239935666,
+      "recorded_mean_width_mm": 0.616216,
+      "area_over_unbridged_length_mm": 0.6604072871401969,
+      "independent_visible_length_mm": 151.95449783589322,
+      "unbridged_vs_independent_mm": 0.00012615767337820216,
+      "projection_discrepancy_px": 0.005016034131244851,
+      "gaps": [
+        {
+          "sample_index": 24,
+          "from_segment": 790,
+          "to_segment": 802,
+          "bridge_mm": 2.496024605400552,
+          "intermediate_vertices": 12,
+          "outside_vertices": 12
+        },
+        {
+          "sample_index": 36,
+          "from_segment": 812,
+          "to_segment": 855,
+          "bridge_mm": 8.401187401032843,
+          "intermediate_vertices": 43,
+          "outside_vertices": 43
+        }
+      ]
+    },
+    {
+      "seed": 1968,
+      "partition": "train",
+      "recorded_length_mm": 138.737158,
+      "bridge_sum_mm": 21.9370521008863,
+      "bridge_fraction_percent": 15.811951475095306,
+      "length_without_bridges_mm": 116.80010589911369,
+      "recorded_mean_width_mm": 0.678961,
+      "area_over_unbridged_length_mm": 0.8064816403622352,
+      "independent_visible_length_mm": 116.79564449666628,
+      "unbridged_vs_independent_mm": 0.004461402447404339,
+      "projection_discrepancy_px": 0.03099331688690654,
+      "gaps": [
+        {
+          "sample_index": 36,
+          "from_segment": 668,
+          "to_segment": 791,
+          "bridge_mm": 21.9370521008863,
+          "intermediate_vertices": 123,
+          "outside_vertices": 123
+        }
+      ]
+    },
+    {
+      "seed": 2079,
+      "partition": "train",
+      "recorded_length_mm": 65.565724,
+      "bridge_sum_mm": 20.01186822599854,
+      "bridge_fraction_percent": 30.521844349646074,
+      "length_without_bridges_mm": 45.55385577400146,
+      "recorded_mean_width_mm": 0.632851,
+      "area_over_unbridged_length_mm": 0.9108635766389092,
+      "independent_visible_length_mm": 45.55348578529352,
+      "unbridged_vs_independent_mm": 0.0003699887079449127,
+      "projection_discrepancy_px": 0.0049661179508575515,
+      "gaps": [
+        {
+          "sample_index": 35,
+          "from_segment": 269,
+          "to_segment": 381,
+          "bridge_mm": 20.01186822599854,
+          "intermediate_vertices": 112,
+          "outside_vertices": 112
+        }
+      ]
+    },
+    {
+      "seed": 2272,
+      "partition": "test",
+      "recorded_length_mm": 114.334077,
+      "bridge_sum_mm": 23.400210944280822,
+      "bridge_fraction_percent": 20.466523680670306,
+      "length_without_bridges_mm": 90.93386605571916,
+      "recorded_mean_width_mm": 0.620768,
+      "area_over_unbridged_length_mm": 0.7805112669080908,
+      "independent_visible_length_mm": 90.93561860242139,
+      "unbridged_vs_independent_mm": -0.001752546702221025,
+      "projection_discrepancy_px": 0.006440410058417001,
+      "gaps": [
+        {
+          "sample_index": 431,
+          "from_segment": 918,
+          "to_segment": 1040,
+          "bridge_mm": 23.400210944280822,
+          "intermediate_vertices": 122,
+          "outside_vertices": 122
+        }
+      ]
+    },
+    {
+      "seed": 2282,
+      "partition": "train",
+      "recorded_length_mm": 130.500404,
+      "bridge_sum_mm": 5.107795429798358,
+      "bridge_fraction_percent": 3.9140073695084943,
+      "length_without_bridges_mm": 125.39260857020165,
+      "recorded_mean_width_mm": 0.831299,
+      "area_over_unbridged_length_mm": 0.8651611944037695,
+      "independent_visible_length_mm": 125.39306289232182,
+      "unbridged_vs_independent_mm": -0.000454322120177153,
+      "projection_discrepancy_px": 0.0024640421737558427,
+      "gaps": [
+        {
+          "sample_index": 535,
+          "from_segment": 1054,
+          "to_segment": 1080,
+          "bridge_mm": 5.107795429798358,
+          "intermediate_vertices": 26,
+          "outside_vertices": 26
+        }
+      ]
+    },
+    {
+      "seed": 2399,
+      "partition": "train",
+      "recorded_length_mm": 103.138165,
+      "bridge_sum_mm": 1.6253838521684625,
+      "bridge_fraction_percent": 1.5759286120404241,
+      "length_without_bridges_mm": 101.51278114783153,
+      "recorded_mean_width_mm": 0.86231,
+      "area_over_unbridged_length_mm": 0.8761174208248932,
+      "independent_visible_length_mm": 101.51199707889857,
+      "unbridged_vs_independent_mm": 0.0007840689329583483,
+      "projection_discrepancy_px": 0.002851454323717917,
+      "gaps": [
+        {
+          "sample_index": 484,
+          "from_segment": 907,
+          "to_segment": 916,
+          "bridge_mm": 1.6253838521684625,
+          "intermediate_vertices": 9,
+          "outside_vertices": 9
+        }
+      ]
+    },
+    {
+      "seed": 2503,
+      "partition": "test",
+      "recorded_length_mm": 88.580049,
+      "bridge_sum_mm": 4.571411222122224,
+      "bridge_fraction_percent": 5.160768450378961,
+      "length_without_bridges_mm": 84.00863777787778,
+      "recorded_mean_width_mm": 0.520318,
+      "area_over_unbridged_length_mm": 0.5486321194954189,
+      "independent_visible_length_mm": 84.00771485146437,
+      "unbridged_vs_independent_mm": 0.0009229264134091864,
+      "projection_discrepancy_px": 0.006430085196686974,
+      "gaps": [
+        {
+          "sample_index": 19,
+          "from_segment": 18,
+          "to_segment": 42,
+          "bridge_mm": 4.571411222122224,
+          "intermediate_vertices": 24,
+          "outside_vertices": 24
+        }
+      ]
+    },
+    {
+      "seed": 2653,
+      "partition": "train",
+      "recorded_length_mm": 85.184205,
+      "bridge_sum_mm": 12.967245889961747,
+      "bridge_fraction_percent": 15.222594247327597,
+      "length_without_bridges_mm": 72.21695911003826,
+      "recorded_mean_width_mm": 0.627635,
+      "area_over_unbridged_length_mm": 0.7403322939496126,
+      "independent_visible_length_mm": 72.21250516931417,
+      "unbridged_vs_independent_mm": 0.004453940724090444,
+      "projection_discrepancy_px": 0.007775383656181134,
+      "gaps": [
+        {
+          "sample_index": 11,
+          "from_segment": 636,
+          "to_segment": 704,
+          "bridge_mm": 12.967245889961747,
+          "intermediate_vertices": 68,
+          "outside_vertices": 68
+        }
+      ]
+    },
+    {
+      "seed": 2730,
+      "partition": "train",
+      "recorded_length_mm": 112.784468,
+      "bridge_sum_mm": 12.429857160542312,
+      "bridge_fraction_percent": 11.020894437824818,
+      "length_without_bridges_mm": 100.35461083945769,
+      "recorded_mean_width_mm": 0.524216,
+      "area_over_unbridged_length_mm": 0.5891451075883569,
+      "independent_visible_length_mm": 100.3551365373046,
+      "unbridged_vs_independent_mm": -0.0005256978469105889,
+      "projection_discrepancy_px": 0.003800632960292205,
+      "gaps": [
+        {
+          "sample_index": 463,
+          "from_segment": 813,
+          "to_segment": 876,
+          "bridge_mm": 12.429857160542312,
+          "intermediate_vertices": 63,
+          "outside_vertices": 63
+        }
+      ]
+    },
+    {
+      "seed": 2747,
+      "partition": "train",
+      "recorded_length_mm": 61.504357,
+      "bridge_sum_mm": 40.468644095584985,
+      "bridge_fraction_percent": 65.79801183123496,
+      "length_without_bridges_mm": 21.035712904415014,
+      "recorded_mean_width_mm": 0.381787,
+      "area_over_unbridged_length_mm": 1.1162721276288023,
+      "independent_visible_length_mm": 21.030510377616103,
+      "unbridged_vs_independent_mm": 0.005202526798910867,
+      "projection_discrepancy_px": 0.0037790593461082267,
+      "gaps": [
+        {
+          "sample_index": 73,
+          "from_segment": 728,
+          "to_segment": 945,
+          "bridge_mm": 40.468644095584985,
+          "intermediate_vertices": 217,
+          "outside_vertices": 217
+        }
+      ]
+    },
+    {
+      "seed": 2797,
+      "partition": "test",
+      "recorded_length_mm": 85.162425,
+      "bridge_sum_mm": 14.92595355715959,
+      "bridge_fraction_percent": 17.52645436900087,
+      "length_without_bridges_mm": 70.23647144284041,
+      "recorded_mean_width_mm": 0.46386,
+      "area_over_unbridged_length_mm": 0.562434945669908,
+      "independent_visible_length_mm": 70.2332768379501,
+      "unbridged_vs_independent_mm": 0.0031946048903108704,
+      "projection_discrepancy_px": 0.017172517387489705,
+      "gaps": [
+        {
+          "sample_index": 307,
+          "from_segment": 604,
+          "to_segment": 690,
+          "bridge_mm": 14.92595355715959,
+          "intermediate_vertices": 86,
+          "outside_vertices": 86
+        }
+      ]
+    },
+    {
+      "seed": 2803,
+      "partition": "val",
+      "recorded_length_mm": 64.116861,
+      "bridge_sum_mm": 4.39584913858119,
+      "bridge_fraction_percent": 6.8559955525289835,
+      "length_without_bridges_mm": 59.72101186141881,
+      "recorded_mean_width_mm": 0.747729,
+      "area_over_unbridged_length_mm": 0.802766338106399,
+      "independent_visible_length_mm": 59.72246497477889,
+      "unbridged_vs_independent_mm": -0.001453113360078362,
+      "projection_discrepancy_px": 0.005533315208595013,
+      "gaps": [
+        {
+          "sample_index": 240,
+          "from_segment": 539,
+          "to_segment": 562,
+          "bridge_mm": 4.39584913858119,
+          "intermediate_vertices": 23,
+          "outside_vertices": 23
+        }
+      ]
+    },
+    {
+      "seed": 2936,
+      "partition": "train",
+      "recorded_length_mm": 99.207961,
+      "bridge_sum_mm": 6.892014973548013,
+      "bridge_fraction_percent": 6.947038225639989,
+      "length_without_bridges_mm": 92.31594602645198,
+      "recorded_mean_width_mm": 0.736217,
+      "area_over_unbridged_length_mm": 0.791180323051358,
+      "independent_visible_length_mm": 92.31532099604794,
+      "unbridged_vs_independent_mm": 0.0006250304040378296,
+      "projection_discrepancy_px": 0.004509597964990064,
+      "gaps": [
+        {
+          "sample_index": 372,
+          "from_segment": 778,
+          "to_segment": 814,
+          "bridge_mm": 6.892014973548013,
+          "intermediate_vertices": 36,
+          "outside_vertices": 36
+        }
+      ]
+    },
+    {
+      "seed": 2939,
+      "partition": "train",
+      "recorded_length_mm": 151.077299,
+      "bridge_sum_mm": 23.241532415268118,
+      "bridge_fraction_percent": 15.383868105338655,
+      "length_without_bridges_mm": 127.83576658473189,
+      "recorded_mean_width_mm": 0.658647,
+      "area_over_unbridged_length_mm": 0.7783936112593751,
+      "independent_visible_length_mm": 127.83627293763436,
+      "unbridged_vs_independent_mm": -0.0005063529024766922,
+      "projection_discrepancy_px": 0.004443364674443728,
+      "gaps": [
+        {
+          "sample_index": 198,
+          "from_segment": 715,
+          "to_segment": 733,
+          "bridge_mm": 3.553556656424801,
+          "intermediate_vertices": 18,
+          "outside_vertices": 18
+        },
+        {
+          "sample_index": 577,
+          "from_segment": 1110,
+          "to_segment": 1216,
+          "bridge_mm": 19.687975758843315,
+          "intermediate_vertices": 106,
+          "outside_vertices": 106
+        }
+      ]
+    },
+    {
+      "seed": 2980,
+      "partition": "test",
+      "recorded_length_mm": 123.232032,
+      "bridge_sum_mm": 7.3201127124211025,
+      "bridge_fraction_percent": 5.940105501482847,
+      "length_without_bridges_mm": 115.9119192875789,
+      "recorded_mean_width_mm": 0.716261,
+      "area_over_unbridged_length_mm": 0.7614947068645304,
+      "independent_visible_length_mm": 115.91234794231323,
+      "unbridged_vs_independent_mm": -0.0004286547343355096,
+      "projection_discrepancy_px": 0.003104827047081926,
+      "gaps": [
+        {
+          "sample_index": 421,
+          "from_segment": 961,
+          "to_segment": 999,
+          "bridge_mm": 7.3201127124211025,
+          "intermediate_vertices": 38,
+          "outside_vertices": 38
+        }
+      ]
+    },
+    {
+      "seed": 3063,
+      "partition": "train",
+      "recorded_length_mm": 139.106872,
+      "bridge_sum_mm": 27.659668630118798,
+      "bridge_fraction_percent": 19.883754290815194,
+      "length_without_bridges_mm": 111.44720336988121,
+      "recorded_mean_width_mm": 0.960394,
+      "area_over_unbridged_length_mm": 1.198751013577295,
+      "independent_visible_length_mm": 111.44606486083822,
+      "unbridged_vs_independent_mm": 0.0011385090429882894,
+      "projection_discrepancy_px": 0.005286326286636722,
+      "gaps": [
+        {
+          "sample_index": 535,
+          "from_segment": 1094,
+          "to_segment": 1243,
+          "bridge_mm": 27.659668630118798,
+          "intermediate_vertices": 149,
+          "outside_vertices": 149
+        }
+      ]
+    },
+    {
+      "seed": 3247,
+      "partition": "train",
+      "recorded_length_mm": 89.771732,
+      "bridge_sum_mm": 10.674594459599671,
+      "bridge_fraction_percent": 11.890819327847735,
+      "length_without_bridges_mm": 79.09713754040033,
+      "recorded_mean_width_mm": 0.590855,
+      "area_over_unbridged_length_mm": 0.6705944949386792,
+      "independent_visible_length_mm": 79.13735258316075,
+      "unbridged_vs_independent_mm": -0.04021504276042265,
+      "projection_discrepancy_px": 0.09334308578047512,
+      "gaps": [
+        {
+          "sample_index": 349,
+          "from_segment": 1043,
+          "to_segment": 1098,
+          "bridge_mm": 10.674594459599671,
+          "intermediate_vertices": 55,
+          "outside_vertices": 55
+        }
+      ]
+    },
+    {
+      "seed": 3343,
+      "partition": "train",
+      "recorded_length_mm": 157.335947,
+      "bridge_sum_mm": 33.240580293639475,
+      "bridge_fraction_percent": 21.127136504691755,
+      "length_without_bridges_mm": 124.09536670636052,
+      "recorded_mean_width_mm": 0.79173,
+      "area_over_unbridged_length_mm": 1.0038054707937398,
+      "independent_visible_length_mm": 124.0951254407608,
+      "unbridged_vs_independent_mm": 0.00024126559972614814,
+      "projection_discrepancy_px": 0.006015622406835064,
+      "gaps": [
+        {
+          "sample_index": 438,
+          "from_segment": 1228,
+          "to_segment": 1411,
+          "bridge_mm": 33.240580293639475,
+          "intermediate_vertices": 183,
+          "outside_vertices": 183
+        }
+      ]
+    },
+    {
+      "seed": 3412,
+      "partition": "train",
+      "recorded_length_mm": 73.442041,
+      "bridge_sum_mm": 10.968985523794668,
+      "bridge_fraction_percent": 14.935567386797798,
+      "length_without_bridges_mm": 62.47305547620533,
+      "recorded_mean_width_mm": 0.523041,
+      "area_over_unbridged_length_mm": 0.6148757685564261,
+      "independent_visible_length_mm": 62.472911313549034,
+      "unbridged_vs_independent_mm": 0.00014416265629790814,
+      "projection_discrepancy_px": 0.004581405300825736,
+      "gaps": [
+        {
+          "sample_index": 25,
+          "from_segment": 282,
+          "to_segment": 340,
+          "bridge_mm": 10.968985523794668,
+          "intermediate_vertices": 58,
+          "outside_vertices": 58
+        }
+      ]
+    },
+    {
+      "seed": 3435,
+      "partition": "val",
+      "recorded_length_mm": 155.834618,
+      "bridge_sum_mm": 13.627681582712814,
+      "bridge_fraction_percent": 8.744964217586631,
+      "length_without_bridges_mm": 142.20693641728718,
+      "recorded_mean_width_mm": 1.045464,
+      "area_over_unbridged_length_mm": 1.1456502411523362,
+      "independent_visible_length_mm": 142.20565816684882,
+      "unbridged_vs_independent_mm": 0.0012782504383608284,
+      "projection_discrepancy_px": 0.0051946946283578654,
+      "gaps": [
+        {
+          "sample_index": 632,
+          "from_segment": 1603,
+          "to_segment": 1677,
+          "bridge_mm": 13.627681582712814,
+          "intermediate_vertices": 74,
+          "outside_vertices": 74
+        }
+      ]
+    },
+    {
+      "seed": 3489,
+      "partition": "train",
+      "recorded_length_mm": 82.861338,
+      "bridge_sum_mm": 1.4909105326343366,
+      "bridge_fraction_percent": 1.7992836811714727,
+      "length_without_bridges_mm": 81.37042746736567,
+      "recorded_mean_width_mm": 0.760074,
+      "area_over_unbridged_length_mm": 0.7740001983553421,
+      "independent_visible_length_mm": 81.39001324758846,
+      "unbridged_vs_independent_mm": -0.019585780222783455,
+      "projection_discrepancy_px": 0.007194415941369492,
+      "gaps": [
+        {
+          "sample_index": 42,
+          "from_segment": 404,
+          "to_segment": 411,
+          "bridge_mm": 1.4909105326343366,
+          "intermediate_vertices": 7,
+          "outside_vertices": 7
+        }
+      ]
+    },
+    {
+      "seed": 3491,
+      "partition": "train",
+      "recorded_length_mm": 122.419268,
+      "bridge_sum_mm": 5.596119123282221,
+      "bridge_fraction_percent": 4.571273145729168,
+      "length_without_bridges_mm": 116.82314887671778,
+      "recorded_mean_width_mm": 0.885311,
+      "area_over_unbridged_length_mm": 0.9277194292577348,
+      "independent_visible_length_mm": 116.82327055607351,
+      "unbridged_vs_independent_mm": -0.00012167935572904298,
+      "projection_discrepancy_px": 0.002926151111331876,
+      "gaps": [
+        {
+          "sample_index": 53,
+          "from_segment": 775,
+          "to_segment": 804,
+          "bridge_mm": 5.596119123282221,
+          "intermediate_vertices": 29,
+          "outside_vertices": 29
+        }
+      ]
+    },
+    {
+      "seed": 3555,
+      "partition": "test",
+      "recorded_length_mm": 142.470579,
+      "bridge_sum_mm": 21.561974529377643,
+      "bridge_fraction_percent": 15.134334878626166,
+      "length_without_bridges_mm": 120.90860447062235,
+      "recorded_mean_width_mm": 0.609566,
+      "area_over_unbridged_length_mm": 0.7182714032656057,
+      "independent_visible_length_mm": 120.90929178258297,
+      "unbridged_vs_independent_mm": -0.0006873119606183309,
+      "projection_discrepancy_px": 0.0030889586965940907,
+      "gaps": [
+        {
+          "sample_index": 575,
+          "from_segment": 946,
+          "to_segment": 1061,
+          "bridge_mm": 21.561974529377643,
+          "intermediate_vertices": 115,
+          "outside_vertices": 115
+        }
+      ]
+    },
+    {
+      "seed": 3563,
+      "partition": "train",
+      "recorded_length_mm": 128.203318,
+      "bridge_sum_mm": 5.359427900310627,
+      "bridge_fraction_percent": 4.180412787998691,
+      "length_without_bridges_mm": 122.84389009968938,
+      "recorded_mean_width_mm": 0.716786,
+      "area_over_unbridged_length_mm": 0.7480583602931048,
+      "independent_visible_length_mm": 122.84666846024794,
+      "unbridged_vs_independent_mm": -0.002778360558565396,
+      "projection_discrepancy_px": 0.0069259351972732475,
+      "gaps": [
+        {
+          "sample_index": 569,
+          "from_segment": 873,
+          "to_segment": 900,
+          "bridge_mm": 5.359427900310627,
+          "intermediate_vertices": 27,
+          "outside_vertices": 27
+        }
+      ]
+    },
+    {
+      "seed": 3679,
+      "partition": "train",
+      "recorded_length_mm": 102.058368,
+      "bridge_sum_mm": 26.69098997033697,
+      "bridge_fraction_percent": 26.152671744013162,
+      "length_without_bridges_mm": 75.36737802966303,
+      "recorded_mean_width_mm": 0.709192,
+      "area_over_unbridged_length_mm": 0.9603484676289674,
+      "independent_visible_length_mm": 75.37570444931995,
+      "unbridged_vs_independent_mm": -0.0083264196569246,
+      "projection_discrepancy_px": 0.010821193332461121,
+      "gaps": [
+        {
+          "sample_index": 7,
+          "from_segment": 446,
+          "to_segment": 587,
+          "bridge_mm": 26.69098997033697,
+          "intermediate_vertices": 141,
+          "outside_vertices": 141
+        }
+      ]
+    },
+    {
+      "seed": 3779,
+      "partition": "train",
+      "recorded_length_mm": 81.879634,
+      "bridge_sum_mm": 5.570362794831408,
+      "bridge_fraction_percent": 6.803111497581203,
+      "length_without_bridges_mm": 76.30927120516859,
+      "recorded_mean_width_mm": 0.693478,
+      "area_over_unbridged_length_mm": 0.7440995845358572,
+      "independent_visible_length_mm": 76.30839404401175,
+      "unbridged_vs_independent_mm": 0.0008771611568363369,
+      "projection_discrepancy_px": 0.009142699016251754,
+      "gaps": [
+        {
+          "sample_index": 47,
+          "from_segment": 225,
+          "to_segment": 254,
+          "bridge_mm": 5.570362794831408,
+          "intermediate_vertices": 29,
+          "outside_vertices": 29
+        }
+      ]
+    },
+    {
+      "seed": 3914,
+      "partition": "train",
+      "recorded_length_mm": 96.884822,
+      "bridge_sum_mm": 13.619494862852806,
+      "bridge_fraction_percent": 14.057408148876823,
+      "length_without_bridges_mm": 83.2653271371472,
+      "recorded_mean_width_mm": 0.718998,
+      "area_over_unbridged_length_mm": 0.8366022736602275,
+      "independent_visible_length_mm": 83.26548253350376,
+      "unbridged_vs_independent_mm": -0.00015539635656125483,
+      "projection_discrepancy_px": 0.004671389456774477,
+      "gaps": [
+        {
+          "sample_index": 315,
+          "from_segment": 877,
+          "to_segment": 954,
+          "bridge_mm": 13.619494862852806,
+          "intermediate_vertices": 77,
+          "outside_vertices": 77
+        }
+      ]
+    },
+    {
+      "seed": 3963,
+      "partition": "train",
+      "recorded_length_mm": 131.389035,
+      "bridge_sum_mm": 2.4143675445853323,
+      "bridge_fraction_percent": 1.8375715633997405,
+      "length_without_bridges_mm": 128.97466745541468,
+      "recorded_mean_width_mm": 0.8107,
+      "area_over_unbridged_length_mm": 0.8258762755625787,
+      "independent_visible_length_mm": 128.97401669721378,
+      "unbridged_vs_independent_mm": 0.0006507582008907775,
+      "projection_discrepancy_px": 0.00529362724630289,
+      "gaps": [
+        {
+          "sample_index": 17,
+          "from_segment": 507,
+          "to_segment": 519,
+          "bridge_mm": 2.4143675445853323,
+          "intermediate_vertices": 12,
+          "outside_vertices": 12
+        }
+      ]
+    },
+    {
+      "seed": 3981,
+      "partition": "train",
+      "recorded_length_mm": 162.160616,
+      "bridge_sum_mm": 22.319824503235328,
+      "bridge_fraction_percent": 13.764023012366533,
+      "length_without_bridges_mm": 139.84079149676467,
+      "recorded_mean_width_mm": 0.675736,
+      "area_over_unbridged_length_mm": 0.7835898368934444,
+      "independent_visible_length_mm": 138.05005260269212,
+      "unbridged_vs_independent_mm": 1.7907388940725468,
+      "projection_discrepancy_px": 0.0287899748992011,
+      "gaps": [
+        {
+          "sample_index": 77,
+          "from_segment": 143,
+          "to_segment": 222,
+          "bridge_mm": 15.436784938209929,
+          "intermediate_vertices": 79,
+          "outside_vertices": 79
+        },
+        {
+          "sample_index": 99,
+          "from_segment": 250,
+          "to_segment": 285,
+          "bridge_mm": 6.883039565025399,
+          "intermediate_vertices": 35,
+          "outside_vertices": 35
+        }
+      ]
+    },
+    {
+      "seed": 4025,
+      "partition": "train",
+      "recorded_length_mm": 124.74671,
+      "bridge_sum_mm": 22.553646559908604,
+      "bridge_fraction_percent": 18.079552206153256,
+      "length_without_bridges_mm": 102.1930634400914,
+      "recorded_mean_width_mm": 0.840901,
+      "area_over_unbridged_length_mm": 1.0264844547056293,
+      "independent_visible_length_mm": 102.19290310716256,
+      "unbridged_vs_independent_mm": 0.0001603329288286659,
+      "projection_discrepancy_px": 0.0030697669016888085,
+      "gaps": [
+        {
+          "sample_index": 48,
+          "from_segment": 787,
+          "to_segment": 915,
+          "bridge_mm": 22.553646559908604,
+          "intermediate_vertices": 128,
+          "outside_vertices": 128
+        }
+      ]
+    },
+    {
+      "seed": 4030,
+      "partition": "val",
+      "recorded_length_mm": 137.446759,
+      "bridge_sum_mm": 46.27221585012384,
+      "bridge_fraction_percent": 33.66555616645995,
+      "length_without_bridges_mm": 91.17454314987614,
+      "recorded_mean_width_mm": 0.543208,
+      "area_over_unbridged_length_mm": 0.8188928227177129,
+      "independent_visible_length_mm": 91.16461770453823,
+      "unbridged_vs_independent_mm": 0.009925445337913175,
+      "projection_discrepancy_px": 0.01199251843363669,
+      "gaps": [
+        {
+          "sample_index": 34,
+          "from_segment": 290,
+          "to_segment": 531,
+          "bridge_mm": 46.27221585012384,
+          "intermediate_vertices": 241,
+          "outside_vertices": 241
+        }
+      ]
+    },
+    {
+      "seed": 4073,
+      "partition": "train",
+      "recorded_length_mm": 104.434514,
+      "bridge_sum_mm": 21.62085105128605,
+      "bridge_fraction_percent": 20.702783230538184,
+      "length_without_bridges_mm": 82.81366294871394,
+      "recorded_mean_width_mm": 0.687306,
+      "area_over_unbridged_length_mm": 0.8667466870104759,
+      "independent_visible_length_mm": 82.81527814803935,
+      "unbridged_vs_independent_mm": -0.0016151993254140962,
+      "projection_discrepancy_px": 0.006768525275219872,
+      "gaps": [
+        {
+          "sample_index": 410,
+          "from_segment": 898,
+          "to_segment": 1023,
+          "bridge_mm": 21.62085105128605,
+          "intermediate_vertices": 125,
+          "outside_vertices": 125
+        }
+      ]
+    },
+    {
+      "seed": 4084,
+      "partition": "test",
+      "recorded_length_mm": 138.018182,
+      "bridge_sum_mm": 5.396811419335128,
+      "bridge_fraction_percent": 3.910217727208672,
+      "length_without_bridges_mm": 132.62137058066486,
+      "recorded_mean_width_mm": 0.668094,
+      "area_over_unbridged_length_mm": 0.6952807499747206,
+      "independent_visible_length_mm": 132.62177127833738,
+      "unbridged_vs_independent_mm": -0.00040069767251793564,
+      "projection_discrepancy_px": 0.002320811487399599,
+      "gaps": [
+        {
+          "sample_index": 612,
+          "from_segment": 1309,
+          "to_segment": 1338,
+          "bridge_mm": 5.396811419335128,
+          "intermediate_vertices": 29,
+          "outside_vertices": 29
+        }
+      ]
+    },
+    {
+      "seed": 4095,
+      "partition": "test",
+      "recorded_length_mm": 161.128602,
+      "bridge_sum_mm": 8.919992494480741,
+      "bridge_fraction_percent": 5.535946060328098,
+      "length_without_bridges_mm": 152.20860950551926,
+      "recorded_mean_width_mm": 0.687512,
+      "area_over_unbridged_length_mm": 0.7278025622853027,
+      "independent_visible_length_mm": 152.20864726430116,
+      "unbridged_vs_independent_mm": -3.77587819002656e-05,
+      "projection_discrepancy_px": 0.00504048877223795,
+      "gaps": [
+        {
+          "sample_index": 64,
+          "from_segment": 1196,
+          "to_segment": 1210,
+          "bridge_mm": 2.6832739123684277,
+          "intermediate_vertices": 14,
+          "outside_vertices": 14
+        },
+        {
+          "sample_index": 67,
+          "from_segment": 1211,
+          "to_segment": 1243,
+          "bridge_mm": 6.236718582112313,
+          "intermediate_vertices": 32,
+          "outside_vertices": 32
+        }
+      ]
+    },
+    {
+      "seed": 4196,
+      "partition": "train",
+      "recorded_length_mm": 103.616447,
+      "bridge_sum_mm": 5.605672254717181,
+      "bridge_fraction_percent": 5.410021687693249,
+      "length_without_bridges_mm": 98.01077474528282,
+      "recorded_mean_width_mm": 0.750326,
+      "area_over_unbridged_length_mm": 0.7932405615816425,
+      "independent_visible_length_mm": 98.00350024144603,
+      "unbridged_vs_independent_mm": 0.007274503836782742,
+      "projection_discrepancy_px": 0.004609784041576859,
+      "gaps": [
+        {
+          "sample_index": 2,
+          "from_segment": 489,
+          "to_segment": 517,
+          "bridge_mm": 5.605672254717181,
+          "intermediate_vertices": 28,
+          "outside_vertices": 28
+        }
+      ]
+    },
+    {
+      "seed": 4260,
+      "partition": "train",
+      "recorded_length_mm": 139.058512,
+      "bridge_sum_mm": 4.774248853683271,
+      "bridge_fraction_percent": 3.433266173366842,
+      "length_without_bridges_mm": 134.28426314631673,
+      "recorded_mean_width_mm": 0.717447,
+      "area_over_unbridged_length_mm": 0.7429550318289586,
+      "independent_visible_length_mm": 134.28494078346236,
+      "unbridged_vs_independent_mm": -0.0006776371456282959,
+      "projection_discrepancy_px": 0.004975299617031581,
+      "gaps": [
+        {
+          "sample_index": 125,
+          "from_segment": 541,
+          "to_segment": 565,
+          "bridge_mm": 4.774248853683271,
+          "intermediate_vertices": 24,
+          "outside_vertices": 24
+        }
+      ]
+    },
+    {
+      "seed": 4332,
+      "partition": "test",
+      "recorded_length_mm": 93.449707,
+      "bridge_sum_mm": 15.407660570353306,
+      "bridge_fraction_percent": 16.487649950955227,
+      "length_without_bridges_mm": 78.0420464296467,
+      "recorded_mean_width_mm": 0.724758,
+      "area_over_unbridged_length_mm": 0.8678458356554735,
+      "independent_visible_length_mm": 78.03560659259824,
+      "unbridged_vs_independent_mm": 0.006439837048461072,
+      "projection_discrepancy_px": 0.045242208398150296,
+      "gaps": [
+        {
+          "sample_index": 312,
+          "from_segment": 554,
+          "to_segment": 637,
+          "bridge_mm": 15.407660570353306,
+          "intermediate_vertices": 83,
+          "outside_vertices": 83
+        }
+      ]
+    },
+    {
+      "seed": 4432,
+      "partition": "test",
+      "recorded_length_mm": 88.074015,
+      "bridge_sum_mm": 21.43527013899419,
+      "bridge_fraction_percent": 24.337791502969623,
+      "length_without_bridges_mm": 66.63874486100582,
+      "recorded_mean_width_mm": 0.499538,
+      "area_over_unbridged_length_mm": 0.6602206132748573,
+      "independent_visible_length_mm": 66.63841931636685,
+      "unbridged_vs_independent_mm": 0.0003255446389687222,
+      "projection_discrepancy_px": 0.0037177255672578013,
+      "gaps": [
+        {
+          "sample_index": 30,
+          "from_segment": 263,
+          "to_segment": 375,
+          "bridge_mm": 21.43527013899419,
+          "intermediate_vertices": 112,
+          "outside_vertices": 112
+        }
+      ]
+    },
+    {
+      "seed": 4451,
+      "partition": "train",
+      "recorded_length_mm": 138.68926,
+      "bridge_sum_mm": 4.7754933775131505,
+      "bridge_fraction_percent": 3.4433043896211943,
+      "length_without_bridges_mm": 133.91376662248683,
+      "recorded_mean_width_mm": 0.657145,
+      "area_over_unbridged_length_mm": 0.6805794751254194,
+      "independent_visible_length_mm": 132.08907102558808,
+      "unbridged_vs_independent_mm": 1.8246955968987493,
+      "projection_discrepancy_px": 0.01387247270406533,
+      "gaps": [
+        {
+          "sample_index": 12,
+          "from_segment": 58,
+          "to_segment": 82,
+          "bridge_mm": 4.7754933775131505,
+          "intermediate_vertices": 24,
+          "outside_vertices": 24
+        }
+      ]
+    },
+    {
+      "seed": 4468,
+      "partition": "train",
+      "recorded_length_mm": 129.258774,
+      "bridge_sum_mm": 9.47301550369733,
+      "bridge_fraction_percent": 7.328721455842781,
+      "length_without_bridges_mm": 119.78575849630266,
+      "recorded_mean_width_mm": 0.709014,
+      "area_over_unbridged_length_mm": 0.7650847993155111,
+      "independent_visible_length_mm": 119.78597591197195,
+      "unbridged_vs_independent_mm": -0.0002174156692831275,
+      "projection_discrepancy_px": 0.0051443798125774265,
+      "gaps": [
+        {
+          "sample_index": 48,
+          "from_segment": 571,
+          "to_segment": 620,
+          "bridge_mm": 9.47301550369733,
+          "intermediate_vertices": 49,
+          "outside_vertices": 49
+        }
+      ]
+    },
+    {
+      "seed": 4486,
+      "partition": "train",
+      "recorded_length_mm": 180.73034,
+      "bridge_sum_mm": 17.87361294464589,
+      "bridge_fraction_percent": 9.889658230403311,
+      "length_without_bridges_mm": 162.85672705535413,
+      "recorded_mean_width_mm": 0.919995,
+      "area_over_unbridged_length_mm": 1.020964635642502,
+      "independent_visible_length_mm": 162.857054400538,
+      "unbridged_vs_independent_mm": -0.00032734518387655953,
+      "projection_discrepancy_px": 0.006367750332543665,
+      "gaps": [
+        {
+          "sample_index": 808,
+          "from_segment": 1709,
+          "to_segment": 1804,
+          "bridge_mm": 17.87361294464589,
+          "intermediate_vertices": 95,
+          "outside_vertices": 95
+        }
+      ]
+    },
+    {
+      "seed": 4584,
+      "partition": "val",
+      "recorded_length_mm": 102.873493,
+      "bridge_sum_mm": 10.663716608308992,
+      "bridge_fraction_percent": 10.365854504725519,
+      "length_without_bridges_mm": 92.20977639169101,
+      "recorded_mean_width_mm": 0.692504,
+      "area_over_unbridged_length_mm": 0.772589651420296,
+      "independent_visible_length_mm": 92.22171913070477,
+      "unbridged_vs_independent_mm": -0.011942739013761638,
+      "projection_discrepancy_px": 0.009944994870009174,
+      "gaps": [
+        {
+          "sample_index": 452,
+          "from_segment": 939,
+          "to_segment": 993,
+          "bridge_mm": 10.663716608308992,
+          "intermediate_vertices": 54,
+          "outside_vertices": 54
+        }
+      ]
+    },
+    {
+      "seed": 4827,
+      "partition": "train",
+      "recorded_length_mm": 50.367746,
+      "bridge_sum_mm": 14.367884402485771,
+      "bridge_fraction_percent": 28.525962631890994,
+      "length_without_bridges_mm": 35.999861597514226,
+      "recorded_mean_width_mm": 0.429686,
+      "area_over_unbridged_length_mm": 0.6011778945698611,
+      "independent_visible_length_mm": 35.996562301324275,
+      "unbridged_vs_independent_mm": 0.003299296189950951,
+      "projection_discrepancy_px": 0.009405691498614033,
+      "gaps": [
+        {
+          "sample_index": 115,
+          "from_segment": 181,
+          "to_segment": 254,
+          "bridge_mm": 14.367884402485771,
+          "intermediate_vertices": 73,
+          "outside_vertices": 73
+        }
+      ]
+    },
+    {
+      "seed": 5056,
+      "partition": "train",
+      "recorded_length_mm": 35.094631,
+      "bridge_sum_mm": 8.2346920947152,
+      "bridge_fraction_percent": 23.464250399769696,
+      "length_without_bridges_mm": 26.8599389052848,
+      "recorded_mean_width_mm": 0.772618,
+      "area_over_unbridged_length_mm": 1.0094862872031727,
+      "independent_visible_length_mm": 26.85923375358259,
+      "unbridged_vs_independent_mm": 0.0007051517022098608,
+      "projection_discrepancy_px": 0.0053082499367747005,
+      "gaps": [
+        {
+          "sample_index": 38,
+          "from_segment": 232,
+          "to_segment": 275,
+          "bridge_mm": 8.2346920947152,
+          "intermediate_vertices": 43,
+          "outside_vertices": 43
+        }
+      ]
+    },
+    {
+      "seed": 5166,
+      "partition": "train",
+      "recorded_length_mm": 65.252774,
+      "bridge_sum_mm": 29.35862901260433,
+      "bridge_fraction_percent": 44.9921546823501,
+      "length_without_bridges_mm": 35.89414498739568,
+      "recorded_mean_width_mm": 0.496543,
+      "area_over_unbridged_length_mm": 0.90267599385297,
+      "independent_visible_length_mm": 35.89387887951169,
+      "unbridged_vs_independent_mm": 0.0002661078839878428,
+      "projection_discrepancy_px": 0.003353201663571781,
+      "gaps": [
+        {
+          "sample_index": 122,
+          "from_segment": 524,
+          "to_segment": 635,
+          "bridge_mm": 21.79159288719597,
+          "intermediate_vertices": 111,
+          "outside_vertices": 111
+        },
+        {
+          "sample_index": 136,
+          "from_segment": 647,
+          "to_segment": 675,
+          "bridge_mm": 5.612211658004442,
+          "intermediate_vertices": 28,
+          "outside_vertices": 28
+        },
+        {
+          "sample_index": 172,
+          "from_segment": 709,
+          "to_segment": 719,
+          "bridge_mm": 1.9548244674039146,
+          "intermediate_vertices": 10,
+          "outside_vertices": 10
+        }
+      ]
+    },
+    {
+      "seed": 5354,
+      "partition": "train",
+      "recorded_length_mm": 90.139766,
+      "bridge_sum_mm": 25.959620310946175,
+      "bridge_fraction_percent": 28.799298537058746,
+      "length_without_bridges_mm": 64.18014568905382,
+      "recorded_mean_width_mm": 0.461754,
+      "area_over_unbridged_length_mm": 0.6485240030718544,
+      "independent_visible_length_mm": 64.18323028884771,
+      "unbridged_vs_independent_mm": -0.0030845997938939718,
+      "projection_discrepancy_px": 0.005040903587936185,
+      "gaps": [
+        {
+          "sample_index": 96,
+          "from_segment": 839,
+          "to_segment": 994,
+          "bridge_mm": 25.959620310946175,
+          "intermediate_vertices": 155,
+          "outside_vertices": 155
+        }
+      ]
+    },
+    {
+      "seed": 5435,
+      "partition": "test",
+      "recorded_length_mm": 110.155886,
+      "bridge_sum_mm": 20.12828265845574,
+      "bridge_fraction_percent": 18.272543927843984,
+      "length_without_bridges_mm": 90.02760334154425,
+      "recorded_mean_width_mm": 0.516554,
+      "area_over_unbridged_length_mm": 0.6320444828918619,
+      "independent_visible_length_mm": 90.02732199714742,
+      "unbridged_vs_independent_mm": 0.000281344396825034,
+      "projection_discrepancy_px": 0.0020651871944892264,
+      "gaps": [
+        {
+          "sample_index": 239,
+          "from_segment": 724,
+          "to_segment": 828,
+          "bridge_mm": 20.12828265845574,
+          "intermediate_vertices": 104,
+          "outside_vertices": 104
+        }
+      ]
+    },
+    {
+      "seed": 5440,
+      "partition": "test",
+      "recorded_length_mm": 160.028691,
+      "bridge_sum_mm": 28.398886153044273,
+      "bridge_fraction_percent": 17.74612163330404,
+      "length_without_bridges_mm": 131.62980484695572,
+      "recorded_mean_width_mm": 0.500531,
+      "area_over_unbridged_length_mm": 0.6085198948150876,
+      "independent_visible_length_mm": 131.62977724275657,
+      "unbridged_vs_independent_mm": 2.760419914693557e-05,
+      "projection_discrepancy_px": 0.005511728311716979,
+      "gaps": [
+        {
+          "sample_index": 649,
+          "from_segment": 1438,
+          "to_segment": 1591,
+          "bridge_mm": 28.398886153044273,
+          "intermediate_vertices": 153,
+          "outside_vertices": 153
+        }
+      ]
+    },
+    {
+      "seed": 5464,
+      "partition": "test",
+      "recorded_length_mm": 117.942852,
+      "bridge_sum_mm": 1.9840176100009785,
+      "bridge_fraction_percent": 1.682185546946905,
+      "length_without_bridges_mm": 115.95883438999903,
+      "recorded_mean_width_mm": 0.948969,
+      "area_over_unbridged_length_mm": 0.9652058214346194,
+      "independent_visible_length_mm": 115.95704534980491,
+      "unbridged_vs_independent_mm": 0.0017890401941116352,
+      "projection_discrepancy_px": 0.00360791723278453,
+      "gaps": [
+        {
+          "sample_index": 574,
+          "from_segment": 1198,
+          "to_segment": 1208,
+          "bridge_mm": 1.9840176100009785,
+          "intermediate_vertices": 10,
+          "outside_vertices": 10
+        }
+      ]
+    },
+    {
+      "seed": 5480,
+      "partition": "val",
+      "recorded_length_mm": 70.161376,
+      "bridge_sum_mm": 5.296496870305881,
+      "bridge_fraction_percent": 7.5490208035627475,
+      "length_without_bridges_mm": 64.86487912969412,
+      "recorded_mean_width_mm": 0.503873,
+      "area_over_unbridged_length_mm": 0.5450163088921294,
+      "independent_visible_length_mm": 64.86475728972168,
+      "unbridged_vs_independent_mm": 0.00012183997243653266,
+      "projection_discrepancy_px": 0.0019411989908348914,
+      "gaps": [
+        {
+          "sample_index": 150,
+          "from_segment": 498,
+          "to_segment": 526,
+          "bridge_mm": 5.296496870305881,
+          "intermediate_vertices": 28,
+          "outside_vertices": 28
+        }
+      ]
+    },
+    {
+      "seed": 5581,
+      "partition": "train",
+      "recorded_length_mm": 117.026787,
+      "bridge_sum_mm": 0.5436141583733874,
+      "bridge_fraction_percent": 0.4645211342710686,
+      "length_without_bridges_mm": 116.48317284162661,
+      "recorded_mean_width_mm": 0.510749,
+      "area_over_unbridged_length_mm": 0.5131325026771595,
+      "independent_visible_length_mm": 116.48463174554469,
+      "unbridged_vs_independent_mm": -0.0014589039180776808,
+      "projection_discrepancy_px": 0.003815864562511706,
+      "gaps": [
+        {
+          "sample_index": 535,
+          "from_segment": 964,
+          "to_segment": 966,
+          "bridge_mm": 0.5436141583733874,
+          "intermediate_vertices": 2,
+          "outside_vertices": 2
+        }
+      ]
+    },
+    {
+      "seed": 5589,
+      "partition": "val",
+      "recorded_length_mm": 160.00324,
+      "bridge_sum_mm": 16.856473346508338,
+      "bridge_fraction_percent": 10.535082506146962,
+      "length_without_bridges_mm": 143.14676665349168,
+      "recorded_mean_width_mm": 1.020556,
+      "area_over_unbridged_length_mm": 1.1407335339628988,
+      "independent_visible_length_mm": 143.14661428007366,
+      "unbridged_vs_independent_mm": 0.00015237341801821458,
+      "projection_discrepancy_px": 0.004291157355623909,
+      "gaps": [
+        {
+          "sample_index": 701,
+          "from_segment": 1042,
+          "to_segment": 1132,
+          "bridge_mm": 16.856473346508338,
+          "intermediate_vertices": 90,
+          "outside_vertices": 90
+        }
+      ]
+    },
+    {
+      "seed": 5647,
+      "partition": "val",
+      "recorded_length_mm": 110.966954,
+      "bridge_sum_mm": 3.667468163388064,
+      "bridge_fraction_percent": 3.3050093124012974,
+      "length_without_bridges_mm": 107.29948583661194,
+      "recorded_mean_width_mm": 0.875575,
+      "area_over_unbridged_length_mm": 0.9055017761030857,
+      "independent_visible_length_mm": 107.29964005918848,
+      "unbridged_vs_independent_mm": -0.00015422257654051919,
+      "projection_discrepancy_px": 0.00405120698383854,
+      "gaps": [
+        {
+          "sample_index": 469,
+          "from_segment": 734,
+          "to_segment": 753,
+          "bridge_mm": 3.667468163388064,
+          "intermediate_vertices": 19,
+          "outside_vertices": 19
+        }
+      ]
+    },
+    {
+      "seed": 5657,
+      "partition": "train",
+      "recorded_length_mm": 146.200819,
+      "bridge_sum_mm": 9.934918022112964,
+      "bridge_fraction_percent": 6.7953914964819475,
+      "length_without_bridges_mm": 136.26590097788704,
+      "recorded_mean_width_mm": 0.930943,
+      "area_over_unbridged_length_mm": 0.9988166887186751,
+      "independent_visible_length_mm": 136.2650629531061,
+      "unbridged_vs_independent_mm": 0.0008380247809327557,
+      "projection_discrepancy_px": 0.005094277491224375,
+      "gaps": [
+        {
+          "sample_index": 41,
+          "from_segment": 250,
+          "to_segment": 300,
+          "bridge_mm": 9.934918022112964,
+          "intermediate_vertices": 50,
+          "outside_vertices": 50
+        }
+      ]
+    },
+    {
+      "seed": 5778,
+      "partition": "train",
+      "recorded_length_mm": 11.979905,
+      "bridge_sum_mm": 2.506443959575601,
+      "bridge_fraction_percent": 20.922068744081034,
+      "length_without_bridges_mm": 9.4734610404244,
+      "recorded_mean_width_mm": 0.883469,
+      "area_over_unbridged_length_mm": 1.1172127013387554,
+      "independent_visible_length_mm": 9.475732463754843,
+      "unbridged_vs_independent_mm": -0.0022714233304430564,
+      "projection_discrepancy_px": 0.004446188054657796,
+      "gaps": [
+        {
+          "sample_index": 43,
+          "from_segment": 413,
+          "to_segment": 425,
+          "bridge_mm": 2.506443959575601,
+          "intermediate_vertices": 12,
+          "outside_vertices": 12
+        }
+      ]
+    },
+    {
+      "seed": 5806,
+      "partition": "train",
+      "recorded_length_mm": 147.192281,
+      "bridge_sum_mm": 26.502384549498107,
+      "bridge_fraction_percent": 18.005281506234763,
+      "length_without_bridges_mm": 120.6898964505019,
+      "recorded_mean_width_mm": 0.771528,
+      "area_over_unbridged_length_mm": 0.9409479943217545,
+      "independent_visible_length_mm": 120.69004960879928,
+      "unbridged_vs_independent_mm": -0.00015315829737971853,
+      "projection_discrepancy_px": 0.005396739875209278,
+      "gaps": [
+        {
+          "sample_index": 574,
+          "from_segment": 951,
+          "to_segment": 1090,
+          "bridge_mm": 26.502384549498107,
+          "intermediate_vertices": 139,
+          "outside_vertices": 139
+        }
+      ]
+    },
+    {
+      "seed": 5824,
+      "partition": "train",
+      "recorded_length_mm": 148.070697,
+      "bridge_sum_mm": 1.3318295943288003,
+      "bridge_fraction_percent": 0.8994552070817904,
+      "length_without_bridges_mm": 146.7388674056712,
+      "recorded_mean_width_mm": 0.798691,
+      "area_over_unbridged_length_mm": 0.8059395993091151,
+      "independent_visible_length_mm": 146.7418009545051,
+      "unbridged_vs_independent_mm": -0.002933548833908617,
+      "projection_discrepancy_px": 0.002764486558930912,
+      "gaps": [
+        {
+          "sample_index": 90,
+          "from_segment": 420,
+          "to_segment": 427,
+          "bridge_mm": 1.3318295943288003,
+          "intermediate_vertices": 7,
+          "outside_vertices": 7
+        }
+      ]
+    },
+    {
+      "seed": 5840,
+      "partition": "test",
+      "recorded_length_mm": 56.748391,
+      "bridge_sum_mm": 14.276208344745672,
+      "bridge_fraction_percent": 25.157027526552557,
+      "length_without_bridges_mm": 42.47218265525433,
+      "recorded_mean_width_mm": 0.738334,
+      "area_over_unbridged_length_mm": 0.9865113912344824,
+      "independent_visible_length_mm": 42.47421142296297,
+      "unbridged_vs_independent_mm": -0.0020287677086443523,
+      "projection_discrepancy_px": 0.011669577859493074,
+      "gaps": [
+        {
+          "sample_index": 95,
+          "from_segment": 318,
+          "to_segment": 395,
+          "bridge_mm": 14.276208344745672,
+          "intermediate_vertices": 77,
+          "outside_vertices": 77
+        }
+      ]
+    },
+    {
+      "seed": 5994,
+      "partition": "train",
+      "recorded_length_mm": 67.051034,
+      "bridge_sum_mm": 3.1162204958149213,
+      "bridge_fraction_percent": 4.647535332288718,
+      "length_without_bridges_mm": 63.93481350418508,
+      "recorded_mean_width_mm": 0.976674,
+      "area_over_unbridged_length_mm": 1.0242774853126508,
+      "independent_visible_length_mm": 63.88354998340648,
+      "unbridged_vs_independent_mm": 0.05126352077859764,
+      "projection_discrepancy_px": 0.0315765478516048,
+      "gaps": [
+        {
+          "sample_index": 32,
+          "from_segment": 646,
+          "to_segment": 662,
+          "bridge_mm": 3.1162204958149213,
+          "intermediate_vertices": 16,
+          "outside_vertices": 16
+        }
+      ]
+    },
+    {
+      "seed": 6119,
+      "partition": "train",
+      "recorded_length_mm": 116.542404,
+      "bridge_sum_mm": 16.942643944773938,
+      "bridge_fraction_percent": 14.53775052106694,
+      "length_without_bridges_mm": 99.59976005522607,
+      "recorded_mean_width_mm": 0.351591,
+      "area_over_unbridged_length_mm": 0.4113995854737001,
+      "independent_visible_length_mm": 99.5995498106293,
+      "unbridged_vs_independent_mm": 0.0002102445967722133,
+      "projection_discrepancy_px": 0.0042337204647395765,
+      "gaps": [
+        {
+          "sample_index": 6,
+          "from_segment": 50,
+          "to_segment": 135,
+          "bridge_mm": 16.942643944773938,
+          "intermediate_vertices": 85,
+          "outside_vertices": 85
+        }
+      ]
+    },
+    {
+      "seed": 6220,
+      "partition": "train",
+      "recorded_length_mm": 145.560929,
+      "bridge_sum_mm": 3.6060984390925896,
+      "bridge_fraction_percent": 2.4773807531089544,
+      "length_without_bridges_mm": 141.9548305609074,
+      "recorded_mean_width_mm": 0.647751,
+      "area_over_unbridged_length_mm": 0.6642054773863083,
+      "independent_visible_length_mm": 141.9570164799216,
+      "unbridged_vs_independent_mm": -0.002185919014209503,
+      "projection_discrepancy_px": 0.004334369910273139,
+      "gaps": [
+        {
+          "sample_index": 26,
+          "from_segment": 746,
+          "to_segment": 765,
+          "bridge_mm": 3.6060984390925896,
+          "intermediate_vertices": 19,
+          "outside_vertices": 19
+        }
+      ]
+    },
+    {
+      "seed": 6221,
+      "partition": "train",
+      "recorded_length_mm": 76.278018,
+      "bridge_sum_mm": 21.23393102283785,
+      "bridge_fraction_percent": 27.837549505858753,
+      "length_without_bridges_mm": 55.04408697716215,
+      "recorded_mean_width_mm": 0.925381,
+      "area_over_unbridged_length_mm": 1.2823578312650783,
+      "independent_visible_length_mm": 55.00672272059508,
+      "unbridged_vs_independent_mm": 0.03736425656707354,
+      "projection_discrepancy_px": 0.0186754411564376,
+      "gaps": [
+        {
+          "sample_index": 3,
+          "from_segment": 199,
+          "to_segment": 204,
+          "bridge_mm": 1.1439090832692929,
+          "intermediate_vertices": 5,
+          "outside_vertices": 5
+        },
+        {
+          "sample_index": 205,
+          "from_segment": 404,
+          "to_segment": 507,
+          "bridge_mm": 20.090021939568558,
+          "intermediate_vertices": 103,
+          "outside_vertices": 103
+        }
+      ]
+    },
+    {
+      "seed": 6228,
+      "partition": "train",
+      "recorded_length_mm": 43.222037,
+      "bridge_sum_mm": 7.150297366696647,
+      "bridge_fraction_percent": 16.543175340617676,
+      "length_without_bridges_mm": 36.07173963330335,
+      "recorded_mean_width_mm": 0.648778,
+      "area_over_unbridged_length_mm": 0.7773819140707752,
+      "independent_visible_length_mm": 36.06976347631491,
+      "unbridged_vs_independent_mm": 0.0019761569884408914,
+      "projection_discrepancy_px": 0.010437303059120495,
+      "gaps": [
+        {
+          "sample_index": 154,
+          "from_segment": 881,
+          "to_segment": 919,
+          "bridge_mm": 7.150297366696647,
+          "intermediate_vertices": 38,
+          "outside_vertices": 38
+        }
+      ]
+    },
+    {
+      "seed": 6237,
+      "partition": "train",
+      "recorded_length_mm": 128.168666,
+      "bridge_sum_mm": 2.2067137820048166,
+      "bridge_fraction_percent": 1.7217264179099878,
+      "length_without_bridges_mm": 125.96195221799519,
+      "recorded_mean_width_mm": 0.732701,
+      "area_over_unbridged_length_mm": 0.7455367779428868,
+      "independent_visible_length_mm": 125.96078847461447,
+      "unbridged_vs_independent_mm": 0.001163743380715232,
+      "projection_discrepancy_px": 0.004931608375500218,
+      "gaps": [
+        {
+          "sample_index": 237,
+          "from_segment": 1276,
+          "to_segment": 1287,
+          "bridge_mm": 2.2067137820048166,
+          "intermediate_vertices": 11,
+          "outside_vertices": 11
+        }
+      ]
+    },
+    {
+      "seed": 6291,
+      "partition": "val",
+      "recorded_length_mm": 91.914762,
+      "bridge_sum_mm": 11.122030017976083,
+      "bridge_fraction_percent": 12.100374059583686,
+      "length_without_bridges_mm": 80.79273198202391,
+      "recorded_mean_width_mm": 0.930585,
+      "area_over_unbridged_length_mm": 1.0586899823988019,
+      "independent_visible_length_mm": 80.79197588451723,
+      "unbridged_vs_independent_mm": 0.0007560975066809306,
+      "projection_discrepancy_px": 0.007489081823678134,
+      "gaps": [
+        {
+          "sample_index": 89,
+          "from_segment": 426,
+          "to_segment": 488,
+          "bridge_mm": 11.122030017976083,
+          "intermediate_vertices": 62,
+          "outside_vertices": 62
+        }
+      ]
+    },
+    {
+      "seed": 6309,
+      "partition": "train",
+      "recorded_length_mm": 131.454264,
+      "bridge_sum_mm": 3.019788470031963,
+      "bridge_fraction_percent": 2.297216064464796,
+      "length_without_bridges_mm": 128.43447552996804,
+      "recorded_mean_width_mm": 0.859171,
+      "area_over_unbridged_length_mm": 0.8793718005540261,
+      "independent_visible_length_mm": 128.43267441314705,
+      "unbridged_vs_independent_mm": 0.0018011168209852713,
+      "projection_discrepancy_px": 0.004151941976260787,
+      "gaps": [
+        {
+          "sample_index": 505,
+          "from_segment": 952,
+          "to_segment": 967,
+          "bridge_mm": 3.019788470031963,
+          "intermediate_vertices": 15,
+          "outside_vertices": 15
+        }
+      ]
+    },
+    {
+      "seed": 6328,
+      "partition": "val",
+      "recorded_length_mm": 123.672781,
+      "bridge_sum_mm": 39.86504707028351,
+      "bridge_fraction_percent": 32.23429338932995,
+      "length_without_bridges_mm": 83.80773392971649,
+      "recorded_mean_width_mm": 0.419993,
+      "area_over_unbridged_length_mm": 0.6197726100500438,
+      "independent_visible_length_mm": 83.80727387300033,
+      "unbridged_vs_independent_mm": 0.00046005671616455857,
+      "projection_discrepancy_px": 0.004092966733423964,
+      "gaps": [
+        {
+          "sample_index": 343,
+          "from_segment": 1287,
+          "to_segment": 1495,
+          "bridge_mm": 39.86504707028351,
+          "intermediate_vertices": 208,
+          "outside_vertices": 208
+        }
+      ]
+    },
+    {
+      "seed": 6486,
+      "partition": "val",
+      "recorded_length_mm": 74.027074,
+      "bridge_sum_mm": 6.572942653121279,
+      "bridge_fraction_percent": 8.879106383593223,
+      "length_without_bridges_mm": 67.45413134687873,
+      "recorded_mean_width_mm": 0.641055,
+      "area_over_unbridged_length_mm": 0.7035210898493897,
+      "independent_visible_length_mm": 67.45208126945523,
+      "unbridged_vs_independent_mm": 0.002050077423490393,
+      "projection_discrepancy_px": 0.007026969564222441,
+      "gaps": [
+        {
+          "sample_index": 329,
+          "from_segment": 645,
+          "to_segment": 678,
+          "bridge_mm": 6.572942653121279,
+          "intermediate_vertices": 33,
+          "outside_vertices": 33
+        }
+      ]
+    },
+    {
+      "seed": 6553,
+      "partition": "train",
+      "recorded_length_mm": 128.719691,
+      "bridge_sum_mm": 29.84063767812902,
+      "bridge_fraction_percent": 23.182651734402484,
+      "length_without_bridges_mm": 98.879053321871,
+      "recorded_mean_width_mm": 0.590519,
+      "area_over_unbridged_length_mm": 0.7687314698752994,
+      "independent_visible_length_mm": 98.97687256732432,
+      "unbridged_vs_independent_mm": -0.09781924545332288,
+      "projection_discrepancy_px": 0.05825632411847437,
+      "gaps": [
+        {
+          "sample_index": 469,
+          "from_segment": 1140,
+          "to_segment": 1252,
+          "bridge_mm": 21.737086323895436,
+          "intermediate_vertices": 112,
+          "outside_vertices": 112
+        },
+        {
+          "sample_index": 476,
+          "from_segment": 1257,
+          "to_segment": 1300,
+          "bridge_mm": 8.103551354233584,
+          "intermediate_vertices": 43,
+          "outside_vertices": 43
+        }
+      ]
+    },
+    {
+      "seed": 6635,
+      "partition": "val",
+      "recorded_length_mm": 105.123653,
+      "bridge_sum_mm": 11.943000680768339,
+      "bridge_fraction_percent": 11.360907217301836,
+      "length_without_bridges_mm": 93.18065231923167,
+      "recorded_mean_width_mm": 0.567267,
+      "area_over_unbridged_length_mm": 0.6399737017905834,
+      "independent_visible_length_mm": 93.18161034566884,
+      "unbridged_vs_independent_mm": -0.0009580264371749081,
+      "projection_discrepancy_px": 0.0035665219153315775,
+      "gaps": [
+        {
+          "sample_index": 88,
+          "from_segment": 343,
+          "to_segment": 405,
+          "bridge_mm": 11.943000680768339,
+          "intermediate_vertices": 62,
+          "outside_vertices": 62
+        }
+      ]
+    },
+    {
+      "seed": 6687,
+      "partition": "test",
+      "recorded_length_mm": 90.821845,
+      "bridge_sum_mm": 13.324508279373502,
+      "bridge_fraction_percent": 14.671038976772055,
+      "length_without_bridges_mm": 77.49733672062649,
+      "recorded_mean_width_mm": 0.549059,
+      "area_over_unbridged_length_mm": 0.6434611576365005,
+      "independent_visible_length_mm": 77.49659712595758,
+      "unbridged_vs_independent_mm": 0.0007395946689143784,
+      "projection_discrepancy_px": 0.004496421595035827,
+      "gaps": [
+        {
+          "sample_index": 316,
+          "from_segment": 755,
+          "to_segment": 827,
+          "bridge_mm": 13.324508279373502,
+          "intermediate_vertices": 72,
+          "outside_vertices": 72
+        }
+      ]
+    },
+    {
+      "seed": 6740,
+      "partition": "test",
+      "recorded_length_mm": 113.428089,
+      "bridge_sum_mm": 11.427340971951262,
+      "bridge_fraction_percent": 10.074524813647582,
+      "length_without_bridges_mm": 102.00074802804873,
+      "recorded_mean_width_mm": 1.004637,
+      "area_over_unbridged_length_mm": 1.1171887383479215,
+      "independent_visible_length_mm": 101.99886476241149,
+      "unbridged_vs_independent_mm": 0.0018832656372467227,
+      "projection_discrepancy_px": 0.004938164470118522,
+      "gaps": [
+        {
+          "sample_index": 39,
+          "from_segment": 718,
+          "to_segment": 776,
+          "bridge_mm": 11.427340971951262,
+          "intermediate_vertices": 58,
+          "outside_vertices": 58
+        }
+      ]
+    },
+    {
+      "seed": 6741,
+      "partition": "train",
+      "recorded_length_mm": 86.858212,
+      "bridge_sum_mm": 2.527487180442267,
+      "bridge_fraction_percent": 2.90990007996281,
+      "length_without_bridges_mm": 84.33072481955773,
+      "recorded_mean_width_mm": 0.884188,
+      "area_over_unbridged_length_mm": 0.9106880578143568,
+      "independent_visible_length_mm": 84.33024068318565,
+      "unbridged_vs_independent_mm": 0.0004841363720800018,
+      "projection_discrepancy_px": 0.004301318398461262,
+      "gaps": [
+        {
+          "sample_index": 318,
+          "from_segment": 731,
+          "to_segment": 744,
+          "bridge_mm": 2.527487180442267,
+          "intermediate_vertices": 13,
+          "outside_vertices": 13
+        }
+      ]
+    },
+    {
+      "seed": 6965,
+      "partition": "val",
+      "recorded_length_mm": 130.193363,
+      "bridge_sum_mm": 2.1252305317593243,
+      "bridge_fraction_percent": 1.6323647248894895,
+      "length_without_bridges_mm": 128.0681324682407,
+      "recorded_mean_width_mm": 0.720491,
+      "area_over_unbridged_length_mm": 0.7324471372553357,
+      "independent_visible_length_mm": 128.06772097262495,
+      "unbridged_vs_independent_mm": 0.0004114956157366123,
+      "projection_discrepancy_px": 0.003884021105136526,
+      "gaps": [
+        {
+          "sample_index": 72,
+          "from_segment": 495,
+          "to_segment": 506,
+          "bridge_mm": 2.1252305317593243,
+          "intermediate_vertices": 11,
+          "outside_vertices": 11
+        }
+      ]
+    },
+    {
+      "seed": 7134,
+      "partition": "val",
+      "recorded_length_mm": 71.486665,
+      "bridge_sum_mm": 14.985661302407312,
+      "bridge_fraction_percent": 20.962876506278914,
+      "length_without_bridges_mm": 56.501003697592694,
+      "recorded_mean_width_mm": 0.679528,
+      "area_over_unbridged_length_mm": 0.8597579303192042,
+      "independent_visible_length_mm": 56.5005598137023,
+      "unbridged_vs_independent_mm": 0.0004438838903908504,
+      "projection_discrepancy_px": 0.0042725600736730485,
+      "gaps": [
+        {
+          "sample_index": 184,
+          "from_segment": 479,
+          "to_segment": 556,
+          "bridge_mm": 14.985661302407312,
+          "intermediate_vertices": 77,
+          "outside_vertices": 77
+        }
+      ]
+    },
+    {
+      "seed": 7207,
+      "partition": "test",
+      "recorded_length_mm": 73.706126,
+      "bridge_sum_mm": 14.394281582493514,
+      "bridge_fraction_percent": 19.529287948865356,
+      "length_without_bridges_mm": 59.311844417506485,
+      "recorded_mean_width_mm": 1.020554,
+      "area_over_unbridged_length_mm": 1.2682300936471593,
+      "independent_visible_length_mm": 59.31188017802464,
+      "unbridged_vs_independent_mm": -3.5760518152017085e-05,
+      "projection_discrepancy_px": 0.0048084413872402365,
+      "gaps": [
+        {
+          "sample_index": 21,
+          "from_segment": 195,
+          "to_segment": 270,
+          "bridge_mm": 14.394281582493514,
+          "intermediate_vertices": 75,
+          "outside_vertices": 75
+        }
+      ]
+    },
+    {
+      "seed": 7265,
+      "partition": "train",
+      "recorded_length_mm": 93.869112,
+      "bridge_sum_mm": 17.97772148914344,
+      "bridge_fraction_percent": 19.151903225784686,
+      "length_without_bridges_mm": 75.89139051085655,
+      "recorded_mean_width_mm": 0.808084,
+      "area_over_unbridged_length_mm": 0.999508501417546,
+      "independent_visible_length_mm": 75.89087843028116,
+      "unbridged_vs_independent_mm": 0.0005120805753904278,
+      "projection_discrepancy_px": 0.006704963930829422,
+      "gaps": [
+        {
+          "sample_index": 147,
+          "from_segment": 1123,
+          "to_segment": 1219,
+          "bridge_mm": 17.97772148914344,
+          "intermediate_vertices": 96,
+          "outside_vertices": 96
+        }
+      ]
+    },
+    {
+      "seed": 7371,
+      "partition": "train",
+      "recorded_length_mm": 165.168285,
+      "bridge_sum_mm": 6.899530209935887,
+      "bridge_fraction_percent": 4.177273021837023,
+      "length_without_bridges_mm": 158.26875479006412,
+      "recorded_mean_width_mm": 0.771429,
+      "area_over_unbridged_length_mm": 0.8050589528489737,
+      "independent_visible_length_mm": 158.26852972344645,
+      "unbridged_vs_independent_mm": 0.00022506661767351943,
+      "projection_discrepancy_px": 0.005789505075995294,
+      "gaps": [
+        {
+          "sample_index": 35,
+          "from_segment": 119,
+          "to_segment": 154,
+          "bridge_mm": 6.899530209935887,
+          "intermediate_vertices": 35,
+          "outside_vertices": 35
+        }
+      ]
+    },
+    {
+      "seed": 7390,
+      "partition": "train",
+      "recorded_length_mm": 48.851563,
+      "bridge_sum_mm": 0.10386632829748026,
+      "bridge_fraction_percent": 0.21261618240849378,
+      "length_without_bridges_mm": 48.74769667170252,
+      "recorded_mean_width_mm": 0.858795,
+      "area_over_unbridged_length_mm": 0.8606250523494686,
+      "independent_visible_length_mm": 48.74780038677169,
+      "unbridged_vs_independent_mm": -0.00010371506916584394,
+      "projection_discrepancy_px": 0.0033122818608717353,
+      "gaps": [
+        {
+          "sample_index": 179,
+          "from_segment": 189,
+          "to_segment": 190,
+          "bridge_mm": 0.10386632829748026,
+          "intermediate_vertices": 1,
+          "outside_vertices": 1
+        }
+      ]
+    },
+    {
+      "seed": 7402,
+      "partition": "train",
+      "recorded_length_mm": 165.474381,
+      "bridge_sum_mm": 29.448351278842985,
+      "bridge_fraction_percent": 17.796320554807203,
+      "length_without_bridges_mm": 136.02602972115702,
+      "recorded_mean_width_mm": 0.611524,
+      "area_over_unbridged_length_mm": 0.74391269235333,
+      "independent_visible_length_mm": 136.02565191479363,
+      "unbridged_vs_independent_mm": 0.0003778063633887996,
+      "projection_discrepancy_px": 0.0032585929826183246,
+      "gaps": [
+        {
+          "sample_index": 564,
+          "from_segment": 1531,
+          "to_segment": 1694,
+          "bridge_mm": 29.448351278842985,
+          "intermediate_vertices": 163,
+          "outside_vertices": 163
+        }
+      ]
+    },
+    {
+      "seed": 7435,
+      "partition": "val",
+      "recorded_length_mm": 155.935991,
+      "bridge_sum_mm": 16.55074272209649,
+      "bridge_fraction_percent": 10.613805456943222,
+      "length_without_bridges_mm": 139.38524827790351,
+      "recorded_mean_width_mm": 0.822714,
+      "area_over_unbridged_length_mm": 0.9204042650497448,
+      "independent_visible_length_mm": 139.38514421158246,
+      "unbridged_vs_independent_mm": 0.00010406632105741664,
+      "projection_discrepancy_px": 0.0051407708133988095,
+      "gaps": [
+        {
+          "sample_index": 625,
+          "from_segment": 1032,
+          "to_segment": 1118,
+          "bridge_mm": 16.55074272209649,
+          "intermediate_vertices": 86,
+          "outside_vertices": 86
+        }
+      ]
+    },
+    {
+      "seed": 7488,
+      "partition": "train",
+      "recorded_length_mm": 79.575231,
+      "bridge_sum_mm": 36.72583634812066,
+      "bridge_fraction_percent": 46.15234651109044,
+      "length_without_bridges_mm": 42.849394651879344,
+      "recorded_mean_width_mm": 0.383884,
+      "area_over_unbridged_length_mm": 0.7129075275900123,
+      "independent_visible_length_mm": 42.849588924736636,
+      "unbridged_vs_independent_mm": -0.00019427285729278765,
+      "projection_discrepancy_px": 0.00279621695744936,
+      "gaps": [
+        {
+          "sample_index": 91,
+          "from_segment": 989,
+          "to_segment": 1178,
+          "bridge_mm": 36.72583634812066,
+          "intermediate_vertices": 189,
+          "outside_vertices": 189
+        }
+      ]
+    },
+    {
+      "seed": 7601,
+      "partition": "train",
+      "recorded_length_mm": 132.347577,
+      "bridge_sum_mm": 20.344753705985237,
+      "bridge_fraction_percent": 15.372214714580863,
+      "length_without_bridges_mm": 112.00282329401476,
+      "recorded_mean_width_mm": 0.427501,
+      "area_over_unbridged_length_mm": 0.5051540517999019,
+      "independent_visible_length_mm": 112.00244455888921,
+      "unbridged_vs_independent_mm": 0.00037873512555108846,
+      "projection_discrepancy_px": 0.004699174806660267,
+      "gaps": [
+        {
+          "sample_index": 550,
+          "from_segment": 1075,
+          "to_segment": 1181,
+          "bridge_mm": 20.344753705985237,
+          "intermediate_vertices": 106,
+          "outside_vertices": 106
+        }
+      ]
+    },
+    {
+      "seed": 7639,
+      "partition": "test",
+      "recorded_length_mm": 94.20806,
+      "bridge_sum_mm": 9.827324748301592,
+      "bridge_fraction_percent": 10.431511643803717,
+      "length_without_bridges_mm": 84.38073525169841,
+      "recorded_mean_width_mm": 0.71056,
+      "area_over_unbridged_length_mm": 0.793314158739244,
+      "independent_visible_length_mm": 84.37917295744212,
+      "unbridged_vs_independent_mm": 0.00156229425628851,
+      "projection_discrepancy_px": 0.0054456815277035275,
+      "gaps": [
+        {
+          "sample_index": 86,
+          "from_segment": 684,
+          "to_segment": 734,
+          "bridge_mm": 9.827324748301592,
+          "intermediate_vertices": 50,
+          "outside_vertices": 50
+        }
+      ]
+    },
+    {
+      "seed": 7663,
+      "partition": "val",
+      "recorded_length_mm": 151.525592,
+      "bridge_sum_mm": 25.998348013584415,
+      "bridge_fraction_percent": 17.157727398012355,
+      "length_without_bridges_mm": 125.52724398641557,
+      "recorded_mean_width_mm": 0.582464,
+      "area_over_unbridged_length_mm": 0.7031002131262535,
+      "independent_visible_length_mm": 125.5266932675301,
+      "unbridged_vs_independent_mm": 0.0005507188854636524,
+      "projection_discrepancy_px": 0.005961856299450119,
+      "gaps": [
+        {
+          "sample_index": 568,
+          "from_segment": 1502,
+          "to_segment": 1639,
+          "bridge_mm": 25.998348013584415,
+          "intermediate_vertices": 137,
+          "outside_vertices": 137
+        }
+      ]
+    },
+    {
+      "seed": 7726,
+      "partition": "test",
+      "recorded_length_mm": 133.589643,
+      "bridge_sum_mm": 1.7456932120467203,
+      "bridge_fraction_percent": 1.3067578989238862,
+      "length_without_bridges_mm": 131.84394978795328,
+      "recorded_mean_width_mm": 0.929536,
+      "area_over_unbridged_length_mm": 0.9418437797086244,
+      "independent_visible_length_mm": 131.8455210179917,
+      "unbridged_vs_independent_mm": -0.0015712300384223,
+      "projection_discrepancy_px": 0.004372959370357421,
+      "gaps": [
+        {
+          "sample_index": 9,
+          "from_segment": 440,
+          "to_segment": 448,
+          "bridge_mm": 1.7456932120467203,
+          "intermediate_vertices": 8,
+          "outside_vertices": 8
+        }
+      ]
+    },
+    {
+      "seed": 7729,
+      "partition": "train",
+      "recorded_length_mm": 61.300822,
+      "bridge_sum_mm": 7.98603581011386,
+      "bridge_fraction_percent": 13.027616187779438,
+      "length_without_bridges_mm": 53.314786189886135,
+      "recorded_mean_width_mm": 0.465198,
+      "area_over_unbridged_length_mm": 0.5348803594266258,
+      "independent_visible_length_mm": 53.31495505583213,
+      "unbridged_vs_independent_mm": -0.00016886594599441196,
+      "projection_discrepancy_px": 0.004560770774195255,
+      "gaps": [
+        {
+          "sample_index": 241,
+          "from_segment": 386,
+          "to_segment": 427,
+          "bridge_mm": 7.98603581011386,
+          "intermediate_vertices": 41,
+          "outside_vertices": 41
+        }
+      ]
+    },
+    {
+      "seed": 7796,
+      "partition": "val",
+      "recorded_length_mm": 80.546177,
+      "bridge_sum_mm": 14.078420038139223,
+      "bridge_fraction_percent": 17.478694287550386,
+      "length_without_bridges_mm": 66.46775696186077,
+      "recorded_mean_width_mm": 0.448263,
+      "area_over_unbridged_length_mm": 0.543208491610715,
+      "independent_visible_length_mm": 66.46736999095643,
+      "unbridged_vs_independent_mm": 0.00038697090434425263,
+      "projection_discrepancy_px": 0.0032438846210425254,
+      "gaps": [
+        {
+          "sample_index": 30,
+          "from_segment": 223,
+          "to_segment": 297,
+          "bridge_mm": 14.078420038139223,
+          "intermediate_vertices": 74,
+          "outside_vertices": 74
+        }
+      ]
+    },
+    {
+      "seed": 7832,
+      "partition": "train",
+      "recorded_length_mm": 146.540762,
+      "bridge_sum_mm": 33.12420614961144,
+      "bridge_fraction_percent": 22.604090286913777,
+      "length_without_bridges_mm": 113.41655585038856,
+      "recorded_mean_width_mm": 0.857435,
+      "area_over_unbridged_length_mm": 1.1078557099348696,
+      "independent_visible_length_mm": 113.40014886462795,
+      "unbridged_vs_independent_mm": 0.016406985760610837,
+      "projection_discrepancy_px": 0.0363078544547939,
+      "gaps": [
+        {
+          "sample_index": 562,
+          "from_segment": 1346,
+          "to_segment": 1533,
+          "bridge_mm": 33.12420614961144,
+          "intermediate_vertices": 187,
+          "outside_vertices": 187
+        }
+      ]
+    },
+    {
+      "seed": 7898,
+      "partition": "train",
+      "recorded_length_mm": 112.261089,
+      "bridge_sum_mm": 7.0049275269839155,
+      "bridge_fraction_percent": 6.239853531960585,
+      "length_without_bridges_mm": 105.25616147301608,
+      "recorded_mean_width_mm": 0.980548,
+      "area_over_unbridged_length_mm": 1.045804392441386,
+      "independent_visible_length_mm": 105.25567703101311,
+      "unbridged_vs_independent_mm": 0.0004844420029712637,
+      "projection_discrepancy_px": 0.0038278849509119084,
+      "gaps": [
+        {
+          "sample_index": 442,
+          "from_segment": 1169,
+          "to_segment": 1208,
+          "bridge_mm": 7.0049275269839155,
+          "intermediate_vertices": 39,
+          "outside_vertices": 39
+        }
+      ]
+    },
+    {
+      "seed": 8077,
+      "partition": "train",
+      "recorded_length_mm": 153.827846,
+      "bridge_sum_mm": 22.397675161556254,
+      "bridge_fraction_percent": 14.560221535934563,
+      "length_without_bridges_mm": 131.43017083844373,
+      "recorded_mean_width_mm": 0.604802,
+      "area_over_unbridged_length_mm": 0.7078691932490958,
+      "independent_visible_length_mm": 131.42990741788313,
+      "unbridged_vs_independent_mm": 0.00026342056060002506,
+      "projection_discrepancy_px": 0.0034248669927592346,
+      "gaps": [
+        {
+          "sample_index": 614,
+          "from_segment": 1004,
+          "to_segment": 1121,
+          "bridge_mm": 22.397675161556254,
+          "intermediate_vertices": 117,
+          "outside_vertices": 117
+        }
+      ]
+    },
+    {
+      "seed": 8217,
+      "partition": "val",
+      "recorded_length_mm": 140.98203,
+      "bridge_sum_mm": 3.576418106835523,
+      "bridge_fraction_percent": 2.53679004823205,
+      "length_without_bridges_mm": 137.4056118931645,
+      "recorded_mean_width_mm": 0.56228,
+      "area_over_unbridged_length_mm": 0.5769146682424804,
+      "independent_visible_length_mm": 137.43251225880343,
+      "unbridged_vs_independent_mm": -0.026900365638937274,
+      "projection_discrepancy_px": 0.02642243617378881,
+      "gaps": [
+        {
+          "sample_index": 662,
+          "from_segment": 1061,
+          "to_segment": 1080,
+          "bridge_mm": 3.576418106835523,
+          "intermediate_vertices": 19,
+          "outside_vertices": 19
+        }
+      ]
+    },
+    {
+      "seed": 8227,
+      "partition": "train",
+      "recorded_length_mm": 144.09177,
+      "bridge_sum_mm": 11.08668366609056,
+      "bridge_fraction_percent": 7.694182440878171,
+      "length_without_bridges_mm": 133.00508633390945,
+      "recorded_mean_width_mm": 0.775624,
+      "area_over_unbridged_length_mm": 0.8402764742351563,
+      "independent_visible_length_mm": 133.00446202683116,
+      "unbridged_vs_independent_mm": 0.0006243070782829818,
+      "projection_discrepancy_px": 0.0037120104119594544,
+      "gaps": [
+        {
+          "sample_index": 621,
+          "from_segment": 1301,
+          "to_segment": 1351,
+          "bridge_mm": 9.685302235526416,
+          "intermediate_vertices": 50,
+          "outside_vertices": 50
+        },
+        {
+          "sample_index": 665,
+          "from_segment": 1393,
+          "to_segment": 1400,
+          "bridge_mm": 1.4013814305641425,
+          "intermediate_vertices": 7,
+          "outside_vertices": 7
+        }
+      ]
+    },
+    {
+      "seed": 8396,
+      "partition": "val",
+      "recorded_length_mm": 85.67674,
+      "bridge_sum_mm": 54.47107092199289,
+      "bridge_fraction_percent": 63.57743177669096,
+      "length_without_bridges_mm": 31.205669078007105,
+      "recorded_mean_width_mm": 0.38589,
+      "area_over_unbridged_length_mm": 1.0594816575588526,
+      "independent_visible_length_mm": 31.202237863019946,
+      "unbridged_vs_independent_mm": 0.003431214987159592,
+      "projection_discrepancy_px": 0.003881882924815727,
+      "gaps": [
+        {
+          "sample_index": 30,
+          "from_segment": 800,
+          "to_segment": 884,
+          "bridge_mm": 16.25263637297682,
+          "intermediate_vertices": 84,
+          "outside_vertices": 84
+        },
+        {
+          "sample_index": 51,
+          "from_segment": 903,
+          "to_segment": 1105,
+          "bridge_mm": 38.21843454901607,
+          "intermediate_vertices": 202,
+          "outside_vertices": 202
+        }
+      ]
+    },
+    {
+      "seed": 8443,
+      "partition": "train",
+      "recorded_length_mm": 176.379854,
+      "bridge_sum_mm": 4.504170638531018,
+      "bridge_fraction_percent": 2.5536763617748646,
+      "length_without_bridges_mm": 171.875683361469,
+      "recorded_mean_width_mm": 0.742974,
+      "area_over_unbridged_length_mm": 0.7624439911281699,
+      "independent_visible_length_mm": 171.8798709044953,
+      "unbridged_vs_independent_mm": -0.004187543026318963,
+      "projection_discrepancy_px": 0.004181493792088986,
+      "gaps": [
+        {
+          "sample_index": 19,
+          "from_segment": 49,
+          "to_segment": 72,
+          "bridge_mm": 4.504170638531018,
+          "intermediate_vertices": 23,
+          "outside_vertices": 23
+        }
+      ]
+    },
+    {
+      "seed": 8478,
+      "partition": "test",
+      "recorded_length_mm": 67.451177,
+      "bridge_sum_mm": 4.021132387658978,
+      "bridge_fraction_percent": 5.961545174606781,
+      "length_without_bridges_mm": 63.43004461234102,
+      "recorded_mean_width_mm": 1.133307,
+      "area_over_unbridged_length_mm": 1.2051528651317893,
+      "independent_visible_length_mm": 63.428678217844904,
+      "unbridged_vs_independent_mm": 0.0013663944961166408,
+      "projection_discrepancy_px": 0.006476472134323785,
+      "gaps": [
+        {
+          "sample_index": 297,
+          "from_segment": 458,
+          "to_segment": 478,
+          "bridge_mm": 4.021132387658978,
+          "intermediate_vertices": 20,
+          "outside_vertices": 20
+        }
+      ]
+    },
+    {
+      "seed": 8580,
+      "partition": "train",
+      "recorded_length_mm": 163.102045,
+      "bridge_sum_mm": 30.75393494755961,
+      "bridge_fraction_percent": 18.855640312516993,
+      "length_without_bridges_mm": 132.3481100524404,
+      "recorded_mean_width_mm": 0.764768,
+      "area_over_unbridged_length_mm": 0.9424780599479363,
+      "independent_visible_length_mm": 132.34776930039973,
+      "unbridged_vs_independent_mm": 0.00034075204067107734,
+      "projection_discrepancy_px": 0.003614367456943768,
+      "gaps": [
+        {
+          "sample_index": 507,
+          "from_segment": 1119,
+          "to_segment": 1273,
+          "bridge_mm": 28.75506745381972,
+          "intermediate_vertices": 154,
+          "outside_vertices": 154
+        },
+        {
+          "sample_index": 621,
+          "from_segment": 1385,
+          "to_segment": 1395,
+          "bridge_mm": 1.99886749373989,
+          "intermediate_vertices": 10,
+          "outside_vertices": 10
+        }
+      ]
+    },
+    {
+      "seed": 8585,
+      "partition": "train",
+      "recorded_length_mm": 133.782539,
+      "bridge_sum_mm": 3.8809129247809704,
+      "bridge_fraction_percent": 2.900911399791097,
+      "length_without_bridges_mm": 129.90162607521904,
+      "recorded_mean_width_mm": 0.615205,
+      "area_over_unbridged_length_mm": 0.6335850018716651,
+      "independent_visible_length_mm": 129.8996542764698,
+      "unbridged_vs_independent_mm": 0.0019717987492526845,
+      "projection_discrepancy_px": 0.005740050054763746,
+      "gaps": [
+        {
+          "sample_index": 649,
+          "from_segment": 1169,
+          "to_segment": 1188,
+          "bridge_mm": 3.8809129247809704,
+          "intermediate_vertices": 19,
+          "outside_vertices": 19
+        }
+      ]
+    },
+    {
+      "seed": 8593,
+      "partition": "train",
+      "recorded_length_mm": 121.584074,
+      "bridge_sum_mm": 8.446407655883123,
+      "bridge_fraction_percent": 6.94696877477812,
+      "length_without_bridges_mm": 113.13766634411688,
+      "recorded_mean_width_mm": 1.249197,
+      "area_over_unbridged_length_mm": 1.3424568572772038,
+      "independent_visible_length_mm": 113.13755003606882,
+      "unbridged_vs_independent_mm": 0.00011630804806372907,
+      "projection_discrepancy_px": 0.005587003433378257,
+      "gaps": [
+        {
+          "sample_index": 15,
+          "from_segment": 337,
+          "to_segment": 383,
+          "bridge_mm": 8.446407655883123,
+          "intermediate_vertices": 46,
+          "outside_vertices": 46
+        }
+      ]
+    },
+    {
+      "seed": 8607,
+      "partition": "train",
+      "recorded_length_mm": 133.821608,
+      "bridge_sum_mm": 12.802431444134214,
+      "bridge_fraction_percent": 9.566789426214497,
+      "length_without_bridges_mm": 121.01917655586578,
+      "recorded_mean_width_mm": 0.593952,
+      "area_over_unbridged_length_mm": 0.6567850423549048,
+      "independent_visible_length_mm": 120.89267339187332,
+      "unbridged_vs_independent_mm": 0.1265031639924672,
+      "projection_discrepancy_px": 0.02595402775886413,
+      "gaps": [
+        {
+          "sample_index": 588,
+          "from_segment": 838,
+          "to_segment": 857,
+          "bridge_mm": 3.7871735827989164,
+          "intermediate_vertices": 19,
+          "outside_vertices": 19
+        },
+        {
+          "sample_index": 601,
+          "from_segment": 868,
+          "to_segment": 914,
+          "bridge_mm": 9.015257861335298,
+          "intermediate_vertices": 46,
+          "outside_vertices": 46
+        }
+      ]
+    },
+    {
+      "seed": 8639,
+      "partition": "test",
+      "recorded_length_mm": 67.948206,
+      "bridge_sum_mm": 11.65490546243126,
+      "bridge_fraction_percent": 17.15263161242441,
+      "length_without_bridges_mm": 56.29330053756874,
+      "recorded_mean_width_mm": 0.839318,
+      "area_over_unbridged_length_mm": 1.013090091634252,
+      "independent_visible_length_mm": 56.295355709003836,
+      "unbridged_vs_independent_mm": -0.002055171435095815,
+      "projection_discrepancy_px": 0.011064937499121186,
+      "gaps": [
+        {
+          "sample_index": 48,
+          "from_segment": 305,
+          "to_segment": 369,
+          "bridge_mm": 11.65490546243126,
+          "intermediate_vertices": 64,
+          "outside_vertices": 64
+        }
+      ]
+    },
+    {
+      "seed": 8683,
+      "partition": "train",
+      "recorded_length_mm": 149.695105,
+      "bridge_sum_mm": 20.54558916453967,
+      "bridge_fraction_percent": 13.724957248628582,
+      "length_without_bridges_mm": 129.14951583546033,
+      "recorded_mean_width_mm": 0.459896,
+      "area_over_unbridged_length_mm": 0.5330582817492652,
+      "independent_visible_length_mm": 129.14992147465819,
+      "unbridged_vs_independent_mm": -0.00040563919785086,
+      "projection_discrepancy_px": 0.004292933298886581,
+      "gaps": [
+        {
+          "sample_index": 628,
+          "from_segment": 1259,
+          "to_segment": 1368,
+          "bridge_mm": 20.54558916453967,
+          "intermediate_vertices": 109,
+          "outside_vertices": 109
+        }
+      ]
+    },
+    {
+      "seed": 8899,
+      "partition": "train",
+      "recorded_length_mm": 72.721146,
+      "bridge_sum_mm": 7.644244920676956,
+      "bridge_fraction_percent": 10.511722299696647,
+      "length_without_bridges_mm": 65.07690107932305,
+      "recorded_mean_width_mm": 0.838361,
+      "area_over_unbridged_length_mm": 0.9368390779039565,
+      "independent_visible_length_mm": 65.0746041907822,
+      "unbridged_vs_independent_mm": 0.0022968885408545248,
+      "projection_discrepancy_px": 0.0029313026592490132,
+      "gaps": [
+        {
+          "sample_index": 144,
+          "from_segment": 340,
+          "to_segment": 370,
+          "bridge_mm": 5.7896668934432665,
+          "intermediate_vertices": 30,
+          "outside_vertices": 30
+        },
+        {
+          "sample_index": 147,
+          "from_segment": 371,
+          "to_segment": 381,
+          "bridge_mm": 1.8545780272336891,
+          "intermediate_vertices": 10,
+          "outside_vertices": 10
+        }
+      ]
+    },
+    {
+      "seed": 8902,
+      "partition": "train",
+      "recorded_length_mm": 98.563958,
+      "bridge_sum_mm": 11.75652640926256,
+      "bridge_fraction_percent": 11.92781484004788,
+      "length_without_bridges_mm": 86.80743159073744,
+      "recorded_mean_width_mm": 0.743139,
+      "area_over_unbridged_length_mm": 0.8437838634061786,
+      "independent_visible_length_mm": 86.8066621452333,
+      "unbridged_vs_independent_mm": 0.0007694455041331594,
+      "projection_discrepancy_px": 0.0037213622624676646,
+      "gaps": [
+        {
+          "sample_index": 412,
+          "from_segment": 973,
+          "to_segment": 1033,
+          "bridge_mm": 11.75652640926256,
+          "intermediate_vertices": 60,
+          "outside_vertices": 60
+        }
+      ]
+    },
+    {
+      "seed": 8938,
+      "partition": "train",
+      "recorded_length_mm": 143.194051,
+      "bridge_sum_mm": 6.9451251801154745,
+      "bridge_fraction_percent": 4.850149242663352,
+      "length_without_bridges_mm": 136.24892581988453,
+      "recorded_mean_width_mm": 0.841981,
+      "area_over_unbridged_length_mm": 0.8849002975581931,
+      "independent_visible_length_mm": 136.24789753417832,
+      "unbridged_vs_independent_mm": 0.001028285706212273,
+      "projection_discrepancy_px": 0.0038151142707505414,
+      "gaps": [
+        {
+          "sample_index": 81,
+          "from_segment": 785,
+          "to_segment": 822,
+          "bridge_mm": 6.9451251801154745,
+          "intermediate_vertices": 37,
+          "outside_vertices": 37
+        }
+      ]
+    },
+    {
+      "seed": 9088,
+      "partition": "train",
+      "recorded_length_mm": 132.172659,
+      "bridge_sum_mm": 16.21014239198564,
+      "bridge_fraction_percent": 12.26436882985432,
+      "length_without_bridges_mm": 115.96251660801437,
+      "recorded_mean_width_mm": 0.759597,
+      "area_over_unbridged_length_mm": 0.865779106358764,
+      "independent_visible_length_mm": 115.93023173123221,
+      "unbridged_vs_independent_mm": 0.03228487678215686,
+      "projection_discrepancy_px": 0.08739882152963219,
+      "gaps": [
+        {
+          "sample_index": 486,
+          "from_segment": 1234,
+          "to_segment": 1323,
+          "bridge_mm": 16.21014239198564,
+          "intermediate_vertices": 89,
+          "outside_vertices": 89
+        }
+      ]
+    },
+    {
+      "seed": 9282,
+      "partition": "train",
+      "recorded_length_mm": 108.111676,
+      "bridge_sum_mm": 16.04145267353066,
+      "bridge_fraction_percent": 14.83785402931933,
+      "length_without_bridges_mm": 92.07022332646935,
+      "recorded_mean_width_mm": 1.108085,
+      "area_over_unbridged_length_mm": 1.3011471969087696,
+      "independent_visible_length_mm": 92.06998059429806,
+      "unbridged_vs_independent_mm": 0.0002427321712872299,
+      "projection_discrepancy_px": 0.0029903373132356137,
+      "gaps": [
+        {
+          "sample_index": 368,
+          "from_segment": 1001,
+          "to_segment": 1091,
+          "bridge_mm": 16.04145267353066,
+          "intermediate_vertices": 90,
+          "outside_vertices": 90
+        }
+      ]
+    },
+    {
+      "seed": 9312,
+      "partition": "train",
+      "recorded_length_mm": 160.606754,
+      "bridge_sum_mm": 17.477664267495758,
+      "bridge_fraction_percent": 10.882272278222969,
+      "length_without_bridges_mm": 143.12908973250424,
+      "recorded_mean_width_mm": 0.563796,
+      "area_over_unbridged_length_mm": 0.6326416116334489,
+      "independent_visible_length_mm": 143.12863505209123,
+      "unbridged_vs_independent_mm": 0.00045468041301433004,
+      "projection_discrepancy_px": 0.004350411224891104,
+      "gaps": [
+        {
+          "sample_index": 16,
+          "from_segment": 665,
+          "to_segment": 756,
+          "bridge_mm": 17.477664267495758,
+          "intermediate_vertices": 91,
+          "outside_vertices": 91
+        }
+      ]
+    },
+    {
+      "seed": 9373,
+      "partition": "train",
+      "recorded_length_mm": 107.19167,
+      "bridge_sum_mm": 26.3396296438437,
+      "bridge_fraction_percent": 24.572459449361784,
+      "length_without_bridges_mm": 80.8520403561563,
+      "recorded_mean_width_mm": 0.657837,
+      "area_over_unbridged_length_mm": 0.8721442116906432,
+      "independent_visible_length_mm": 80.85114087738776,
+      "unbridged_vs_independent_mm": 0.0008994787685310257,
+      "projection_discrepancy_px": 0.0035672674893021394,
+      "gaps": [
+        {
+          "sample_index": 28,
+          "from_segment": 341,
+          "to_segment": 485,
+          "bridge_mm": 26.3396296438437,
+          "intermediate_vertices": 144,
+          "outside_vertices": 144
+        }
+      ]
+    },
+    {
+      "seed": 9452,
+      "partition": "val",
+      "recorded_length_mm": 97.485868,
+      "bridge_sum_mm": 19.380801077488645,
+      "bridge_fraction_percent": 19.880626264197232,
+      "length_without_bridges_mm": 78.10506692251136,
+      "recorded_mean_width_mm": 0.460743,
+      "area_over_unbridged_length_mm": 0.5750708215199593,
+      "independent_visible_length_mm": 78.1049692789939,
+      "unbridged_vs_independent_mm": 9.764351744934174e-05,
+      "projection_discrepancy_px": 0.005195458875761005,
+      "gaps": [
+        {
+          "sample_index": 375,
+          "from_segment": 730,
+          "to_segment": 831,
+          "bridge_mm": 19.380801077488645,
+          "intermediate_vertices": 101,
+          "outside_vertices": 101
+        }
+      ]
+    },
+    {
+      "seed": 9585,
+      "partition": "train",
+      "recorded_length_mm": 96.09744,
+      "bridge_sum_mm": 19.120353770353052,
+      "bridge_fraction_percent": 19.89683988496785,
+      "length_without_bridges_mm": 76.97708622964696,
+      "recorded_mean_width_mm": 0.556064,
+      "area_over_unbridged_length_mm": 0.6941853169212258,
+      "independent_visible_length_mm": 76.97605195117669,
+      "unbridged_vs_independent_mm": 0.001034278470271488,
+      "projection_discrepancy_px": 0.004493271927003661,
+      "gaps": [
+        {
+          "sample_index": 127,
+          "from_segment": 919,
+          "to_segment": 1017,
+          "bridge_mm": 19.120353770353052,
+          "intermediate_vertices": 98,
+          "outside_vertices": 98
+        }
+      ]
+    },
+    {
+      "seed": 9587,
+      "partition": "train",
+      "recorded_length_mm": 73.318607,
+      "bridge_sum_mm": 12.139053941260702,
+      "bridge_fraction_percent": 16.55658016151439,
+      "length_without_bridges_mm": 61.1795530587393,
+      "recorded_mean_width_mm": 0.945346,
+      "area_over_unbridged_length_mm": 1.132918165215316,
+      "independent_visible_length_mm": 61.18058306341832,
+      "unbridged_vs_independent_mm": -0.001030004679016372,
+      "projection_discrepancy_px": 0.004619397180590568,
+      "gaps": [
+        {
+          "sample_index": 7,
+          "from_segment": 142,
+          "to_segment": 203,
+          "bridge_mm": 12.139053941260702,
+          "intermediate_vertices": 61,
+          "outside_vertices": 61
+        }
+      ]
+    },
+    {
+      "seed": 9605,
+      "partition": "test",
+      "recorded_length_mm": 81.04674,
+      "bridge_sum_mm": 2.18799154605428,
+      "bridge_fraction_percent": 2.699666323474923,
+      "length_without_bridges_mm": 78.85874845394572,
+      "recorded_mean_width_mm": 0.639575,
+      "area_over_unbridged_length_mm": 0.657320817490179,
+      "independent_visible_length_mm": 78.85800424703045,
+      "unbridged_vs_independent_mm": 0.0007442069152716613,
+      "projection_discrepancy_px": 0.004666485740415283,
+      "gaps": [
+        {
+          "sample_index": 373,
+          "from_segment": 918,
+          "to_segment": 929,
+          "bridge_mm": 2.18799154605428,
+          "intermediate_vertices": 11,
+          "outside_vertices": 11
+        }
+      ]
+    },
+    {
+      "seed": 9681,
+      "partition": "train",
+      "recorded_length_mm": 87.035577,
+      "bridge_sum_mm": 15.037335210636558,
+      "bridge_fraction_percent": 17.27722815077857,
+      "length_without_bridges_mm": 71.99824178936345,
+      "recorded_mean_width_mm": 0.579206,
+      "area_over_unbridged_length_mm": 0.7001768202546227,
+      "independent_visible_length_mm": 71.9996240619339,
+      "unbridged_vs_independent_mm": -0.0013822725704528693,
+      "projection_discrepancy_px": 0.004739965773296717,
+      "gaps": [
+        {
+          "sample_index": 183,
+          "from_segment": 282,
+          "to_segment": 359,
+          "bridge_mm": 15.037335210636558,
+          "intermediate_vertices": 77,
+          "outside_vertices": 77
+        }
+      ]
+    },
+    {
+      "seed": 9692,
+      "partition": "train",
+      "recorded_length_mm": 155.772495,
+      "bridge_sum_mm": 26.604141511419833,
+      "bridge_fraction_percent": 17.078844061282986,
+      "length_without_bridges_mm": 129.16835348858015,
+      "recorded_mean_width_mm": 0.873928,
+      "area_over_unbridged_length_mm": 1.0539265874596417,
+      "independent_visible_length_mm": 129.168603631602,
+      "unbridged_vs_independent_mm": -0.00025014302184445114,
+      "projection_discrepancy_px": 0.0032785768726171227,
+      "gaps": [
+        {
+          "sample_index": 181,
+          "from_segment": 553,
+          "to_segment": 704,
+          "bridge_mm": 26.604141511419833,
+          "intermediate_vertices": 151,
+          "outside_vertices": 151
+        }
+      ]
+    },
+    {
+      "seed": 9802,
+      "partition": "train",
+      "recorded_length_mm": 118.779886,
+      "bridge_sum_mm": 4.578474564491211,
+      "bridge_fraction_percent": 3.8545874378859155,
+      "length_without_bridges_mm": 114.20141143550879,
+      "recorded_mean_width_mm": 1.106547,
+      "area_over_unbridged_length_mm": 1.1509101012663365,
+      "independent_visible_length_mm": 114.19981395680783,
+      "unbridged_vs_independent_mm": 0.001597478700958277,
+      "projection_discrepancy_px": 0.002945024220821324,
+      "gaps": [
+        {
+          "sample_index": 307,
+          "from_segment": 916,
+          "to_segment": 939,
+          "bridge_mm": 4.578474564491211,
+          "intermediate_vertices": 23,
+          "outside_vertices": 23
+        }
+      ]
+    },
+    {
+      "seed": 9840,
+      "partition": "test",
+      "recorded_length_mm": 150.089697,
+      "bridge_sum_mm": 5.206214811771616,
+      "bridge_fraction_percent": 3.4687356399764178,
+      "length_without_bridges_mm": 144.88348218822838,
+      "recorded_mean_width_mm": 0.634246,
+      "area_over_unbridged_length_mm": 0.6570369207190023,
+      "independent_visible_length_mm": 144.8865551993206,
+      "unbridged_vs_independent_mm": -0.003073011092226352,
+      "projection_discrepancy_px": 0.0050396497977232,
+      "gaps": [
+        {
+          "sample_index": 31,
+          "from_segment": 295,
+          "to_segment": 308,
+          "bridge_mm": 2.555197760474323,
+          "intermediate_vertices": 13,
+          "outside_vertices": 13
+        },
+        {
+          "sample_index": 42,
+          "from_segment": 317,
+          "to_segment": 330,
+          "bridge_mm": 2.651017051297294,
+          "intermediate_vertices": 13,
+          "outside_vertices": 13
+        }
+      ]
+    },
+    {
+      "seed": 9988,
+      "partition": "train",
+      "recorded_length_mm": 143.188232,
+      "bridge_sum_mm": 3.333127213665868,
+      "bridge_fraction_percent": 2.327794098097299,
+      "length_without_bridges_mm": 139.85510478633412,
+      "recorded_mean_width_mm": 0.623617,
+      "area_over_unbridged_length_mm": 0.6384797332669504,
+      "independent_visible_length_mm": 139.85309346885637,
+      "unbridged_vs_independent_mm": 0.0020113174777520726,
+      "projection_discrepancy_px": 0.0056319126199326774,
+      "gaps": [
+        {
+          "sample_index": 140,
+          "from_segment": 527,
+          "to_segment": 544,
+          "bridge_mm": 3.333127213665868,
+          "intermediate_vertices": 17,
+          "outside_vertices": 17
+        }
+      ]
+    }
+  ],
+  "note": "Diagnostic subtraction of false connecting edges only. Not an independently regenerated dataset or authorized replacement labels. Camera projection independently reconstructed from recorded pose, FOV and roll. Candidate detector ignores sub-percent fractional gaps to avoid round-trip noise. Boundaries-only failures cannot be detected from already successful sidecars."
+}

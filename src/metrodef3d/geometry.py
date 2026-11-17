@@ -49,15 +49,19 @@ def _construct_plane(surface: Mapping[str, Any], seed: int) -> Dict[str, Any]:
 
 
 def visible_defect_for_capture(defect: Mapping[str, Any], camera: Mapping[str, Any]) -> Dict[str, Any]:
-    clipped_points, clipped_widths, clipped_depths = _clip_profiled_polyline_to_camera(
+    clipped_points, clipped_widths, clipped_depths, component_ranges = _clip_profiled_polyline_to_camera(
         defect["centerline"], defect["width_profile"], defect["depth_profile"], camera
     )
-    visible = bool(len(clipped_points) >= 2)
+    visible = bool(clipped_points)
+    length = sum(_polyline_length(clipped_points[a:b]) for a, b in component_ranges)
+    area = sum(_profile_area(clipped_points[a:b], clipped_widths[a:b]) for a, b in component_ranges)
+    mean_width = area / length if length > 1.0e-9 else None
     measurands = {
-        "centerline_length": round(_polyline_length(clipped_points), 6) if visible else 0.0,
+        "centerline_length": round(length, 6) if visible else 0.0,
         "max_width": round(max(clipped_widths), 6) if visible else 0.0,
         "max_depth": round(max(clipped_depths), 6) if visible else 0.0,
-        "crack_area": round(_profile_area(clipped_points, clipped_widths), 6) if visible else 0.0,
+        "crack_area": round(area, 6) if visible else 0.0,
+        "mean_width": (round(mean_width, 6) if mean_width is not None else None) if visible else 0.0,
         "point_count": len(clipped_points),
     }
     return {
@@ -66,6 +70,9 @@ def visible_defect_for_capture(defect: Mapping[str, Any], camera: Mapping[str, A
             "version": VISIBLE_DEFECT_SCHEMA_VERSION,
         },
         "visible": visible,
+        "reference_export_revision": "component-aware-2",
+        "component_ranges": component_ranges,
+        "measurand_validity": {name: value is not None for name, value in measurands.items()},
         "clip_model": "camera_frustum",
         "camera_type": camera["type"],
         "clip_fov_mm": camera.get("fov_mm", camera.get("orthographic_scale")),
@@ -145,10 +152,14 @@ def _clip_profiled_polyline_to_camera(
     widths: List[float],
     depths: List[float],
     camera: Mapping[str, Any],
-) -> Tuple[List[List[float]], List[float], List[float]]:
+) -> Tuple[List[List[float]], List[float], List[float], List[List[int]]]:
     clipped_points: List[List[float]] = []
     clipped_widths: List[float] = []
     clipped_depths: List[float] = []
+    component_ranges: List[List[int]] = []
+    previous_index = None
+    previous_end = None
+    active_start = 0
     for index in range(len(points) - 1):
         left = points[index]
         right = points[index + 1]
@@ -156,6 +167,11 @@ def _clip_profiled_polyline_to_camera(
         if interval is None:
             continue
         start, end = interval
+        connected = (previous_index == index - 1 and previous_end == 1.0 and start == 0.0)
+        if not connected:
+            active_start = len(clipped_points)
+            component_ranges.append([active_start, active_start])
+        previous_index, previous_end = index, end
         candidates = [
             (
                 start,
@@ -172,14 +188,15 @@ def _clip_profiled_polyline_to_camera(
         ]
         for _fraction, point, width, depth in candidates:
             rounded_point = [round(point[0], 6), round(point[1], 6), round(point[2], 6)]
-            if clipped_points and rounded_point == clipped_points[-1]:
+            if len(clipped_points) > active_start and rounded_point == clipped_points[-1]:
                 clipped_widths[-1] = round(width, 6)
                 clipped_depths[-1] = round(depth, 6)
             else:
                 clipped_points.append(rounded_point)
                 clipped_widths.append(round(width, 6))
                 clipped_depths.append(round(depth, 6))
-    return clipped_points, clipped_widths, clipped_depths
+        component_ranges[-1][1] = len(clipped_points)
+    return clipped_points, clipped_widths, clipped_depths, component_ranges
 
 
 def _camera_segment_interval(

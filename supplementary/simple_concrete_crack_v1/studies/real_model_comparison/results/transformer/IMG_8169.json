@@ -1,0 +1,39 @@
+{
+  "image": "IMG_8169",
+  "input_sha256": "490a4abee35095f03ae727983f6e0521bbc0d3b8484844402c43d87f6cfdd855",
+  "predictions": {
+    "centerline_length": {
+      "mu": 69.15264892578125,
+      "lower": 65.74799346923828,
+      "upper": 73.00585174560547,
+      "calibrated_lower": 64.83397872670233,
+      "calibrated_upper": 74.04028363695359,
+      "unit": "mm"
+    },
+    "mean_width": {
+      "mu": 0.706637442111969,
+      "lower": 0.6795668601989746,
+      "upper": 0.7305077314376831,
+      "calibrated_lower": 0.6605652472450891,
+      "calibrated_upper": 0.7472629678165051,
+      "unit": "mm"
+    },
+    "max_width": {
+      "mu": 0.8592910766601562,
+      "lower": 0.8362413644790649,
+      "upper": 0.8872561454772949,
+      "calibrated_lower": 0.8068719374064339,
+      "calibrated_upper": 0.9228886098982532,
+      "unit": "mm"
+    },
+    "crack_area": {
+      "mu": 51.39251708984375,
+      "lower": 48.540191650390625,
+      "upper": 54.502967834472656,
+      "calibrated_lower": 46.79110337896559,
+      "calibrated_upper": 56.410342372112645,
+      "unit": "mm2"
+    }
+  },
+  "inference_seconds": 1.160487250002916
+}

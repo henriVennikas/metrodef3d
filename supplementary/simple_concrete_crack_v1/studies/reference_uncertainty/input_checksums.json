@@ -1,0 +1,21 @@
+{
+  "../uncertainty_example/inputs/metrosert_values.json": "fdc0b0cb6db8ce7ee5d6e2c8f8d0b8f19fa508112b2f3669c536353cf1249fa0",
+  "../uncertainty_example/inputs/scanner/spans.json": "3c0a335209580c869bf735ca04cf67f83dff79ff71f89dc4d3765ed220e1f064",
+  "../uncertainty_example/results/reference_budget.json": "53db482e3b24edbe3ee689eb11ade4e7a2f859a7be115015841cc0a40d334d34",
+  "../annotation_repeatability/results.json": "3038ce92f0e62c30b991b94e041d9bd3bb6c35d6e38c11c64fd73d811972db49",
+  "../annotation_repeatability/reference_geometry.py": "09e9ba0c07b5530f21f1ddcd23183d51a2bdf8aed88b5aa83c7e42e4d5516be6",
+  "../annotation_repeatability/inputs/IMG_8184/preprocessing.json": "5fa90407227747277aa6735883d3272da641c34c7f4341e842903cc747f73123",
+  "../annotation_repeatability/inputs/IMG_8184/reference.json": "4b0bac5974ad69c02dd96296e5993e90dea306d3c67d01409901c8b78cf71cfc",
+  "../annotation_repeatability/inputs/IMG_8184/annotation_0.json": "eb297218b82110881c0021bd94d484aafe87dfe86c7b110c70a9cf76f975bc7d",
+  "../annotation_repeatability/inputs/IMG_8184/annotation_1.json": "9c6b99692d00d94650d595cde6678b4e0194dc73dc6d62a51929d1f67d84acb3",
+  "../annotation_repeatability/inputs/IMG_8184/annotation_2.json": "5d4cdfa9cfb8bcc8dad1c7bab96a9abe4af6c4130b111a65d73ec71d9f497582",
+  "../annotation_repeatability/inputs/IMG_8184/annotation_3.json": "891a3099fd4949b29fc014f0da94310213ee0eafe92d62618c5048d2cf8e4d33",
+  "../annotation_repeatability/inputs/IMG_8184/annotation_4.json": "983337cef22f8d4f9f85e3ab261fe5f796b6997c72c525e27283f83abdd27bfe",
+  "../annotation_repeatability/inputs/IMG_8162/preprocessing.json": "421b6ad4dba80ed02f5c081cb36a673b7df5aa547ab1962fd718eab16ff34f0a",
+  "../annotation_repeatability/inputs/IMG_8162/reference.json": "200a38fab3459f712c5bf8a6d5580efe7ce16427232b56f397d2e71e76b86419",
+  "../annotation_repeatability/inputs/IMG_8162/annotation_0.json": "5a36fd0b32d435e66c81346faae65c4daf879089d9951d912cef52008c3e1d82",
+  "../annotation_repeatability/inputs/IMG_8162/annotation_1.json": "1efe17a8ac865f96d93a60e0bda680518783a36a1dfc434a3d58227c998ab49e",
+  "../annotation_repeatability/inputs/IMG_8162/annotation_2.json": "256428af4437f57b9f5db9835fd3ddef3918867d60b9b3fea95f4f4febf09380",
+  "../annotation_repeatability/inputs/IMG_8162/annotation_3.json": "2dc861e63d42cb8cfeddddcd1fa43c584d4629a7bcf2bfbe636986d4a0101584",
+  "../annotation_repeatability/inputs/IMG_8162/annotation_4.json": "26b20188ba70120dd8aaff4fdd4ac648cb8d93e4448dc16d5189260c5e3fe7bd"
+}

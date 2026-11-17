@@ -1,0 +1,51 @@
+{
+  "created_utc": "2026-11-17T15:35:50.801470+00:00",
+  "status": "eight new complete annotations frozen for analysis",
+  "purpose": "Compare within-annotator variability for painted-plastered-wall and rough-concrete cracks with the separate IMG_8579 controlled opening.",
+  "cases": [
+    {
+      "image": "IMG_8184",
+      "target": "IMG_8183",
+      "paper_target": "01",
+      "original_annotation_sha256": "eb297218b82110881c0021bd94d484aafe87dfe86c7b110c70a9cf76f975bc7d",
+      "original_annotation_file": "originals_frozen/IMG_8184_annotation.json",
+      "source_reference_sha256": "4b0bac5974ad69c02dd96296e5993e90dea306d3c67d01409901c8b78cf71cfc",
+      "source_photo_sha256": "46be0a6cb456d35c13c2fad0718239009058d9caa6810169210c1c1d4093bc48",
+      "original_role": "Retained annotation used for the manuscript comparison, to be combined with four new passes; retain four-new-only analysis too."
+    },
+    {
+      "image": "IMG_8162",
+      "target": "IMG_8161",
+      "paper_target": "01",
+      "original_annotation_sha256": "5a36fd0b32d435e66c81346faae65c4daf879089d9951d912cef52008c3e1d82",
+      "original_annotation_file": "originals_frozen/IMG_8162_annotation.json",
+      "source_reference_sha256": "200a38fab3459f712c5bf8a6d5580efe7ce16427232b56f397d2e71e76b86419",
+      "source_photo_sha256": "d4d4b45dc3a4030a5b93f536cd6ca37e4ef03ba68da2bde7d1c4e96c98eeb165",
+      "original_role": "Retained annotation used for the manuscript comparison, to be combined with four new passes; retain four-new-only analysis too."
+    }
+  ],
+  "new_passes_per_image": 4,
+  "total_annotations_per_image_including_retained_original": 5,
+  "order": "Alternate IMG_8184 and IMG_8162 for each pass number to reduce immediate tracing recall.",
+  "instructions": [
+    "Start each pass from a blank canvas. Do not import earlier annotations.",
+    "Use the same visible surface-opening convention and full visible segment each time.",
+    "Complete one boundary and one centreline. Width probes optional.",
+    "Avoid consulting previous traces or predictions between passes. Take breaks as practical.",
+    "Preserve every pass, regardless of eventual agreement."
+  ],
+  "analysis": [
+    "Evaluate each image separately using fixed geometry definitions and one common scale per image.",
+    "Report sample SD and covariance across five annotations, with four-new-only sensitivity.",
+    "Do not pool the three images into one universal annotation uncertainty.",
+    "Assess whether observed variability differs by image; differences cannot establish crack-appearance causation from three selected cases.",
+    "Retained originals and new passes have different session histories and previous prediction exposure. This is not a fully blinded study.",
+    "Sample variability does not estimate common boundary bias or absolute accuracy.",
+    "Use s for individual-annotation variability and s/sqrt(n) only conditionally for a mean of independent repeats."
+  ],
+  "predictions_shown": false,
+  "original_annotations_loaded_in_ui": false,
+  "manuscript_edited": false,
+  "published": false,
+  "comparison_scale": "Original inference homography held fixed within each image; all five annotations evaluated identically. Metrosert-updated IMG_8579 uncertainty example remains separate."
+}

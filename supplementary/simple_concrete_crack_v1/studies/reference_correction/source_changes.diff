@@ -1,0 +1,237 @@
+diff --git a/pyproject.toml b/pyproject.toml
+index d165125..240b3de 100644
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
+ 
+ [project]
+ name = "metrodef3d"
+-version = "0.1.0"
++version = "0.1.1"
+ description = "Metrologically grounded 3D surface defect dataset generator."
+ readme = "README.md"
+ license = { file = "LICENSE" }
+diff --git a/src/metrodef3d/__init__.py b/src/metrodef3d/__init__.py
+index 1f38943..a7da6d4 100644
+--- a/src/metrodef3d/__init__.py
++++ b/src/metrodef3d/__init__.py
+@@ -1,10 +1,10 @@
+ """metrodef3d package."""
+ 
+-__version__ = "0.1.0"
++__version__ = "0.1.1"
+ 
+ RECIPE_SCHEMA_VERSION = 1
+ METADATA_SCHEMA_VERSION = 1
+-VISIBLE_DEFECT_SCHEMA_VERSION = 1
++VISIBLE_DEFECT_SCHEMA_VERSION = 2
+ PIXEL_SCALE_SCHEMA_VERSION = 1
+ DATASET_SUMMARY_SCHEMA_VERSION = 1
+ QUALITY_MANIFEST_SCHEMA_VERSION = 1
+diff --git a/src/metrodef3d/geometry.py b/src/metrodef3d/geometry.py
+index 8a8367d..a8293ef 100644
+--- a/src/metrodef3d/geometry.py
++++ b/src/metrodef3d/geometry.py
+@@ -49,15 +49,19 @@ def _construct_plane(surface: Mapping[str, Any], seed: int) -> Dict[str, Any]:
+ 
+ 
+ def visible_defect_for_capture(defect: Mapping[str, Any], camera: Mapping[str, Any]) -> Dict[str, Any]:
+-    clipped_points, clipped_widths, clipped_depths = _clip_profiled_polyline_to_camera(
++    clipped_points, clipped_widths, clipped_depths, component_ranges = _clip_profiled_polyline_to_camera(
+         defect["centerline"], defect["width_profile"], defect["depth_profile"], camera
+     )
+-    visible = bool(len(clipped_points) >= 2)
++    visible = bool(clipped_points)
++    length = sum(_polyline_length(clipped_points[a:b]) for a, b in component_ranges)
++    area = sum(_profile_area(clipped_points[a:b], clipped_widths[a:b]) for a, b in component_ranges)
++    mean_width = area / length if length > 1.0e-9 else None
+     measurands = {
+-        "centerline_length": round(_polyline_length(clipped_points), 6) if visible else 0.0,
++        "centerline_length": round(length, 6) if visible else 0.0,
+         "max_width": round(max(clipped_widths), 6) if visible else 0.0,
+         "max_depth": round(max(clipped_depths), 6) if visible else 0.0,
+-        "crack_area": round(_profile_area(clipped_points, clipped_widths), 6) if visible else 0.0,
++        "crack_area": round(area, 6) if visible else 0.0,
++        "mean_width": (round(mean_width, 6) if mean_width is not None else None) if visible else 0.0,
+         "point_count": len(clipped_points),
+     }
+     return {
+@@ -66,6 +70,9 @@ def visible_defect_for_capture(defect: Mapping[str, Any], camera: Mapping[str, A
+             "version": VISIBLE_DEFECT_SCHEMA_VERSION,
+         },
+         "visible": visible,
++        "reference_export_revision": "component-aware-2",
++        "component_ranges": component_ranges,
++        "measurand_validity": {name: value is not None for name, value in measurands.items()},
+         "clip_model": "camera_frustum",
+         "camera_type": camera["type"],
+         "clip_fov_mm": camera.get("fov_mm", camera.get("orthographic_scale")),
+@@ -145,10 +152,14 @@ def _clip_profiled_polyline_to_camera(
+     widths: List[float],
+     depths: List[float],
+     camera: Mapping[str, Any],
+-) -> Tuple[List[List[float]], List[float], List[float]]:
++) -> Tuple[List[List[float]], List[float], List[float], List[List[int]]]:
+     clipped_points: List[List[float]] = []
+     clipped_widths: List[float] = []
+     clipped_depths: List[float] = []
++    component_ranges: List[List[int]] = []
++    previous_index = None
++    previous_end = None
++    active_start = 0
+     for index in range(len(points) - 1):
+         left = points[index]
+         right = points[index + 1]
+@@ -156,6 +167,11 @@ def _clip_profiled_polyline_to_camera(
+         if interval is None:
+             continue
+         start, end = interval
++        connected = (previous_index == index - 1 and previous_end == 1.0 and start == 0.0)
++        if not connected:
++            active_start = len(clipped_points)
++            component_ranges.append([active_start, active_start])
++        previous_index, previous_end = index, end
+         candidates = [
+             (
+                 start,
+@@ -172,14 +188,15 @@ def _clip_profiled_polyline_to_camera(
+         ]
+         for _fraction, point, width, depth in candidates:
+             rounded_point = [round(point[0], 6), round(point[1], 6), round(point[2], 6)]
+-            if clipped_points and rounded_point == clipped_points[-1]:
++            if len(clipped_points) > active_start and rounded_point == clipped_points[-1]:
+                 clipped_widths[-1] = round(width, 6)
+                 clipped_depths[-1] = round(depth, 6)
+             else:
+                 clipped_points.append(rounded_point)
+                 clipped_widths.append(round(width, 6))
+                 clipped_depths.append(round(depth, 6))
+-    return clipped_points, clipped_widths, clipped_depths
++        component_ranges[-1][1] = len(clipped_points)
++    return clipped_points, clipped_widths, clipped_depths, component_ranges
+ 
+ 
+ def _camera_segment_interval(
+diff --git a/src/metrodef3d/render.py b/src/metrodef3d/render.py
+index 838d90a..d4bd5af 100644
+--- a/src/metrodef3d/render.py
++++ b/src/metrodef3d/render.py
+@@ -713,7 +713,7 @@ def visible_polygon_from_blender_camera(scene, camera_obj, defect):
+     left_boundary = defect.get("left_boundary", [])
+     right_boundary = defect.get("right_boundary", [])
+     if len(left_boundary) < 2 or len(right_boundary) < 2:
+-        return []
++        return [], []
+     polygon = list(left_boundary) + list(reversed(right_boundary))
+     uv_polygon = []
+     for point in polygon:
+@@ -750,6 +750,10 @@ def visible_defect_from_blender_camera(scene, camera_obj, defect, camera):
+         "source_profile": [],
+     }
+ 
++    components = []
++    active = None
++    previous_index = None
++    previous_end = None
+     for index in range(len(points) - 1):
+         left = points[index]
+         right = points[index + 1]
+@@ -760,7 +764,15 @@ def visible_defect_from_blender_camera(scene, camera_obj, defect, camera):
+             (float(right_uv.x), float(right_uv.y), float(right_uv.z)),
+         )
+         if interval is None:
++            active = None
+             continue
++        connected = (active is not None and previous_index == index - 1
++                     and previous_end == 1.0 and interval[0] == 0.0)
++        if not connected:
++            active = {key: [] for key in samples}
++            components.append(active)
++        previous_index = index
++        previous_end = interval[1]
+         for uv_fraction in interval:
+             clipped_uv = (
+                 float(left_uv.x) + (float(right_uv.x) - float(left_uv.x)) * uv_fraction,
+@@ -784,7 +796,7 @@ def visible_defect_from_blender_camera(scene, camera_obj, defect, camera):
+                 Vector((float(right_boundary_point[0]), float(right_boundary_point[1]), float(right_boundary_point[2]))),
+             )
+             append_visible_sample(
+-                samples,
++                active,
+                 point,
+                 uv_to_pixel(clipped_uv, camera),
+                 interpolate_scalar(widths[index], widths[index + 1], fraction),
+@@ -797,17 +809,30 @@ def visible_defect_from_blender_camera(scene, camera_obj, defect, camera):
+                 fraction,
+             )
+ 
++    component_ranges = []
++    centerline_length = 0.0
++    for component in components:
++        if not component["centerline"]:
++            continue
++        start = len(samples["centerline"])
++        centerline_length += polyline_length(component["centerline"])
++        for key in samples:
++            samples[key].extend(component[key])
++        component_ranges.append([start, len(samples["centerline"])])
+     visible_polygon, visible_polygon_pixels = visible_polygon_from_blender_camera(scene, camera_obj, defect)
+-    visible = len(samples["centerline"]) >= 2
+-    centerline_length = polyline_length(samples["centerline"]) if visible else 0.0
+     polygon_area = polygon_area_xy(visible_polygon)
+-    visible = visible or polygon_area > 0.0
+-    mean_width = polygon_area / centerline_length if centerline_length > 1.0e-9 else 0.0
++    has_stations = bool(samples["centerline"])
++    visible = has_stations or polygon_area > 0.0
++    mean_width = polygon_area / centerline_length if centerline_length > 1.0e-9 else None
++    # A visible polygon without visible centreline stations has area, but no
++    # station-based width/depth extrema. Null must not be interpreted as zero.
++    max_width = max(samples["width_profile"]) if has_stations else None
++    max_depth = max(samples["depth_profile"]) if has_stations else None
+     measurands = {
+         "centerline_length": round(centerline_length, 6) if visible else 0.0,
+-        "max_width": round(max(samples["width_profile"]), 6) if visible else 0.0,
+-        "mean_width": round(mean_width, 6) if visible else 0.0,
+-        "max_depth": round(max(samples["depth_profile"]), 6) if visible else 0.0,
++        "max_width": (round(max_width, 6) if max_width is not None else None) if visible else 0.0,
++        "mean_width": (round(mean_width, 6) if mean_width is not None else None) if visible else 0.0,
++        "max_depth": (round(max_depth, 6) if max_depth is not None else None) if visible else 0.0,
+         "crack_area": round(polygon_area, 6) if visible else 0.0,
+         "point_count": len(samples["centerline"]),
+         "visible_polygon_point_count": len(visible_polygon),
+@@ -818,6 +843,9 @@ def visible_defect_from_blender_camera(scene, camera_obj, defect, camera):
+             "version": int(VERSIONING["visible_defect_schema_version"]),
+         },
+         "visible": visible,
++        "reference_export_revision": "component-aware-2",
++        "component_ranges": component_ranges,
++        "measurand_validity": {name: value is not None for name, value in measurands.items()},
+         "clip_model": "blender_camera_view",
+         "camera_type": camera["type"],
+         "clip_fov_mm": camera.get("fov_mm", camera.get("orthographic_scale")),
+diff --git a/tools/write_overlay_viewer.py b/tools/write_overlay_viewer.py
+index efeb7fe..4e51e8a 100644
+--- a/tools/write_overlay_viewer.py
++++ b/tools/write_overlay_viewer.py
+@@ -422,12 +422,15 @@ HTML = r"""<!doctype html>
+         overlayCtx.fillStyle = "rgba(255, 209, 102, 0.24)";
+         overlayCtx.fill();
+       }
+-      if (document.getElementById("showBoundary").checked) {
+-        drawPolyline(overlayCtx, leftBoundary, sample, "rgba(119, 227, 143, 0.95)", 2);
+-        drawPolyline(overlayCtx, rightBoundary, sample, "rgba(255, 108, 108, 0.95)", 2);
+-      }
+-      if (document.getElementById("showCenter").checked) {
+-        drawPolyline(overlayCtx, centerline, sample, "rgba(88, 196, 255, 0.98)", 2.5);
++      const ranges = vd.component_ranges || [[0, (centerline || []).length]];
++      for (const [start, stop] of ranges) {
++        if (document.getElementById("showBoundary").checked) {
++          drawPolyline(overlayCtx, (leftBoundary || []).slice(start, stop), sample, "rgba(119, 227, 143, 0.95)", 2);
++          drawPolyline(overlayCtx, (rightBoundary || []).slice(start, stop), sample, "rgba(255, 108, 108, 0.95)", 2);
++        }
++        if (document.getElementById("showCenter").checked) {
++          drawPolyline(overlayCtx, (centerline || []).slice(start, stop), sample, "rgba(88, 196, 255, 0.98)", 2.5);
++        }
+       }
+     }
+ 

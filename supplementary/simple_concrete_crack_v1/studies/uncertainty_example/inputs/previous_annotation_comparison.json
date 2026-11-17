@@ -1,0 +1,526 @@
+{
+  "annotations": [
+    {
+      "label": "Original",
+      "values": {
+        "centerline_length": 72.9318813651504,
+        "mean_width": 1.0494938406317582,
+        "max_width": 1.2988029978131477,
+        "crack_area": 76.54156027841145
+      },
+      "boundary_points": 302,
+      "centreline_points": 91,
+      "self_intersections": [],
+      "width_diagnostic": {
+        "step_mm": 0.05,
+        "tangent_window_mm": 1,
+        "stations": 1459,
+        "valid_stations": 1459,
+        "outside_stations": 0,
+        "multi_intersection_stations": 1,
+        "max_width_mm": 1.2988029978131477,
+        "mean_section_width_mm": 1.0508266820333156,
+        "maximum": {
+          "station_mm": 3.875000000000001,
+          "width_mm": 1.2988029978131477,
+          "inside": true,
+          "intersection_count": 2,
+          "endpoints_mm": [
+            [
+              52.31649822000098,
+              84.97676112875398
+            ],
+            [
+              53.61446007673507,
+              85.023497042052
+            ]
+          ]
+        }
+      },
+      "maximum_width_sensitivity_mm": [
+        1.29834225382861,
+        1.3087160792030006
+      ],
+      "endpoints_mm": [
+        [
+          52.89749333028465,
+          88.84834720687233
+        ],
+        [
+          44.8281748897483,
+          18.26458485623394
+        ]
+      ]
+    },
+    {
+      "label": "Repeat 1",
+      "values": {
+        "centerline_length": 72.99881266786483,
+        "mean_width": 1.1482022094074247,
+        "max_width": 1.8386335744784608,
+        "crack_area": 83.8173979893611
+      },
+      "boundary_points": 187,
+      "centreline_points": 85,
+      "self_intersections": [],
+      "width_diagnostic": {
+        "step_mm": 0.05,
+        "tangent_window_mm": 1,
+        "stations": 1460,
+        "valid_stations": 1460,
+        "outside_stations": 0,
+        "multi_intersection_stations": 0,
+        "max_width_mm": 1.8386335744784608,
+        "mean_section_width_mm": 1.1521698143421757,
+        "maximum": {
+          "station_mm": 67.27500000000002,
+          "width_mm": 1.8386335744784608,
+          "inside": true,
+          "intersection_count": 2,
+          "endpoints_mm": [
+            [
+              54.23565825321754,
+              83.41128853319096
+            ],
+            [
+              52.46889398042371,
+              82.902252752937
+            ]
+          ]
+        }
+      },
+      "maximum_width_sensitivity_mm": [
+        1.8319423663675614,
+        1.8600951086049398
+      ],
+      "endpoints_mm": [
+        [
+          44.807552282264815,
+          18.224157791912468
+        ],
+        [
+          52.95138156577669,
+          88.838875285988
+        ]
+      ]
+    },
+    {
+      "label": "Repeat 2",
+      "values": {
+        "centerline_length": 72.54149677703788,
+        "mean_width": 1.2371486941315288,
+        "max_width": 1.5443232582068998,
+        "crack_area": 89.74461800805892
+      },
+      "boundary_points": 163,
+      "centreline_points": 63,
+      "self_intersections": [],
+      "width_diagnostic": {
+        "step_mm": 0.05,
+        "tangent_window_mm": 1,
+        "stations": 1451,
+        "valid_stations": 1451,
+        "outside_stations": 0,
+        "multi_intersection_stations": 0,
+        "max_width_mm": 1.5443232582068998,
+        "mean_section_width_mm": 1.2372652167246048,
+        "maximum": {
+          "station_mm": 65.22500000000001,
+          "width_mm": 1.5443232582068998,
+          "inside": true,
+          "intersection_count": 2,
+          "endpoints_mm": [
+            [
+              44.75779485684889,
+              25.723097257011034
+            ],
+            [
+              46.2146799494672,
+              25.210827647581258
+            ]
+          ]
+        }
+      },
+      "maximum_width_sensitivity_mm": [
+        1.5426619613166834,
+        1.546809931582768
+      ],
+      "endpoints_mm": [
+        [
+          52.96186795990987,
+          88.8225605036317
+        ],
+        [
+          44.90230574064308,
+          18.212612438576112
+        ]
+      ]
+    },
+    {
+      "label": "Repeat 3",
+      "values": {
+        "centerline_length": 72.86405494520352,
+        "mean_width": 1.2707217341970016,
+        "max_width": 1.716235267967586,
+        "crack_area": 92.58993826059464
+      },
+      "boundary_points": 180,
+      "centreline_points": 92,
+      "self_intersections": [],
+      "width_diagnostic": {
+        "step_mm": 0.05,
+        "tangent_window_mm": 1,
+        "stations": 1457,
+        "valid_stations": 1457,
+        "outside_stations": 0,
+        "multi_intersection_stations": 0,
+        "max_width_mm": 1.716235267967586,
+        "mean_section_width_mm": 1.2749680355866864,
+        "maximum": {
+          "station_mm": 65.62500000000001,
+          "width_mm": 1.716235267967586,
+          "inside": true,
+          "intersection_count": 2,
+          "endpoints_mm": [
+            [
+              54.44539369931175,
+              82.06951530260761
+            ],
+            [
+              52.90123243149963,
+              81.32049629483501
+            ]
+          ]
+        }
+      },
+      "maximum_width_sensitivity_mm": [
+        1.7142791522238818,
+        1.7181515807514811
+      ],
+      "endpoints_mm": [
+        [
+          44.77852289860383,
+          18.232655908053644
+        ],
+        [
+          53.00122392360318,
+          88.8225410770979
+        ]
+      ]
+    },
+    {
+      "label": "Repeat 4",
+      "values": {
+        "centerline_length": 73.03573109018835,
+        "mean_width": 1.174576320559214,
+        "max_width": 1.4973541460152806,
+        "crack_area": 85.78604029326561
+      },
+      "boundary_points": 163,
+      "centreline_points": 77,
+      "self_intersections": [],
+      "width_diagnostic": {
+        "step_mm": 0.05,
+        "tangent_window_mm": 1,
+        "stations": 1461,
+        "valid_stations": 1461,
+        "outside_stations": 0,
+        "multi_intersection_stations": 0,
+        "max_width_mm": 1.4973541460152806,
+        "mean_section_width_mm": 1.1784466039671062,
+        "maximum": {
+          "station_mm": 7.225000000000001,
+          "width_mm": 1.4973541460152806,
+          "inside": true,
+          "intersection_count": 2,
+          "endpoints_mm": [
+            [
+              52.811366843944214,
+              81.36955350037769
+            ],
+            [
+              54.171927622576234,
+              81.99480849335048
+            ]
+          ]
+        }
+      },
+      "maximum_width_sensitivity_mm": [
+        1.4907989082277244,
+        1.550347522060398
+      ],
+      "endpoints_mm": [
+        [
+          52.966813833528796,
+          88.84071814412759
+        ],
+        [
+          44.879262412586264,
+          18.23861335115588
+        ]
+      ]
+    }
+  ],
+  "statistics": {
+    "all_five": {
+      "n": 5,
+      "quantities": {
+        "centerline_length": {
+          "mean": 72.874395369089,
+          "sample_sd": 0.19732075146588263,
+          "relative_sd_percent": 0.27076828626365496,
+          "standard_uncertainty_of_mean_if_independent": 0.08824452272981097,
+          "minimum": 72.54149677703788,
+          "maximum": 73.03573109018835,
+          "range": 0.4942343131504714,
+          "relative_range_percent": 0.6782002247117235
+        },
+        "mean_width": {
+          "mean": 1.1760285597853855,
+          "sample_sd": 0.08586314405502189,
+          "relative_sd_percent": 7.301110448430873,
+          "standard_uncertainty_of_mean_if_independent": 0.038399165373777175,
+          "minimum": 1.0494938406317582,
+          "maximum": 1.2707217341970016,
+          "range": 0.22122789356524342,
+          "relative_range_percent": 18.81143886553363
+        },
+        "max_width": {
+          "mean": 1.579069848896275,
+          "sample_sd": 0.20773900049403002,
+          "relative_sd_percent": 13.155782857815545,
+          "standard_uncertainty_of_mean_if_independent": 0.0929037053365027,
+          "minimum": 1.2988029978131477,
+          "maximum": 1.8386335744784608,
+          "range": 0.5398305766653131,
+          "relative_range_percent": 34.1866179664338
+        },
+        "crack_area": {
+          "mean": 85.69591096593834,
+          "sample_sd": 6.1493640293411715,
+          "relative_sd_percent": 7.175796324500672,
+          "standard_uncertainty_of_mean_if_independent": 2.7500791975997743,
+          "minimum": 76.54156027841145,
+          "maximum": 92.58993826059464,
+          "range": 16.048377982183183,
+          "relative_range_percent": 18.727122217723963
+        }
+      },
+      "covariance_order": [
+        "centerline_length",
+        "mean_width",
+        "max_width",
+        "crack_area"
+      ],
+      "sample_covariance": [
+        [
+          0.038935478959060625,
+          -0.008074081502689798,
+          0.0032869697984040415,
+          -0.5411303590666553
+        ],
+        [
+          -0.008074081502689798,
+          0.007372479507013442,
+          0.0098060898814728,
+          0.5276898278912896
+        ],
+        [
+          0.0032869697984040415,
+          0.0098060898814728,
+          0.04315549232625861,
+          0.7189114023407613
+        ],
+        [
+          -0.5411303590666553,
+          0.5276898278912896,
+          0.7189114023407613,
+          37.81467796535509
+        ]
+      ],
+      "correlation": [
+        [
+          1.0,
+          -0.4765556043498348,
+          0.08018717531001027,
+          -0.445963110596644
+        ],
+        [
+          -0.4765556043498348,
+          1.0,
+          0.5497573505970075,
+          0.9994054935803205
+        ],
+        [
+          0.08018717531001028,
+          0.5497573505970075,
+          1.0,
+          0.5627650666009284
+        ],
+        [
+          -0.445963110596644,
+          0.9994054935803206,
+          0.5627650666009284,
+          1.0
+        ]
+      ]
+    },
+    "four_new": {
+      "n": 4,
+      "quantities": {
+        "centerline_length": {
+          "mean": 72.86002387007365,
+          "sample_sd": 0.22480444550562703,
+          "relative_sd_percent": 0.30854292047241927,
+          "standard_uncertainty_of_mean_if_independent": 0.11240222275281352,
+          "minimum": 72.54149677703788,
+          "maximum": 73.03573109018835,
+          "range": 0.4942343131504714,
+          "relative_range_percent": 0.6783339983964403
+        },
+        "mean_width": {
+          "mean": 1.2076622395737924,
+          "sample_sd": 0.05620238455482298,
+          "relative_sd_percent": 4.653816498780147,
+          "standard_uncertainty_of_mean_if_independent": 0.02810119227741149,
+          "minimum": 1.1482022094074247,
+          "maximum": 1.2707217341970016,
+          "range": 0.12251952478957695,
+          "relative_range_percent": 10.145181390519959
+        },
+        "max_width": {
+          "mean": 1.6491365616670568,
+          "sample_sd": 0.15751728427378967,
+          "relative_sd_percent": 9.551500338732453,
+          "standard_uncertainty_of_mean_if_independent": 0.07875864213689483,
+          "minimum": 1.4973541460152806,
+          "maximum": 1.8386335744784608,
+          "range": 0.34127942846318016,
+          "relative_range_percent": 20.694431037184223
+        },
+        "crack_area": {
+          "mean": 87.98449863782007,
+          "sample_sd": 3.937259674089762,
+          "relative_sd_percent": 4.474946990716083,
+          "standard_uncertainty_of_mean_if_independent": 1.968629837044881,
+          "minimum": 83.8173979893611,
+          "maximum": 92.58993826059464,
+          "range": 8.772540271233538,
+          "relative_range_percent": 9.97055209389199
+        }
+      },
+      "covariance_order": [
+        "centerline_length",
+        "mean_width",
+        "max_width",
+        "crack_area"
+      ],
+      "sample_covariance": [
+        [
+          0.05053703871909242,
+          -0.00773461935071275,
+          0.011095717688500305,
+          -0.5022375756022421
+        ],
+        [
+          -0.00773461935071275,
+          0.0031587080296482054,
+          -0.0017016665288175099,
+          0.22094343998837365
+        ],
+        [
+          0.011095717688500305,
+          -0.0017016665288175099,
+          0.02481169484498987,
+          -0.11047689725557791
+        ],
+        [
+          -0.5022375756022421,
+          0.22094343998837365,
+          -0.11047689725557791,
+          15.502013741213418
+        ]
+      ],
+      "correlation": [
+        [
+          0.9999999999999999,
+          -0.6121802409374754,
+          0.31334465256341926,
+          -0.5674273278775652
+        ],
+        [
+          -0.6121802409374754,
+          1.0,
+          -0.19221686896223608,
+          0.998463769382545
+        ],
+        [
+          0.3133446525634192,
+          -0.19221686896223605,
+          1.0,
+          -0.17813497379100215
+        ],
+        [
+          -0.5674273278775652,
+          0.998463769382545,
+          -0.17813497379100215,
+          1.0
+        ]
+      ]
+    }
+  },
+  "original_minus_new_mean": {
+    "centerline_length": 0.0718574950767561,
+    "mean_width": -0.15816839894203416,
+    "max_width": -0.3503335638539091,
+    "crack_area": -11.442938359408615
+  },
+  "boundary_mask_iou": {
+    "labels": [
+      "Original",
+      "Repeat 1",
+      "Repeat 2",
+      "Repeat 3",
+      "Repeat 4"
+    ],
+    "matrix": [
+      [
+        1.0,
+        0.860778471051502,
+        0.8203561923297886,
+        0.8238947563032978,
+        0.8619092035984732
+      ],
+      [
+        0.860778471051502,
+        1.0,
+        0.8529873583110795,
+        0.8539438710150734,
+        0.8794007179023938
+      ],
+      [
+        0.8203561923297886,
+        0.8529873583110795,
+        1.0,
+        0.8876825678902649,
+        0.8951822351791117
+      ],
+      [
+        0.8238947563032978,
+        0.8539438710150734,
+        0.8876825678902649,
+        1.0,
+        0.8905893179726644
+      ],
+      [
+        0.8619092035984732,
+        0.8794007179023938,
+        0.8951822351791117,
+        0.8905893179726644,
+        1.0
+      ]
+    ],
+    "definition": "Raster diagnostic only: native-resolution rounded polygons; references use physical continuous-coordinate geometry."
+  },
+  "original_reference_reproduced": true
+}

@@ -1,0 +1,920 @@
+{
+  "quantities": [
+    "centerline_length",
+    "mean_width",
+    "max_width",
+    "crack_area"
+  ],
+  "units": [
+    "mm",
+    "mm",
+    "mm",
+    "mm^2"
+  ],
+  "cases": {
+    "IMG_8184": {
+      "annotations": [
+        {
+          "pass_index": 0,
+          "role": "adopted original",
+          "values": {
+            "centerline_length": 88.83856774117265,
+            "mean_width": 0.9341361688111544,
+            "max_width": 1.1597820827875414,
+            "crack_area": 82.98731931240923
+          },
+          "boundary_points": 393,
+          "centreline_points": 85,
+          "self_intersections": [],
+          "interior_centreline_stations_outside": [],
+          "section_diagnostics": {
+            "step_mm": 0.05,
+            "tangent_window_mm": 1,
+            "stations": 1777,
+            "valid_stations": 1777,
+            "outside_stations": 0,
+            "multi_intersection_stations": 8,
+            "max_width_mm": 1.1597820827875414,
+            "mean_section_width_mm": 0.9342895429040892,
+            "maximum": {
+              "station_mm": 66.47500000000001,
+              "width_mm": 1.1597820827875414,
+              "inside": true,
+              "intersection_count": 2,
+              "endpoints_mm": [
+                [
+                  55.00537144318218,
+                  74.73833428873498
+                ],
+                [
+                  53.877640669173985,
+                  75.009106851802
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "pass_index": 1,
+          "role": "new repeat",
+          "values": {
+            "centerline_length": 89.39067547722861,
+            "mean_width": 1.009890266883079,
+            "max_width": 1.22715670257837,
+            "crack_area": 90.27477311455709
+          },
+          "boundary_points": 289,
+          "centreline_points": 117,
+          "self_intersections": [],
+          "interior_centreline_stations_outside": [],
+          "section_diagnostics": {
+            "step_mm": 0.05,
+            "tangent_window_mm": 1,
+            "stations": 1788,
+            "valid_stations": 1788,
+            "outside_stations": 0,
+            "multi_intersection_stations": 2,
+            "max_width_mm": 1.22715670257837,
+            "mean_section_width_mm": 1.0147332003160274,
+            "maximum": {
+              "station_mm": 56.375000000000014,
+              "width_mm": 1.22715670257837,
+              "inside": true,
+              "intersection_count": 2,
+              "endpoints_mm": [
+                [
+                  45.03655688694582,
+                  43.21662412513692
+                ],
+                [
+                  46.17398344091629,
+                  42.7560001928387
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "pass_index": 2,
+          "role": "new repeat",
+          "values": {
+            "centerline_length": 89.87519918058128,
+            "mean_width": 0.9944032382602799,
+            "max_width": 1.1559579441948116,
+            "crack_area": 89.37218910445768
+          },
+          "boundary_points": 380,
+          "centreline_points": 164,
+          "self_intersections": [],
+          "interior_centreline_stations_outside": [],
+          "section_diagnostics": {
+            "step_mm": 0.05,
+            "tangent_window_mm": 1,
+            "stations": 1798,
+            "valid_stations": 1798,
+            "outside_stations": 0,
+            "multi_intersection_stations": 2,
+            "max_width_mm": 1.1559579441948116,
+            "mean_section_width_mm": 1.0017197646431226,
+            "maximum": {
+              "station_mm": 52.67500000000001,
+              "width_mm": 1.1559579441948116,
+              "inside": true,
+              "intersection_count": 2,
+              "endpoints_mm": [
+                [
+                  51.90336018128655,
+                  60.65567348578386
+                ],
+                [
+                  50.81776409990656,
+                  61.052813154967765
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "pass_index": 3,
+          "role": "new repeat",
+          "values": {
+            "centerline_length": 89.18514220628728,
+            "mean_width": 0.9874559137209492,
+            "max_width": 1.2125386606868156,
+            "crack_area": 88.0663960876422
+          },
+          "boundary_points": 268,
+          "centreline_points": 137,
+          "self_intersections": [],
+          "interior_centreline_stations_outside": [],
+          "section_diagnostics": {
+            "step_mm": 0.05,
+            "tangent_window_mm": 1,
+            "stations": 1784,
+            "valid_stations": 1784,
+            "outside_stations": 0,
+            "multi_intersection_stations": 0,
+            "max_width_mm": 1.2125386606868156,
+            "mean_section_width_mm": 0.9922720642189505,
+            "maximum": {
+              "station_mm": 2.7250000000000005,
+              "width_mm": 1.2125386606868156,
+              "inside": true,
+              "intersection_count": 2,
+              "endpoints_mm": [
+                [
+                  58.65584452781179,
+                  93.86773601010117
+                ],
+                [
+                  59.85261124561773,
+                  93.67280159340632
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "pass_index": 4,
+          "role": "new repeat",
+          "values": {
+            "centerline_length": 89.7971598078353,
+            "mean_width": 1.0058312025073166,
+            "max_width": 1.214254032883253,
+            "crack_area": 90.32078523125665
+          },
+          "boundary_points": 333,
+          "centreline_points": 229,
+          "self_intersections": [],
+          "interior_centreline_stations_outside": [],
+          "section_diagnostics": {
+            "step_mm": 0.05,
+            "tangent_window_mm": 1,
+            "stations": 1796,
+            "valid_stations": 1796,
+            "outside_stations": 0,
+            "multi_intersection_stations": 0,
+            "max_width_mm": 1.214254032883253,
+            "mean_section_width_mm": 1.0141461318381109,
+            "maximum": {
+              "station_mm": 22.525000000000006,
+              "width_mm": 1.214254032883253,
+              "inside": true,
+              "intersection_count": 2,
+              "endpoints_mm": [
+                [
+                  53.820670452231184,
+                  75.11486599812517
+                ],
+                [
+                  54.95880134189658,
+                  74.69169826026855
+                ]
+              ]
+            }
+          }
+        }
+      ],
+      "five": {
+        "n": 5,
+        "mean": [
+          89.41734888262104,
+          0.9863433580365557,
+          1.1939378846261584,
+          88.20429257006457
+        ],
+        "sample_sd": [
+          0.4311328841087996,
+          0.030520579346285184,
+          0.03343396211419113,
+          3.0563965137071496
+        ],
+        "relative_sd_percent": [
+          0.48215798108122354,
+          3.0943158989827184,
+          2.800310011492755,
+          3.465133526556339
+        ],
+        "u_mean_if_independent": [
+          0.19280848724056293,
+          0.013649218026193953,
+          0.014952122408896791,
+          1.3668620741685107
+        ],
+        "sample_covariance": [
+          [
+            0.1858755637599716,
+            0.010105508067351457,
+            0.0012226546535955747,
+            1.0837170665069158
+          ],
+          [
+            0.010105508067351457,
+            0.0009315057636328898,
+            0.0006689693634706819,
+            0.09290562379157212
+          ],
+          [
+            0.0012226546535955747,
+            0.0006689693634706819,
+            0.0011178298226531683,
+            0.06076154434036177
+          ],
+          [
+            1.0837170665069158,
+            0.09290562379157212,
+            0.06076154434036177,
+            9.34155964900122
+          ]
+        ],
+        "minimum": [
+          88.83856774117265,
+          0.9341361688111544,
+          1.1559579441948116,
+          82.98731931240923
+        ],
+        "maximum": [
+          89.87519918058128,
+          1.009890266883079,
+          1.22715670257837,
+          90.32078523125665
+        ]
+      },
+      "four_new": {
+        "n": 4,
+        "mean": [
+          89.56204416798312,
+          0.9993951553429061,
+          1.2024768350858126,
+          89.5085358844784
+        ],
+        "sample_sd": [
+          0.3290226653385938,
+          0.010312367914474813,
+          0.03169145937296086,
+          1.0559712957180112
+        ],
+        "relative_sd_percent": [
+          0.3673684186143372,
+          1.0318609070039468,
+          2.6355151673835997,
+          1.1797436806260242
+        ],
+        "u_mean_if_independent": [
+          0.1645113326692969,
+          0.0051561839572374065,
+          0.01584572968648043,
+          0.5279856478590056
+        ],
+        "sample_covariance": [
+          [
+            0.1082559143065123,
+            0.0008837871849315437,
+            -0.006606766284888857,
+            0.18683703160447646
+          ],
+          [
+            0.0008837871849315437,
+            0.00010634493200348957,
+            0.00014896814723841357,
+            0.010389369202816367
+          ],
+          [
+            -0.006606766284888857,
+            0.00014896814723841357,
+            0.0010043485971880286,
+            0.006769598793049098
+          ],
+          [
+            0.18683703160447646,
+            0.010389369202816367,
+            0.006769598793049098,
+            1.1150753773803754
+          ]
+        ],
+        "minimum": [
+          89.18514220628728,
+          0.9874559137209492,
+          1.1559579441948116,
+          88.0663960876422
+        ],
+        "maximum": [
+          89.87519918058128,
+          1.009890266883079,
+          1.22715670257837,
+          90.32078523125665
+        ]
+      },
+      "original_minus_new_mean": [
+        -0.7234764268104641,
+        -0.06525898653175177,
+        -0.042694752298271244,
+        -6.521216572069179
+      ],
+      "transformer_comparison": {
+        "centerline_length": {
+          "prediction": 85.46621704101562,
+          "calibrated_lower": 82.27274984330745,
+          "calibrated_upper": 89.16950903566203,
+          "original_reference": 88.83856774117265,
+          "repeat_mean": 89.41734888262104,
+          "signed_difference_from_mean_percent": -4.418753061882994,
+          "mean_within_bounds": false,
+          "individual_annotations_within_bounds": 1
+        },
+        "mean_width": {
+          "prediction": 1.0229015350341797,
+          "calibrated_lower": 0.9861299244035205,
+          "calibrated_upper": 1.0635399439798618,
+          "original_reference": 0.9341361688111544,
+          "repeat_mean": 0.9863433580365557,
+          "signed_difference_from_mean_percent": 3.7064351576714394,
+          "mean_within_bounds": true,
+          "individual_annotations_within_bounds": 4
+        },
+        "max_width": {
+          "prediction": 1.1417409181594849,
+          "calibrated_lower": 1.0881508846313097,
+          "calibrated_upper": 1.205408124893422,
+          "original_reference": 1.1597820827875414,
+          "repeat_mean": 1.1939378846261584,
+          "signed_difference_from_mean_percent": -4.371832667242754,
+          "mean_within_bounds": true,
+          "individual_annotations_within_bounds": 2
+        },
+        "crack_area": {
+          "prediction": 88.42733001708984,
+          "calibrated_lower": 84.53946405105778,
+          "calibrated_upper": 92.81266707064125,
+          "original_reference": 82.98731931240923,
+          "repeat_mean": 88.20429257006457,
+          "signed_difference_from_mean_percent": 0.2528646174993223,
+          "mean_within_bounds": true,
+          "individual_annotations_within_bounds": 4
+        }
+      }
+    },
+    "IMG_8162": {
+      "annotations": [
+        {
+          "pass_index": 0,
+          "role": "adopted original",
+          "values": {
+            "centerline_length": 81.12905433958552,
+            "mean_width": 1.08143349974179,
+            "max_width": 1.4603465677658747,
+            "crack_area": 87.73567716519983
+          },
+          "boundary_points": 225,
+          "centreline_points": 65,
+          "self_intersections": [],
+          "interior_centreline_stations_outside": [],
+          "section_diagnostics": {
+            "step_mm": 0.05,
+            "tangent_window_mm": 1,
+            "stations": 1623,
+            "valid_stations": 1622,
+            "outside_stations": 1,
+            "multi_intersection_stations": 0,
+            "max_width_mm": 1.4603465677658747,
+            "mean_section_width_mm": 1.0856040849893185,
+            "maximum": {
+              "station_mm": 64.22500000000001,
+              "width_mm": 1.4603465677658747,
+              "inside": true,
+              "intersection_count": 2,
+              "endpoints_mm": [
+                [
+                  67.99536742481902,
+                  85.24442005769122
+                ],
+                [
+                  66.57248183181123,
+                  85.57306680907703
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "pass_index": 1,
+          "role": "new repeat",
+          "values": {
+            "centerline_length": 80.77853400768225,
+            "mean_width": 1.1617216746281909,
+            "max_width": 1.5182322739060288,
+            "crack_area": 93.8421738014149
+          },
+          "boundary_points": 147,
+          "centreline_points": 98,
+          "self_intersections": [],
+          "interior_centreline_stations_outside": [],
+          "section_diagnostics": {
+            "step_mm": 0.05,
+            "tangent_window_mm": 1,
+            "stations": 1616,
+            "valid_stations": 1616,
+            "outside_stations": 0,
+            "multi_intersection_stations": 0,
+            "max_width_mm": 1.5182322739060288,
+            "mean_section_width_mm": 1.1621725074612934,
+            "maximum": {
+              "station_mm": 10.075000000000003,
+              "width_mm": 1.5182322739060288,
+              "inside": true,
+              "intersection_count": 2,
+              "endpoints_mm": [
+                [
+                  69.04022271550294,
+                  91.82309893769131
+                ],
+                [
+                  70.52996310443262,
+                  91.53034851306055
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "pass_index": 2,
+          "role": "new repeat",
+          "values": {
+            "centerline_length": 80.69073061055512,
+            "mean_width": 1.2712931222888424,
+            "max_width": 1.6819224920628226,
+            "crack_area": 102.5815708576605
+          },
+          "boundary_points": 147,
+          "centreline_points": 69,
+          "self_intersections": [],
+          "interior_centreline_stations_outside": [],
+          "section_diagnostics": {
+            "step_mm": 0.05,
+            "tangent_window_mm": 1,
+            "stations": 1614,
+            "valid_stations": 1613,
+            "outside_stations": 1,
+            "multi_intersection_stations": 0,
+            "max_width_mm": 1.6819224920628226,
+            "mean_section_width_mm": 1.2704495008415602,
+            "maximum": {
+              "station_mm": 43.12500000000001,
+              "width_mm": 1.6819224920628226,
+              "inside": true,
+              "intersection_count": 2,
+              "endpoints_mm": [
+                [
+                  57.37723267235553,
+                  61.429677202669986
+                ],
+                [
+                  58.90559798813295,
+                  60.72756415562172
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "pass_index": 3,
+          "role": "new repeat",
+          "values": {
+            "centerline_length": 80.74757342983145,
+            "mean_width": 1.3372274588926154,
+            "max_width": 1.8449801712116327,
+            "crack_area": 107.97787242931838
+          },
+          "boundary_points": 111,
+          "centreline_points": 61,
+          "self_intersections": [],
+          "interior_centreline_stations_outside": [],
+          "section_diagnostics": {
+            "step_mm": 0.05,
+            "tangent_window_mm": 1,
+            "stations": 1615,
+            "valid_stations": 1615,
+            "outside_stations": 0,
+            "multi_intersection_stations": 0,
+            "max_width_mm": 1.8449801712116327,
+            "mean_section_width_mm": 1.3398175747603789,
+            "maximum": {
+              "station_mm": 79.12500000000001,
+              "width_mm": 1.8449801712116327,
+              "inside": true,
+              "intersection_count": 2,
+              "endpoints_mm": [
+                [
+                  72.91168244042981,
+                  99.6040514550873
+                ],
+                [
+                  71.08055542188107,
+                  99.82971863060236
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "pass_index": 4,
+          "role": "new repeat",
+          "values": {
+            "centerline_length": 80.73577449664764,
+            "mean_width": 1.4318676326271274,
+            "max_width": 1.838234196404004,
+            "crack_area": 115.60294229683245
+          },
+          "boundary_points": 130,
+          "centreline_points": 63,
+          "self_intersections": [],
+          "interior_centreline_stations_outside": [],
+          "section_diagnostics": {
+            "step_mm": 0.05,
+            "tangent_window_mm": 1,
+            "stations": 1615,
+            "valid_stations": 1615,
+            "outside_stations": 0,
+            "multi_intersection_stations": 0,
+            "max_width_mm": 1.838234196404004,
+            "mean_section_width_mm": 1.4346595642341928,
+            "maximum": {
+              "station_mm": 69.97500000000001,
+              "width_mm": 1.838234196404004,
+              "inside": true,
+              "intersection_count": 2,
+              "endpoints_mm": [
+                [
+                  49.17748440002017,
+                  36.40989016277465
+                ],
+                [
+                  50.803526880963304,
+                  35.55251579238713
+                ]
+              ]
+            }
+          }
+        }
+      ],
+      "five": {
+        "n": 5,
+        "mean": [
+          80.8163333768604,
+          1.256708677635713,
+          1.6687431402700725,
+          101.54804731008521
+        ],
+        "sample_sd": [
+          0.17763509734712504,
+          0.13885294235333903,
+          0.17751271561730547,
+          11.069247384383852
+        ],
+        "relative_sd_percent": [
+          0.21980098567301012,
+          11.048936386320463,
+          10.637509832015038,
+          10.900502449429684
+        ],
+        "u_mean_if_independent": [
+          0.07944083057159283,
+          0.062096923595585135,
+          0.0793860997981767,
+          4.950317922248807
+        ],
+        "sample_covariance": [
+          [
+            0.0315542278095226,
+            -0.018175174144965896,
+            -0.021727045655675233,
+            -1.4330787461228285
+          ],
+          [
+            -0.018175174144965896,
+            0.019280139600179692,
+            0.023723450794372197,
+            1.536889808022713
+          ],
+          [
+            -0.021727045655675233,
+            0.023723450794372197,
+            0.03151076420583037,
+            1.8918104370742796
+          ],
+          [
+            -1.4330787461228285,
+            1.536889808022713,
+            1.8918104370742796,
+            122.52823765668876
+          ]
+        ],
+        "minimum": [
+          80.69073061055512,
+          1.08143349974179,
+          1.4603465677658747,
+          87.73567716519983
+        ],
+        "maximum": [
+          81.12905433958552,
+          1.4318676326271274,
+          1.8449801712116327,
+          115.60294229683245
+        ]
+      },
+      "four_new": {
+        "n": 4,
+        "mean": [
+          80.73815313617912,
+          1.300527472109194,
+          1.720842283396122,
+          105.00113984630656
+        ],
+        "sample_sd": [
+          0.036395560985868464,
+          0.1136057853845712,
+          0.15465730129757826,
+          9.15852952812484
+        ],
+        "relative_sd_percent": [
+          0.04507851563619611,
+          8.735362214250305,
+          8.987302484941182,
+          8.72231438775852
+        ],
+        "u_mean_if_independent": [
+          0.018197780492934232,
+          0.0568028926922856,
+          0.07732865064878913,
+          4.57926476406242
+        ],
+        "sample_covariance": [
+          [
+            0.0013246368594760707,
+            -0.0013951395379522761,
+            -0.0018152372150130977,
+            -0.11101429098696028
+          ],
+          [
+            -0.0013951395379522761,
+            0.012906274472845251,
+            0.01641179009326412,
+            1.0404507297463264
+          ],
+          [
+            -0.0018152372150130977,
+            0.01641179009326412,
+            0.023918880844649902,
+            1.3230595009517792
+          ],
+          [
+            -0.11101429098696028,
+            1.0404507297463264,
+            1.3230595009517792,
+            83.87866311753459
+          ]
+        ],
+        "minimum": [
+          80.69073061055512,
+          1.1617216746281909,
+          1.5182322739060288,
+          93.8421738014149
+        ],
+        "maximum": [
+          80.77853400768225,
+          1.4318676326271274,
+          1.8449801712116327,
+          115.60294229683245
+        ]
+      },
+      "original_minus_new_mean": [
+        0.39090120340640055,
+        -0.2190939723674039,
+        -0.2604957156302474,
+        -17.265462681106726
+      ],
+      "transformer_comparison": {
+        "centerline_length": {
+          "prediction": 78.20283508300781,
+          "calibrated_lower": 73.79365044180054,
+          "calibrated_upper": 83.49527345073811,
+          "original_reference": 81.12905433958552,
+          "repeat_mean": 80.8163333768604,
+          "signed_difference_from_mean_percent": -3.233873877530915,
+          "mean_within_bounds": true,
+          "individual_annotations_within_bounds": 5
+        },
+        "mean_width": {
+          "prediction": 1.1798713207244873,
+          "calibrated_lower": 1.1177761272570457,
+          "calibrated_upper": 1.2498827079405816,
+          "original_reference": 1.08143349974179,
+          "repeat_mean": 1.256708677635713,
+          "signed_difference_from_mean_percent": -6.114174134277671,
+          "mean_within_bounds": false,
+          "individual_annotations_within_bounds": 1
+        },
+        "max_width": {
+          "prediction": 1.4332325458526611,
+          "calibrated_lower": 1.3182289856330416,
+          "calibrated_upper": 1.5685075690215597,
+          "original_reference": 1.4603465677658747,
+          "repeat_mean": 1.6687431402700725,
+          "signed_difference_from_mean_percent": -14.113052436535913,
+          "mean_within_bounds": false,
+          "individual_annotations_within_bounds": 2
+        },
+        "crack_area": {
+          "prediction": 90.55193328857422,
+          "calibrated_lower": 85.65407264397699,
+          "calibrated_upper": 96.44484687888206,
+          "original_reference": 87.73567716519983,
+          "repeat_mean": 101.54804731008521,
+          "signed_difference_from_mean_percent": -10.828483966740851,
+          "mean_within_bounds": false,
+          "individual_annotations_within_bounds": 2
+        }
+      }
+    },
+    "IMG_8579": {
+      "five": {
+        "n": 5,
+        "mean": [
+          72.874395369089,
+          1.1760285597853855,
+          1.579069848896275,
+          85.69591096593834
+        ],
+        "sample_sd": [
+          0.19732075146588263,
+          0.08586314405502189,
+          0.20773900049403002,
+          6.1493640293411715
+        ],
+        "relative_sd_percent": [
+          0.27076828626365496,
+          7.301110448430873,
+          13.155782857815545,
+          7.175796324500672
+        ],
+        "u_mean_if_independent": [
+          0.08824452272981097,
+          0.038399165373777175,
+          0.0929037053365027,
+          2.7500791975997743
+        ],
+        "sample_covariance": [
+          [
+            0.038935478959060625,
+            -0.008074081502689798,
+            0.0032869697984040415,
+            -0.5411303590666553
+          ],
+          [
+            -0.008074081502689798,
+            0.007372479507013442,
+            0.0098060898814728,
+            0.5276898278912896
+          ],
+          [
+            0.0032869697984040415,
+            0.0098060898814728,
+            0.04315549232625861,
+            0.7189114023407613
+          ],
+          [
+            -0.5411303590666553,
+            0.5276898278912896,
+            0.7189114023407613,
+            37.81467796535509
+          ]
+        ],
+        "minimum": [
+          72.54149677703788,
+          1.0494938406317582,
+          1.2988029978131477,
+          76.54156027841145
+        ],
+        "maximum": [
+          73.03573109018835,
+          1.2707217341970016,
+          1.8386335744784608,
+          92.58993826059464
+        ]
+      },
+      "four_new": {
+        "n": 4,
+        "mean": [
+          72.86002387007365,
+          1.2076622395737924,
+          1.6491365616670568,
+          87.98449863782007
+        ],
+        "sample_sd": [
+          0.22480444550562703,
+          0.05620238455482298,
+          0.15751728427378967,
+          3.937259674089762
+        ],
+        "relative_sd_percent": [
+          0.30854292047241927,
+          4.653816498780147,
+          9.551500338732453,
+          4.474946990716083
+        ],
+        "u_mean_if_independent": [
+          0.11240222275281352,
+          0.02810119227741149,
+          0.07875864213689483,
+          1.968629837044881
+        ],
+        "sample_covariance": [
+          [
+            0.05053703871909242,
+            -0.00773461935071275,
+            0.011095717688500305,
+            -0.5022375756022421
+          ],
+          [
+            -0.00773461935071275,
+            0.0031587080296482054,
+            -0.0017016665288175099,
+            0.22094343998837365
+          ],
+          [
+            0.011095717688500305,
+            -0.0017016665288175099,
+            0.02481169484498987,
+            -0.11047689725557791
+          ],
+          [
+            -0.5022375756022421,
+            0.22094343998837365,
+            -0.11047689725557791,
+            15.502013741213418
+          ]
+        ],
+        "minimum": [
+          72.54149677703788,
+          1.1482022094074247,
+          1.4973541460152806,
+          83.8173979893611
+        ],
+        "maximum": [
+          73.03573109018835,
+          1.2707217341970016,
+          1.8386335744784608,
+          92.58993826059464
+        ]
+      },
+      "scope": "Earlier completed five-annotation study, prior fixed image scale, included for descriptive comparison only."
+    }
+  },
+  "limits": [
+    "Within-operator variability, not annotation accuracy or common bias.",
+    "Original and repeat annotations come from different sessions; five-pass statistics and four-new-only sensitivity are both reported.",
+    "s/sqrt(n) is conditional on independent repeats and applies to the mean, not a single annotation.",
+    "Do not pool images into a universal annotation uncertainty.",
+    "Fixed original image scales; no new model inference or replacement of manuscript references."
+  ]
+}

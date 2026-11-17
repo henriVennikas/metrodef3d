@@ -1,0 +1,90 @@
+{
+  "ordinary_fixture_count": 65,
+  "ordinary_failed_predeclared_case_count": 7,
+  "ordinary_failed_cases": [
+    "straight_step_0.05",
+    "straight_step_0.1",
+    "straight_step_5",
+    "tilt15_fov150_angle37",
+    "tilt30_fov100_angle37",
+    "tilt30_fov150_angle37",
+    "tilt30_fov50_angle37"
+  ],
+  "ordinary_errors": {
+    "centerline_length": {
+      "max_absolute_error": 0.010034778087202767,
+      "max_absolute_relative_percent": 0.00773811068714239,
+      "exceeded_count": 6
+    },
+    "mean_width": {
+      "max_absolute_error": 0.00014059904445984373,
+      "max_absolute_relative_percent": 0.006980763671270512,
+      "exceeded_count": 0
+    },
+    "max_width": {
+      "max_absolute_error": 1.4000000000180535e-05,
+      "max_absolute_relative_percent": 0.00046666666667268447,
+      "exceeded_count": 0
+    },
+    "crack_area": {
+      "max_absolute_error": 0.021100000023636767,
+      "max_absolute_relative_percent": 0.006645424599969357,
+      "exceeded_count": 2
+    }
+  },
+  "total_export_runs": 76,
+  "exception_cases": [
+    {
+      "id": "boundary_only_-0.01",
+      "fixture": "boundary_only_-0.01",
+      "group": "boundary_stress",
+      "status": "exception",
+      "exception_type": "ValueError",
+      "message": "max() iterable argument is empty"
+    },
+    {
+      "id": "boundary_only_-0.0001",
+      "fixture": "boundary_only_-0.0001",
+      "group": "boundary_stress",
+      "status": "exception",
+      "exception_type": "ValueError",
+      "message": "max() iterable argument is empty"
+    },
+    {
+      "id": "boundary_only_0",
+      "fixture": "boundary_only_0",
+      "group": "boundary_stress",
+      "status": "exception",
+      "exception_type": "ValueError",
+      "message": "max() iterable argument is empty"
+    }
+  ],
+  "resolution_range": {
+    "centerline_length": 0.0,
+    "mean_width": 0.0,
+    "max_width": 0.0,
+    "crack_area": 0.0
+  },
+  "tolerance_range": {
+    "centerline_length": 0.0,
+    "mean_width": 0.0,
+    "max_width": 0.0,
+    "crack_area": 0.0
+  },
+  "dataset_scan": {
+    "scanned": 10000,
+    "confirmed": 141,
+    "partitions": {
+      "train": 92,
+      "val": 24,
+      "test": 25,
+      "excluded": 0
+    },
+    "bridge_percent_of_recorded_length": {
+      "min": 0.21261618240849378,
+      "median": 12.100374059583686,
+      "max": 65.79801183123496
+    }
+  },
+  "overall_status": "NOT an unconditional validation pass: ordinary numerical limits exceeded in some fixtures; disconnected visibility and boundary-only failures found. No references changed."
+}

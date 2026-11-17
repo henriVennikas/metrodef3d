@@ -422,12 +422,15 @@ HTML = r"""<!doctype html>
         overlayCtx.fillStyle = "rgba(255, 209, 102, 0.24)";
         overlayCtx.fill();
       }
-      if (document.getElementById("showBoundary").checked) {
-        drawPolyline(overlayCtx, leftBoundary, sample, "rgba(119, 227, 143, 0.95)", 2);
-        drawPolyline(overlayCtx, rightBoundary, sample, "rgba(255, 108, 108, 0.95)", 2);
-      }
-      if (document.getElementById("showCenter").checked) {
-        drawPolyline(overlayCtx, centerline, sample, "rgba(88, 196, 255, 0.98)", 2.5);
+      const ranges = vd.component_ranges || [[0, (centerline || []).length]];
+      for (const [start, stop] of ranges) {
+        if (document.getElementById("showBoundary").checked) {
+          drawPolyline(overlayCtx, (leftBoundary || []).slice(start, stop), sample, "rgba(119, 227, 143, 0.95)", 2);
+          drawPolyline(overlayCtx, (rightBoundary || []).slice(start, stop), sample, "rgba(255, 108, 108, 0.95)", 2);
+        }
+        if (document.getElementById("showCenter").checked) {
+          drawPolyline(overlayCtx, (centerline || []).slice(start, stop), sample, "rgba(88, 196, 255, 0.98)", 2.5);
+        }
       }
     }
 

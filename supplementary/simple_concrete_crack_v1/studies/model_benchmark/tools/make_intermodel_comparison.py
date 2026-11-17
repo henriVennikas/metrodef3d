@@ -1,4 +1,4 @@
-"""Generate comparative article figure/table from frozen benchmark predictions."""
+"""Generate comparative figures and tables from frozen benchmark predictions."""
 from pathlib import Path
 import argparse, json, hashlib
 import numpy as np

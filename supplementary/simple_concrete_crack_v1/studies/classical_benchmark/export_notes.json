@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-06",
+  "relocations": [
+    {
+      "file": "protocol.json",
+      "original_sha256": "df3597810bee8973ba04db881135c90d969063a491c3dcfe1d87dce1988d4863",
+      "public_sha256": "ad05d24cb25d1a3db0180ad0078fad822b94d1a4d6b623474d75faffcfeef4d3",
+      "change": "Removed local filesystem paths; numeric settings and split identities unchanged."
+    },
+    {
+      "file": "development/iteration_1_local_brightness/protocol.json",
+      "original_sha256": "a36f0533c1bdb6aa7d8c12a68fee6cda98c3466124e0835c7e45dbff5ead8364",
+      "public_sha256": "c8f9da9e598580dfbf94cf377eae0ef5e3b58b72194186d1a8cbdd543176e217",
+      "change": "Removed local filesystem paths; numeric settings and split identities unchanged."
+    },
+    {
+      "file": "make_report.py",
+      "original_sha256": "f1009420fc5124cf70df782b070aefdbc80e3b1557567d7d9e234eddf30dc933",
+      "public_sha256": "2d9d67aae80fa2ae0c689c01a5b52ec4259076082f0aa433bdfb2345a43085aa",
+      "change": "Portable dataset/reference CLI arguments and relative companion-study location; frozen prediction implementation unchanged."
+    }
+  ],
+  "pipeline_and_runner_byte_identical_to_frozen_evaluation": true,
+  "prediction_files_byte_identical": true
+}

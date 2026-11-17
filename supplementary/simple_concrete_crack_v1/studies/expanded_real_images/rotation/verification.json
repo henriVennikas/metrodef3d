@@ -1,0 +1,19 @@
+{
+  "predictions": 168,
+  "measurand_rows": 672,
+  "identical_inputs_across_models": true,
+  "protocol_sha256": "15ab7f3dac3b73efe026be304edee1f71e3cfe9c7d3c19b3910c492b554a6bab",
+  "original_orientation_max_absolute_difference_from_archive": {
+    "real": {
+      "transformer": 0.0,
+      "resnet50": 0.0,
+      "convnext_tiny": 0.0
+    },
+    "synthetic": {
+      "transformer": 0.39443206787109375,
+      "resnet50": 0.388427734375,
+      "convnext_tiny": 0.5122756958007812
+    }
+  },
+  "notes": "Synthetic archived H100 inference used bfloat16 autocast; current evaluation uses CPU float32. Against prior Apple Metal float32 exports, maximum point differences are below 0.0001 physical units for all three models. Compare current CPU float32 0\u00b0 against current CPU rotated predictions; not against old mixed-precision values. Six-decimal corrected geometric references are used."
+}

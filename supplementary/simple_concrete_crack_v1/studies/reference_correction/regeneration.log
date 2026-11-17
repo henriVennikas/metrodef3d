@@ -1,0 +1,19 @@
+10 of 150 completed 1.0 s
+20 of 150 completed 2.0 s
+30 of 150 completed 3.3 s
+40 of 150 completed 4.4 s
+50 of 150 completed 5.6 s
+60 of 150 completed 7.0 s
+70 of 150 completed 8.1 s
+80 of 150 completed 9.4 s
+90 of 150 completed 10.5 s
+100 of 150 completed 11.7 s
+110 of 150 completed 13.0 s
+120 of 150 completed 14.2 s
+130 of 150 completed 15.6 s
+140 of 150 completed 16.8 s
+150 of 150 completed 18.1 s
+REGENERATION_COMPLETE 142 {'train': 92, 'val': 24, 'test': 26, 'excluded': 0} 18.1 seconds
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:30:33)
+
+Blender quit

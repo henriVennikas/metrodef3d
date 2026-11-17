@@ -1,0 +1,156 @@
+{
+  "image": "IMG_8493",
+  "reference": {
+    "centerline_length": 81.28599727929587,
+    "mean_width": 2.082411548061739,
+    "max_width": 3.0486423513919503,
+    "crack_area": 169.27089943012083
+  },
+  "annotation_sha256": "a5144eabd4c694a1a906d00eb383270fac51947a6098e6047d05bfd03b879cd5",
+  "self_intersections": [],
+  "reference_valid": true,
+  "baseline": {
+    "step_mm": 0.05,
+    "tangent_window_mm": 1,
+    "stations": 1626,
+    "valid_stations": 1626,
+    "outside_stations": 0,
+    "multi_intersection_stations": 0,
+    "max_width_mm": 3.0486423513919503,
+    "mean_section_width_mm": 2.091393884593824,
+    "maximum": {
+      "station_mm": 66.52500000000002,
+      "width_mm": 3.0486423513919503,
+      "inside": true,
+      "intersection_count": 2,
+      "endpoints_mm": [
+        [
+          60.10473260433251,
+          77.21481100446657
+        ],
+        [
+          57.0573754149077,
+          77.30332284978465
+        ]
+      ]
+    }
+  },
+  "sensitivity": [
+    {
+      "step_mm": 0.05,
+      "tangent_window_mm": 0.5,
+      "stations": 1626,
+      "valid_stations": 1626,
+      "outside_stations": 0,
+      "multi_intersection_stations": 0,
+      "max_width_mm": 3.085225945639392,
+      "mean_section_width_mm": 2.0942535572198135,
+      "maximum": {
+        "station_mm": 65.72500000000001,
+        "width_mm": 3.085225945639392,
+        "inside": true,
+        "intersection_count": 2,
+        "endpoints_mm": [
+          [
+            60.09689962154373,
+            77.25819233557644
+          ],
+          [
+            57.37703230371933,
+            75.80184728405973
+          ]
+        ]
+      }
+    },
+    {
+      "step_mm": 0.05,
+      "tangent_window_mm": 2,
+      "stations": 1626,
+      "valid_stations": 1626,
+      "outside_stations": 0,
+      "multi_intersection_stations": 0,
+      "max_width_mm": 3.0252192075167343,
+      "mean_section_width_mm": 2.0936209836310753,
+      "maximum": {
+        "station_mm": 66.92500000000001,
+        "width_mm": 3.0252192075167343,
+        "inside": true,
+        "intersection_count": 2,
+        "endpoints_mm": [
+          [
+            60.02919000334485,
+            77.63318784439038
+          ],
+          [
+            57.004465965978355,
+            77.68792130130201
+          ]
+        ]
+      }
+    },
+    {
+      "step_mm": 0.025,
+      "tangent_window_mm": 1,
+      "stations": 3251,
+      "valid_stations": 3251,
+      "outside_stations": 0,
+      "multi_intersection_stations": 0,
+      "max_width_mm": 3.0493422874271925,
+      "mean_section_width_mm": 2.0916140434882164,
+      "maximum": {
+        "station_mm": 66.48750000000001,
+        "width_mm": 3.0493422874271925,
+        "inside": true,
+        "intersection_count": 2,
+        "endpoints_mm": [
+          [
+            60.11108566376347,
+            77.17962591825265
+          ],
+          [
+            57.06288990328062,
+            77.26323806848279
+          ]
+        ]
+      }
+    },
+    {
+      "step_mm": 0.1,
+      "tangent_window_mm": 1,
+      "stations": 813,
+      "valid_stations": 813,
+      "outside_stations": 0,
+      "multi_intersection_stations": 0,
+      "max_width_mm": 3.047556672445314,
+      "mean_section_width_mm": 2.091352667030429,
+      "maximum": {
+        "station_mm": 66.55000000000001,
+        "width_mm": 3.047556672445314,
+        "inside": true,
+        "intersection_count": 2,
+        "endpoints_mm": [
+          [
+            60.100192863447674,
+            77.23995340651042
+          ],
+          [
+            57.05392089529913,
+            77.32843373109374
+          ]
+        ]
+      }
+    }
+  ],
+  "manual_probes": {
+    "n": 35,
+    "mean_mm": 2.0403083042557584,
+    "median_mm": 1.913725999325383,
+    "max_mm": 2.924894565139238
+  },
+  "annotation_native_size": [
+    3024,
+    3024
+  ],
+  "convention": "Visible surface opening",
+  "reference_uncertainty": "Not quantified. Width sensitivity is not a confidence interval."
+}

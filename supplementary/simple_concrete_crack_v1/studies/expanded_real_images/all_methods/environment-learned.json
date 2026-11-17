@@ -1,0 +1,10 @@
+{
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "python": "3.12.14",
+  "packages": {
+    "torch": "2.8.0",
+    "torchvision": "0.23.0",
+    "numpy": "2.5.0",
+    "pillow": "12.3.0"
+  }
+}

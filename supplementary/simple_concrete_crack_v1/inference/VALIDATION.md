@@ -1,8 +1,17 @@
 # Release validation — 21 October 2026
 
-This report concerns the local release candidate. No weights were retrained,
-no interval factors were refitted and no test samples were removed. The submitted
-manuscript and original benchmark remain unchanged.
+This dated report checks the local model release candidate against the original
+**dataset v1.0** references ([DOI 10.5281/zenodo.21340378](https://doi.org/10.5281/zenodo.21340378))
+and calibration. No weights were retrained, no interval factors were refitted and
+no test samples were removed in these checks. Its numerical results are retained
+as the original inference validation.
+
+**Dataset v2** ([DOI 10.5281/zenodo.24326086](https://doi.org/10.5281/zenodo.24326086))
+updates geometric references without changing the inputs or trained models.
+The [reference correction study](../studies/reference_correction/README.md)
+records scoring and validation-only recalibration against those references.
+Those results are separate from the v1.0 results below. See the
+[v2 loading guide](../../../docs/dataset-v2.md) for current reference access.
 
 ## What was checked
 
@@ -81,7 +90,8 @@ original predictions remain under `reference/<model>/`.
 The model archives have internal file checksums and an external asset manifest;
 every compressed member was read back and verified against its staged source.
 
-Use the README commands to re-run on the released dataset. On CUDA, select
+Use the README commands to re-run this v1.0 reproduction on the unchanged base
+dataset. The inference CLI does not apply the v2 reference overlay. On CUDA, select
 `--precision bfloat16` to match the original precision policy; device and library
 versions may still affect numerical reproducibility. The supplied comparison
 script requires the complete frozen partition and exact paired references.

@@ -1,0 +1,22 @@
+{
+  "inputs/IMG_8162/IMG_8162.jpeg": "d4d4b45dc3a4030a5b93f536cd6ca37e4ef03ba68da2bde7d1c4e96c98eeb165",
+  "inputs/IMG_8162/annotation_0.json": "5a36fd0b32d435e66c81346faae65c4daf879089d9951d912cef52008c3e1d82",
+  "inputs/IMG_8162/annotation_1.json": "1efe17a8ac865f96d93a60e0bda680518783a36a1dfc434a3d58227c998ab49e",
+  "inputs/IMG_8162/annotation_2.json": "256428af4437f57b9f5db9835fd3ddef3918867d60b9b3fea95f4f4febf09380",
+  "inputs/IMG_8162/annotation_3.json": "2dc861e63d42cb8cfeddddcd1fa43c584d4629a7bcf2bfbe636986d4a0101584",
+  "inputs/IMG_8162/annotation_4.json": "26b20188ba70120dd8aaff4fdd4ac648cb8d93e4448dc16d5189260c5e3fe7bd",
+  "inputs/IMG_8162/prediction.json": "78ef8801e39e88dc697f9d7c1c093116926135ba950a04149a6f532ceb8bba99",
+  "inputs/IMG_8162/preprocessing.json": "421b6ad4dba80ed02f5c081cb36a673b7df5aa547ab1962fd718eab16ff34f0a",
+  "inputs/IMG_8162/reference.json": "200a38fab3459f712c5bf8a6d5580efe7ce16427232b56f397d2e71e76b86419",
+  "inputs/IMG_8184/IMG_8184.jpeg": "46be0a6cb456d35c13c2fad0718239009058d9caa6810169210c1c1d4093bc48",
+  "inputs/IMG_8184/annotation_0.json": "eb297218b82110881c0021bd94d484aafe87dfe86c7b110c70a9cf76f975bc7d",
+  "inputs/IMG_8184/annotation_1.json": "9c6b99692d00d94650d595cde6678b4e0194dc73dc6d62a51929d1f67d84acb3",
+  "inputs/IMG_8184/annotation_2.json": "5d4cdfa9cfb8bcc8dad1c7bab96a9abe4af6c4130b111a65d73ec71d9f497582",
+  "inputs/IMG_8184/annotation_3.json": "891a3099fd4949b29fc014f0da94310213ee0eafe92d62618c5048d2cf8e4d33",
+  "inputs/IMG_8184/annotation_4.json": "983337cef22f8d4f9f85e3ab261fe5f796b6997c72c525e27283f83abdd27bfe",
+  "inputs/IMG_8184/prediction.json": "8946f3d08a5a19e4f51da781e6e4efac84d66f523c05173fbf12505eed33af13",
+  "inputs/IMG_8184/preprocessing.json": "5fa90407227747277aa6735883d3272da641c34c7f4341e842903cc747f73123",
+  "inputs/IMG_8184/reference.json": "4b0bac5974ad69c02dd96296e5993e90dea306d3c67d01409901c8b78cf71cfc",
+  "inputs/IMG_8579_reference_budget.json": "53db482e3b24edbe3ee689eb11ade4e7a2f859a7be115015841cc0a40d334d34",
+  "inputs/calibration.json": "05bb8bfe41569a143f39890c07f166ea4c3b12e9076fad3daa73a2cb15666b87"
+}

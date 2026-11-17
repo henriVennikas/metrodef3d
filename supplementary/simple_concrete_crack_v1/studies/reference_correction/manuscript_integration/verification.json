@@ -1,0 +1,10 @@
+{
+  "reference_mask_corrected_observations": 26,
+  "reference_mask_predictions_unchanged": true,
+  "real_image_central_predictions_and_references_unchanged": true,
+  "real_image_interval_membership_changes": [],
+  "original_source_sha256": {
+    "results/reference_mask_predictions.csv": "3d9d7c66c84153ebafbfc49715f6495f46ddaef4e47431d46ef665e9949d7c97",
+    "comparison.csv": "d552099e616357eb82dfbadcc50cf57f9f90694450763de9c58110361dbcc85d"
+  }
+}

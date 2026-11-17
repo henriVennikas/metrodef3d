@@ -1,0 +1,604 @@
+[
+  {
+    "scan": "scan_JD_SL12-4_R000CW_2540dpi_0001",
+    "rotation_cw": 0,
+    "spans": {
+      "A1_top": {
+        "certified_mm": 97.9994,
+        "observed_px": 9736.003396948901,
+        "um_per_px": 10.065670276030444,
+        "effective_dpi": 2523.428574894358
+      },
+      "A2_bottom": {
+        "certified_mm": 97.9994,
+        "observed_px": 9733.716464218947,
+        "um_per_px": 10.068035201173663,
+        "effective_dpi": 2522.8358356394147
+      },
+      "A3_left": {
+        "certified_mm": 97.9992,
+        "observed_px": 9789.358939376458,
+        "um_per_px": 10.010788306659245,
+        "effective_dpi": 2537.2627231667407
+      },
+      "A4_right": {
+        "certified_mm": 97.9993,
+        "observed_px": 9788.486177732015,
+        "um_per_px": 10.011691105304944,
+        "effective_dpi": 2537.0339269198166
+      },
+      "A5_diagonal": {
+        "certified_mm": 138.5915,
+        "observed_px": 13806.520759110663,
+        "um_per_px": 10.038119119079735,
+        "effective_dpi": 2530.354511506195
+      }
+    },
+    "affine_residual_um": {
+      "rms_radial": 12.400252657313173,
+      "p95_radial": 23.736832945198667,
+      "maximum_radial": 36.22504211978823,
+      "mean_x": 1.6301449577469647e-11,
+      "mean_y": -2.558932730198521e-12
+    }
+  },
+  {
+    "scan": "scan_JD_SL12-4_R000CW_2540dpi_0002",
+    "rotation_cw": 0,
+    "spans": {
+      "A1_top": {
+        "certified_mm": 97.9994,
+        "observed_px": 9734.298696973086,
+        "um_per_px": 10.067433006804409,
+        "effective_dpi": 2522.986741787362
+      },
+      "A2_bottom": {
+        "certified_mm": 97.9994,
+        "observed_px": 9733.669080249325,
+        "um_per_px": 10.068084212853655,
+        "effective_dpi": 2522.8235544129134
+      },
+      "A3_left": {
+        "certified_mm": 97.9992,
+        "observed_px": 9786.926898401196,
+        "um_per_px": 10.013275976957512,
+        "effective_dpi": 2536.632372707026
+      },
+      "A4_right": {
+        "certified_mm": 97.9993,
+        "observed_px": 9786.684992168948,
+        "um_per_px": 10.013533702005992,
+        "effective_dpi": 2536.5670856944007
+      },
+      "A5_diagonal": {
+        "certified_mm": 138.5915,
+        "observed_px": 13807.283035095687,
+        "um_per_px": 10.03756493205251,
+        "effective_dpi": 2530.494215672898
+      }
+    },
+    "affine_residual_um": {
+      "rms_radial": 12.409695093552052,
+      "p95_radial": 24.23467071393052,
+      "maximum_radial": 31.81291914323571,
+      "mean_x": -5.943244650479667e-11,
+      "mean_y": -5.967243181582217e-11
+    }
+  },
+  {
+    "scan": "scan_JD_SL12-4_R000CW_2540dpi_0003",
+    "rotation_cw": 0,
+    "spans": {
+      "A1_top": {
+        "certified_mm": 97.9994,
+        "observed_px": 9736.71511417901,
+        "um_per_px": 10.064934513416048,
+        "effective_dpi": 2523.613041509916
+      },
+      "A2_bottom": {
+        "certified_mm": 97.9994,
+        "observed_px": 9734.612131494177,
+        "um_per_px": 10.067108856134563,
+        "effective_dpi": 2523.0679793953036
+      },
+      "A3_left": {
+        "certified_mm": 97.9992,
+        "observed_px": 9790.309608262694,
+        "um_per_px": 10.009816228619771,
+        "effective_dpi": 2537.509123032356
+      },
+      "A4_right": {
+        "certified_mm": 97.9993,
+        "observed_px": 9790.03685484589,
+        "um_per_px": 10.010105319623198,
+        "effective_dpi": 2537.4358399813627
+      },
+      "A5_diagonal": {
+        "certified_mm": 138.5915,
+        "observed_px": 13809.000645186274,
+        "um_per_px": 10.03631642586041,
+        "effective_dpi": 2530.809006235818
+      }
+    },
+    "affine_residual_um": {
+      "rms_radial": 11.888146458263899,
+      "p95_radial": 22.440339955708826,
+      "maximum_radial": 34.97752361241688,
+      "mean_x": 1.6376891744111505e-11,
+      "mean_y": 8.237173680654694e-12
+    }
+  },
+  {
+    "scan": "scan_JD_SL12-4_R000CW_2540dpi_0004",
+    "rotation_cw": 0,
+    "spans": {
+      "A1_top": {
+        "certified_mm": 97.9994,
+        "observed_px": 9737.06273356215,
+        "um_per_px": 10.06457518880013,
+        "effective_dpi": 2523.703139330227
+      },
+      "A2_bottom": {
+        "certified_mm": 97.9994,
+        "observed_px": 9734.763005418186,
+        "um_per_px": 10.066952831358645,
+        "effective_dpi": 2523.107083692573
+      },
+      "A3_left": {
+        "certified_mm": 97.9992,
+        "observed_px": 9789.901040217634,
+        "um_per_px": 10.010233974522528,
+        "effective_dpi": 2537.4032280011256
+      },
+      "A4_right": {
+        "certified_mm": 97.9993,
+        "observed_px": 9789.444458849617,
+        "um_per_px": 10.010711068635672,
+        "effective_dpi": 2537.282299514183
+      },
+      "A5_diagonal": {
+        "certified_mm": 138.5915,
+        "observed_px": 13808.377140820492,
+        "um_per_px": 10.03676960634962,
+        "effective_dpi": 2530.694735080005
+      }
+    },
+    "affine_residual_um": {
+      "rms_radial": 12.212344855415694,
+      "p95_radial": 23.422993836874486,
+      "maximum_radial": 34.98709538432217,
+      "mean_x": 3.856818002066015e-11,
+      "mean_y": 1.1471215914151623e-11
+    }
+  },
+  {
+    "scan": "scan_JD_SL12-4_R000CW_2540dpi_0005",
+    "rotation_cw": 0,
+    "spans": {
+      "A1_top": {
+        "certified_mm": 97.9994,
+        "observed_px": 9737.08819272336,
+        "um_per_px": 10.064548873372235,
+        "effective_dpi": 2523.709737969553
+      },
+      "A2_bottom": {
+        "certified_mm": 97.9994,
+        "observed_px": 9734.616969133525,
+        "um_per_px": 10.06710385326264,
+        "effective_dpi": 2523.0692332401172
+      },
+      "A3_left": {
+        "certified_mm": 97.9992,
+        "observed_px": 9790.211354858646,
+        "um_per_px": 10.009916685952378,
+        "effective_dpi": 2537.483657146279
+      },
+      "A4_right": {
+        "certified_mm": 97.9993,
+        "observed_px": 9789.212772544171,
+        "um_per_px": 10.010947997254577,
+        "effective_dpi": 2537.2222497775183
+      },
+      "A5_diagonal": {
+        "certified_mm": 138.5915,
+        "observed_px": 13807.848991520357,
+        "um_per_px": 10.037153512115571,
+        "effective_dpi": 2530.59793987811
+      }
+    },
+    "affine_residual_um": {
+      "rms_radial": 12.36067682851057,
+      "p95_radial": 23.836679917369207,
+      "maximum_radial": 38.844207839570494,
+      "mean_x": 2.470589816472795e-11,
+      "mean_y": 9.31895151976787e-13
+    }
+  },
+  {
+    "scan": "scan_JD_SL12-4_R000CW_2540dpi_rp_0001",
+    "rotation_cw": 0,
+    "spans": {
+      "A1_top": {
+        "certified_mm": 97.9994,
+        "observed_px": 9735.323725195165,
+        "um_per_px": 10.066373010932967,
+        "effective_dpi": 2523.2524139939346
+      },
+      "A2_bottom": {
+        "certified_mm": 97.9994,
+        "observed_px": 9733.813600126625,
+        "um_per_px": 10.067934729993715,
+        "effective_dpi": 2522.8610118349325
+      },
+      "A3_left": {
+        "certified_mm": 97.9992,
+        "observed_px": 9787.777264726345,
+        "um_per_px": 10.012406019206644,
+        "effective_dpi": 2536.8527755741798
+      },
+      "A4_right": {
+        "certified_mm": 97.9993,
+        "observed_px": 9786.779324926525,
+        "um_per_px": 10.013437183609506,
+        "effective_dpi": 2536.5915353796786
+      },
+      "A5_diagonal": {
+        "certified_mm": 138.5915,
+        "observed_px": 13805.732380673111,
+        "um_per_px": 10.038692347391631,
+        "effective_dpi": 2530.2100234797736
+      }
+    },
+    "affine_residual_um": {
+      "rms_radial": 12.591862984868621,
+      "p95_radial": 24.986037578900984,
+      "maximum_radial": 34.4577911144174,
+      "mean_x": 6.690518205755953e-12,
+      "mean_y": 2.3879062034794668e-11
+    }
+  },
+  {
+    "scan": "scan_JD_SL12-4_R000CW_2540dpi_rp_0002",
+    "rotation_cw": 0,
+    "spans": {
+      "A1_top": {
+        "certified_mm": 97.9994,
+        "observed_px": 9735.014378758566,
+        "um_per_px": 10.066692886846782,
+        "effective_dpi": 2523.172235957236
+      },
+      "A2_bottom": {
+        "certified_mm": 97.9994,
+        "observed_px": 9733.645586891851,
+        "um_per_px": 10.068108513420118,
+        "effective_dpi": 2522.8174652809407
+      },
+      "A3_left": {
+        "certified_mm": 97.9992,
+        "observed_px": 9785.969693092871,
+        "um_per_px": 10.014255416013576,
+        "effective_dpi": 2536.384278693693
+      },
+      "A4_right": {
+        "certified_mm": 97.9993,
+        "observed_px": 9785.456210995382,
+        "um_per_px": 10.014791123369756,
+        "effective_dpi": 2536.248603401072
+      },
+      "A5_diagonal": {
+        "certified_mm": 138.5915,
+        "observed_px": 13804.72517488265,
+        "um_per_px": 10.039424779869124,
+        "effective_dpi": 2530.0254304341847
+      }
+    },
+    "affine_residual_um": {
+      "rms_radial": 12.4410901970322,
+      "p95_radial": 24.296894547040036,
+      "maximum_radial": 34.56884672136601,
+      "mean_x": -6.583501420788129e-11,
+      "mean_y": -5.365818411230811e-11
+    }
+  },
+  {
+    "scan": "scan_JD_SL12-4_R000CW_2540dpi_rp_0003",
+    "rotation_cw": 0,
+    "spans": {
+      "A1_top": {
+        "certified_mm": 97.9994,
+        "observed_px": 9735.624422267638,
+        "um_per_px": 10.06606209827205,
+        "effective_dpi": 2523.3303502429403
+      },
+      "A2_bottom": {
+        "certified_mm": 97.9994,
+        "observed_px": 9733.740189141274,
+        "um_per_px": 10.06801066144397,
+        "effective_dpi": 2522.841984789584
+      },
+      "A3_left": {
+        "certified_mm": 97.9992,
+        "observed_px": 9788.660382272486,
+        "um_per_px": 10.011502715680999,
+        "effective_dpi": 2537.081667092396
+      },
+      "A4_right": {
+        "certified_mm": 97.9993,
+        "observed_px": 9787.840000920534,
+        "um_per_px": 10.012352060391597,
+        "effective_dpi": 2536.8664472438227
+      },
+      "A5_diagonal": {
+        "certified_mm": 138.5915,
+        "observed_px": 13806.372331789098,
+        "um_per_px": 10.038227035272243,
+        "effective_dpi": 2530.3273088713454
+      }
+    },
+    "affine_residual_um": {
+      "rms_radial": 12.13602702249054,
+      "p95_radial": 23.75677286989073,
+      "maximum_radial": 37.91837722851128,
+      "mean_x": -3.3789394545818474e-11,
+      "mean_y": -2.0323582446746436e-11
+    }
+  },
+  {
+    "scan": "scan_JD_SL12-4_R000CW_2540dpi_rp_0004",
+    "rotation_cw": 0,
+    "spans": {
+      "A1_top": {
+        "certified_mm": 97.9994,
+        "observed_px": 9735.396203460197,
+        "um_per_px": 10.066298068605427,
+        "effective_dpi": 2523.2711992919244
+      },
+      "A2_bottom": {
+        "certified_mm": 97.9994,
+        "observed_px": 9733.761557534639,
+        "um_per_px": 10.067988559278128,
+        "effective_dpi": 2522.847523162181
+      },
+      "A3_left": {
+        "certified_mm": 97.9992,
+        "observed_px": 9788.840213478126,
+        "um_per_px": 10.01131879393293,
+        "effective_dpi": 2537.128276785366
+      },
+      "A4_right": {
+        "certified_mm": 97.9993,
+        "observed_px": 9788.103598161755,
+        "um_per_px": 10.012082424056551,
+        "effective_dpi": 2536.9347678331233
+      },
+      "A5_diagonal": {
+        "certified_mm": 138.5915,
+        "observed_px": 13806.379874748942,
+        "um_per_px": 10.03822155100018,
+        "effective_dpi": 2530.328691287872
+      }
+    },
+    "affine_residual_um": {
+      "rms_radial": 12.254461825352193,
+      "p95_radial": 23.987799688656015,
+      "maximum_radial": 33.76685785364003,
+      "mean_x": 7.083281871871008e-11,
+      "mean_y": -2.627190362201824e-11
+    }
+  },
+  {
+    "scan": "scan_JD_SL12-4_R000CW_2540dpi_rp_0005",
+    "rotation_cw": 0,
+    "spans": {
+      "A1_top": {
+        "certified_mm": 97.9994,
+        "observed_px": 9735.33689408284,
+        "um_per_px": 10.066359394256223,
+        "effective_dpi": 2523.2558271755147
+      },
+      "A2_bottom": {
+        "certified_mm": 97.9994,
+        "observed_px": 9733.882580652593,
+        "um_per_px": 10.067863382160274,
+        "effective_dpi": 2522.8788905705123
+      },
+      "A3_left": {
+        "certified_mm": 97.9992,
+        "observed_px": 9788.307498977782,
+        "um_per_px": 10.011863645500952,
+        "effective_dpi": 2536.9902047571372
+      },
+      "A4_right": {
+        "certified_mm": 97.9993,
+        "observed_px": 9787.544990651177,
+        "um_per_px": 10.012653846659866,
+        "effective_dpi": 2536.7899848523393
+      },
+      "A5_diagonal": {
+        "certified_mm": 138.5915,
+        "observed_px": 13806.067556738462,
+        "um_per_px": 10.03844863357606,
+        "effective_dpi": 2530.2714520093728
+      }
+    },
+    "affine_residual_um": {
+      "rms_radial": 12.142343908008995,
+      "p95_radial": 23.008171112948496,
+      "maximum_radial": 33.35175895322422,
+      "mean_x": 2.594800768146895e-11,
+      "mean_y": -4.466922946871416e-11
+    }
+  },
+  {
+    "scan": "scan_JD_SL12-4_R090CW_2540dpi_0001",
+    "rotation_cw": 90,
+    "spans": {
+      "A1_top": {
+        "certified_mm": 97.9994,
+        "observed_px": 9786.692067633761,
+        "um_per_px": 10.013536680499074,
+        "effective_dpi": 2536.5663312009824
+      },
+      "A2_bottom": {
+        "certified_mm": 97.9994,
+        "observed_px": 9787.570065909731,
+        "um_per_px": 10.012638411788593,
+        "effective_dpi": 2536.7938954126985
+      },
+      "A3_left": {
+        "certified_mm": 97.9992,
+        "observed_px": 9735.333820601556,
+        "um_per_px": 10.066342028520655,
+        "effective_dpi": 2523.2601801165674
+      },
+      "A4_right": {
+        "certified_mm": 97.9993,
+        "observed_px": 9733.796073205907,
+        "um_per_px": 10.067942585088812,
+        "effective_dpi": 2522.8590434771477
+      },
+      "A5_diagonal": {
+        "certified_mm": 138.5915,
+        "observed_px": 13802.223551222203,
+        "um_per_px": 10.041244404255977,
+        "effective_dpi": 2529.5669518047207
+      }
+    },
+    "affine_residual_um": {
+      "rms_radial": 12.273230874021706,
+      "p95_radial": 24.16276946810361,
+      "maximum_radial": 32.634340271311814,
+      "mean_x": 3.479773351058445e-11,
+      "mean_y": 1.0128281606808095e-11
+    }
+  },
+  {
+    "scan": "scan_JD_SL12-4_R180CW_2540dpi_0001",
+    "rotation_cw": 180,
+    "spans": {
+      "A1_top": {
+        "certified_mm": 97.9994,
+        "observed_px": 9733.672207076335,
+        "um_per_px": 10.068080978600745,
+        "effective_dpi": 2522.8243648403864
+      },
+      "A2_bottom": {
+        "certified_mm": 97.9994,
+        "observed_px": 9735.03408911448,
+        "um_per_px": 10.06667250498701,
+        "effective_dpi": 2523.177344590965
+      },
+      "A3_left": {
+        "certified_mm": 97.9992,
+        "observed_px": 9787.39657614273,
+        "um_per_px": 10.012795459711723,
+        "effective_dpi": 2536.754106503169
+      },
+      "A4_right": {
+        "certified_mm": 97.9993,
+        "observed_px": 9788.223819954235,
+        "um_per_px": 10.01195945276803,
+        "effective_dpi": 2536.965927581499
+      },
+      "A5_diagonal": {
+        "certified_mm": 138.5915,
+        "observed_px": 13805.769703523043,
+        "um_per_px": 10.038665208549245,
+        "effective_dpi": 2530.2168637289105
+      }
+    },
+    "affine_residual_um": {
+      "rms_radial": 12.17540654244364,
+      "p95_radial": 23.66270236404241,
+      "maximum_radial": 34.45454455470452,
+      "mean_x": 9.74667718936167e-12,
+      "mean_y": -2.686160002657185e-11
+    }
+  },
+  {
+    "scan": "scan_JD_SL12-4_R270CW_2540dpi_0001",
+    "rotation_cw": 270,
+    "spans": {
+      "A1_top": {
+        "certified_mm": 97.9994,
+        "observed_px": 9786.90742306879,
+        "um_per_px": 10.013316338213736,
+        "effective_dpi": 2536.6221481554708
+      },
+      "A2_bottom": {
+        "certified_mm": 97.9994,
+        "observed_px": 9785.953837442263,
+        "um_per_px": 10.01429207902476,
+        "effective_dpi": 2536.374992816624
+      },
+      "A3_left": {
+        "certified_mm": 97.9992,
+        "observed_px": 9734.06016807953,
+        "um_per_px": 10.067659158442888,
+        "effective_dpi": 2522.9300674823885
+      },
+      "A4_right": {
+        "certified_mm": 97.9993,
+        "observed_px": 9734.918837232868,
+        "um_per_px": 10.066781412207039,
+        "effective_dpi": 2523.150047660696
+      },
+      "A5_diagonal": {
+        "certified_mm": 138.5915,
+        "observed_px": 13801.938117520418,
+        "um_per_px": 10.041452064190143,
+        "effective_dpi": 2529.5146396786135
+      }
+    },
+    "affine_residual_um": {
+      "rms_radial": 14.936644145211407,
+      "p95_radial": 27.599000261689252,
+      "maximum_radial": 39.44809097624465,
+      "mean_x": -9.83388869823462e-12,
+      "mean_y": 4.97927405710325e-12
+    }
+  },
+  {
+    "scan": "scan_JD_SL12-4_R270CW_2540dpi_0002",
+    "rotation_cw": 270,
+    "spans": {
+      "A1_top": {
+        "certified_mm": 97.9994,
+        "observed_px": 9785.610110127818,
+        "um_per_px": 10.01464383897469,
+        "effective_dpi": 2536.2859037631515
+      },
+      "A2_bottom": {
+        "certified_mm": 97.9994,
+        "observed_px": 9784.643459378061,
+        "um_per_px": 10.015633212068936,
+        "effective_dpi": 2536.035362136939
+      },
+      "A3_left": {
+        "certified_mm": 97.9992,
+        "observed_px": 9734.046590796315,
+        "um_per_px": 10.067673201056968,
+        "effective_dpi": 2522.926548443522
+      },
+      "A4_right": {
+        "certified_mm": 97.9993,
+        "observed_px": 9734.814917682761,
+        "um_per_px": 10.066888875513145,
+        "effective_dpi": 2523.123113217565
+      },
+      "A5_diagonal": {
+        "certified_mm": 138.5915,
+        "observed_px": 13800.10132395709,
+        "um_per_px": 10.042788581515994,
+        "effective_dpi": 2529.1780060718734
+      }
+    },
+    "affine_residual_um": {
+      "rms_radial": 12.515121859127335,
+      "p95_radial": 24.77263402634024,
+      "maximum_radial": 34.75149651432989,
+      "mean_x": -2.5419047456939618e-11,
+      "mean_y": -6.128735858153531e-11
+    }
+  }
+]

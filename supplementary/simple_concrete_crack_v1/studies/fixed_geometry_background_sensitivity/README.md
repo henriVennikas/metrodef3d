@@ -1,10 +1,10 @@
 # Fixed Geometry Background Sensitivity Study
 
-This package holds the fixed geometry sensitivity material reported with the MetroDef3D article. Eight defect geometries outside the public dataset seed range were each evaluated under eight procedural background and illumination conditions and 16 photographed concrete surfaces. The procedural background seeds are also outside the seeds 1--10,000 dataset release. No sensitivity geometry, background realization, or rendered observation was used for model training, validation, or selection. Geometry, camera, physical scale, and reference quantities remain fixed within each group while surface appearance changes. The complete study contains 192 observations.
+This package documents sensitivity to surface appearance while defect geometry remains fixed. Eight defect geometries outside the public dataset seed range were each evaluated under eight procedural background and illumination conditions and 16 photographed concrete surfaces. The procedural background seeds are also outside the seeds 1--10,000 dataset release. No sensitivity geometry, background realization, or rendered observation was used for model training, validation, or selection. Geometry, camera, physical scale, and reference quantities remain fixed within each group while surface appearance changes. The complete study contains 192 observations.
 
 Public repository location: <https://github.com/henriVennikas/metrodef3d/tree/main/supplementary/simple_concrete_crack_v1/studies/fixed_geometry_background_sensitivity>
 
-The article figure uses defect seed `10316` as an illustrative example. Its reference values are:
+Defect seed `10316` is included as an illustrative example. Its reference values are:
 
 | Measurand | Value |
 | --- | ---: |
@@ -25,7 +25,7 @@ labels. Geometry, seed values and measurement data are unchanged.
 - `reference/scene.json`: the seed `10316` scene retained for the single geometry command below.
 - `reference/visible_defect.json`: fixed visible construction reference.
 - `reference/pixel_scale.npz`: fixed directional physical pixel-scale maps.
-- `results/`: the seed `10316` results used in the article figure and table.
+- `results/`: the seed `10316` illustrative results.
 - `results/full_study/`: all 192 calibrated predictions, per-geometry and pooled summaries, and a machine-readable report.
 - `results/full_study/per_background_summary.csv`: errors and interval misses for each photographed surface, pooled over all eight geometries.
 - `results/full_study/report.html`: interactive overview and per-seed inspection of every procedural and photographed observation.
@@ -56,11 +56,11 @@ The original study used Blender 5.1.2 and Cycles. Exact rendered pixels can depe
 
 Repeat the command with the other files in `reference/geometries/` and matching `--defect-seed` and `--output-seed-start` values to reproduce the complete photographed set. The eight study seeds are `10155`, `10316`, `10558`, `10660`, `10694`, `10701`, `10784`, and `10866`.
 
-The supplied prediction CSV files record the article baseline outputs. Another image measurement method can be evaluated on the same observations using the fixed references and can report central error, prediction range, coverage, and interval width under unchanged conditions. See `results/full_study/REPORT.md` for the complete summary and file descriptions.
+The supplied prediction CSV files record the retained transformer baseline outputs. Another image measurement method can be evaluated on the same observations using the fixed references and can report central error, prediction range, coverage, and interval width under unchanged conditions. See `results/full_study/REPORT.md` for the complete summary and file descriptions.
 
-## Article Figure Selection
+## Illustrative panel selection
 
-The procedural panels S1--S4 in the article correspond to renders `002`, `004`, `001`, and `007`. The photographic panels P1--P4 correspond to renders `002`, `005`, `012`, and `015`. P1 and P2 are lower-error examples and P3 and P4 are higher-error examples when ranked by mean absolute relative error across the four scalar measurands. The accompanying article table reports each central prediction with calibrated upper and lower deviations in tolerance notation.
+The illustrative procedural panels S1--S4 correspond to renders `002`, `004`, `001`, and `007`. The photographic panels P1--P4 correspond to renders `002`, `005`, `012`, and `015`. P1 and P2 are lower-error examples and P3 and P4 are higher-error examples when ranked by mean absolute relative error across the four scalar measurands. The saved results include each central prediction and its calibrated bounds.
 
 ## License
 

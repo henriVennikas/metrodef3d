@@ -31,7 +31,13 @@ Suggested attribution for the fixed geometry background sensitivity study:
 > MetroDef3D Fixed Geometry Background Sensitivity Study, Henri Vennikas,
 > <https://github.com/henriVennikas/metrodef3d>, licensed under CC BY 4.0.
 
-Suggested attribution for the separately published dataset:
+Suggested attribution for the dataset with v2 reference values:
+
+> MetroDef3D Simple Concrete Crack Dataset v2, Henri Vennikas,
+> <https://doi.org/10.5281/zenodo.24326086>, licensed under CC BY 4.0.
+
+When describing the original model training or reproducing the original
+reference values, cite the corresponding v1.0 release:
 
 > MetroDef3D Simple Concrete Crack Dataset v1.0, Henri Vennikas,
 > <https://doi.org/10.5281/zenodo.21340378>, licensed under CC BY 4.0.

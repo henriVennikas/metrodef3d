@@ -1,0 +1,717 @@
+{
+  "images": [
+    {
+      "image": "IMG_8485",
+      "target_image": "IMG_8484.jpeg",
+      "paper_target": "01",
+      "homography": [
+        [
+          0.0002641771574010002,
+          -0.025553346803319592,
+          94.10567208236633
+        ],
+        [
+          0.026151135771894832,
+          -0.000714580128313566,
+          17.982218062755
+        ],
+        [
+          1.1873651408040874e-05,
+          -4.46164939404413e-06,
+          1.0
+        ]
+      ],
+      "rotation_cw": 270,
+      "ring_lattice_residual": 0.052306164634618485,
+      "ring_residual_over_previous_006_check": false,
+      "detected_dots": 1401,
+      "rejected_candidates": 0,
+      "candidate_count": 1418,
+      "grid_col_range": [
+        6,
+        43
+      ],
+      "grid_row_range": [
+        6,
+        43
+      ],
+      "max_lattice_residual": 0.18121233053364116,
+      "homography_rms_mm": 0.11095106264892884,
+      "heldout_grid_rms_mm": 0.1107572963503637,
+      "heldout_grid_max_mm": 0.28413259340933184,
+      "heldout_grid_points": 262,
+      "flattening_centroid_difference_rms_mm": 0.0070514583341128685,
+      "scale_mean_mm_per_input_pixel": 0.07420059853254381,
+      "scale_min_mm_per_input_pixel": 0.0715547807447005,
+      "scale_max_mm_per_input_pixel": 0.07699661477080033,
+      "inside_grid_fraction": 0.9310235977172852,
+      "image_edge_spans_mm": [
+        75.75836612920807,
+        74.37559718107995,
+        76.78509788618769,
+        77.06776349152017
+      ],
+      "scale_file": "IMG_8485_scale.npz",
+      "resize_factor": 2.953125,
+      "output_size": 1024,
+      "source_sha256": {
+        "IMG_8484.jpeg": "0ad3f7746baedc02df1a8ac7630e2657ca057147687fa051706352a289f43967"
+      },
+      "paper_reference_sha256": "d1cf1dc31c48b406de6e18d6c0a968d03cd2e282fdcd85073c4041b9ece12a55"
+    },
+    {
+      "image": "IMG_8487",
+      "target_image": "IMG_8486.jpeg",
+      "paper_target": "01",
+      "homography": [
+        [
+          0.0008775162624596967,
+          -0.025306127283105117,
+          94.35341603309804
+        ],
+        [
+          0.026079237670834893,
+          0.0001549295339373335,
+          19.067145343919655
+        ],
+        [
+          1.1413511075010714e-05,
+          -1.5629184454557747e-06,
+          1.0
+        ]
+      ],
+      "rotation_cw": 270,
+      "ring_lattice_residual": 0.0631791076108137,
+      "ring_residual_over_previous_006_check": true,
+      "detected_dots": 1378,
+      "rejected_candidates": 6,
+      "candidate_count": 1407,
+      "grid_col_range": [
+        7,
+        43
+      ],
+      "grid_row_range": [
+        7,
+        44
+      ],
+      "max_lattice_residual": 0.22812209509244163,
+      "homography_rms_mm": 0.12684397840672187,
+      "heldout_grid_rms_mm": 0.1259521554956897,
+      "heldout_grid_max_mm": 0.3975019249472781,
+      "heldout_grid_points": 261,
+      "flattening_centroid_difference_rms_mm": 0.0025433782022601737,
+      "scale_mean_mm_per_input_pixel": 0.07368917281218301,
+      "scale_min_mm_per_input_pixel": 0.07159681725182317,
+      "scale_max_mm_per_input_pixel": 0.07586750279764147,
+      "inside_grid_fraction": 0.9222249984741211,
+      "image_edge_spans_mm": [
+        75.5993997361251,
+        73.88739061872374,
+        75.95100985095311,
+        76.4434486222869
+      ],
+      "scale_file": "IMG_8487_scale.npz",
+      "resize_factor": 2.953125,
+      "output_size": 1024,
+      "source_sha256": {
+        "IMG_8486.jpeg": "65ca3680b4a9cbcf20e1c165b4d6d0f8c70ee5f1b872525a6b98c3d1a25e6312"
+      },
+      "paper_reference_sha256": "d1cf1dc31c48b406de6e18d6c0a968d03cd2e282fdcd85073c4041b9ece12a55"
+    },
+    {
+      "image": "IMG_8490",
+      "target_image": "IMG_8489.jpeg",
+      "paper_target": "01",
+      "homography": [
+        [
+          0.001322074727250767,
+          -0.025394187536959642,
+          90.96338621223968
+        ],
+        [
+          0.026028048245791684,
+          0.0003604587893643558,
+          15.04523890401601
+        ],
+        [
+          1.2203764194128332e-05,
+          -3.987722182681969e-06,
+          1.0
+        ]
+      ],
+      "rotation_cw": 270,
+      "ring_lattice_residual": 0.03967576249949339,
+      "ring_residual_over_previous_006_check": false,
+      "detected_dots": 1366,
+      "rejected_candidates": 0,
+      "candidate_count": 1409,
+      "grid_col_range": [
+        5,
+        42
+      ],
+      "grid_row_range": [
+        5,
+        43
+      ],
+      "max_lattice_residual": 0.18302772125427635,
+      "homography_rms_mm": 0.09959383423578531,
+      "heldout_grid_rms_mm": 0.09676449402076912,
+      "heldout_grid_max_mm": 0.21702542854244172,
+      "heldout_grid_points": 273,
+      "flattening_centroid_difference_rms_mm": 0.002846526365931464,
+      "scale_mean_mm_per_input_pixel": 0.07375856060086092,
+      "scale_min_mm_per_input_pixel": 0.07115312171750617,
+      "scale_max_mm_per_input_pixel": 0.07650875184957688,
+      "inside_grid_fraction": 0.9399185180664062,
+      "image_edge_spans_mm": [
+        75.37533967355998,
+        73.88354622932293,
+        76.28844374287253,
+        76.63001899849871
+      ],
+      "scale_file": "IMG_8490_scale.npz",
+      "resize_factor": 2.953125,
+      "output_size": 1024,
+      "source_sha256": {
+        "IMG_8489.jpeg": "2d44f3770bf7f21efb666b160b80701cd0154d5b6baa7ec5dd0aa339c3a60c06"
+      },
+      "paper_reference_sha256": "d1cf1dc31c48b406de6e18d6c0a968d03cd2e282fdcd85073c4041b9ece12a55"
+    },
+    {
+      "image": "IMG_8493",
+      "target_image": "IMG_8492.jpeg",
+      "paper_target": "01",
+      "homography": [
+        [
+          0.0011068552911994336,
+          -0.02527209766847822,
+          92.56990259077348
+        ],
+        [
+          0.026157620460204173,
+          0.0005004316816222097,
+          15.067048049418588
+        ],
+        [
+          1.1831442544052863e-05,
+          6.688731741345254e-07,
+          1.0
+        ]
+      ],
+      "rotation_cw": 270,
+      "ring_lattice_residual": 0.011960434309741369,
+      "ring_residual_over_previous_006_check": false,
+      "detected_dots": 1301,
+      "rejected_candidates": 47,
+      "candidate_count": 1357,
+      "grid_col_range": [
+        6,
+        42
+      ],
+      "grid_row_range": [
+        6,
+        42
+      ],
+      "max_lattice_residual": 0.22634305471581342,
+      "homography_rms_mm": 0.10859520348985925,
+      "heldout_grid_rms_mm": 0.10435171537339825,
+      "heldout_grid_max_mm": 0.4154607748442179,
+      "heldout_grid_points": 249,
+      "flattening_centroid_difference_rms_mm": 0.002679853458606041,
+      "scale_mean_mm_per_input_pixel": 0.07368027690613531,
+      "scale_min_mm_per_input_pixel": 0.07166863154276616,
+      "scale_max_mm_per_input_pixel": 0.07576710942653443,
+      "inside_grid_fraction": 0.8819217681884766,
+      "image_edge_spans_mm": [
+        75.84878710716937,
+        73.83125888223644,
+        75.69700765149706,
+        76.47024091266536
+      ],
+      "scale_file": "IMG_8493_scale.npz",
+      "resize_factor": 2.953125,
+      "output_size": 1024,
+      "source_sha256": {
+        "IMG_8492.jpeg": "8a750441cf0fbafa38d261d486c04d8e29a258da3921d278fd2b8fff3d4b0b87"
+      },
+      "paper_reference_sha256": "d1cf1dc31c48b406de6e18d6c0a968d03cd2e282fdcd85073c4041b9ece12a55"
+    },
+    {
+      "image": "IMG_8495",
+      "target_image": "IMG_8494.jpeg",
+      "paper_target": "01",
+      "homography": [
+        [
+          0.001040524999707401,
+          -0.025250935165037503,
+          93.12964225528751
+        ],
+        [
+          0.02616806627926267,
+          0.0005848289862711747,
+          14.030099864378586
+        ],
+        [
+          1.148588482806822e-05,
+          1.8362258845181135e-06,
+          1.0
+        ]
+      ],
+      "rotation_cw": 270,
+      "ring_lattice_residual": 0.02887780033490373,
+      "ring_residual_over_previous_006_check": false,
+      "detected_dots": 1345,
+      "rejected_candidates": 0,
+      "candidate_count": 1410,
+      "grid_col_range": [
+        6,
+        42
+      ],
+      "grid_row_range": [
+        5,
+        42
+      ],
+      "max_lattice_residual": 0.1761481275143907,
+      "homography_rms_mm": 0.0865058662803609,
+      "heldout_grid_rms_mm": 0.08466539461344737,
+      "heldout_grid_max_mm": 0.31098457234767124,
+      "heldout_grid_points": 258,
+      "flattening_centroid_difference_rms_mm": 0.0036378986363464205,
+      "scale_mean_mm_per_input_pixel": 0.07371069892405678,
+      "scale_min_mm_per_input_pixel": 0.07157162173681175,
+      "scale_max_mm_per_input_pixel": 0.07594072393838856,
+      "inside_grid_fraction": 0.9141054153442383,
+      "image_edge_spans_mm": [
+        76.00599777113626,
+        73.90900530936987,
+        75.58439650761065,
+        76.47050093308349
+      ],
+      "scale_file": "IMG_8495_scale.npz",
+      "resize_factor": 2.953125,
+      "output_size": 1024,
+      "source_sha256": {
+        "IMG_8494.jpeg": "6d16f2d97dbfcac02248b6176a6fea105371580d7c6e65926feacf447ec57cf4"
+      },
+      "paper_reference_sha256": "d1cf1dc31c48b406de6e18d6c0a968d03cd2e282fdcd85073c4041b9ece12a55"
+    },
+    {
+      "image": "IMG_8497",
+      "target_image": "IMG_8496.jpeg",
+      "paper_target": "01",
+      "homography": [
+        [
+          0.0015486310707210735,
+          -0.02521683871647864,
+          91.38461415767716
+        ],
+        [
+          0.02588482450057454,
+          0.0009352043958671477,
+          14.602104355602707
+        ],
+        [
+          1.0014490674947004e-05,
+          -8.632044098479015e-07,
+          1.0
+        ]
+      ],
+      "rotation_cw": 270,
+      "ring_lattice_residual": 0.018041610823754908,
+      "ring_residual_over_previous_006_check": false,
+      "detected_dots": 1334,
+      "rejected_candidates": 17,
+      "candidate_count": 1384,
+      "grid_col_range": [
+        5,
+        43
+      ],
+      "grid_row_range": [
+        6,
+        43
+      ],
+      "max_lattice_residual": 0.22935439445795117,
+      "homography_rms_mm": 0.10037853188286945,
+      "heldout_grid_rms_mm": 0.10489824780529049,
+      "heldout_grid_max_mm": 0.4293593883661007,
+      "heldout_grid_points": 259,
+      "flattening_centroid_difference_rms_mm": 0.0035710746232330056,
+      "scale_mean_mm_per_input_pixel": 0.07363097524767001,
+      "scale_min_mm_per_input_pixel": 0.07186955678861814,
+      "scale_max_mm_per_input_pixel": 0.07545110465312686,
+      "inside_grid_fraction": 0.9269657135009766,
+      "image_edge_spans_mm": [
+        75.56928477328735,
+        74.02578108214142,
+        75.76516569146484,
+        76.27059778060134
+      ],
+      "scale_file": "IMG_8497_scale.npz",
+      "resize_factor": 2.953125,
+      "output_size": 1024,
+      "source_sha256": {
+        "IMG_8496.jpeg": "de25cdfe238935603a7da4c24daa145a7c3cc1be13782648a4fef4b9a0059841"
+      },
+      "paper_reference_sha256": "d1cf1dc31c48b406de6e18d6c0a968d03cd2e282fdcd85073c4041b9ece12a55"
+    },
+    {
+      "image": "IMG_8500",
+      "target_image": "IMG_8499.jpeg",
+      "paper_target": "01",
+      "homography": [
+        [
+          0.0010605529428367975,
+          -0.02519350194712189,
+          92.04971568702823
+        ],
+        [
+          0.025981541332913947,
+          0.0005280435405880945,
+          14.914973747808654
+        ],
+        [
+          1.0662030306474302e-05,
+          4.853751014871075e-07,
+          1.0
+        ]
+      ],
+      "rotation_cw": 270,
+      "ring_lattice_residual": 0.014727434474673983,
+      "ring_residual_over_previous_006_check": false,
+      "detected_dots": 1335,
+      "rejected_candidates": 15,
+      "candidate_count": 1366,
+      "grid_col_range": [
+        5,
+        42
+      ],
+      "grid_row_range": [
+        6,
+        42
+      ],
+      "max_lattice_residual": 0.22911539221006802,
+      "homography_rms_mm": 0.10476224093319475,
+      "heldout_grid_rms_mm": 0.1070605606580011,
+      "heldout_grid_max_mm": 0.38587176967494685,
+      "heldout_grid_points": 255,
+      "flattening_centroid_difference_rms_mm": 0.003585053776519471,
+      "scale_mean_mm_per_input_pixel": 0.07353878774143889,
+      "scale_min_mm_per_input_pixel": 0.0717406622023361,
+      "scale_max_mm_per_input_pixel": 0.07539633791650811,
+      "inside_grid_fraction": 0.9121227264404297,
+      "image_edge_spans_mm": [
+        75.64941733000192,
+        73.8457440094501,
+        75.53763383908738,
+        76.22506848404463
+      ],
+      "scale_file": "IMG_8500_scale.npz",
+      "resize_factor": 2.953125,
+      "output_size": 1024,
+      "source_sha256": {
+        "IMG_8499.jpeg": "ebcf864428c733d77ebfe744d6bdaf84838d6a96ddd4afba85766a17d819b627"
+      },
+      "paper_reference_sha256": "d1cf1dc31c48b406de6e18d6c0a968d03cd2e282fdcd85073c4041b9ece12a55"
+    },
+    {
+      "image": "IMG_8502",
+      "target_image": "IMG_8501.jpeg",
+      "paper_target": "01",
+      "homography": [
+        [
+          0.0016545044003356596,
+          -0.025203208358412384,
+          93.62347408560905
+        ],
+        [
+          0.026277730376315173,
+          0.0011167374765169214,
+          13.973021887744494
+        ],
+        [
+          1.3679421965785437e-05,
+          2.1186463140795398e-06,
+          1.0
+        ]
+      ],
+      "rotation_cw": 270,
+      "ring_lattice_residual": 0.05285241957933881,
+      "ring_residual_over_previous_006_check": false,
+      "detected_dots": 1354,
+      "rejected_candidates": 2,
+      "candidate_count": 1375,
+      "grid_col_range": [
+        6,
+        43
+      ],
+      "grid_row_range": [
+        5,
+        42
+      ],
+      "max_lattice_residual": 0.20792649968453003,
+      "homography_rms_mm": 0.10252774867361288,
+      "heldout_grid_rms_mm": 0.10002973347234347,
+      "heldout_grid_max_mm": 0.3634041135256487,
+      "heldout_grid_points": 258,
+      "flattening_centroid_difference_rms_mm": 0.0039094752435653805,
+      "scale_mean_mm_per_input_pixel": 0.0734196513522806,
+      "scale_min_mm_per_input_pixel": 0.07090992033337715,
+      "scale_max_mm_per_input_pixel": 0.07605565713653671,
+      "inside_grid_fraction": 0.9294672012329102,
+      "image_edge_spans_mm": [
+        75.76111386532486,
+        73.36799518603536,
+        75.27245692969517,
+        76.39587956473586
+      ],
+      "scale_file": "IMG_8502_scale.npz",
+      "resize_factor": 2.953125,
+      "output_size": 1024,
+      "source_sha256": {
+        "IMG_8501.jpeg": "8d9d1bd58776a451f79076af1ff6ce7839b81988ff0b764170484ac0bafdb7c0"
+      },
+      "paper_reference_sha256": "d1cf1dc31c48b406de6e18d6c0a968d03cd2e282fdcd85073c4041b9ece12a55"
+    },
+    {
+      "image": "IMG_8505",
+      "target_image": "IMG_8504.jpeg",
+      "paper_target": "01",
+      "homography": [
+        [
+          0.0006211637950047498,
+          -0.025241131170132807,
+          92.16002718700835
+        ],
+        [
+          0.02628456104124237,
+          0.00016607910296048093,
+          16.69885185375739
+        ],
+        [
+          1.3309587949117319e-05,
+          1.930323062252113e-06,
+          1.0
+        ]
+      ],
+      "rotation_cw": 270,
+      "ring_lattice_residual": 0.05820935918685991,
+      "ring_residual_over_previous_006_check": false,
+      "detected_dots": 1349,
+      "rejected_candidates": 0,
+      "candidate_count": 1405,
+      "grid_col_range": [
+        5,
+        42
+      ],
+      "grid_row_range": [
+        6,
+        43
+      ],
+      "max_lattice_residual": 0.22948611273138755,
+      "homography_rms_mm": 0.11297476866122912,
+      "heldout_grid_rms_mm": 0.10921726773155888,
+      "heldout_grid_max_mm": 0.35011242948517235,
+      "heldout_grid_points": 258,
+      "flattening_centroid_difference_rms_mm": 0.0035529186938990922,
+      "scale_mean_mm_per_input_pixel": 0.07347350009070824,
+      "scale_min_mm_per_input_pixel": 0.07104571034547466,
+      "scale_max_mm_per_input_pixel": 0.07601854269477827,
+      "inside_grid_fraction": 0.9315938949584961,
+      "image_edge_spans_mm": [
+        75.784600803949,
+        73.47154207021613,
+        75.33527897540598,
+        76.4227680084311
+      ],
+      "scale_file": "IMG_8505_scale.npz",
+      "resize_factor": 2.953125,
+      "output_size": 1024,
+      "source_sha256": {
+        "IMG_8504.jpeg": "8b3013410488eda89d9db0d6aa49e53a035fce09a2051dbf62e5d23733cbf32f"
+      },
+      "paper_reference_sha256": "d1cf1dc31c48b406de6e18d6c0a968d03cd2e282fdcd85073c4041b9ece12a55"
+    },
+    {
+      "image": "IMG_8507",
+      "target_image": "IMG_8506.jpeg",
+      "paper_target": "01",
+      "homography": [
+        [
+          0.0008247760131322189,
+          -0.025194634116045028,
+          93.28184483884837
+        ],
+        [
+          0.026157167404735913,
+          0.00038951708881093244,
+          16.921053783669393
+        ],
+        [
+          1.1914092874842013e-05,
+          1.9386206235841443e-06,
+          1.0
+        ]
+      ],
+      "rotation_cw": 270,
+      "ring_lattice_residual": 0.04848106043911948,
+      "ring_residual_over_previous_006_check": false,
+      "detected_dots": 1343,
+      "rejected_candidates": 0,
+      "candidate_count": 1387,
+      "grid_col_range": [
+        6,
+        42
+      ],
+      "grid_row_range": [
+        7,
+        43
+      ],
+      "max_lattice_residual": 0.19370901965655826,
+      "homography_rms_mm": 0.10339297588896898,
+      "heldout_grid_rms_mm": 0.09866986974247882,
+      "heldout_grid_max_mm": 0.29522684147379236,
+      "heldout_grid_points": 258,
+      "flattening_centroid_difference_rms_mm": 0.004021178694577016,
+      "scale_mean_mm_per_input_pixel": 0.0734804336308206,
+      "scale_min_mm_per_input_pixel": 0.07126579215385263,
+      "scale_max_mm_per_input_pixel": 0.07579315280884343,
+      "inside_grid_fraction": 0.9090156555175781,
+      "image_edge_spans_mm": [
+        75.76572329412586,
+        73.64854888461213,
+        75.31937706706768,
+        76.29633548584144
+      ],
+      "scale_file": "IMG_8507_scale.npz",
+      "resize_factor": 2.953125,
+      "output_size": 1024,
+      "source_sha256": {
+        "IMG_8506.jpeg": "71081f09fc790d90855906322fadbcef421ca0788b220a01384d9d18808c29cb"
+      },
+      "paper_reference_sha256": "d1cf1dc31c48b406de6e18d6c0a968d03cd2e282fdcd85073c4041b9ece12a55"
+    },
+    {
+      "image": "IMG_8509",
+      "target_image": "IMG_8508.jpeg",
+      "paper_target": "01",
+      "homography": [
+        [
+          0.0003734677924884846,
+          -0.025048688663376385,
+          93.67432382599303
+        ],
+        [
+          0.02572576393624902,
+          -0.00016863844707655292,
+          16.436518172177998
+        ],
+        [
+          1.0464821770012295e-05,
+          -6.179520004543202e-08,
+          0.9999999999999999
+        ]
+      ],
+      "rotation_cw": 270,
+      "ring_lattice_residual": 0.03372800042274917,
+      "ring_residual_over_previous_006_check": false,
+      "detected_dots": 1337,
+      "rejected_candidates": 0,
+      "candidate_count": 1356,
+      "grid_col_range": [
+        7,
+        43
+      ],
+      "grid_row_range": [
+        6,
+        42
+      ],
+      "max_lattice_residual": 0.1879447388165422,
+      "homography_rms_mm": 0.08976795814021887,
+      "heldout_grid_rms_mm": 0.08647447548630476,
+      "heldout_grid_max_mm": 0.29656303143121465,
+      "heldout_grid_points": 258,
+      "flattening_centroid_difference_rms_mm": 0.0037704294747757773,
+      "scale_mean_mm_per_input_pixel": 0.07299569331569625,
+      "scale_min_mm_per_input_pixel": 0.07130755546051763,
+      "scale_max_mm_per_input_pixel": 0.07473467733387225,
+      "inside_grid_fraction": 0.914149284362793,
+      "image_edge_spans_mm": [
+        74.92606994342381,
+        73.42227261659725,
+        74.93604721197111,
+        75.74597228345782
+      ],
+      "scale_file": "IMG_8509_scale.npz",
+      "resize_factor": 2.953125,
+      "output_size": 1024,
+      "source_sha256": {
+        "IMG_8508.jpeg": "fba2bc433732c56a08383b7b080995a6fc32bb0e27c8e0005a146d05021d5494"
+      },
+      "paper_reference_sha256": "d1cf1dc31c48b406de6e18d6c0a968d03cd2e282fdcd85073c4041b9ece12a55"
+    },
+    {
+      "image": "IMG_8512",
+      "target_image": "IMG_8510.jpeg",
+      "paper_target": "01",
+      "homography": [
+        [
+          0.00023460503063138863,
+          -0.024914851029801344,
+          92.24441874556132
+        ],
+        [
+          0.025257795020715845,
+          -0.0005916257456478174,
+          17.342348799019113
+        ],
+        [
+          9.672383186145711e-06,
+          -5.3578216874309595e-06,
+          1.0
+        ]
+      ],
+      "rotation_cw": 270,
+      "ring_lattice_residual": 0.032373643145869165,
+      "ring_residual_over_previous_006_check": false,
+      "detected_dots": 1349,
+      "rejected_candidates": 0,
+      "candidate_count": 1366,
+      "grid_col_range": [
+        6,
+        42
+      ],
+      "grid_row_range": [
+        6,
+        42
+      ],
+      "max_lattice_residual": 0.17499224060489907,
+      "homography_rms_mm": 0.10628566324362947,
+      "heldout_grid_rms_mm": 0.10437036404280337,
+      "heldout_grid_max_mm": 0.237294282911088,
+      "heldout_grid_points": 257,
+      "flattening_centroid_difference_rms_mm": 0.0038164527862576706,
+      "scale_mean_mm_per_input_pixel": 0.07242316429097659,
+      "scale_min_mm_per_input_pixel": 0.07003481543287637,
+      "scale_max_mm_per_input_pixel": 0.07493989593931093,
+      "inside_grid_fraction": 0.9327001571655273,
+      "image_edge_spans_mm": [
+        73.74200491479687,
+        72.92837833672444,
+        74.94020393696778,
+        75.07976709881888
+      ],
+      "scale_file": "IMG_8512_scale.npz",
+      "resize_factor": 2.953125,
+      "output_size": 1024,
+      "source_sha256": {
+        "IMG_8510.jpeg": "b042676d8a8b4effbab51270701bd8b93cc2f947536946d236d73c66d6464770"
+      },
+      "paper_reference_sha256": "d1cf1dc31c48b406de6e18d6c0a968d03cd2e282fdcd85073c4041b9ece12a55"
+    }
+  ],
+  "calibration": "Existing scanner-transferred coordinates for paper target 01; independent Metrosert update not yet supplied",
+  "illumination_preprocessing": "Target detection only: divide by Gaussian background sigma=80 pixels, scale 180; surface RGB unchanged",
+  "source_sha256": "a88f58115f6627dd3ae214928a6a58fe7fa8ec90050f83c1f8757b6f47a41e31",
+  "opencv": "5.0.0",
+  "numpy": "2.5.4"
+}

@@ -1,0 +1,897 @@
+{
+  "schema": "crack-reference-demo-v1",
+  "toolVersion": "batch-2",
+  "batch": "16nov_2",
+  "prototype": true,
+  "image": "IMG_8569.jpeg",
+  "sourceSha256": "093cbf3d59c75808980691bba4112ee8bcd8e3be3d38c68399741067a46b9f3c",
+  "nativeSize": [
+    3024,
+    3024
+  ],
+  "previewSize": [
+    3024,
+    3024
+  ],
+  "coordinateConvention": "Original image pixel centres; top-left centre = (0,0)",
+  "calibrationImage": "IMG_8568.jpeg",
+  "pairingConfirmed": true,
+  "paperTarget": "01",
+  "pixelToScannerMm": null,
+  "calibrationStatus": "pending",
+  "limitations": [
+    "Physical scale is pending; coordinates are in original image pixels.",
+    "A shared target assumes unchanged camera pose and surface plane; not independently verified.",
+    "Human annotations have not been validated against a known physical boundary."
+  ],
+  "status": "complete",
+  "convention": "Visible surface opening",
+  "imageNote": "",
+  "annotations": [
+    {
+      "kind": "boundary",
+      "points": [
+        [
+          830.012,
+          1.873
+        ],
+        [
+          833.796,
+          137.824
+        ],
+        [
+          831.087,
+          279.921
+        ],
+        [
+          826.751,
+          368.663
+        ],
+        [
+          860.101,
+          442.35
+        ],
+        [
+          880.189,
+          498.948
+        ],
+        [
+          904.023,
+          588.568
+        ],
+        [
+          911.086,
+          694.16
+        ],
+        [
+          929.51,
+          744.878
+        ],
+        [
+          952.9,
+          797.38
+        ],
+        [
+          955.831,
+          860.947
+        ],
+        [
+          979.101,
+          1076.562
+        ],
+        [
+          977.982,
+          1100.904
+        ],
+        [
+          990.861,
+          1144.694
+        ],
+        [
+          985.131,
+          1215.811
+        ],
+        [
+          941.068,
+          1265.007
+        ],
+        [
+          941.762,
+          1373.522
+        ],
+        [
+          959.802,
+          1524.61
+        ],
+        [
+          976.347,
+          1625.994
+        ],
+        [
+          986.013,
+          1714.146
+        ],
+        [
+          995.146,
+          1767.621
+        ],
+        [
+          1012.71,
+          1794.77
+        ],
+        [
+          1044.345,
+          1869.584
+        ],
+        [
+          1055.064,
+          1945.983
+        ],
+        [
+          1060.841,
+          2019.282
+        ],
+        [
+          1080.631,
+          2081.795
+        ],
+        [
+          1082.516,
+          2138.767
+        ],
+        [
+          1078.739,
+          2200.314
+        ],
+        [
+          1076.923,
+          2305.883
+        ],
+        [
+          1055.099,
+          2437.137
+        ],
+        [
+          1062.763,
+          2505.081
+        ],
+        [
+          1069.878,
+          2552.59
+        ],
+        [
+          1060.813,
+          2637.661
+        ],
+        [
+          1059.791,
+          2708.58
+        ],
+        [
+          1030.348,
+          2841.683
+        ],
+        [
+          1025.506,
+          2923.38
+        ],
+        [
+          1016.125,
+          2963.726
+        ],
+        [
+          997.07,
+          3006.742
+        ],
+        [
+          990.321,
+          3023
+        ],
+        [
+          1125.576,
+          3023
+        ],
+        [
+          1159.037,
+          2821.993
+        ],
+        [
+          1161.528,
+          2740.42
+        ],
+        [
+          1181.657,
+          2568.655
+        ],
+        [
+          1164.804,
+          2472.97
+        ],
+        [
+          1156.415,
+          2427.636
+        ],
+        [
+          1183.337,
+          2291.002
+        ],
+        [
+          1194.9,
+          2222.502
+        ],
+        [
+          1197.91,
+          2136.515
+        ],
+        [
+          1197.004,
+          2075.086
+        ],
+        [
+          1175.233,
+          1968.063
+        ],
+        [
+          1147.289,
+          1876
+        ],
+        [
+          1115.645,
+          1816.262
+        ],
+        [
+          1077.546,
+          1767.422
+        ],
+        [
+          1048.806,
+          1707.778
+        ],
+        [
+          1051.766,
+          1668.226
+        ],
+        [
+          1080.796,
+          1614.476
+        ],
+        [
+          1061.392,
+          1494.635
+        ],
+        [
+          1048.731,
+          1419.981
+        ],
+        [
+          1050.756,
+          1362.208
+        ],
+        [
+          1046.447,
+          1350.004
+        ],
+        [
+          1047.156,
+          1327.72
+        ],
+        [
+          1061.328,
+          1283.456
+        ],
+        [
+          1074.973,
+          1233.974
+        ],
+        [
+          1095.936,
+          1185.818
+        ],
+        [
+          1076.878,
+          1095.401
+        ],
+        [
+          1072.114,
+          1041.088
+        ],
+        [
+          1067.989,
+          918.549
+        ],
+        [
+          1049.332,
+          818.657
+        ],
+        [
+          1059.292,
+          813.578
+        ],
+        [
+          1025.874,
+          740.596
+        ],
+        [
+          1019.442,
+          672.901
+        ],
+        [
+          1004.467,
+          583.385
+        ],
+        [
+          980.671,
+          500.291
+        ],
+        [
+          951.995,
+          460.362
+        ],
+        [
+          940.502,
+          402.262
+        ],
+        [
+          934.709,
+          380.743
+        ],
+        [
+          933.744,
+          282.365
+        ],
+        [
+          936.34,
+          170.146
+        ],
+        [
+          940.589,
+          122.002
+        ],
+        [
+          933.736,
+          49.062
+        ],
+        [
+          938.196,
+          12.823
+        ],
+        [
+          934.101,
+          0.887
+        ]
+      ],
+      "ambiguous": false,
+      "note": "",
+      "convention": "Visible surface opening"
+    },
+    {
+      "kind": "centreline",
+      "points": [
+        [
+          886.493,
+          1.605
+        ],
+        [
+          892.268,
+          112.902
+        ],
+        [
+          889.608,
+          267.788
+        ],
+        [
+          888.995,
+          347.629
+        ],
+        [
+          886.76,
+          385.45
+        ],
+        [
+          942.084,
+          514.946
+        ],
+        [
+          959.678,
+          600.637
+        ],
+        [
+          968.826,
+          665.842
+        ],
+        [
+          973.796,
+          707.641
+        ],
+        [
+          982.362,
+          750.755
+        ],
+        [
+          1005.234,
+          827.103
+        ],
+        [
+          1021.043,
+          1041.786
+        ],
+        [
+          1035.856,
+          1131.516
+        ],
+        [
+          1042.964,
+          1177.617
+        ],
+        [
+          1035.755,
+          1209.186
+        ],
+        [
+          1018.788,
+          1247.965
+        ],
+        [
+          1010.009,
+          1278.79
+        ],
+        [
+          999.155,
+          1319.3
+        ],
+        [
+          1018.2,
+          1582.903
+        ],
+        [
+          1021.21,
+          1642.792
+        ],
+        [
+          1017.842,
+          1690.074
+        ],
+        [
+          1023.1,
+          1730.815
+        ],
+        [
+          1038.515,
+          1755.025
+        ],
+        [
+          1051.867,
+          1789.75
+        ],
+        [
+          1081.021,
+          1829.272
+        ],
+        [
+          1114.398,
+          1959.255
+        ],
+        [
+          1128.634,
+          2067.42
+        ],
+        [
+          1132.415,
+          2197.028
+        ],
+        [
+          1119.266,
+          2333.846
+        ],
+        [
+          1113.431,
+          2396.73
+        ],
+        [
+          1114.439,
+          2470.164
+        ],
+        [
+          1115.783,
+          2545.192
+        ],
+        [
+          1124.477,
+          2585.812
+        ],
+        [
+          1125.626,
+          2641.509
+        ],
+        [
+          1109.952,
+          2756.835
+        ],
+        [
+          1096.315,
+          2842.316
+        ],
+        [
+          1079.576,
+          2917.087
+        ],
+        [
+          1076.273,
+          2964.12
+        ],
+        [
+          1057.127,
+          3010.716
+        ],
+        [
+          1051.761,
+          3023
+        ]
+      ],
+      "ambiguous": false,
+      "note": "",
+      "convention": "Visible surface opening"
+    },
+    {
+      "kind": "width",
+      "points": [
+        [
+          831.928,
+          61.135
+        ],
+        [
+          934.369,
+          60.083
+        ]
+      ],
+      "ambiguous": false,
+      "note": "",
+      "convention": "Visible surface opening"
+    },
+    {
+      "kind": "width",
+      "points": [
+        [
+          833.773,
+          145.626
+        ],
+        [
+          937.886,
+          149.07
+        ]
+      ],
+      "ambiguous": false,
+      "note": "",
+      "convention": "Visible surface opening"
+    },
+    {
+      "kind": "width",
+      "points": [
+        [
+          830.228,
+          293.895
+        ],
+        [
+          934.096,
+          302.403
+        ]
+      ],
+      "ambiguous": false,
+      "note": "",
+      "convention": "Visible surface opening"
+    },
+    {
+      "kind": "width",
+      "points": [
+        [
+          856.452,
+          434.145
+        ],
+        [
+          940.52,
+          407.036
+        ]
+      ],
+      "ambiguous": false,
+      "note": "",
+      "convention": "Visible surface opening"
+    },
+    {
+      "kind": "width",
+      "points": [
+        [
+          885.873,
+          521.267
+        ],
+        [
+          976.315,
+          492.53
+        ]
+      ],
+      "ambiguous": false,
+      "note": "",
+      "convention": "Visible surface opening"
+    },
+    {
+      "kind": "width",
+      "points": [
+        [
+          906.953,
+          634.631
+        ],
+        [
+          1012.082,
+          629.901
+        ]
+      ],
+      "ambiguous": false,
+      "note": "",
+      "convention": "Visible surface opening"
+    },
+    {
+      "kind": "width",
+      "points": [
+        [
+          939.805,
+          767.821
+        ],
+        [
+          1031.75,
+          752.277
+        ]
+      ],
+      "ambiguous": false,
+      "note": "",
+      "convention": "Visible surface opening"
+    },
+    {
+      "kind": "width",
+      "points": [
+        [
+          957.084,
+          877.642
+        ],
+        [
+          1058.281,
+          866.986
+        ]
+      ],
+      "ambiguous": false,
+      "note": "",
+      "convention": "Visible surface opening"
+    },
+    {
+      "kind": "width",
+      "points": [
+        [
+          974.041,
+          1025.175
+        ],
+        [
+          1072.272,
+          1023.771
+        ]
+      ],
+      "ambiguous": false,
+      "note": "",
+      "convention": "Visible surface opening"
+    },
+    {
+      "kind": "width",
+      "points": [
+        [
+          985.32,
+          1125.712
+        ],
+        [
+          1082.634,
+          1124.915
+        ]
+      ],
+      "ambiguous": false,
+      "note": "",
+      "convention": "Visible surface opening"
+    },
+    {
+      "kind": "width",
+      "points": [
+        [
+          986.438,
+          1192.04
+        ],
+        [
+          1080.266,
+          1221.845
+        ]
+      ],
+      "ambiguous": false,
+      "note": "",
+      "convention": "Visible surface opening"
+    },
+    {
+      "kind": "width",
+      "points": [
+        [
+          941.687,
+          1356.242
+        ],
+        [
+          1049.783,
+          1357.314
+        ]
+      ],
+      "ambiguous": false,
+      "note": "",
+      "convention": "Visible surface opening"
+    },
+    {
+      "kind": "width",
+      "points": [
+        [
+          954.957,
+          1485.701
+        ],
+        [
+          1058.395,
+          1473.761
+        ]
+      ],
+      "ambiguous": false,
+      "note": "",
+      "convention": "Visible surface opening"
+    },
+    {
+      "kind": "width",
+      "points": [
+        [
+          971.651,
+          1595.5
+        ],
+        [
+          1074.142,
+          1576.857
+        ]
+      ],
+      "ambiguous": false,
+      "note": "",
+      "convention": "Visible surface opening"
+    },
+    {
+      "kind": "width",
+      "points": [
+        [
+          985.999,
+          1707.904
+        ],
+        [
+          1050.024,
+          1702.38
+        ]
+      ],
+      "ambiguous": false,
+      "note": "",
+      "convention": "Visible surface opening"
+    },
+    {
+      "kind": "width",
+      "points": [
+        [
+          1025.194,
+          1822.961
+        ],
+        [
+          1088.12,
+          1780.945
+        ]
+      ],
+      "ambiguous": false,
+      "note": "",
+      "convention": "Visible surface opening"
+    },
+    {
+      "kind": "width",
+      "points": [
+        [
+          1059.076,
+          1989.56
+        ],
+        [
+          1175.817,
+          1971.141
+        ]
+      ],
+      "ambiguous": false,
+      "note": "",
+      "convention": "Visible surface opening"
+    },
+    {
+      "kind": "width",
+      "points": [
+        [
+          1080.782,
+          2169.606
+        ],
+        [
+          1196.805,
+          2173.152
+        ]
+      ],
+      "ambiguous": false,
+      "note": "",
+      "convention": "Visible surface opening"
+    },
+    {
+      "kind": "width",
+      "points": [
+        [
+          1071.764,
+          2334.71
+        ],
+        [
+          1173.633,
+          2342.274
+        ]
+      ],
+      "ambiguous": false,
+      "note": "",
+      "convention": "Visible surface opening"
+    },
+    {
+      "kind": "width",
+      "points": [
+        [
+          1067.525,
+          2537.798
+        ],
+        [
+          1176.649,
+          2537.083
+        ]
+      ],
+      "ambiguous": false,
+      "note": "",
+      "convention": "Visible surface opening"
+    },
+    {
+      "kind": "width",
+      "points": [
+        [
+          1052.49,
+          2742.536
+        ],
+        [
+          1160.739,
+          2764.055
+        ]
+      ],
+      "ambiguous": false,
+      "note": "",
+      "convention": "Visible surface opening"
+    },
+    {
+      "kind": "width",
+      "points": [
+        [
+          1019.216,
+          2949.448
+        ],
+        [
+          1138.016,
+          2950.045
+        ]
+      ],
+      "ambiguous": false,
+      "note": "",
+      "convention": "Visible surface opening"
+    }
+  ],
+  "draft": {
+    "kind": "width",
+    "points": [],
+    "ambiguous": false,
+    "note": "",
+    "convention": "Visible surface opening"
+  },
+  "revision": 191,
+  "savedAt": "2026-11-16T16:45:44.547217+00:00"
+}

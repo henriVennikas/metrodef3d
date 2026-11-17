@@ -1,4 +1,4 @@
-"""Generate article uncertainty calibration diagnostics."""
+"""Generate uncertainty calibration diagnostics."""
 
 from __future__ import annotations
 

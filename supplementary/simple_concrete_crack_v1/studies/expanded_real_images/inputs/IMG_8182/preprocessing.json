@@ -1,0 +1,67 @@
+{
+  "command": [
+    "real_images_test/field_8182/models_8182_20261117/prepare_scales.py"
+  ],
+  "preparation_script_sha256": "17e718f5d813e0f6cb6fa1c83173df55e7f29e0c0a6bc18584fb4500d430d181",
+  "grid_coordinates_source": "print_target_01_points.npz",
+  "scale_checks": "finite positive scales and finite-step/derivative consistency passed",
+  "images": [
+    {
+      "image": "IMG_8182",
+      "target_image": "IMG_8181.jpeg",
+      "detected_dots": 1460,
+      "image_edge_spans_mm": [
+        73.95601146015184,
+        82.76041874535234,
+        82.07936188148629,
+        72.70701704514322
+      ],
+      "crack_image": "IMG_8182.jpeg",
+      "grid_image": "IMG_8181.jpeg",
+      "source_sha256": {
+        "IMG_8181.jpeg": "b97250058458527289d1aabafef69c6747c0ec87938d3a923f7c5f76dac7de8c",
+        "IMG_8182.jpeg": "9e3bc2e94b10915d291d298192a51e67338792c305f169820cb063e4d3741938"
+      },
+      "paper_reference_sha256": "d1cf1dc31c48b406de6e18d6c0a968d03cd2e282fdcd85073c4041b9ece12a55",
+      "homography": [
+        [
+          0.02085067781892806,
+          -0.001194663695156836,
+          20.109162612965203
+        ],
+        [
+          -0.002324580027101357,
+          0.021212450398690907,
+          20.998644036857605
+        ],
+        [
+          -3.776822002182717e-05,
+          -3.0137563824712626e-05,
+          1.0
+        ]
+      ],
+      "rotation_cw": 0,
+      "detected_solid_dots": 1460,
+      "partial_grid": true,
+      "grid_col_range": [
+        7,
+        46
+      ],
+      "grid_row_range": [
+        6,
+        45
+      ],
+      "max_lattice_index_residual": 0.18062626294253062,
+      "homography_rms_mm": 0.1145487139838179,
+      "heldout_grid_rms_mm": 0.11936920914281159,
+      "heldout_grid_points": 285,
+      "scale_mean_mm_per_input_pixel": 0.07577067387439765,
+      "scale_min_mm_per_input_pixel": 0.06426202432552942,
+      "scale_max_mm_per_input_pixel": 0.0908610120657231,
+      "inside_grid_fraction": 0.9428424835205078,
+      "scale_file": "IMG_8182_scale.npz",
+      "resize_factor": 2.953125,
+      "output_size": 1024
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "image": "IMG_8509",
+  "reference": {
+    "centerline_length": 80.1356862641974,
+    "mean_width": 2.4949095717092447,
+    "max_width": 4.2204836294059955,
+    "crack_area": 199.93129069603515
+  },
+  "annotation_sha256": "ffb8cd2a5466e825b6674788460ab7f84ec122730e557df5559dad491f872f90",
+  "self_intersections": [],
+  "reference_valid": true,
+  "baseline": {
+    "step_mm": 0.05,
+    "tangent_window_mm": 1,
+    "stations": 1603,
+    "valid_stations": 1602,
+    "outside_stations": 1,
+    "multi_intersection_stations": 1,
+    "max_width_mm": 4.2204836294059955,
+    "mean_section_width_mm": 2.5259222908730727,
+    "maximum": {
+      "station_mm": 55.875000000000014,
+      "width_mm": 4.2204836294059955,
+      "inside": true,
+      "intersection_count": 2,
+      "endpoints_mm": [
+        [
+          59.61014810202263,
+          69.8588905586945
+        ],
+        [
+          57.35437744052068,
+          66.29182162344934
+        ]
+      ]
+    }
+  },
+  "sensitivity": [
+    {
+      "step_mm": 0.05,
+      "tangent_window_mm": 0.5,
+      "stations": 1603,
+      "valid_stations": 1602,
+      "outside_stations": 1,
+      "multi_intersection_stations": 1,
+      "max_width_mm": 4.458493776130372,
+      "mean_section_width_mm": 2.5303775288657535,
+      "maximum": {
+        "station_mm": 56.07500000000001,
+        "width_mm": 4.458493776130372,
+        "inside": true,
+        "intersection_count": 2,
+        "endpoints_mm": [
+          [
+            59.49750174804529,
+            70.22598459938843
+          ],
+          [
+            57.2426028425944,
+            66.37973997924404
+          ]
+        ]
+      }
+    },
+    {
+      "step_mm": 0.05,
+      "tangent_window_mm": 2,
+      "stations": 1603,
+      "valid_stations": 1602,
+      "outside_stations": 1,
+      "multi_intersection_stations": 0,
+      "max_width_mm": 4.223895962657759,
+      "mean_section_width_mm": 2.5217372616525013,
+      "maximum": {
+        "station_mm": 56.82500000000001,
+        "width_mm": 4.223895962657759,
+        "inside": true,
+        "intersection_count": 2,
+        "endpoints_mm": [
+          [
+            59.72584327856939,
+            69.55311132215814
+          ],
+          [
+            56.01354549044167,
+            67.53813185933016
+          ]
+        ]
+      }
+    },
+    {
+      "step_mm": 0.025,
+      "tangent_window_mm": 1,
+      "stations": 3205,
+      "valid_stations": 3205,
+      "outside_stations": 0,
+      "multi_intersection_stations": 1,
+      "max_width_mm": 4.212647141027144,
+      "mean_section_width_mm": 2.5256797269328257,
+      "maximum": {
+        "station_mm": 55.88750000000001,
+        "width_mm": 4.212647141027144,
+        "inside": true,
+        "intersection_count": 2,
+        "endpoints_mm": [
+          [
+            59.61253558869874,
+            69.851110172556
+          ],
+          [
+            57.333978317166945,
+            66.30786692728569
+          ]
+        ]
+      }
+    },
+    {
+      "step_mm": 0.1,
+      "tangent_window_mm": 1,
+      "stations": 801,
+      "valid_stations": 801,
+      "outside_stations": 0,
+      "multi_intersection_stations": 0,
+      "max_width_mm": 4.198431644105714,
+      "mean_section_width_mm": 2.526132901952202,
+      "maximum": {
+        "station_mm": 55.85000000000001,
+        "width_mm": 4.198431644105714,
+        "inside": true,
+        "intersection_count": 2,
+        "endpoints_mm": [
+          [
+            59.621128469077476,
+            69.82310753360629
+          ],
+          [
+            57.37216712194264,
+            66.2778288239247
+          ]
+        ]
+      }
+    }
+  ],
+  "manual_probes": {
+    "n": 35,
+    "mean_mm": 2.4728712579318555,
+    "median_mm": 2.4906304179033256,
+    "max_mm": 4.21247046012833
+  },
+  "annotation_native_size": [
+    3024,
+    3024
+  ],
+  "convention": "Visible surface opening",
+  "reference_uncertainty": "Not quantified. Width sensitivity is not a confidence interval."
+}

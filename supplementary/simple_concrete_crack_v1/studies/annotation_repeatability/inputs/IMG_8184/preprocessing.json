@@ -1,0 +1,55 @@
+{
+  "preparation_script_sha256": "30d7fd45ed26c8b89af4bb839d84ca1c002545990f34f6ac967a1a5affb5871d",
+  "grid_coordinates_source": "print_target_01_points.npz",
+  "scale_checks": "finite positive scales and finite-step/derivative consistency passed",
+  "images": [
+    {
+      "crack_image": "IMG_8184.jpeg",
+      "grid_image": "IMG_8183.jpeg",
+      "source_sha256": {
+        "IMG_8183.jpeg": "59e8471f88e6a7d0d5856f5707b5168563817a2b34b73e7a63b05cbdeca03ad9",
+        "IMG_8184.jpeg": "46be0a6cb456d35c13c2fad0718239009058d9caa6810169210c1c1d4093bc48"
+      },
+      "paper_reference_sha256": "d1cf1dc31c48b406de6e18d6c0a968d03cd2e282fdcd85073c4041b9ece12a55",
+      "homography": [
+        [
+          0.025035713452629765,
+          -0.0008861380680509715,
+          15.09540120715455
+        ],
+        [
+          -0.0009286659874401296,
+          0.02546702958080577,
+          13.801258047873338
+        ],
+        [
+          -2.1510627013540243e-05,
+          -1.2193011131281017e-05,
+          1.0
+        ]
+      ],
+      "rotation_cw": 0,
+      "detected_solid_dots": 1682,
+      "partial_grid": true,
+      "grid_col_range": [
+        4,
+        45
+      ],
+      "grid_row_range": [
+        4,
+        45
+      ],
+      "max_lattice_index_residual": 0.27179410234545104,
+      "homography_rms_mm": 0.11800220835256293,
+      "heldout_grid_rms_mm": 0.12857541800944977,
+      "heldout_grid_points": 359,
+      "scale_mean_mm_per_input_pixel": 0.08150243464418278,
+      "scale_min_mm_per_input_pixel": 0.07532674563557172,
+      "scale_max_mm_per_input_pixel": 0.08849902202960397,
+      "inside_grid_fraction": 0.9429740905761719,
+      "scale_file": "IMG_8184_scale.npz",
+      "resize_factor": 2.953125,
+      "output_size": 1024
+    }
+  ]
+}

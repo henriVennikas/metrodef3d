@@ -1,0 +1,22 @@
+{
+  "test_identity_exact": true,
+  "reference_max_difference_vs_float32_csv": {
+    "centerline_length": 7.589843761479642e-06,
+    "mean_width": 5.957031246062172e-08,
+    "max_width": 5.958557136587217e-08,
+    "crack_area": 7.622070313573204e-06
+  },
+  "zero_reference_seeds": [
+    1625
+  ],
+  "empty_prediction_seeds": [
+    1625,
+    3788,
+    9400
+  ],
+  "exported_metrics_recomputed": true,
+  "frozen_sources_intact": true,
+  "selection_calibration_test_disjoint": true,
+  "frozen_protocol_intact": true,
+  "protocol_metadata_redacted_for_distribution": true
+}

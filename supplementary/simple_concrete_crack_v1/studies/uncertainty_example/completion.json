@@ -1,0 +1,11 @@
+{
+  "status": "completed locally",
+  "date": "2026-11-17",
+  "reference_mean_width_mm": 1.1761323867014633,
+  "evaluated_standard_uncertainty_mm": 0.03840269785456484,
+  "scope": "Conditional evaluated components only; no total uncertainty or field-coverage claim.",
+  "source_protocol_retained": true,
+  "original_data_unchanged": true,
+  "manuscript_integration": "Sections II-D, III-B and IV; R1.C3 in response",
+  "published": false
+}

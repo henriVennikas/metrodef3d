@@ -1,0 +1,10 @@
+{
+  "original_values_reproduced": true,
+  "inputs_verified": true,
+  "model_weights_and_buffers_unchanged": true,
+  "rgb_unchanged": true,
+  "independent_geometric_checks_passed": true,
+  "model_scale_derivative_max_step_difference_percent": 0.9804384804384805,
+  "conditional_budget_not_total_uncertainty": true,
+  "original_results_preserved": true
+}

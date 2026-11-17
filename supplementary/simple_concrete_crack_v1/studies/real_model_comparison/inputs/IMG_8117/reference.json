@@ -1,0 +1,37 @@
+{
+  "image": "IMG_8117",
+  "reference": {
+    "centerline_length": 165.81134567515812,
+    "mean_width": 0.31185940211135244,
+    "max_width": 1.359802571193121,
+    "crack_area": 51.70982712553359
+  },
+  "self_intersections": [],
+  "baseline": {
+    "step_mm": 0.05,
+    "tangent_window_mm": 1,
+    "stations": 3316,
+    "valid_stations": 3316,
+    "outside_stations": 0,
+    "multi_intersection_stations": 1,
+    "max_width_mm": 1.359802571193121,
+    "mean_section_width_mm": 0.31557355514473495,
+    "maximum": {
+      "station_mm": 53.37500000000001,
+      "width_mm": 1.359802571193121,
+      "inside": true,
+      "intersection_count": 2,
+      "endpoints_mm": [
+        [
+          43.11933370023189,
+          20.79780134318101
+        ],
+        [
+          41.895587699225054,
+          21.390683083196002
+        ]
+      ]
+    }
+  },
+  "annotation_sha256": "72dfe46ae130a398f63a7c04c5245fbcf6ce8f8e9904dfe0f018ea9e9aaa4c59"
+}

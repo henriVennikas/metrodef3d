@@ -1,0 +1,17 @@
+{
+  "common_input_sha256": {
+    "IMG_8184": "ed54d101759106461b506bbae34e7498caa4799ad1751f35b72e381bd8e1940c",
+    "IMG_8162": "02baa80c7ef1581f1da74431aca5c10ae827fff347056ceb28f57a031d387315",
+    "IMG_8169": "490a4abee35095f03ae727983f6e0521bbc0d3b8484844402c43d87f6cfdd855",
+    "IMG_8139": "c2cc303127301deb2f919a182525b5efe6da266efe099e7f1eef1af5f535ced6",
+    "IMG_8117": "8d839feea2c83234d351a543c498870028970de2a4f6196b9329e5ef994cb939"
+  },
+  "paired_cases": 5,
+  "methods": 4,
+  "scalar_comparisons": 80,
+  "synthetic_calibration_only": true,
+  "no_training": true,
+  "original_predictions_and_annotations_preserved": true,
+  "transformer_max_absolute_prediction_difference": 1.9073486328125e-05,
+  "transformer_max_absolute_reference_difference": 0.0
+}

@@ -1,0 +1,13 @@
+{
+  "new_annotations": 8,
+  "original_annotations": 2,
+  "all_boundaries_without_detected_self_intersection": true,
+  "no_interior_centreline_stations_outside_boundaries": true,
+  "original_reference_values_reproduced_atol": 1e-09,
+  "source_image_hashes_and_native_coordinates_verified": true,
+  "fixed_original_inference_scales": true,
+  "new_inference": false,
+  "manuscript_or_adopted_references_changed": false,
+  "ui_status_note": "IMG_8184 repeat 2 has in-progress status but finished boundary/centreline and empty draft; author confirmed completion.",
+  "interpretation": "Ordered widening in IMG_8162 weakens independent-stationary-repeat assumptions. Four-new-only sensitivity retained."
+}

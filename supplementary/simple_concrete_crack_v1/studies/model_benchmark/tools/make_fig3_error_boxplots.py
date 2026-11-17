@@ -1,4 +1,4 @@
-"""Generate article scalar error and prediction diagnostics."""
+"""Generate scalar error and prediction diagnostics."""
 
 from __future__ import annotations
 

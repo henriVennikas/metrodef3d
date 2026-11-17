@@ -1,0 +1,146 @@
+{
+  "image": "IMG_8184",
+  "annotation_sha256": "eb297218b82110881c0021bd94d484aafe87dfe86c7b110c70a9cf76f975bc7d",
+  "method": "Planar polyline length, polygon area, area/length mean; sampled perpendicular maximum",
+  "reference": {
+    "centerline_length": 88.83856774117265,
+    "mean_width": 0.9341361688111544,
+    "max_width": 1.1597820827875414,
+    "crack_area": 82.98731931240923
+  },
+  "self_intersections": [],
+  "baseline": {
+    "step_mm": 0.05,
+    "tangent_window_mm": 1,
+    "stations": 1777,
+    "valid_stations": 1777,
+    "outside_stations": 0,
+    "multi_intersection_stations": 8,
+    "max_width_mm": 1.1597820827875414,
+    "mean_section_width_mm": 0.9342895429040892,
+    "maximum": {
+      "station_mm": 66.47500000000001,
+      "width_mm": 1.1597820827875414,
+      "inside": true,
+      "intersection_count": 2,
+      "endpoints_mm": [
+        [
+          55.00537144318218,
+          74.73833428873498
+        ],
+        [
+          53.877640669173985,
+          75.009106851802
+        ]
+      ]
+    }
+  },
+  "sensitivity": [
+    {
+      "step_mm": 0.05,
+      "tangent_window_mm": 0.5,
+      "stations": 1777,
+      "valid_stations": 1777,
+      "outside_stations": 0,
+      "multi_intersection_stations": 10,
+      "max_width_mm": 1.1569847802728868,
+      "mean_section_width_mm": 0.9346409496425131,
+      "maximum": {
+        "station_mm": 83.17500000000001,
+        "width_mm": 1.1569847802728868,
+        "inside": true,
+        "intersection_count": 2,
+        "endpoints_mm": [
+          [
+            59.04142208021441,
+            90.75166732218459
+          ],
+          [
+            57.97417238719589,
+            91.19842438652155
+          ]
+        ]
+      }
+    },
+    {
+      "step_mm": 0.05,
+      "tangent_window_mm": 2,
+      "stations": 1777,
+      "valid_stations": 1777,
+      "outside_stations": 0,
+      "multi_intersection_stations": 9,
+      "max_width_mm": 1.1666352713643748,
+      "mean_section_width_mm": 0.9353031684751583,
+      "maximum": {
+        "station_mm": 66.47500000000001,
+        "width_mm": 1.1666352713643748,
+        "inside": true,
+        "intersection_count": 2,
+        "endpoints_mm": [
+          [
+            55.00582903996728,
+            74.72797433249431
+          ],
+          [
+            53.876854244074245,
+            75.02200454629848
+          ]
+        ]
+      }
+    },
+    {
+      "step_mm": 0.025,
+      "tangent_window_mm": 1,
+      "stations": 3554,
+      "valid_stations": 3554,
+      "outside_stations": 0,
+      "multi_intersection_stations": 18,
+      "max_width_mm": 1.1606564825050687,
+      "mean_section_width_mm": 0.9342369291692795,
+      "maximum": {
+        "station_mm": 66.48750000000001,
+        "width_mm": 1.1606564825050687,
+        "inside": true,
+        "intersection_count": 2,
+        "endpoints_mm": [
+          [
+            55.00484207387046,
+            74.75031916949266
+          ],
+          [
+            53.876768994734114,
+            75.02340267047518
+          ]
+        ]
+      }
+    },
+    {
+      "step_mm": 0.1,
+      "tangent_window_mm": 1,
+      "stations": 888,
+      "valid_stations": 888,
+      "outside_stations": 0,
+      "multi_intersection_stations": 5,
+      "max_width_mm": 1.1580492419474329,
+      "mean_section_width_mm": 0.9345665747077534,
+      "maximum": {
+        "station_mm": 66.45000000000002,
+        "width_mm": 1.1580492419474329,
+        "inside": true,
+        "intersection_count": 2,
+        "endpoints_mm": [
+          [
+            55.006428732394376,
+            74.71439734177913
+          ],
+          [
+            53.879381328933164,
+            74.98055931713692
+          ]
+        ]
+      }
+    }
+  ],
+  "tests": "Rectangle, rotated rectangle, linear taper and crossing detection passed",
+  "reference_uncertainty": "Not quantified; sensitivity is not a confidence interval. Visible surface opening convention. Shared scale/image prevents full independence."
+}

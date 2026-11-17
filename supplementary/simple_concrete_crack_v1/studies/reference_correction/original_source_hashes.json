@@ -1,0 +1,7 @@
+{
+  "src/metrodef3d/render.py": "1cd452cfc9fcc4fbab2b871eee7a155c872d3e15a71047aef8f93eead03f4b4b",
+  "src/metrodef3d/geometry.py": "98020a731ab9134d4af7b55d9a1ec938746c4f0aa4c7b6148305ad5c1471cfc1",
+  "src/metrodef3d/__init__.py": "d969123127e05ba2fefa87e3a744f1873da2a9863f1da01abe89f7359ac8cea5",
+  "pyproject.toml": "49d4b27740f2e02d831de1c1b3e00ea6d833a2c4124316243ed68195789c18e1",
+  "tools/write_overlay_viewer.py": "b537bfb202fb8fb0dca7538a9d5b32400da843f822960b2d5395c1049f146ea4"
+}

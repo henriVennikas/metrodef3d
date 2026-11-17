@@ -1,0 +1,11 @@
+{
+  "radii": {
+    "centerline_length": 53.15901194838949,
+    "mean_width": 0.2963709786101595,
+    "max_width": 1.534131330788657,
+    "crack_area": 41.343654889396674
+  },
+  "n": 1237,
+  "selected_sha256": "28a6094d753f87da8186816df2b0360b1ff9bc0f29749bfbfd11d4511c7d9af1",
+  "frozen_before_test_utc": "2026-11-06T05:59:56Z"
+}

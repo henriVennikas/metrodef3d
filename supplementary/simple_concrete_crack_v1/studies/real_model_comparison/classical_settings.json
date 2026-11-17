@@ -1,0 +1,21 @@
+{
+  "config": {
+    "id": "closing_s15_r0.35_c0",
+    "background_method": "closing",
+    "sigma_px": 15.0,
+    "dark_ratio": 0.35,
+    "closing_radius_px": 0,
+    "min_contrast": 0.02,
+    "min_area_px": 32,
+    "min_path_px": 20,
+    "min_elongation": 3.0,
+    "path_smoothing_sigma_px": 2.0
+  },
+  "selection_score": 21.54307818652461,
+  "protocol_sha256": "df3597810bee8973ba04db881135c90d969063a491c3dcfe1d87dce1988d4863",
+  "source_sha256": {
+    "pipeline.py": "7007d8f88c0da069bbeb12a2b061cf6ff5e1a395fe36cc08796e83348e94976a",
+    "run_benchmark.py": "0f9100a7375aea970a355e3b837615c7ac6fa09f8d44d98ad442ce2af58b43c7"
+  },
+  "frozen_before_calibration_and_test_utc": "2026-11-06T05:58:59Z"
+}

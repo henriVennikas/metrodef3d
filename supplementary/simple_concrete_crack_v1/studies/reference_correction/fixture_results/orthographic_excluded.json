@@ -1,0 +1,41 @@
+{
+  "camera_type": "orthographic",
+  "centerline": [],
+  "centerline_pixels": [],
+  "clip_fov_mm": 100,
+  "clip_model": "blender_camera_view",
+  "component_ranges": [],
+  "depth_profile": [],
+  "left_boundary": [],
+  "left_boundary_pixels": [],
+  "measurand_validity": {
+    "centerline_length": true,
+    "crack_area": true,
+    "max_depth": true,
+    "max_width": true,
+    "mean_width": true,
+    "point_count": true,
+    "visible_polygon_point_count": true
+  },
+  "measurands": {
+    "centerline_length": 0.0,
+    "crack_area": 0.0,
+    "max_depth": 0.0,
+    "max_width": 0.0,
+    "mean_width": 0.0,
+    "point_count": 0,
+    "visible_polygon_point_count": 0
+  },
+  "reference_export_revision": "component-aware-2",
+  "right_boundary": [],
+  "right_boundary_pixels": [],
+  "schema": {
+    "name": "metrodef3d.visible_defect",
+    "version": 2
+  },
+  "source_profile": [],
+  "visible": false,
+  "visible_polygon": [],
+  "visible_polygon_pixels": [],
+  "width_profile": []
+}

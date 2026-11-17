@@ -713,7 +713,7 @@ def visible_polygon_from_blender_camera(scene, camera_obj, defect):
     left_boundary = defect.get("left_boundary", [])
     right_boundary = defect.get("right_boundary", [])
     if len(left_boundary) < 2 or len(right_boundary) < 2:
-        return []
+        return [], []
     polygon = list(left_boundary) + list(reversed(right_boundary))
     uv_polygon = []
     for point in polygon:
@@ -750,6 +750,10 @@ def visible_defect_from_blender_camera(scene, camera_obj, defect, camera):
         "source_profile": [],
     }
 
+    components = []
+    active = None
+    previous_index = None
+    previous_end = None
     for index in range(len(points) - 1):
         left = points[index]
         right = points[index + 1]
@@ -760,7 +764,15 @@ def visible_defect_from_blender_camera(scene, camera_obj, defect, camera):
             (float(right_uv.x), float(right_uv.y), float(right_uv.z)),
         )
         if interval is None:
+            active = None
             continue
+        connected = (active is not None and previous_index == index - 1
+                     and previous_end == 1.0 and interval[0] == 0.0)
+        if not connected:
+            active = {key: [] for key in samples}
+            components.append(active)
+        previous_index = index
+        previous_end = interval[1]
         for uv_fraction in interval:
             clipped_uv = (
                 float(left_uv.x) + (float(right_uv.x) - float(left_uv.x)) * uv_fraction,
@@ -784,7 +796,7 @@ def visible_defect_from_blender_camera(scene, camera_obj, defect, camera):
                 Vector((float(right_boundary_point[0]), float(right_boundary_point[1]), float(right_boundary_point[2]))),
             )
             append_visible_sample(
-                samples,
+                active,
                 point,
                 uv_to_pixel(clipped_uv, camera),
                 interpolate_scalar(widths[index], widths[index + 1], fraction),
@@ -797,17 +809,30 @@ def visible_defect_from_blender_camera(scene, camera_obj, defect, camera):
                 fraction,
             )
 
+    component_ranges = []
+    centerline_length = 0.0
+    for component in components:
+        if not component["centerline"]:
+            continue
+        start = len(samples["centerline"])
+        centerline_length += polyline_length(component["centerline"])
+        for key in samples:
+            samples[key].extend(component[key])
+        component_ranges.append([start, len(samples["centerline"])])
     visible_polygon, visible_polygon_pixels = visible_polygon_from_blender_camera(scene, camera_obj, defect)
-    visible = len(samples["centerline"]) >= 2
-    centerline_length = polyline_length(samples["centerline"]) if visible else 0.0
     polygon_area = polygon_area_xy(visible_polygon)
-    visible = visible or polygon_area > 0.0
-    mean_width = polygon_area / centerline_length if centerline_length > 1.0e-9 else 0.0
+    has_stations = bool(samples["centerline"])
+    visible = has_stations or polygon_area > 0.0
+    mean_width = polygon_area / centerline_length if centerline_length > 1.0e-9 else None
+    # A visible polygon without visible centreline stations has area, but no
+    # station-based width/depth extrema. Null must not be interpreted as zero.
+    max_width = max(samples["width_profile"]) if has_stations else None
+    max_depth = max(samples["depth_profile"]) if has_stations else None
     measurands = {
         "centerline_length": round(centerline_length, 6) if visible else 0.0,
-        "max_width": round(max(samples["width_profile"]), 6) if visible else 0.0,
-        "mean_width": round(mean_width, 6) if visible else 0.0,
-        "max_depth": round(max(samples["depth_profile"]), 6) if visible else 0.0,
+        "max_width": (round(max_width, 6) if max_width is not None else None) if visible else 0.0,
+        "mean_width": (round(mean_width, 6) if mean_width is not None else None) if visible else 0.0,
+        "max_depth": (round(max_depth, 6) if max_depth is not None else None) if visible else 0.0,
         "crack_area": round(polygon_area, 6) if visible else 0.0,
         "point_count": len(samples["centerline"]),
         "visible_polygon_point_count": len(visible_polygon),
@@ -818,6 +843,9 @@ def visible_defect_from_blender_camera(scene, camera_obj, defect, camera):
             "version": int(VERSIONING["visible_defect_schema_version"]),
         },
         "visible": visible,
+        "reference_export_revision": "component-aware-2",
+        "component_ranges": component_ranges,
+        "measurand_validity": {name: value is not None for name, value in measurands.items()},
         "clip_model": "blender_camera_view",
         "camera_type": camera["type"],
         "clip_fov_mm": camera.get("fov_mm", camera.get("orthographic_scale")),
